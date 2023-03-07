@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-07T23:41:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html"></title><link href="http://localhost:4000/2023-03-07-post-my/" rel="alternate" type="text/html" title="" /><published>2023-03-07T23:41:38+09:00</published><updated>2023-03-07T23:41:38+09:00</updated><id>http://localhost:4000/2023-03-07-post-my</id><content type="html" xml:base="http://localhost:4000/2023-03-07-post-my/"><![CDATA[<h1 id="this-is-my-first-post">This is my First Post</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-08T01:19:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html"></title><link href="http://localhost:4000/2023-03-07-post-day01/" rel="alternate" type="text/html" title="" /><published>2023-03-08T01:19:20+09:00</published><updated>2023-03-08T01:19:20+09:00</updated><id>http://localhost:4000/2023-03-07-post-day01</id><content type="html" xml:base="http://localhost:4000/2023-03-07-post-day01/"><![CDATA[<h1 id="this-is-my-first-post">This is my First Post</h1>
 <ul>
   <li>this is my first report</li>
-</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author></entry></feed>
+</ul>
+
+<p class="align-center"><img src="https://user-images.githubusercontent.com/45550607/102208312-9b284180-3f12-11eb-8467-7b5ea1779ac7.png" alt="image" /></p>
+<p>중앙 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다.
+해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다. 
+그 중에서 제가 자주 사용하는 내용만 가져왔습니다.</p>
+
+<p>Primary 문자 박스입니다. 문자 박스는 색이 달라 원하는 정보를 블로그 방문자에게 보여주기 좋은 것 같습니다! Notice Type의 뜻에 접근하셔도 되고, 원하는 색상에 따라 사용해주셔도 될 것 같습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author></entry><entry><title type="html"></title><link href="http://localhost:4000/2023-03-07-post-day02/" rel="alternate" type="text/html" title="" /><published>2023-03-08T01:19:20+09:00</published><updated>2023-03-08T01:19:20+09:00</updated><id>http://localhost:4000/2023-03-07-post-day02</id><content type="html" xml:base="http://localhost:4000/2023-03-07-post-day02/"><![CDATA[<h1 id="this-is-my-first-post">This is my First Post</h1>
+<ul>
+  <li>this is my first report</li>
+</ul>
+
+<p class="align-center"><img src="https://user-images.githubusercontent.com/45550607/102208312-9b284180-3f12-11eb-8467-7b5ea1779ac7.png" alt="image" /></p>
+<p>중앙 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다.
+해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다. 
+그 중에서 제가 자주 사용하는 내용만 가져왔습니다.</p>
+
+<p>Primary 문자 박스입니다. 문자 박스는 색이 달라 원하는 정보를 블로그 방문자에게 보여주기 좋은 것 같습니다! Notice Type의 뜻에 접근하셔도 되고, 원하는 색상에 따라 사용해주셔도 될 것 같습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author></entry></feed>
