@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /aitech/
 title: "About"
 toc: true
 toc_sticky: true
