@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "AboutMe"
+    url: /about
   - title: "BoostCamp AITech 5기 "
     url: "/aitech/"
   # - title: "Sample Posts"
