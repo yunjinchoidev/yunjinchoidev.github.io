@@ -3,7 +3,7 @@ permalink: /aitech/
 title: "About"
 toc: true
 toc_sticky: true
-toc_label: "MYSELF"
+toc_label: "Contents"
 ---
 
 ![image](../../../image/aitech.png)

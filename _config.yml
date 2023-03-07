@@ -108,11 +108,11 @@ author:
   avatar           : "image/profile/reinventoflove.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "사랑을 발명합니다."
   location         : "Republic of Korea"
-  email            : "yunjinchoidev@gmail.com"
+  email            : #"yunjinchoidev@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "yunjinchoidev@email.com"
+      url: "yunjinchoidev@gmail.com"
     # - label: "Website"
       # icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
