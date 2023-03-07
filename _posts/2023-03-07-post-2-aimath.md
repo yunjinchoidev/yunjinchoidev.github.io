@@ -8,7 +8,7 @@ tages:
     - nlp
 ---
 # boostcamp_AITech_5th
-![image]("../../../image/aitech.png)
+![image](../../../image/aitech.png)
 
 
 * # <벡터> 

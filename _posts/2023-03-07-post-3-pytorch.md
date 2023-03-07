@@ -9,7 +9,7 @@ tages:
 ---
 
 # boostcamp_AITech_5th
-![image]("../../../image/aitech.png)
+![image](../../../image/aitech.png)
 
 
 # [Pytorch] 강의록
