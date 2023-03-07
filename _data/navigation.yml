@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "AboutMe"
-    url: /about
+  - title: "Introduce"
+    url: /about/
   - title: "BoostCamp AITech 5기 "
     url: "/aitech/"
   # - title: "Sample Posts"
