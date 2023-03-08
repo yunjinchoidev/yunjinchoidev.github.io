@@ -18,13 +18,13 @@ var store = [{
         "teaser": null
       },{
         "title": "딥러닝에 필요한 수학적 지식",
-        "excerpt":"벡터 벡터란 뭡니까? 스칼라 다음의 차원을 표시하기 위한 수학 도구입니다. $L1_1$노름은 변화량읠 절대값을, $L1_2$노름은 유클리드 거리를 말합니다. 행렬 행렬에 대해서 알아봅시다. 행렬곱은 행과 열의 조건을 맞춰야 연산가능합니다. 행렬의 곱은 교환법칙이 성립하지 않으니 유의해야 합니다. 파이썬에서는 @ 기호를 통해 행렬의 곱을 지원합니다. np.inner 도 가능합니다.(자동 transpose 지원) 역행렬은 곱의 연산을 했을...","categories": ["aitech"],
+        "excerpt":"벡터 벡터란 뭡니까? 스칼라 다음의 차원을 표시하기 위한 수학 도구입니다. $ L_1$ 노름은 변화량읠 절대값을, $L_2$ 노름은 유클리드 거리를 말합니다 행렬 행렬에 대해서 알아봅시다. 행렬곱은 행과 열의 조건을 맞춰야 연산가능합니다. 행렬의 곱은 교환법칙이 성립하지 않으니 유의해야 합니다. 파이썬에서는 @ 기호를 통해 행렬의 곱을 지원합니다. np.inner 도 가능합니다.(자동 transpose 지원) 역행렬은...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-aimath/",
         "teaser": null
       },{
         "title": "Post: ai tech - Day02 ",
-        "excerpt":"  ","categories": ["aitech"],
+        "excerpt":"   This formula $f(x) = x^2$ is an example.   \\[\\lim_{x\\to 0}{\\frac{e^x-1}{2x}} \\overset{\\left[\\frac{0}{0}\\right]}{\\underset{\\mathrm{H}}{=}} \\lim_{x\\to 0}{\\frac{e^x}{2}}={\\frac{1}{2}}\\] ","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-day02/",
         "teaser": null
