@@ -669,20 +669,22 @@ print(monte(f_x, low=-1, high=1, sample_size=1000, repeat=100))
 <h1 id="rnn">RNN</h1>
 <p>Recurrent Natural Network. RNN 입니다. 시퀀스데이터는 연속적인 데이터를 말하는데요. 발생 순서가 기록되어 있는 데이터입니다. 가령, 주가데이터나 학년별 성적표 같은 것이 해당 될 수 있겠죠. 시퀀스 데이터의 특징은 다음과 같습니다.</p>
 <ul>
-  <li>독립 동등 분포를 위배한다.</li>
-  <li>데이터의 순서가 중요하다.</li>
-  <li>과거의 데이터가 중요하다.</li>
-  <li>하지만 모든 과거 데이터가 필요한 것은 아님 =&gt; 어텐션 모델 (<code class="language-plaintext highlighter-rouge">Attention all you need)</code></li>
+  <li><strong>독립 동등 분포를 위배한다.</strong></li>
+  <li><strong>데이터의 순서가 중요하다.</strong></li>
+  <li><strong>과거의 데이터가 중요하다</strong>.</li>
+  <li><strong>하지만 모든 과거 데이터가 필요한 것은 아님</strong>  =&gt; 그 유명한 어텐션 모델의 탄생 (<code class="language-plaintext highlighter-rouge">Attention all you need)</code></li>
 </ul>
 
 <p>시퀀스데이터에서 조건부확률에 대해서 생각해봅시다. 시퀀스데이터는 과거의 데이터가 지속적으로 영향을 주게 되는데 이 때 모든 값을 다 고려하여 다뤄야 합니다. 즉 시간에 따라서 가변적인 데이터를 다뤄야 한다는 것을 의미하죠. 이 것 또한 특정 함수의 식이라고 한다면 고정 데이터로 바꿀 수 있습니다.</p>
 
 <p>RNN 에서 역전파는 BPTT(Backprogaion Throgh Time) 을 사용합니다. BPTT 미분은 매우 복잡하다.</p>
+
 <ul>
   <li><a href="https://davi06000.tistory.com/92">링크1</a></li>
-  <li><a href="https://mmuratarat.github.io/2019-02-07/bptt-of-rnn">링크2</a>
-이 두 자료를 한번 보도록 하십시요.</li>
+  <li><a href="https://mmuratarat.github.io/2019-02-07/bptt-of-rnn">링크2</a></li>
 </ul>
+
+<p>이 두 자료를 한번 보도록 하십시요.</p>
 
 <p>RNN 에서의 역전파는 수식의 특성상 기울기 소실 문제가 발생합니다. 과거 데이터를 반영하지 못하는 것이죠. 자연스럽게 LSTM, GRU 와 같은 고급 모델이 탄생은 필연적이었습니다.</p>
 
