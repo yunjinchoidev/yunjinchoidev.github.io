@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-08T14:45:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">Post: ai tech -Day03</title><link href="http://localhost:4000/aitech/post-day03/" rel="alternate" type="text/html" title="Post: ai tech -Day03" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day03</id><content type="html" xml:base="http://localhost:4000/aitech/post-day03/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-08T15:03:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">Post: ai tech -Day03</title><link href="http://localhost:4000/aitech/post-day03/" rel="alternate" type="text/html" title="Post: ai tech -Day03" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day03</id><content type="html" xml:base="http://localhost:4000/aitech/post-day03/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
 <ul>
@@ -123,6 +123,8 @@ w.grad
     </ul>
   </li>
 </ul>
+
+<p>파이토치를 사용함으로써 우리는 backward 함수를 직접 구현할 일은 없습니다. 하지만 실제 어떻게 작동하고 있는지 분명하게 이해할 필요가 있습니다.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import torch
 from torch.autograd import Variable
@@ -416,25 +418,25 @@ $L1_1$노름은 변화량읠 절대값을, $L1_2$노름은 유클리드 거리�
 <br /></p>
 
 <h1 id="경사하강법-gradinet-descent">경사하강법 (Gradinet Descent)</h1>
+<p>경사하강법에 대해서 알아봅시다. 우선 기초적인 미분에 대해서 알아볼까요?</p>
+
+<h2 id="미분">미분</h2>
+<p>먼저 미분에 대해서 알아봅시다.
+미분이란 접선의 기울기를 말하죠. 
+<code class="language-plaintext highlighter-rouge">sysmpy.diff</code> 모듈을 이용하여 미분계산이 가능합니다.
+이를 통해서 우리는 주어진 input 데이터가 **<어느 차원에서든="">** 그 점에서 증가하는가, 감소하는가를 알 수 있습니다.
+어느 차원으로 확장한다는 것은 변수를 스칼라가 아닌 벡터와 텐서를 사용한다는 것입니다.</어느></p>
+
+<p>좋습니다. 이제 경사하강법을 알아볼까요? 
+경사하강법이란 기울기가 감소하는 방향으로 쭈욱 가다 <strong>보면</strong> 언젠가 평지를(극소값)을 만날 것입니다. 컴퓨터에서 미분값이 0 인 곳을 찾기란 쉽지 않으므로 아주 작은 값(오메가) 보다 더 미분 값이 작으면 종료하면 됩니다. 이것이 간략한 설명입니다.
+이 때 중요한 것은 어느 만큼의 보폭으로 갈 것이냐입니다. 이것은 하이퍼 파라메터로 즉 학습률입니다.
+변수가 스칼라가 아니라 벡터라면 편미분을 하면 됩니다. 
+모든 데이터를 사용하는 것은 고전적인 방법입니다. 조금의 데이터만 이용해서 경사를</p>
+
 <ul>
-  <li>미분
+  <li>모든 데이터 사용
     <ul>
-      <li>접선의 기울기</li>
-      <li>sysmpy.diff -&gt; 미분계산 가능</li>
-      <li>**<어느 차원에서든="">** 그 점에서 증가하는가, 감소하는가를 알 수 있다.</어느></li>
-      <li>어느 차원으로 확장한다는 것은 변수를 스칼라가 아닌 벡터를 사용한다는 것.</li>
-    </ul>
-  </li>
-  <li>경사하강법
-    <ul>
-      <li>감소하는 방향으로 쭈욱 가다 <strong>보면</strong> 언젠가 평지를(극소값)을 만날 것이야 =&gt; 경사하강법</li>
-      <li>컴퓨터에서 미분값이 0 인 곳을 찾기란 쉽지 않으므로 아주 작은 값(오메가) 보다 더 미분 값이 작으면 종료하면 되시것다.</li>
-      <li>학습률 -&gt; 얼마나 큰 보폭으로 갈것인가? (하이퍼 파라메터)</li>
-      <li>모든 데이터 사용
-        <ul>
-          <li>성능이 확률적 경사 하강법에 비해 좋지 않고, 하드웨어에 부담이 간다.</li>
-        </ul>
-      </li>
+      <li>성능이 확률적 경사 하강법에 비해 좋지 않고, 하드웨어에 부담이 간다.</li>
     </ul>
   </li>
   <li>변수가 벡터인경우엔

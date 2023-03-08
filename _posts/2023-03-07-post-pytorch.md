@@ -77,6 +77,8 @@ w.grad
   - 이 모듈은 기본적인 input, output, forward, backward 구현을 지원합니다.
 - torch.nn.Parameter 
   - required_grad=True 옵션을 줘야 gradient 가 최신화 됩니다.
+  
+파이토치를 사용함으로써 우리는 backward 함수를 직접 구현할 일은 없습니다. 하지만 실제 어떻게 작동하고 있는지 분명하게 이해할 필요가 있습니다.
 
 ```
 import torch
