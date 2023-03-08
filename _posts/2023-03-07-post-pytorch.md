@@ -52,6 +52,104 @@ w.grad
 - torch.nn.Module 클래스 
   - 이 모듈은 기본적인 input, output, forward, backward 구현을 지원합니다.
 - torch.nn.Parameter 
+  - required_grad=True 옵션을 줘야 gradient 가 최신화 됩니다.
+
+```
+import torch
+from torch.autograd import Variable
+
+class LinearRegression(torch.nn.Module):
+    def __init__(self, inputSize, outputSize):
+        super(LinearRegression, self).__init__()
+
+        ## 토치가 liner를 구현해줬다.
+        ## 코드 레벨에서 직접 보시라.
+        self.linear = torch.nn.Linear(inputSize, outputSize)
+
+    def forward(self, x):
+        out = self.linear(x)
+        return out
+    
+inputDim = 1
+outputDim = 1
+learningRate = 0.01
+epochs = 100
+
+model = LinearRegression(inputDim, outputDim)
+
+# 모델 학습 시킬 때 쿠다 넣기
+if torch.cuda.is_available():
+    model.cuda()
+
+
+criterion = torch.nn.MSELoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=learningRate)
+
+
+# 에포크를 돌리란 말이여!! 
+for epochs in range(epochs):
+    if torch.cuda.is_available():
+        inputs = Variable(torch.from_numpy(x_train).cuda())
+        labels = Variable(torch.from_numpy(y_train).cuda())
+    else:
+        inputs = Variable(torch.from_numpy(x_train))
+        lables = Variable(torch.from_numpy(y_train))
+
+    # 이걸 해줘야 한다.
+    optimizer.zero_grad()
+
+    ## 돌려돌려 
+    outputs = model(inputs)
+
+
+    ## 요것이 손실함수다!
+    loss = criterion(outputs, lables)
+
+    # 오케이. 경사하강법!
+    loss.backward()
+
+    # 오차역전파 적용 -> 옵티마이저
+    optimizer.step()
+
+
+    print('epochs {}, loss {}'.format(epochs, loss.item()))
+
+
+Output exceeds the size limit. Open the full output data in a text editor
+epochs 0, loss 0.0023449501022696495
+epochs 1, loss 0.0023187585175037384
+epochs 2, loss 0.002292879391461611
+epochs 3, loss 0.0022672710474580526
+epochs 4, loss 0.0022419483866542578
+epochs 5, loss 0.002216903492808342
+epochs 6, loss 0.002192169427871704
+epochs 7, loss 0.002167687052860856
+epochs 8, loss 0.002143467077985406
+epochs 9, loss 0.0021195358131080866
+epochs 10, loss 0.0020958760287612677
+epochs 11, loss 0.0020724674686789513
+epochs 12, loss 0.0020493241026997566
+epochs 13, loss 0.002026451053097844
+epochs 14, loss 0.002003807807341218
+epochs 15, loss 0.001981443725526333
+epochs 16, loss 0.0019593113102018833
+epochs 17, loss 0.0019374340772628784
+epochs 18, loss 0.0019157928181812167
+epochs 19, loss 0.0018943949835374951
+epochs 20, loss 0.0018732366152107716
+epochs 21, loss 0.0018523228354752064
+epochs 22, loss 0.0018316390924155712
+epochs 23, loss 0.0018111761892214417
+epochs 24, loss 0.001790948212146759
+...
+epochs 95, loss 0.0008068863535299897
+epochs 96, loss 0.0007978747016750276
+epochs 97, loss 0.0007889581611379981
+epochs 98, loss 0.0007801674073562026
+
+```  
+
+- 코드레벨에서 보는 습관을 들여보세요. 
   
 
 ## optimizer.zero_grad() 를 안쓰면 어떻게 될까?
