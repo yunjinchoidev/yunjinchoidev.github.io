@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 1주차",
-        "excerpt":"   (23.3.6 ~ 23.3.12)   [1주차를 보내며]    1주차     강의            Python                    파이썬 강의록 정리                       AIMath                    AIMath 강의록 정리                       Pytorch                    Pytorch 강의록 정리                           회고     ","categories": ["aitech"],
+        "excerpt":"1주차 강의 Python 파이썬 강의록 정리 AIMath AIMath 강의록 정리 Pytorch Pytorch 강의록 정리 [1주차를 보내며] 1주차를 보내며 온보딩기간 동안 공부했던 내용을 재복습하면서 과제를 풀었습니다. 과제를 풀며 든 생각은 부스트캠프가 정말 심혈을 기울여 제출했다는 것입니다. 문제에 정성과 의도가 분명히 느껴져서 열심히 참여했습니다. 심화 과제의 경우 난이도가 높았던 만큼 많은 도움이...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
