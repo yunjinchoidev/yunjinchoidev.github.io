@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: Python 정리",
-        "excerpt":"boostcamp_AITech_5th ::: {.cell .markdown collapsed=”false”} [파이썬] 강의 노트 [목차] 개요 기초 문법 객체 지향 파이썬으로 데이터 다루기 Numpy Pandas 개요 운영체제 윈도우, 맥, 리눅스 파일시스템 root 디렉토리에서 시작하는 트리 구조 디렉토리, 파일 절대경로, 상대경로 터미널 CLI 파이썬 플랫폼 독립적 인터프리터 언어 객체 지향 동적 타이핑 언어 컴파일러 VS 인터프리터 컴파일러...","categories": ["aitech"],
+        "excerpt":"boostcamp_AITech_5th       ","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-python/",
         "teaser": null
@@ -42,8 +42,14 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech -Day03 ",
-        "excerpt":"boostcamp_AITech_5th     d   d   dd  ","categories": ["aitech"],
+        "excerpt":"boostcamp_AITech_5th     오늘 무엇을 했나?     python 복습   aimath 1 ~ 5 강   pytorch template 분석     ","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-day03/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech - pytorch Template 완전 분석 ",
+        "excerpt":"boostcamp_AITech_5th Pytorch 템플릿을 문석해봅시다. 링크 여기 오픈 소스가 하나 있습니다. 이 포스팅을 통해 이 템플릿을 분해, 분석 해보는 시간을 가지려고 합니다. * train.py -&gt; 실행 * test.py -&gt; 실행 * config -&gt; 설정 * parse_config -&gt; 설정 * base -&gt; base 모델 * data_loader ~ -&gt; data * model ~...","categories": ["aitech"],
+        "tags": [],
+        "url": "/aitech/post-pytorchtemplate/",
         "teaser": null
       }]

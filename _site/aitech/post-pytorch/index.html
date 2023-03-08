@@ -305,7 +305,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
-              <ul class="toc__menu"><li><a href="#1--introduction-to-pytorch">1.  Introduction to PyTorch</a></li><li><a href="#2-dive-to-pytorch">2. Dive To Pytorch</a><ul><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#3-템플릿을-사용합시다">3. 템플릿을 사용합시다.</a></li><li><a href="#4-autograd--optimizer">4. AutoGrad &amp; Optimizer</a></li><li><a href="#5-dataset--dataloader">5. Dataset &amp; Dataloader</a></li><li><a href="#6-모델-불러오기">6. 모델 불러오기</a></li><li><a href="#7-monitoring-tools-for-pytorch">7. Monitoring tools for PyTorch</a><ul><li><a href="#머신러닝-실험을-원활하게-지원하기-위한-상용-도구로써-협업-code-versioning-실험-결과-기록-등의-기능을-제공하는-시각화-툴">머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴</a></li></ul></li><li><a href="#8-muti-gpu">8. Muti-GPU</a></li><li><a href="#9-hyperparameter-tuning">9. Hyperparameter Tuning</a></li><li><a href="#10-pytorch-troubleshooting">10. PyTorch Troubleshooting</a></li><li><a href="#생각해볼점">생각해볼점</a></li></ul>
+              <ul class="toc__menu"><li><a href="#1--introduction-to-pytorch">1.  Introduction to PyTorch</a></li><li><a href="#2-dive-to-pytorch">2. Dive To Pytorch</a><ul><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#3-템플릿을-사용합시다">3. 템플릿을 사용합시다.</a></li><li><a href="#4-autograd--optimizer">4. AutoGrad &amp; Optimizer</a><ul><li><a href="#optimizerzero_grad-를-안쓰면-어떻게-될까">optimizer.zero_grad() 를 안쓰면 어떻게 될까?</a></li></ul></li><li><a href="#5-dataset--dataloader">5. Dataset &amp; Dataloader</a></li><li><a href="#6-모델-불러오기">6. 모델 불러오기</a></li><li><a href="#7-monitoring-tools-for-pytorch">7. Monitoring tools for PyTorch</a><ul><li><a href="#머신러닝-실험을-원활하게-지원하기-위한-상용-도구로써-협업-code-versioning-실험-결과-기록-등의-기능을-제공하는-시각화-툴">머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴</a></li></ul></li><li><a href="#8-muti-gpu">8. Muti-GPU</a></li><li><a href="#9-hyperparameter-tuning">9. Hyperparameter Tuning</a></li><li><a href="#10-pytorch-troubleshooting">10. PyTorch Troubleshooting</a></li><li><a href="#생각해볼점">생각해볼점</a></li></ul>
 
             </nav>
           </aside>
@@ -320,7 +320,9 @@
 <h1 id="2-dive-to-pytorch">2. Dive To Pytorch</h1>
 <p>이제 파이토치 기본에 대해서 공부해 봅시다. 
 먼저 autugrad 에 대해서 공부해봅시다. 
-아래 코드는 파이토치를 통해 오차 역전파를 계산하는 식입니다.</p>
+아래 코드는 파이토치를 통해 오차 역전파를 계산하는 식입니다.
+backward 라는 함수는 연쇄법칙을 적용시켜 역전파를 계산합니다.
+그러면 자연스래 w.grad 값을 구할 수 있겠죠.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>w = torch.tensor(2.0, requires_grad=True)
 y = w**2
@@ -338,25 +340,26 @@ w.grad
 </blockquote>
 
 <h1 id="3-템플릿을-사용합시다">3. 템플릿을 사용합시다.</h1>
-<p>여러분은 언제까지 코랩을 쓰실 생각입니까? 템플릿을 씁시다. 고수가 되는 지름길이죠. 템플릿을 사용함으로써 우리는 많은 강점을 가져갈 수 있습니다. <code class="language-plaintext highlighter-rouge">실행, 데이터, 모델,  설정, 로깅, 지표, 유틸리티</code> 이 대표적이죠.</p>
-
-<p>다음 오픈 소스에서 파이토치 템플릿을 다운 받고 면밀하게 분석해보십시요. 면밀하게 분석을 해봅시다. <a href="https://github.com/victoresque/pytorch-template">링크</a></p>
+<p>여러분은 언제까지 코랩을 쓰실 생각입니까? 템플릿을 씁시다. 고수가 되는 지름길이죠. 우리는 미래로 가야합니다. 템플릿을 사용함으로써 우리는 그 미래로 갈 수 있습니다. <code class="language-plaintext highlighter-rouge">실행, 데이터, 모델,  설정, 로깅, 지표, 유틸리티</code> 이 대표적이죠.
+다음 오픈 소스에서 파이토치 템플릿을 다운 받고 면밀하게 분석해보세요. 면밀하게 분석을 해봅시다. <a href="https://github.com/victoresque/pytorch-template">링크</a>
+코딩 능력이 많이 필요하다는 것을 분명 느끼셨을 겁니다. 코딩 역량을 기르십시오.</p>
 
 <h1 id="4-autograd--optimizer">4. AutoGrad &amp; Optimizer</h1>
-<p>논문을 한 번 구현해봅시다. 딥러닝이란 layer를 쌓고 레고 블럭을 쌓는 일련의 과정이라고 할 수 있습니다. input</p>
+<p>논문을 한 번 구현해봅시다.
+딥러닝이란 layer를 쌓고 레고 블럭을 쌓는 일련의 과정이라고 할 수 있습니다. input, output, forward, backward가 복잡한 상호작용을 가지고 있는 것이죠.</p>
 <ul>
-  <li>딥러닝 -&gt; layer 쌓기 -&gt; 레고 블럭 쌓기</li>
-  <li>4요소
+  <li>torch.nn.Module 클래스
     <ul>
-      <li>input</li>
-      <li>output</li>
-      <li>forward</li>
-      <li>backward</li>
+      <li>이 모듈은 기본적인 input, output, forward, backward 구현을 지원합니다.</li>
     </ul>
   </li>
+  <li>torch.nn.Parameter</li>
 </ul>
 
-<hr />
+<h2 id="optimizerzero_grad-를-안쓰면-어떻게-될까">optimizer.zero_grad() 를 안쓰면 어떻게 될까?</h2>
+<ul>
+  <li>gradient 가 초기화가 되지 않으면 다음 학습에 영향을 주기 때문에 올바른 학습이 되지 않습니다.</li>
+</ul>
 
 <h1 id="5-dataset--dataloader">5. Dataset &amp; Dataloader</h1>
 <p>모델도 중요하지만, 데이터를 어떻게 잘 다루느냐도 중요합니다. 엄청나게 많은 데이터가 있습니다. 이것을 어찌해야 할까요? 우리에겐 파이토치가 있습니다.</p>
@@ -390,7 +393,6 @@ w.grad
   </li>
 </ul>
 
-<hr />
 <h1 id="6-모델-불러오기">6. 모델 불러오기</h1>
 <ul>
   <li>상황
@@ -408,7 +410,6 @@ w.grad
   </li>
 </ul>
 
-<hr />
 <h1 id="7-monitoring-tools-for-pytorch">7. Monitoring tools for PyTorch</h1>
 <ul>
   <li>체크포인트
@@ -536,6 +537,47 @@ w.grad
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/aitech/post-pytorchtemplate/" rel="permalink">Post: ai tech - pytorch Template 완전 분석
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">boostcamp_AITech_5th
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/aitech/post-day03/" rel="permalink">Post: ai tech -Day03
 </a>
       
@@ -595,7 +637,7 @@ w.grad
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          5 분 소요
+          최대 1 분 소요
         
       </span>
     
@@ -637,47 +679,6 @@ w.grad
         <i class="far fa-clock" aria-hidden="true"></i>
         
           최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">boostcamp_AITech_5th
-
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/aitech/post-aimath/" rel="permalink">Post: 딥러닝에 필요한 math 정리
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          5 분 소요
         
       </span>
     
