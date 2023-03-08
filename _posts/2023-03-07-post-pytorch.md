@@ -9,7 +9,12 @@ tages:
 toc: true
 toc_sticky: true
 toc_label: "목차"
+image: image/aitech.png
+
 ---
+
+
+![image](../../../image/aitech.png)
 
 
 # 1.  Introduction to PyTorch
