@@ -6,13 +6,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 1주차",
-        "excerpt":"1주차 강의 Python 파이썬 강의록 정리 AIMath AIMath 강의록 정리 Pytorch Pytorch 강의록 정리 [1주차를 보내며] 1주차를 보내며 온보딩기간 동안 공부했던 내용을 재복습하면서 과제를 풀었습니다. 과제를 풀며 든 생각은 부스트캠프가 정말 심혈을 기울여 제출했다는 것입니다. 문제에 정성과 의도가 분명히 느껴져서 열심히 참여했습니다. 심화 과제의 경우 난이도가 높았던 만큼 많은 도움이...","categories": ["aitech"],
+        "excerpt":"1주차 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 Pytorch 강의록 정리 [1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차를 보내며] 1주차를 보내며 온보딩기간 동안 공부했던 내용을 재복습하면서 과제를 풀었습니다. 과제를 풀며 든 생각은 부스트캠프가 정말 심혈을 기울여 제출했다는 것입니다. 문제에 정성과 의도가 분명히 느껴져서 열심히 참여했습니다. 심화 과제의...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
         "title": "Post: ai tech - Day01",
-        "excerpt":"  ","categories": ["aitech"],
+        "excerpt":"   오늘 무엇을 했나?     OT 참여   python 강의 수강   파이토치 강의 1~5강 수강  ","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-day01/",
         "teaser": null
@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech - Day02 ",
-        "excerpt":"   This formula $f(x) = x^2$ is an example.   \\[\\lim_{x\\to 0}{\\frac{e^x-1}{2x}} \\overset{\\left[\\frac{0}{0}\\right]}{\\underset{\\mathrm{H}}{=}} \\lim_{x\\to 0}{\\frac{e^x}{2}}={\\frac{1}{2}}\\] ","categories": ["aitech"],
+        "excerpt":"   오늘 무엇을 했나?  - numpy, pandas  를 집중 분석했다. - 공부하는 것과 실제 적용하는 것에는 큰 차이가 있는 거 같다. - 경사하강법, 오차 역전파에서 스칼라가 텐서로 바뀔 때의 상황이 직관적으로 와닿지가 않아서 공부했다. - 최대 우도법을 공부.  ","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-day02/",
         "teaser": null
@@ -42,7 +42,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech -Day03 ",
-        "excerpt":"   오늘 무엇을 했나?     python 복습   aimath 1 ~ 5 강   pytorch template 분석     ","categories": ["aitech"],
+        "excerpt":"오늘 무엇을 했나? python 복습했다. aimath 1 ~ 5 강을 들었다. pytorch template 분석 했다. 포스팅 정리를 했다. github 블로그를 만들었다. 내일 무엇을 할 것인가? ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기 과제 검토 RNN 의 오차 역전파 연구하기 [오늘의 생각] 오늘 NLP 팀 발표 시간을 가졌다. 논문...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-day03/",
         "teaser": null
