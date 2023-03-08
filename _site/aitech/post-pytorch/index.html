@@ -290,7 +290,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 분 소요
+          4 분 소요
         
       </span>
     
@@ -305,17 +305,21 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
-              <ul class="toc__menu"><li><a href="#1--introduction-to-pytorch">1.  Introduction to PyTorch</a></li><li><a href="#2-dive-to-pytorch">2. Dive To Pytorch</a><ul><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#3-템플릿을-사용합시다">3. 템플릿을 사용합시다.</a></li><li><a href="#4-autograd--optimizer">4. AutoGrad &amp; Optimizer</a><ul><li><a href="#optimizerzero_grad-를-안쓰면-어떻게-될까">optimizer.zero_grad() 를 안쓰면 어떻게 될까?</a></li></ul></li><li><a href="#5-dataset--dataloader">5. Dataset &amp; Dataloader</a></li><li><a href="#6-모델-불러오기">6. 모델 불러오기</a></li><li><a href="#7-monitoring-tools-for-pytorch">7. Monitoring tools for PyTorch</a><ul><li><a href="#머신러닝-실험을-원활하게-지원하기-위한-상용-도구로써-협업-code-versioning-실험-결과-기록-등의-기능을-제공하는-시각화-툴">머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴</a></li></ul></li><li><a href="#8-muti-gpu">8. Muti-GPU</a></li><li><a href="#9-hyperparameter-tuning">9. Hyperparameter Tuning</a></li><li><a href="#10-pytorch-troubleshooting">10. PyTorch Troubleshooting</a></li><li><a href="#생각해볼점">생각해볼점</a></li></ul>
+              <ul class="toc__menu"><li><a href="#1--introduction-to-pytorch">1.  Introduction to PyTorch</a></li><li><a href="#2-dive-to-pytorch">2. Dive To Pytorch</a><ul><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#템플릿을-사용합시다">템플릿을 사용합시다.</a></li><li><a href="#autograd--optimizer">AutoGrad &amp; Optimizer</a><ul><li><a href="#optimizerzero_grad-를-안쓰면-어떻게-될까">optimizer.zero_grad() 를 안쓰면 어떻게 될까?</a></li></ul></li><li><a href="#dataset--dataloader">Dataset &amp; Dataloader</a><ul><li><a href="#pytorch-dataset">Pytorch Dataset</a></li><li><a href="#pytorch-dataloader">Pytorch Dataloader</a></li></ul></li><li><a href="#모델-불러오기">모델 불러오기</a></li><li><a href="#모니터링-합시다---monitoring-tools-for-pytorch">모니터링 합시다 - Monitoring tools for PyTorch</a></li><li><a href="#muti-gpu">Muti-GPU</a></li><li><a href="#hyperparameter-tuning">Hyperparameter Tuning</a></li><li><a href="#pytorch-troubleshooting">PyTorch Troubleshooting</a></li><li><a href="#생각해볼점">생각해볼점</a></li></ul>
 
             </nav>
           </aside>
         
-        <hr />
-<h1 id="1--introduction-to-pytorch">1.  Introduction to PyTorch</h1>
+        <h1 id="1--introduction-to-pytorch">1.  Introduction to PyTorch</h1>
 <p>밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256067157&amp;start=slayer">책</a>
 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다.</p>
 
 <p>저희는 파이토치를 사용할 것입니다. 파이토치는 장점이 꽤 많습니다. 대표적으로 Define by Run 이라는 작동 방식인데요. 이것은 실행을 한면서 계산 그래프(Computational Graph)를 생성하는 것을 말합니다. 반면 텐서플로는 Define by Run 이라고 해서 그래프를 먼저 정의하는 방식입니다. 파이토치는 학회, 논문에 강점을 가지고 있으며 텐서플로는 실무(프로덕션)에 강점을 가지고 있다고 할 수 있죠. 그리고 파이토치는 즉시 딥러닝 코드가 작동하는지 확인을 할 수가 있으며 numpy, autograd, function 의 기능을 모두 제공합니다.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
 
 <h1 id="2-dive-to-pytorch">2. Dive To Pytorch</h1>
 <p>이제 파이토치 기본에 대해서 공부해 봅시다. 
@@ -339,12 +343,22 @@ w.grad
   <p>최대가능도 추정법이란 뭘까요? 관찰된 데이터가 어떠한 모수로부터 나왔을 가능성이 가장 높은지를 추정하는 방법입니다. 모수란 무엇일까요? 모수는 모집단의 특성(모평균,모분산 등..)을 나타내는 값으로, 이 값을 모집단을 전수조사해야만 알수있는 값입니다. 실질적으로 모집단의 크기와 범위가 너무 방대하기에 전수조사를 실시하지 않고 표본조사를 하는데 표본평균,표본분산 등으로 모평균, 모분산등을 추정할수가 있다.</p>
 </blockquote>
 
-<h1 id="3-템플릿을-사용합시다">3. 템플릿을 사용합시다.</h1>
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="템플릿을-사용합시다">템플릿을 사용합시다.</h1>
 <p>여러분은 언제까지 코랩을 쓰실 생각입니까? 템플릿을 씁시다. 고수가 되는 지름길이죠. 우리는 미래로 가야합니다. 템플릿을 사용함으로써 우리는 그 미래로 갈 수 있습니다. <code class="language-plaintext highlighter-rouge">실행, 데이터, 모델,  설정, 로깅, 지표, 유틸리티</code> 이 대표적이죠.
 다음 오픈 소스에서 파이토치 템플릿을 다운 받고 면밀하게 분석해보세요. 면밀하게 분석을 해봅시다. <a href="https://github.com/victoresque/pytorch-template">링크</a>
 코딩 능력이 많이 필요하다는 것을 분명 느끼셨을 겁니다. 코딩 역량을 기르십시오.</p>
 
-<h1 id="4-autograd--optimizer">4. AutoGrad &amp; Optimizer</h1>
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="autograd--optimizer">AutoGrad &amp; Optimizer</h1>
 <p>논문을 한 번 구현해봅시다.
 딥러닝이란 layer를 쌓고 레고 블럭을 쌓는 일련의 과정이라고 할 수 있습니다. input, output, forward, backward가 복잡한 상호작용을 가지고 있는 것이죠.</p>
 <ul>
@@ -463,15 +477,29 @@ epochs 98, loss 0.0007801674073562026
   <li>gradient 가 초기화가 되지 않으면 다음 학습에 영향을 주기 때문에 올바른 학습이 되지 않습니다.</li>
 </ul>
 
-<h1 id="5-dataset--dataloader">5. Dataset &amp; Dataloader</h1>
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="dataset--dataloader">Dataset &amp; Dataloader</h1>
 <p>모델도 중요하지만, 데이터를 어떻게 잘 다루느냐도 중요합니다. 엄청나게 많은 데이터가 있습니다. 이것을 어찌해야 할까요? 우리에겐 파이토치가 있습니다.</p>
-<ul>
-  <li><strong>Pytorch Dataset</strong>
+<h2 id="pytorch-dataset">Pytorch Dataset</h2>
+<p>먼저 데이터를 텐서로 바꾸고 DataLoder 로 모델에 먹이기(Feeding)</p>
+<ol>
+  <li>데이터 모으기</li>
+  <li>data 받기</li>
+  <li>transform : 데이터 전처리
     <ul>
-      <li>먼저 데이터를 텐서로 바꾸고 DataLoder 로 모델에 먹이기</li>
+      <li>ToTensor()</li>
+      <li>CenterCrop()
+파이토치의 DataSet을 사용함으로써 많은 장점을 가진다.</li>
     </ul>
   </li>
-  <li><strong>CustomDataset</strong>
+</ol>
+
+<ul>
+  <li>CustomDataset 와의 결합
     <ul>
       <li>CustomDataset을 정의 하기 위해서 3개의 메소드를 반드시 정의해야 한다.
         <ul>
@@ -479,8 +507,22 @@ epochs 98, loss 0.0007801674073562026
           <li>utils.data.Dataset 상속</li>
         </ul>
       </li>
+      <li>이때 Dataset 클래스 사용</li>
     </ul>
   </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h2 id="pytorch-dataloader">Pytorch Dataloader</h2>
+<ul>
   <li>DataLoder
     <ul>
       <li>CustomDataset, 기타 옵션으로 실제 데이터에 적용하면 된다.</li>
@@ -495,7 +537,17 @@ epochs 98, loss 0.0007801674073562026
   </li>
 </ul>
 
-<h1 id="6-모델-불러오기">6. 모델 불러오기</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>실전 연습
+Mnist 클론 코딩을 해보시라 ~ 
+
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="모델-불러오기">모델 불러오기</h1>
 <ul>
   <li>상황
     <ul>
@@ -512,7 +564,12 @@ epochs 98, loss 0.0007801674073562026
   </li>
 </ul>
 
-<h1 id="7-monitoring-tools-for-pytorch">7. Monitoring tools for PyTorch</h1>
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="모니터링-합시다---monitoring-tools-for-pytorch">모니터링 합시다 - Monitoring tools for PyTorch</h1>
 <ul>
   <li>체크포인트
     <ul>
@@ -533,17 +590,24 @@ epochs 98, loss 0.0007801674073562026
   </li>
   <li>Weight, Biases
     <ul>
-      <li>
-        <h2 id="머신러닝-실험을-원활하게-지원하기-위한-상용-도구로써-협업-code-versioning-실험-결과-기록-등의-기능을-제공하는-시각화-툴">머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴</h2>
-        <h1 id="8-muti-gpu">8. Muti-GPU</h1>
-      </li>
+      <li>머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴</li>
     </ul>
   </li>
 </ul>
 
-<hr />
+<p><br />
+<br />
+<br />
+<br /></p>
 
-<h1 id="9-hyperparameter-tuning">9. Hyperparameter Tuning</h1>
+<h1 id="muti-gpu">Muti-GPU</h1>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="hyperparameter-tuning">Hyperparameter Tuning</h1>
 <ul>
   <li>학습률(Learning rate)</li>
   <li>최적화 함수(Optimizer)</li>
@@ -551,16 +615,26 @@ epochs 98, loss 0.0007801674073562026
   <li></li>
 </ul>
 
-<hr />
+<p><br />
+<br />
+<br />
+<br /></p>
 
-<h1 id="10-pytorch-troubleshooting">10. PyTorch Troubleshooting</h1>
+<h1 id="pytorch-troubleshooting">PyTorch Troubleshooting</h1>
 
-<hr />
+<p><br />
+<br />
+<br />
+<br /></p>
 
-<hr />
+<p><br />
+<br />
+<br />
+<br /></p>
+
 <h1 id="생각해볼점">생각해볼점</h1>
 <ul>
-  <li>AutoGrad 작동 방식 ?</li>
+  <li>AutoGrad 작동 방식 을 뜯어봅시다.</li>
   <li></li>
 </ul>
 
@@ -664,8 +738,7 @@ epochs 98, loss 0.0007801674073562026
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">boostcamp_AITech_5th
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -705,8 +778,7 @@ epochs 98, loss 0.0007801674073562026
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">boostcamp_AITech_5th
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -746,8 +818,7 @@ epochs 98, loss 0.0007801674073562026
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">boostcamp_AITech_5th
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -787,8 +858,7 @@ epochs 98, loss 0.0007801674073562026
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">boostcamp_AITech_5th
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>

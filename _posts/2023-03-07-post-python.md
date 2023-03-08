@@ -12,8 +12,6 @@ toc_label: "Contents"
 ---
 
 
-
-# boostcamp_AITech_5th
 ![image](../../../image/aitech.png)
 
 <script src="https://gist.github.com/yunjinchoidev/5422bce878af5cfa31bf644662ea15e3.js"></script>

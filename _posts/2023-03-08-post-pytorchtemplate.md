@@ -11,7 +11,7 @@ toc_sticky: true
 toc_label: "Contents"
 ---
 
-# boostcamp_AITech_5th
+
 ![image](../../../image/aitech.png)
 
 
