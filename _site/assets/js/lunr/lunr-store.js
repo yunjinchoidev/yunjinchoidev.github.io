@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: Python 정리",
-        "excerpt":"     ","categories": ["aitech"],
+        "excerpt":"판다스 실전 데이터는 깨끗한 데이터가 없습니다. 우리는 판다스가 가진 힘을 적극적으로 활용하여 데이터를 가공 해야 합니다. 좋은 데이터는 좋은 학습 결과를 만듭니다. 이것이 우리가 추구하는 바입니다. 판다스는 굉장히 많은 함수를 지원하고 있습니다. 이것을 모두 기억해야 하냐고요? 그렇지는 않습니다. 레퍼런스를 참고하면 되기 때문이죠. 다만 이것을 자유롭게 활용 할 수 있는 능력을...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-python/",
         "teaser": null
