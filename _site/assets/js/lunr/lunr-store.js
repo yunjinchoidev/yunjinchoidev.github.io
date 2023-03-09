@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 1주차",
-        "excerpt":"1주차 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 Pytorch 강의록 정리 [1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차를 보내며] 1주차를 보내며 온보딩기간 동안 공부했던 내용을 재복습하면서 과제를 풀었습니다. 과제를 풀며 든 생각은 부스트캠프가 정말 심혈을 기울여 제출했다는 것입니다. 문제에 정성과 의도가 분명히 느껴져서 열심히 참여했습니다. 심화 과제의...","categories": ["aitech"],
+        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 1주차 정리 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 Pytorch 강의록 정리 [1주차를 보내며] 1주차를 보내며 온보딩기간 동안 공부했던 내용을 재복습하면서 과제를 풀었습니다. 과제를 풀며 든 생각은 부스트캠프가 정말 심혈을 기울여 제출했다는 것입니다. 문제에 정성과 의도가 분명히 느껴져서 열심히 참여했습니다. 심화...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
@@ -71,8 +71,8 @@ var store = [{
         "url": "/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day04 ",
-        "excerpt":"오늘 무엇을 했나? python 복습했다. aimath 1 ~ 5 강을 들었다. pytorch template 분석 했다. 포스팅 정리를 했다. github 블로그를 만들었다. 내일 무엇을 할 것인가? ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기 과제 검토 RNN 의 오차 역전파 연구하기 [오늘의 생각] 오늘 NLP 팀 발표 시간을 가졌다. 논문...","categories": ["aitech"],
+        "title": "Post: ai tech -Day05 ",
+        "excerpt":"  ","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-day05/",
         "teaser": null
