@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: Pytorch ",
-        "excerpt":"1. ✅ Introduction to PyTorch 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. 책 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 저희는 파이토치를 사용할 것입니다. 파이토치는 장점이 꽤 많습니다. 대표적으로 Define by Run 이라는 작동 방식인데요. 이것은 실행을 한면서 계산 그래프(Computational Graph)를...","categories": ["aitech"],
+        "excerpt":"✅ Introduction to PyTorch 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. 책 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 저희는 파이토치를 사용할 것입니다. 파이토치는 장점이 꽤 많습니다. 대표적으로 Define by Run 이라는 작동 방식인데요. 이것은 실행을 한면서 계산 그래프(Computational Graph)를 생성하는...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-pytorch/",
         "teaser": null

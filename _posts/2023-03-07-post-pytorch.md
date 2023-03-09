@@ -17,7 +17,7 @@ image: image/aitech.png
 ![image](../../../image/aitech.png)
 
 
-# 1. ✅ Introduction to PyTorch
+# ✅ Introduction to PyTorch
 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. [책](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256067157&start=slayer)
 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 
 
@@ -33,7 +33,7 @@ image: image/aitech.png
 
 
 
-# 2. ✅  Dive To Pytorch
+# ✅  Dive To Pytorch
 이제 파이토치 기본에 대해서 공부해 봅시다. 
 먼저 autugrad 에 대해서 공부해봅시다. 
 아래 코드는 파이토치를 통해 오차 역전파를 계산하는 식입니다.
