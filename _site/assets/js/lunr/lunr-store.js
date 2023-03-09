@@ -53,6 +53,12 @@ var store = [{
         "url": "/aitech/post-pytorchtemplate/",
         "teaser": null
       },{
+        "title": "Post: ai tech -Day04 ",
+        "excerpt":"   오늘 무엇을 했나?     과제를 풀면서 한 주간 배운 내용을 정리했다.   파이토치 내용을 보충했다.   딥러닝 기초 다지기 강의를 들었다.   ai math 내용을 보충했다.   내일 무엇을 할 것인가?     RNN 강의 복습   pytorch 강의 복습   딥러닝 기초 다지기 강의 수강  ","categories": ["aitech"],
+        "tags": [],
+        "url": "/aitech/post-day04/",
+        "teaser": null
+      },{
         "title": "Post: 딥러닝 모니터링(Monintoring) 하기",
         "excerpt":"Monitoring 학습을 하는 데 굉장히 긴 시간이 걸립니다. 학습 과정을 기록하는게 좋겠죠. TensorBoard와 Weight &amp; Bias를 이용해봅시다. Tensorboard scalar : metric 표시 graph : 계산 그래프 histogram : weight 분포 image: 예측 값과 실게 값을 비교 표시 mesh : 3d 형태의 데이터를 표현하는 도구 import os logs_base_dir = 'logs' os.makedirs(logs_base_dir,...","categories": ["aitech"],
         "tags": [],
@@ -63,6 +69,12 @@ var store = [{
         "excerpt":"딥러닝의 모든 것 안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다. 누가 좋은 딥러닝 엔지어인가? 파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다. 논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech -Day04 ",
+        "excerpt":"오늘 무엇을 했나? python 복습했다. aimath 1 ~ 5 강을 들었다. pytorch template 분석 했다. 포스팅 정리를 했다. github 블로그를 만들었다. 내일 무엇을 할 것인가? ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기 과제 검토 RNN 의 오차 역전파 연구하기 [오늘의 생각] 오늘 NLP 팀 발표 시간을 가졌다. 논문...","categories": ["aitech"],
+        "tags": [],
+        "url": "/aitech/post-day05/",
         "teaser": null
       },{
         "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
