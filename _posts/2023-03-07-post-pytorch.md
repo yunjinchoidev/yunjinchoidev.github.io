@@ -17,7 +17,7 @@ image: image/aitech.png
 ![image](../../../image/aitech.png)
 
 
-# 1.  Introduction to PyTorch
+# 1. ✅ Introduction to PyTorch
 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. [책](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256067157&start=slayer)
 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 
 
@@ -33,7 +33,7 @@ image: image/aitech.png
 
 
 
-# 2. Dive To Pytorch
+# 2. ✅  Dive To Pytorch
 이제 파이토치 기본에 대해서 공부해 봅시다. 
 먼저 autugrad 에 대해서 공부해봅시다. 
 아래 코드는 파이토치를 통해 오차 역전파를 계산하는 식입니다.
@@ -55,13 +55,15 @@ w.grad
 > 최대가능도 추정법이란 뭘까요? 관찰된 데이터가 어떠한 모수로부터 나왔을 가능성이 가장 높은지를 추정하는 방법입니다. 모수란 무엇일까요? 모수는 모집단의 특성(모평균,모분산 등..)을 나타내는 값으로, 이 값을 모집단을 전수조사해야만 알수있는 값입니다. 실질적으로 모집단의 크기와 범위가 너무 방대하기에 전수조사를 실시하지 않고 표본조사를 하는데 표본평균,표본분산 등으로 모평균, 모분산등을 추정할수가 있다.
 
 
+
+
 <br>
 <br>
 <br>
 <br>
 
 
-# 템플릿을 사용합시다.
+# ✅ Use Template
 여러분은 언제까지 코랩을 쓰실 생각입니까? 템플릿을 씁시다. 고수가 되는 지름길이죠. 우리는 미래로 가야합니다. 템플릿을 사용함으로써 우리는 그 미래로 갈 수 있습니다. `실행, 데이터, 모델,  설정, 로깅, 지표, 유틸리티` 이 대표적이죠.
 다음 오픈 소스에서 파이토치 템플릿을 다운 받고 면밀하게 분석해보세요. 면밀하게 분석을 해봅시다. [링크](https://github.com/victoresque/pytorch-template)
 코딩 능력이 많이 필요하다는 것을 분명 느끼셨을 겁니다. 코딩 역량을 기르십시오.
@@ -75,7 +77,7 @@ w.grad
 
 
 
-# AutoGrad & Optimizer
+# ✅ AutoGrad & Optimizer
 논문을 한 번 구현해봅시다.
 딥러닝이란 layer를 쌓고 레고 블럭을 쌓는 일련의 과정이라고 할 수 있습니다. input, output, forward, backward가 복잡한 상호작용을 가지고 있는 것이죠.
 - torch.nn.Module 클래스 
@@ -184,10 +186,10 @@ epochs 98, loss 0.0007801674073562026
   
 
 
-## optimizer.zero_grad() 를 안쓰면 어떻게 될까?
+```
+optimizer.zero_grad() 를 안쓰면 어떻게 될까?
 - gradient 가 초기화가 되지 않으면 다음 학습에 영향을 주기 때문에 올바른 학습이 되지 않습니다.
-
-
+```
 
 
 <br>
@@ -198,8 +200,9 @@ epochs 98, loss 0.0007801674073562026
 
 
 
-# Dataset & Dataloader
+# ✅ [데이터를 불러오자~] Dataset & Dataloader
 모델도 중요하지만, 데이터를 어떻게 잘 다루느냐도 중요합니다. 엄청나게 많은 데이터가 있습니다. 이것을 어찌해야 할까요? 우리에겐 파이토치가 있습니다. 
+
 ## Pytorch Dataset
 먼저 데이터를 텐서로 바꾸고 DataLoder 로 모델에 먹이기(Feeding)
 1. 데이터 모으기
@@ -207,42 +210,26 @@ epochs 98, loss 0.0007801674073562026
 3. transform : 데이터 전처리
   - ToTensor()
   - CenterCrop()
+
 파이토치의 DataSet을 사용함으로써 많은 장점을 가진다.
 
-- CustomDataset 와의 결합
-  - CustomDataset을 정의 하기 위해서 3개의 메소드를 반드시 정의해야 한다.
-    - init, len, getitem
-    - utils.data.Dataset 상속
-  - 이때 Datase$$t 클래스 사용
+CustomDataset 와의 결합해봅시다. CustomDataset을 정의 하기 위해서 3개의 메소드를 반드시 정의해야 합니다.
 
-```
+- init
+- len
+- getitem
 
-
-```
-
-
-<br>
-<br>
-<br>
-<br>
-
-
-
-
+utils.data.Dataset 상속
+이때 Datase$$t 클래스 사용
 
 ## Pytorch Dataloader
-- DataLoder
-  - CustomDataset, 기타 옵션으로 실제 데이터에 적용하면 된다.
-  - 옵션
-    - 미니배치 사이즈
-    - ... 많다.
-  - 코드를 뜯어보시라.
+이제 DataLoder 모듈을 배워봅시다. CustomDataset, 기타 옵션으로 실제 데이터에 적용하면 됩니다. 옵션으로 다양한 것이 있습니다. 미니배치 사이즈 등이 있겠죠. 코드를 직접 뜻으면서 DataLoader를 해보세요. 
+
 
 
 ```
 실전 연습
-Mnist 클론 코딩을 해보세요. 
-
+Mnist 클론 코딩을 해보세요.
 ```
 
 
@@ -260,16 +247,20 @@ Mnist 클론 코딩을 해보세요.
 
 
 
-# 모델을 저장하고 불러오기
-우리는 실제 라벨과 예측 라벨의 오차 함수의 그레디언트를 계산하고 오차역전파를 계산하여 W 가중치 텐서를 업데이트 시켰다고 가정합니다. 우리는 이 결과를 전달하려 한다.**어떻게** 하는게 좋을까요 ? `model.save()` 함수를 사용합시다. 이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다. 
+# ✅ [Save Model] 모델을 저장하고 불러오기
+우리는 실제 라벨과 예측 라벨의 오차 함수의 그레디언트를 계산하고 오차역전파를 계산하여 W 가중치 텐서를 업데이트 시켰다고 가정합니다. 우리는 이 결과를 전달하려 한다.**어떻게** 하는게 좋을까요 ?
 
+`model.save()` 함수를 사용합시다. 이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다. 
 
 저장법 2가지가 있습니다. 
 
 1. 파라메터만 저장
 2. 모델형테 + 파라메터 저장
 
+## check point
+중간중간에 loss 와 metric을 지속적으로 저장하는 것을 말합니다. 코드 중간에 pickle 형태로 저장하세요. 중간에 Earlystopping(조기 종료) 처리를 할 수 도 있습니다. 
 
+전이학습(Transfer learning) 을 위해 구글, 페이스북에서 학습한 모델을 가져오려고 합니다. 어떻게 할까요?  NLP 분야에서는 `Huggingface`가 대표적입니다.  `Freezing` 는 Transfer 를 적용시키기 위해서 일부분의 가중치를 학습 시키지 않는것을 말합니다. 트랜스퍼 러닝은 외부 모듈에서 전이학습을 가져오고 자신만의 layer를 추가 시켜 학습시키는 방식으로 하면 됩니다. 굉장히 많이 쓰니 집중해서 공부하시기 바랍니다. 
 
 
 
@@ -281,21 +272,13 @@ Mnist 클론 코딩을 해보세요.
 
 
 
-# 모니터링 합시다 - Monitoring tools for PyTorch
-- 체크포인트
-  - 학습의 중간 결과를 저장
-  - earlystopping 
-  - loss, metric
-  - Earlystopping : 조기 종료
+# ✅ 모니터링 합시다 - Monitoring tools for PyTorch
 
-- Loggin
-  - Logging이란, 학습이 진행되면서 주요하다고 생각되는 지표들이나 학습의 상태 등 관련된 정보들을 기록하는 것
+`Logging`이란 학습이 진행되면서 주요하다고 생각되는 지표들이나 학습의 상태 등 관련된 정보들을 기록하는 것을 말합니다.
 
-- Tensorboard
-- Tensorboard는 TensorFlow의 프로젝트로 만들어진 시각화 도구로 학습 그래프, Metric, 학습 결과의 시각화를 지원
+`Tensorboard`는 TensorFlow의 프로젝트로 만들어진 시각화 도구로 학습 그래프, Metric, 학습 결과의 시각화를 지원합니다.
 
-- Weight, Biases
-  - 머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴
+`Weight, Biases`는 머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴을 말합니다.
 
 
 
@@ -344,7 +327,7 @@ writer.close()
 
 
 
-# Muti-GPU
+# ✅ Muti-GPU
 
 
 
@@ -357,7 +340,7 @@ writer.close()
 
 
 
-# Hyperparameter Tuning
+# ✅ Hyperparameter Tuning
 제대로 학습하기 위해선 하이퍼 파라메터 튜닝을 해야 합니다. 하이퍼 파라메티는 dl 이 학습하지 않는 변수값이죠. 
 
 - 학습률(Learning rate)
@@ -389,7 +372,7 @@ Ray는 멀티 노드 멀티 프로세스 지원 모듈이다. 분산병령 ml/dl
 
 
 
-# PyTorch Troubleshooting
+# ✅ PyTorch Troubleshooting
 OOM(Out Of Memory) 란 무엇일까요. GPU 메모리 오류를 말합니다. 
 이를 방지하는 방법은 두가지가 있습니다. 하나는 batchSize를 줄이는 것이고, 둘째는 memory를 줄이는 방법입니다. `GPUutil` 모듈을 사용하세요. 사용하지 않는 gpu cache 를 삭제해야 합니다. `torch.no_grad()` 를 사용도 좋습니다. tensor의 float precision을 줄여도 된다.
 
