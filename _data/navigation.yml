@@ -6,7 +6,7 @@ main:
     url: "/aitech/"
   - title: "바닥부터 만드는 딥러닝"
     url: /deep/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Dive into NLP"
+    url: /nlp/
   # - title: "Sitemap"
   #   url: /sitemap/

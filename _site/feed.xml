@@ -1,23 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-10T01:36:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech -Day05</title><link href="http://localhost:4000/aitech/post-day05/" rel="alternate" type="text/html" title="Post: ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)</title><link href="http://localhost:4000/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="alternate" type="text/html" title="Post: 딥러닝 바닥부터 만들기 (intro ~ step10)" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D(1)</id><content type="html" xml:base="http://localhost:4000/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/"><![CDATA[<p><img src="../../../image/바닥부터.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-10T02:13:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech -Day05</title><link href="http://localhost:4000/aitech/post-day05/" rel="alternate" type="text/html" title="Post: ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)</title><link href="http://localhost:4000/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="alternate" type="text/html" title="Post: 딥러닝 바닥부터 만들기 (intro ~ step10)" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D(1)</id><content type="html" xml:base="http://localhost:4000/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/"><![CDATA[<p><img src="../../../image/바닥부터.png" alt="image" /></p>
 
 <h1 id="바닥부터-딥러닝을-만들어보자">바닥부터 딥러닝을 만들어보자.</h1>
 
-<p>우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day04</title><link href="http://localhost:4000/aitech/post-day04/" rel="alternate" type="text/html" title="Post: ai tech -Day04" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day04</id><content type="html" xml:base="http://localhost:4000/aitech/post-day04/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
-<ul>
-  <li>과제를 풀면서 한 주간 배운 내용을 정리했다.</li>
-  <li>파이토치 내용을 보충했다.</li>
-  <li>딥러닝 기초 다지기 강의를 들었다.</li>
-  <li>ai math 내용을 보충했다.</li>
-</ul>
-
-<h1 id="내일-무엇을-할-것인가">내일 무엇을 할 것인가?</h1>
-<ul>
-  <li>RNN 강의 복습</li>
-  <li>pytorch 강의 복습</li>
-  <li>딥러닝 기초 다지기 강의 수강</li>
-</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝의 모든 것(All about Deep Learning)</title><link href="http://localhost:4000/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83/" rel="alternate" type="text/html" title="Post: 딥러닝의 모든 것(All about Deep Learning)" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-09T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98%20%EB%AA%A8%EB%93%A0%EA%B2%83</id><content type="html" xml:base="http://localhost:4000/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝의 모든 것(All about Deep Learning)</title><link href="http://localhost:4000/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/" rel="alternate" type="text/html" title="Post: 딥러닝의 모든 것(All about Deep Learning)" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-09T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98%20%EB%AA%A8%EB%93%A0%EA%B2%83%20copy</id><content type="html" xml:base="http://localhost:4000/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="딥러닝의-모든-것">딥러닝의 모든 것</h1>
 <p>안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.</p>
@@ -93,13 +78,32 @@
   <li>Early stopping</li>
   <li>Parameter norm penalty</li>
   <li>Data augmentation</li>
-  <li>Noise robustness</li>
-  <li>Lable smoothing</li>
+  <li>Noise robustness
+    <ul>
+      <li>노이즈를 넣으면 이상하게 잘된다.</li>
+    </ul>
+  </li>
+  <li>Lable smoothing
+    <ul>
+      <li>Cut Mix</li>
+      <li>Cut Out</li>
+      <li>Mixup</li>
+    </ul>
+  </li>
   <li>Dropout</li>
   <li>Batch normalizaion</li>
 </ul>
 
 <h1 id="cnn">CNN</h1>
+
+<p>Continuous convolution</p>
+
+<p>1*1 Convolution 은 Dimension 을 줄이기 위해서 사용합니다. (bolttleneck architecture)</p>
+
+<h2 id="alexnet">AlexNet</h2>
+<h2 id="vggnet">VGGNet</h2>
+
+<h2 id="googlenet">GoogleNet</h2>
 
 <h1 id="rnn">RNN</h1>
 
@@ -155,28 +159,25 @@ writer.close()
 
 </code></pre></div></div>
 
-<h1 id="weight--bias">Weight &amp; Bias</h1>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day03</title><link href="http://localhost:4000/aitech/post-day03/" rel="alternate" type="text/html" title="Post: ai tech -Day03" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day03</id><content type="html" xml:base="http://localhost:4000/aitech/post-day03/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h1 id="weight--bias">Weight &amp; Bias</h1>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day04</title><link href="http://localhost:4000/aitech/post-day04/" rel="alternate" type="text/html" title="Post: ai tech -Day04" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day04</id><content type="html" xml:base="http://localhost:4000/aitech/post-day04/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
 <ul>
-  <li>python 복습했다.</li>
-  <li>aimath 1 ~ 5 강을 들었다.</li>
-  <li>pytorch template 분석 했다.</li>
-  <li>포스팅 정리를 했다.</li>
-  <li>github 블로그를 만들었다.</li>
+  <li>과제를 풀면서 한 주간 배운 내용을 정리했다.</li>
+  <li>파이토치 내용을 보충했다.</li>
+  <li>딥러닝 기초 다지기 강의를 들었다.</li>
+  <li>ai math 내용을 보충했다.</li>
 </ul>
 
 <h1 id="내일-무엇을-할-것인가">내일 무엇을 할 것인가?</h1>
 <ul>
-  <li>ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기</li>
-  <li>과제 검토</li>
-  <li>RNN 의 오차 역전파 연구하기</li>
-</ul>
+  <li>RNN 강의 복습</li>
+  <li>pytorch 강의 복습</li>
+  <li>딥러닝 기초 다지기 강의 수강</li>
+</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: Dive into NLP</title><link href="http://localhost:4000/aitech/post-Dive-Into-NLP/" rel="alternate" type="text/html" title="Post: Dive into NLP" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-09T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-Dive%20Into%20NLP</id><content type="html" xml:base="http://localhost:4000/aitech/post-Dive-Into-NLP/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<h1 id="오늘의-생각">[오늘의 생각]</h1>
-<p>오늘 NLP 팀 발표 시간을 가졌다. 논문 리뷰, 코딩 테스트 스터디를 많이 하는 듯 했다. 실력자들이 굉장히 많다는 걸 느끼면서 겸손해야 겠다는 생각을 했다. 내가 속한 팀의 팀원들도 다들 실력이 좋으시다. 팀에 도움이 될 수 있도록 노력했야 겠다는 다짐을 하게 된다. 적어도 마이너스를 하지는 말아야지.</p>
-
-<p>다음 주 부터는 코딩테스트 스터디를 시작하려고 한다. 그리고 파이토치도 정규 수업으로 들어가고 본격적으로 딥러닝 모델로 무언가를 만들어보는 시간을 가진다. 그리고 다음 달이 되면 첫 번째 프로젝트를 참여 하게 된다. 좋은 성과를 거두고 싶다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - pytorch Template 완전 분석</title><link href="http://localhost:4000/aitech/post-pytorchtemplate/" rel="alternate" type="text/html" title="Post: ai tech - pytorch Template 완전 분석" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-pytorchtemplate</id><content type="html" xml:base="http://localhost:4000/aitech/post-pytorchtemplate/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h1 id="dive-into-nlp">Dive Into NLP</h1>
+<p>자연어 처리를 공부합시다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - pytorch Template 완전 분석</title><link href="http://localhost:4000/aitech/post-pytorchtemplate/" rel="alternate" type="text/html" title="Post: ai tech - pytorch Template 완전 분석" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-pytorchtemplate</id><content type="html" xml:base="http://localhost:4000/aitech/post-pytorchtemplate/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="pytorch-템플릿을-문석해봅시다">Pytorch 템플릿을 문석해봅시다.</h1>
 <p><a href="https://github.com/victoresque/pytorch-template">링크</a>
@@ -228,7 +229,35 @@ writer.close()
 
 <p>pytorch-template 도 같은 시각에서 접근해봅시다. 
 config.json 만 바꿈으로써 우리는 새로운 데이터를 로딩할 수 있는 것이고 batch_size, validation_split 도 변경 할 수 가 있습니다. 
-train.py 만 바꿈으로써 우리는 모델을 손쉽게 교체할 수 가 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">딥러닝에 필요한 수학적 지식</title><link href="http://localhost:4000/aitech/post-aimath/" rel="alternate" type="text/html" title="딥러닝에 필요한 수학적 지식" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-aimath</id><content type="html" xml:base="http://localhost:4000/aitech/post-aimath/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+train.py 만 바꿈으로써 우리는 모델을 손쉽게 교체할 수 가 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day03</title><link href="http://localhost:4000/aitech/post-day03/" rel="alternate" type="text/html" title="Post: ai tech -Day03" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day03</id><content type="html" xml:base="http://localhost:4000/aitech/post-day03/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
+<ul>
+  <li>python 복습했다.</li>
+  <li>aimath 1 ~ 5 강을 들었다.</li>
+  <li>pytorch template 분석 했다.</li>
+  <li>포스팅 정리를 했다.</li>
+  <li>github 블로그를 만들었다.</li>
+</ul>
+
+<h1 id="내일-무엇을-할-것인가">내일 무엇을 할 것인가?</h1>
+<ul>
+  <li>ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기</li>
+  <li>과제 검토</li>
+  <li>RNN 의 오차 역전파 연구하기</li>
+</ul>
+
+<h1 id="오늘의-생각">[오늘의 생각]</h1>
+<p>오늘 NLP 팀 발표 시간을 가졌다. 논문 리뷰, 코딩 테스트 스터디를 많이 하는 듯 했다. 실력자들이 굉장히 많다는 걸 느끼면서 겸손해야 겠다는 생각을 했다. 내가 속한 팀의 팀원들도 다들 실력이 좋으시다. 팀에 도움이 될 수 있도록 노력했야 겠다는 다짐을 하게 된다. 적어도 마이너스를 하지는 말아야지.</p>
+
+<p>다음 주 부터는 코딩테스트 스터디를 시작하려고 한다. 그리고 파이토치도 정규 수업으로 들어가고 본격적으로 딥러닝 모델로 무언가를 만들어보는 시간을 가진다. 그리고 다음 달이 되면 첫 번째 프로젝트를 참여 하게 된다. 좋은 성과를 거두고 싶다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - Day02</title><link href="http://localhost:4000/aitech/post-day02/" rel="alternate" type="text/html" title="Post: ai tech - Day02" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day02</id><content type="html" xml:base="http://localhost:4000/aitech/post-day02/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- numpy, pandas  를 집중 분석했다.
+- 공부하는 것과 실제 적용하는 것에는 큰 차이가 있는 거 같다.
+- 경사하강법, 오차 역전파에서 스칼라가 텐서로 바뀔 때의 상황이 직관적으로 와닿지가 않아서 공부했다.
+- 최대 우도법을 공부.
+</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">딥러닝에 필요한 수학적 지식</title><link href="http://localhost:4000/aitech/post-aimath/" rel="alternate" type="text/html" title="딥러닝에 필요한 수학적 지식" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-aimath</id><content type="html" xml:base="http://localhost:4000/aitech/post-aimath/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <p><br />
 <br />
@@ -528,16 +557,4 @@ print(monte(f_x, low=-1, high=1, sample_size=1000, repeat=100))
 
 <p>이 두 자료를 한번 보도록 하십시요.</p>
 
-<p>RNN 에서의 역전파는 수식의 특성상 기울기 소실 문제가 발생합니다. 과거 데이터를 반영하지 못하는 것이죠. 자연스럽게 LSTM, GRU 와 같은 고급 모델이 탄생은 필연적이었습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - Day02</title><link href="http://localhost:4000/aitech/post-day02/" rel="alternate" type="text/html" title="Post: ai tech - Day02" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-day02</id><content type="html" xml:base="http://localhost:4000/aitech/post-day02/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- numpy, pandas  를 집중 분석했다.
-- 공부하는 것과 실제 적용하는 것에는 큰 차이가 있는 거 같다.
-- 경사하강법, 오차 역전파에서 스칼라가 텐서로 바뀔 때의 상황이 직관적으로 와닿지가 않아서 공부했다.
-- 최대 우도법을 공부.
-</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: Python 정리</title><link href="http://localhost:4000/aitech/post-python/" rel="alternate" type="text/html" title="Post: Python 정리" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech/post-python</id><content type="html" xml:base="http://localhost:4000/aitech/post-python/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<script src="https://gist.github.com/yunjinchoidev/5422bce878af5cfa31bf644662ea15e3.js"></script>
-
-<h1 id="판다스">판다스</h1>
-<p>실전 데이터는 깨끗한 데이터가 없습니다. 우리는 판다스가 가진 힘을 적극적으로 활용하여 데이터를 가공 해야 합니다. 좋은 데이터는 좋은 학습 결과를 만듭니다. 이것이 우리가 추구하는 바입니다. 판다스는 굉장히 많은 함수를 지원하고 있습니다. 이것을 모두 기억해야 하냐고요? 그렇지는 않습니다. 레퍼런스를 참고하면 되기 때문이죠. 다만 이것을 자유롭게 활용 할 수 있는 능력을 가지고 있어야 합니다. 실전 데이터를 가지고 가공하면서 판다스를 연습해보세요. 그것이 실력을 기르는 최선의 지름길입니다. $$</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>RNN 에서의 역전파는 수식의 특성상 기울기 소실 문제가 발생합니다. 과거 데이터를 반영하지 못하는 것이죠. 자연스럽게 LSTM, GRU 와 같은 고급 모델이 탄생은 필연적이었습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech" /><summary type="html"><![CDATA[]]></summary></entry></feed>
