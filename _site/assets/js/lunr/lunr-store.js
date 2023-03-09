@@ -60,8 +60,14 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 딥러닝의 모든 것(All about Deep Learning)",
-        "excerpt":"   딥러닝의 모든 것  안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.   \\[\\begin{aligned} \\mathbf{O}_t &amp; =\\mathbf{H}_t \\mathbf{W}^{(2)}+\\mathbf{b}^{(2)} \\\\ \\mathbf{H}_t &amp; =\\sigma\\left(\\mathbf{X}_t \\mathbf{W}_X^{(1)}+\\mathbf{H}_{t-1} \\mathbf{W}_H^{(1)}+\\mathbf{b}^{(1)}\\right) \\end{aligned}\\]  \\[\\begin{aligned} \\lim_{x\\to 0}{\\frac{e^x-1}{2x}} \\overset{\\left[\\frac{0}{0}\\right]}{\\underset{\\mathrm{H}}{=}} \\lim_{x\\to 0}{\\frac{e^x}{2}}={\\frac{1}{2}} \\end{aligned}\\] ","categories": ["aitech"],
+        "excerpt":"딥러닝의 모든 것 안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다. 누가 좋은 딥러닝 엔지어인가? 파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다. 논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83/",
+        "teaser": null
+      },{
+        "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
+        "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["aitech"],
+        "tags": [],
+        "url": "/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
         "teaser": null
       }]

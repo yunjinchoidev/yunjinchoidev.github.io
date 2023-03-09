@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "BoostCamp AITech 5기 "
     url: "/aitech/"
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "바닥부터 만드는 딥러닝"
+    url: /deep/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

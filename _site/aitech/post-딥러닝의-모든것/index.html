@@ -164,6 +164,8 @@
               <a href="/about/">Introduce</a>
             </li><li class="masthead__menu-item">
               <a href="/aitech/">BoostCamp AITech 5기 </a>
+            </li><li class="masthead__menu-item">
+              <a href="/deep/">바닥부터 만드는 딥러닝</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -346,7 +348,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a></li></ul>
+              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a></li><li><a href="#누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</a></li><li><a href="#딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</a></li><li><a href="#신경망">신경망</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a><ul><li><a href="#bagging">Bagging</a></li><li><a href="#boosting">Boosting</a></li></ul></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li><li><a href="#cnn">CNN</a></li><li><a href="#rnn">RNN</a></li><li><a href="#gan">GAN</a></li></ul>
 
             </nav>
           </aside>
@@ -356,16 +358,93 @@
 <h1 id="딥러닝의-모든-것">딥러닝의 모든 것</h1>
 <p>안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.</p>
 
-\[\begin{aligned}
-\mathbf{O}_t &amp; =\mathbf{H}_t \mathbf{W}^{(2)}+\mathbf{b}^{(2)} \\
-\mathbf{H}_t &amp; =\sigma\left(\mathbf{X}_t \mathbf{W}_X^{(1)}+\mathbf{H}_{t-1} \mathbf{W}_H^{(1)}+\mathbf{b}^{(1)}\right)
-\end{aligned}\]
+<h1 id="누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</h1>
+<p>파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다.</p>
 
-\[\begin{aligned}
-\lim_{x\to 0}{\frac{e^x-1}{2x}}
-\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
-\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
-\end{aligned}\]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이 좋습니다. 
+</code></pre></div></div>
+
+<h1 id="딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</h1>
+
+<ul>
+  <li>AlexNet(2012) -&gt; 딥러닝의 가능성을 폭발적으로 알려주었다.</li>
+  <li>DQN (2013) -&gt; 강화학습</li>
+  <li>Encoder / Decoder (2014)</li>
+  <li>Adam (2014) -&gt; 결과가 매우 좋다.</li>
+  <li>GAN, ResNet (2015)</li>
+  <li>Residual Networks (2015) -&gt; 네트워크를 깊게 쌓게 해준다.</li>
+  <li>Transformer (2017) -&gt; 도발적</li>
+  <li>Bert (2018)</li>
+  <li>Big Language Models (GPT)</li>
+  <li>Self-Supervised Learning -&gt; 학습 데이터를 스스로 생성한다.</li>
+</ul>
+
+<h1 id="신경망">신경망</h1>
+<p>신경망에서 비선형 함수를 넣어주는 이유가 무얼까? 선형적 함수로만 표현을 하게 되면은 그것은 결국 선형함수 하나로 변환 될 수 있다는 것을 의미한다. 그렇기 때문에 선형적으로 표현할 수 없는 비선형 함수 (예를 들어 활성화 함수) 를 넣어줌으로써 표현력을 극대화하는 것이다.</p>
+
+<p>손실함수의 종류</p>
+<ul>
+  <li>MSE</li>
+  <li>CE</li>
+  <li>MLE</li>
+</ul>
+
+<h1 id="bias-and-variance">Bias and Variance</h1>
+<p align="center">
+  <img src="./../../image/aitech/bias.png" alt="*출처: http://scott.fortmann-roe.com*" width="number" /> 
+  <p align="center">*출처: http://scott.fortmann-roe.com*</p>
+</p>
+
+<p>cost를 최소화 한다는 것은 bias, variance, noise 를 최소화하는 것이다.</p>
+
+<h1 id="최적화">최적화</h1>
+<p>최적화 이론은 딥러닝에서 매우 중요한 개념입니다. 일반화와 최적화의 균일점을 찾아라 ! 그래서 우리는 cross-validation 을 사용합니다.</p>
+
+<h2 id="bagging">Bagging</h2>
+<p>학습데이터를 여러개를 만들어서 부트스트래핑을 하는것을 말합니다.  부트스트랩이란 ? 수 많은 데이터 중에 랜덤 샘플링을 여러개 만들어서 예측을 하는 것</p>
+<h2 id="boosting">Boosting</h2>
+<p>잘 안되는 데이터에 맞춰서 학습을 여러번 시키는 방법을 말한다.</p>
+
+<h1 id="gradinet-descent">Gradinet Descent</h1>
+<p>어떻게 산 밑으로 내려갈 것인가?</p>
+
+\[W_{t+1} &lt;- Wt - \gamma G_{t}\]
+
+<blockquote>
+  <p>여러가지 테크니션</p>
+  <ul>
+    <li>모멘텀</li>
+    <li>Nesterov Accelerated Gradinet</li>
+    <li>Adagrad</li>
+    <li>Adadelta</li>
+    <li>RMSStop</li>
+    <li>Adam</li>
+  </ul>
+</blockquote>
+
+<h1 id="regularization">Regularization</h1>
+<p>오버피팅을 방지하라 !</p>
+
+<ul>
+  <li>Early stopping</li>
+  <li>Parameter norm penalty</li>
+  <li>Data augmentation</li>
+  <li>Noise robustness</li>
+  <li>Lable smoothing</li>
+  <li>Dropout</li>
+  <li>Batch normalizaion</li>
+</ul>
+
+<h1 id="cnn">CNN</h1>
+
+<h1 id="rnn">RNN</h1>
+
+<h1 id="gan">GAN</h1>
+
+<blockquote>
+  <p>created By yunjinchoidev ~</p>
+</blockquote>
+
 
         
       </section>
@@ -416,7 +495,8 @@
 ">이전</a>
     
     
-      <a href="#" class="pagination--pager disabled">다음</a>
+      <a href="/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" class="pagination--pager" title="Post: 딥러닝 바닥부터 만들기 (intro ~ step10)
+">다음</a>
     
   </nav>
 
@@ -430,6 +510,46 @@
     <div class="page__related">
       <h2 class="page__related-title">참고</h2>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="permalink">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
         
           
 
@@ -539,46 +659,6 @@
         <i class="far fa-clock" aria-hidden="true"></i>
         
           최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/aitech/post-pytorch/" rel="permalink">Post: Pytorch
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          3 분 소요
         
       </span>
     
