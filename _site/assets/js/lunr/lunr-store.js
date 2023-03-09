@@ -53,9 +53,15 @@ var store = [{
         "url": "/aitech/post-pytorchtemplate/",
         "teaser": null
       },{
-        "title": "Post: 딥러닝 모니터링  ",
+        "title": "Post: 딥러닝 모니터링(Monintoring) 하기",
         "excerpt":"Monitoring 학습을 하는 데 굉장히 긴 시간이 걸립니다. 학습 과정을 기록하는게 좋겠죠. TensorBoard와 Weight &amp; Bias를 이용해봅시다. Tensorboard scalar : metric 표시 graph : 계산 그래프 histogram : weight 분포 image: 예측 값과 실게 값을 비교 표시 mesh : 3d 형태의 데이터를 표현하는 도구 import os logs_base_dir = 'logs' os.makedirs(logs_base_dir,...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-monitoring/",
+        "teaser": null
+      },{
+        "title": "Post: 딥러닝의 모든 것(All about Deep Learning)",
+        "excerpt":"   딥러닝의 모든 것  안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.   \\[\\begin{aligned} \\mathbf{O}_t &amp; =\\mathbf{H}_t \\mathbf{W}^{(2)}+\\mathbf{b}^{(2)} \\\\ \\mathbf{H}_t &amp; =\\sigma\\left(\\mathbf{X}_t \\mathbf{W}_X^{(1)}+\\mathbf{H}_{t-1} \\mathbf{W}_H^{(1)}+\\mathbf{b}^{(1)}\\right) \\end{aligned}\\]  \\[\\begin{aligned} \\lim_{x\\to 0}{\\frac{e^x-1}{2x}} \\overset{\\left[\\frac{0}{0}\\right]}{\\underset{\\mathrm{H}}{=}} \\lim_{x\\to 0}{\\frac{e^x}{2}}={\\frac{1}{2}} \\end{aligned}\\] ","categories": ["aitech"],
+        "tags": [],
+        "url": "/aitech/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83/",
         "teaser": null
       }]

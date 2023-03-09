@@ -1,5 +1,5 @@
 ---
-title: "Post: 딥러닝 모니터링  "
+title: "Post: 딥러닝 모니터링(Monintoring) 하기"
 last_modified_at: 2023-03-09T20:20:02-05:00
 categories:
     - aitech
