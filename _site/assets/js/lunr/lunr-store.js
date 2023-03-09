@@ -52,4 +52,10 @@ var store = [{
         "tags": [],
         "url": "/aitech/post-pytorchtemplate/",
         "teaser": null
+      },{
+        "title": "Post: 딥러닝 모니터링  ",
+        "excerpt":"Monitoring 학습을 하는 데 굉장히 긴 시간이 걸립니다. 학습 과정을 기록하는게 좋겠죠. TensorBoard와 Weight &amp; Bias를 이용해봅시다. Tensorboard scalar : metric 표시 graph : 계산 그래프 histogram : weight 분포 image: 예측 값과 실게 값을 비교 표시 mesh : 3d 형태의 데이터를 표현하는 도구 import os logs_base_dir = 'logs' os.makedirs(logs_base_dir,...","categories": ["aitech"],
+        "tags": [],
+        "url": "/aitech/post-monitoring/",
+        "teaser": null
       }]

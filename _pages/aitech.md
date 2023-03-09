@@ -1,10 +1,13 @@
 ---
 permalink: /aitech/
-title: "About"
+title: "부스트캠프 ai tech 5기 NLP 트랙 회고"
 toc: true
 toc_sticky: true
 toc_label: "목차"
 ---
+
+<br>
+
 
 ![image](../../../image/aitech.png)
 

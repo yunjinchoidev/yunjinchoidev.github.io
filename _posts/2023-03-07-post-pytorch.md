@@ -241,7 +241,7 @@ epochs 98, loss 0.0007801674073562026
 
 ```
 실전 연습
-Mnist 클론 코딩을 해보시라 ~ 
+Mnist 클론 코딩을 해보세요. 
 
 ```
 
@@ -260,7 +260,7 @@ Mnist 클론 코딩을 해보시라 ~
 
 
 
-# 모델 불러오기
+# 모델을 저장하고 불러오기
 우리는 실제 라벨과 예측 라벨의 오차 함수의 그레디언트를 계산하고 오차역전파를 계산하여 W 가중치 텐서를 업데이트 시켰다고 가정합니다. 우리는 이 결과를 전달하려 한다.**어떻게** 하는게 좋을까요 ? `model.save()` 함수를 사용합시다. 이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다. 
 
 
@@ -299,6 +299,43 @@ Mnist 클론 코딩을 해보시라 ~
 
 
 
+```
+
+import os
+logs_base_dir = 'logs'
+os.makedirs(logs_base_dir, exist_ok=True)
+
+from torch.utils.tensorboard import SummaryWriter
+import numpy as np
+
+exp = f"{logs_base_dir}/ex3"
+writer = SummaryWriter(exp)
+for n_iter in range(100):
+  writer.add_scalar('Loss/train', np.random.random(), n_iter)
+  writer.add_scalar('Loss/test', np.random.random(), n_iter)
+  writer.add_scalar('Accuracy/train', np.random.random(), n_iter)  
+  writer.add_scalar('Accuracy/test', np.random.random(), n_iter)
+writer.flush()
+
+%load_ext tensorboard
+%tensorboard --logdir {"logs"}
+
+```
+
+```
+# 분포를 본다.
+
+from torch.utils.tensorboard import SummaryWriter
+import numpy as np
+writer = SummaryWriter(logs_base_dir)
+for i in range(10):
+  x = np.random.random(1000)
+  writer.add_histogram('distribution centers', x+i, i)
+writer.close()
+
+```
+
+
 <br>
 <br>
 <br>
@@ -321,10 +358,27 @@ Mnist 클론 코딩을 해보시라 ~
 
 
 # Hyperparameter Tuning
+제대로 학습하기 위해선 하이퍼 파라메터 튜닝을 해야 합니다. 하이퍼 파라메티는 dl 이 학습하지 않는 변수값이죠. 
+
 - 학습률(Learning rate)
 - 최적화 함수(Optimizer)
 - 손실 함수(Loss Fucnction)
--  
+
+잘 정리하고 잘 변수를 조정해야 합니다. 데이터와 모델을 수정해서 성능을 향상하는 것이 가장 빠르긴 하지만 하이퍼 파라메터를 튜닝하는 힘은 분명 필요합니다. 요즘들어서는 그렇게 많이하는 추세는 아닙니다. 아래 두 가지 방법이 있습니다.
+
+- Grid LayOut
+  - 균일적으로 파라메터를 변화시켜나가는 방법
+- Random LayOut
+  - 랜덤적으로 파라메터를 변화시켜나가는 방법
+
+Ray는 멀티 노드 멀티 프로세스 지원 모듈이다. 분산병령 ml/dl 의 표준이라 할 수 있다.
+
+```
+하이퍼 파라메터 튜닝은 어느정도 학습 모델을 완전하게 만들어 놓고 수정하는 것을 추천합니다. 데이터와 모델에 집중하세요.
+```
+
+
+
 
 
 
@@ -336,6 +390,14 @@ Mnist 클론 코딩을 해보시라 ~
 
 
 # PyTorch Troubleshooting
+OOM(Out Of Memory) 란 무엇일까요. GPU 메모리 오류를 말합니다. 
+이를 방지하는 방법은 두가지가 있습니다. 하나는 batchSize를 줄이는 것이고, 둘째는 memory를 줄이는 방법입니다. `GPUutil` 모듈을 사용하세요. 사용하지 않는 gpu cache 를 삭제해야 합니다. `torch.no_grad()` 를 사용도 좋습니다. tensor의 float precision을 줄여도 된다.
+
+하지만 결국 중요한 것은 발생할 때마다 직접 트러블 슈팅을 다루는 능력입니다.
+
+```
+밑바닥 부터 시작하는 딥러닝 3 추천합니다.
+```
 
 
 
@@ -346,18 +408,4 @@ Mnist 클론 코딩을 해보시라 ~
 <br>
 <br>
 
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-
-
-
-# 생각해볼점
-- AutoGrad 작동 방식 을 뜯어봅시다.
-- 
 
