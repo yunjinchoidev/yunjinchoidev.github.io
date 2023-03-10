@@ -1,17 +1,9 @@
 # main links
 main:
-  - title: "Introduce"
+  - title: "ReadMe"
     url: /about/
-  - title: "BoostCamp AITech 5기 "
-    url: "/aitech/"
-  - title: "바닥 딥러닝"
-    url: /deep/
-  - title: "✔️ CV"
-    url: /cv/
-  - title: "✔️ NLP"
-    url: /nlp/
-  - title: "✔️ RecSys"
-    url: /recsys/
+  - title: "AI Tech 5기 회고록"
+    url: "categories/aitech_weekly"
 
 counts: 
   - title: "카테고리"

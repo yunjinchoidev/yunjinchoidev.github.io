@@ -1,0 +1,1091 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Post: 딥러닝의 모든 것(All about Deep Learning) - Reinvent love! - Democratization of Love</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="최윤진">
+  
+  <meta property="article:author" content="최윤진">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Reinvent love! - Democratization of Love">
+<meta property="og:title" content="Post: 딥러닝의 모든 것(All about Deep Learning)">
+<meta property="og:url" content="http://localhost:4000/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-03-09T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2023-03-09T06:20:02+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "자연어 처리 엔지니어 블로그",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Reinvent love! - Democratization of Love Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="'../../../../assets/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/logo.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="../../../../assets/logo.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+
+    
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$'] ],
+      processEscapes: true,
+    }
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+    
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          사랑의 재발명 - NLP로 만들어가는 사랑의 민주화
+          <span class="site-subtitle">자연어 처리 엔지니어 블로그</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">ReadMe</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/aitech_weekly">AI Tech 5기 회고록</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/image/profile/reinventoflove.png" alt="최윤진" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">최윤진</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>사랑의 재발명 ㅤㅤㅤㅤㅤㅤㅤㅤ  사랑의 민주화</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Republic of Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="yunjinchoidev@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/yunjinchoidev" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:yunjinchoidev@gmail.com" rel="me" class="u-email">
+            <meta itemprop="email" content="yunjinchoidev@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">이메일</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">토글 메뉴</label>
+  <ul class="nav__items">
+    <span class="nav__sub-title">카테고리</span>
+    <li>
+      
+        
+          
+        
+          
+        
+          
+            <ul style="padding-top: 0px; padding-bottom: 0px;">
+              <a href="/categories/#aitech-knowledge">
+                <strong style="font-size: 16px;">aitech_knowledge</strong> <span class="taxonomy__count" style="font-size: 14px;">7</span>
+              </a>
+            </ul>
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+            <ul style="padding-top: 0px; padding-bottom: 0px;">
+              <a href="/categories/#aitech-daily">
+                <strong style="font-size: 16px;">aitech_daily</strong> <span class="taxonomy__count" style="font-size: 14px;">5</span>
+              </a>
+            </ul>
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            <ul style="padding-top: 0px; padding-bottom: 0px;">
+              <a href="/categories/#aitech-weekly">
+                <strong style="font-size: 16px;">aitech_weekly</strong> <span class="taxonomy__count" style="font-size: 14px;">2</span>
+              </a>
+            </ul>
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            <ul style="padding-top: 0px; padding-bottom: 0px;">
+              <a href="/categories/#book">
+                <strong style="font-size: 16px;">book</strong> <span class="taxonomy__count" style="font-size: 14px;">1</span>
+              </a>
+            </ul>
+          
+        
+      
+    </li>
+  </ul>
+  
+
+  
+</nav>
+
+    
+  
+
+  
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">토글 메뉴</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">15</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+
+
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">  📌 AI Tech 5기</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/aitech_knowledge" class="">학습 (7)</a></li>
+                    
+                
+                    
+                
+                
+                    
+                
+                    
+                        <li><a href="/categories/aitech_daily" class="">데일리 리뷰 (5)</a></li>
+                    
+                
+                    
+                
+                    
+                
+                
+                    
+                        <li><a href="/categories/aitech_weekly" class="">위클리 리뷰 (2)</a></li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                                                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                     
+            </ul>
+            
+
+            <span class="nav__sub-title"> 📌 ai</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>            
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>        
+
+
+        <span class="nav__sub-title"> 📌 코딩테스트 준비</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+
+            
+
+            <span class="nav__sub-title"> 📌 챗봇 만들기</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+       
+
+            <span class="nav__sub-title"> 📌 책 리뷰</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/book" class="">book(1)</a></li>
+                    
+                
+            </ul>
+
+      </li>
+  </ul>
+</nav>
+  
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Post: 딥러닝의 모든 것(All about Deep Learning)">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2023-03-09T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2023-03-09T06:20:02+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/" class="u-url" itemprop="url">Post: 딥러닝의 모든 것(All about Deep Learning)
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
+              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a><ul><li><a href="#누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</a></li></ul></li><li><a href="#딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</a></li><li><a href="#신경망">신경망</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a><ul><li><a href="#bagging">Bagging</a></li><li><a href="#boosting">Boosting</a></li></ul></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li><li><a href="#cnn">CNN</a><ul><li><a href="#alexnet">AlexNet</a></li><li><a href="#vggnet">VGGNet</a></li><li><a href="#googlenet">GoogleNet</a></li><li><a href="#incept-block">Incept Block</a></li><li><a href="#resnet">ResNet</a></li><li><a href="#densenet">DenseNet</a></li><li><a href="#semantic-segmentation">Semantic Segmentation</a></li><li><a href="#detection-문제">Detection 문제</a></li></ul></li><li><a href="#rnn">RNN</a><ul><li><a href="#lstm">LSTM</a></li><li><a href="#gru">GRU</a></li><li><a href="#transformer">Transformer</a></li></ul></li><li><a href="#gan">GAN</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="딥러닝의-모든-것">딥러닝의 모든 것</h1>
+<p>안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.</p>
+
+<h2 id="누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</h2>
+<p>파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이 좋습니다. 
+</code></pre></div></div>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</h1>
+
+<ul>
+  <li>AlexNet(2012) -&gt; 딥러닝의 가능성을 폭발적으로 알려주었다.</li>
+  <li>DQN (2013) -&gt; 강화학습</li>
+  <li>Encoder / Decoder (2014)</li>
+  <li>Adam (2014) -&gt; 결과가 매우 좋다.</li>
+  <li>GAN, ResNet (2015)</li>
+  <li>Residual Networks (2015) -&gt; 네트워크를 깊게 쌓게 해준다.</li>
+  <li>Transformer (2017) -&gt; 도발적</li>
+  <li>Bert (2018)</li>
+  <li>Big Language Models (GPT)</li>
+  <li>Self-Supervised Learning -&gt; 학습 데이터를 스스로 생성한다.</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="신경망">신경망</h1>
+<p>신경망에서 비선형 함수를 넣어주는 이유가 무얼까? 선형적 함수로만 표현을 하게 되면은 그것은 결국 선형함수 하나로 변환 될 수 있다는 것을 의미한다. 그렇기 때문에 선형적으로 표현할 수 없는 비선형 함수 (예를 들어 활성화 함수) 를 넣어줌으로써 표현력을 극대화하는 것이다.</p>
+
+<p>손실함수의 종류</p>
+<ul>
+  <li>MSE</li>
+  <li>CE</li>
+  <li>MLE</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="bias-and-variance">Bias and Variance</h1>
+<p align="center">
+  <img src="./../../image/aitech/bias.png" alt="*출처: http://scott.fortmann-roe.com*" width="number" /> 
+  <p align="center">*출처: http://scott.fortmann-roe.com*</p>
+</p>
+
+<p>cost를 최소화 한다는 것은 bias, variance, noise 를 최소화하는 것이다.</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="최적화">최적화</h1>
+<p>최적화 이론은 딥러닝에서 매우 중요한 개념입니다. 일반화와 최적화의 균일점을 찾아라 ! 그래서 우리는 cross-validation 을 사용합니다.</p>
+
+<h2 id="bagging">Bagging</h2>
+<p>학습데이터를 여러개를 만들어서 부트스트래핑을 하는것을 말합니다.  부트스트랩이란 ? 수 많은 데이터 중에 랜덤 샘플링을 여러개 만들어서 예측을 하는 것</p>
+<h2 id="boosting">Boosting</h2>
+<p>잘 안되는 데이터에 맞춰서 학습을 여러번 시키는 방법을 말한다.</p>
+
+<h1 id="gradinet-descent">Gradinet Descent</h1>
+<p>어떻게 산 밑으로 내려갈 것인가?</p>
+
+\[W_{t+1} &lt;- Wt - \gamma G_{t}\]
+
+<blockquote>
+  <p>여러가지 테크니션</p>
+  <ul>
+    <li>모멘텀</li>
+    <li>Nesterov Accelerated Gradinet</li>
+    <li>Adagrad</li>
+    <li>Adadelta</li>
+    <li>RMSStop</li>
+    <li>Adam</li>
+  </ul>
+</blockquote>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="regularization">Regularization</h1>
+<p>오버피팅을 방지하시오.</p>
+
+<ul>
+  <li>Early stopping</li>
+  <li>Parameter norm penalty</li>
+  <li>Data augmentation</li>
+  <li>Noise robustness
+    <ul>
+      <li>노이즈를 넣으면 이상하게 잘된다.</li>
+    </ul>
+  </li>
+  <li>Lable smoothing
+    <ul>
+      <li>Cut Mix</li>
+      <li>Cut Out</li>
+      <li>Mixup</li>
+    </ul>
+  </li>
+  <li>Dropout</li>
+  <li>Batch normalizaion</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="cnn">CNN</h1>
+
+<h2 id="alexnet">AlexNet</h2>
+<h2 id="vggnet">VGGNet</h2>
+
+<h2 id="googlenet">GoogleNet</h2>
+<p>1*1 Convolution 은 Dimension 을 줄이기 위해서 사용합니다. (bolttleneck architecture)</p>
+
+<h2 id="incept-block">Incept Block</h2>
+<h2 id="resnet">ResNet</h2>
+<p>skip-connection</p>
+<h2 id="densenet">DenseNet</h2>
+<p>concatenation</p>
+
+<h2 id="semantic-segmentation">Semantic Segmentation</h2>
+<blockquote>
+  <p>Deconvolution 이란? convloution 의 역연산</p>
+</blockquote>
+
+<h2 id="detection-문제">Detection 문제</h2>
+<p>개체 탐지 문제</p>
+
+<ul>
+  <li>
+    <p>RPN
+특정 영역 안에 물체가 존재할 것인가?</p>
+  </li>
+  <li>
+    <p>YOLO V2</p>
+  </li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="rnn">RNN</h1>
+
+<p>시퀀스 데이터의 대표적 문제 -&gt; Language Model 가 있습니다.</p>
+
+<p>Markov model 은 문제가 있다.</p>
+
+<p>그에 대한 해결책으로 Latent autoregressive model 이 나온다. 일반적인 RNN 모델</p>
+
+<p>RNN -&gt; fully connectied ?</p>
+
+<p>RNN -&gt; 과거의 데이터 소실 문제가 있다. 왜냐하면 역전파에서 무한 곱이 이뤄지기 때문이다. 이때 기울기 폭발의 문제가 발생하기도 한다. 그래서 LSTM 이 탄생하게 ㅚ더있따.</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h2 id="lstm">LSTM</h2>
+
+<h2 id="gru">GRU</h2>
+
+<h2 id="transformer">Transformer</h2>
+<p>잘 이해 하시라. 큰 도움 될 겁니다.</p>
+
+<h1 id="gan">GAN</h1>
+
+<blockquote>
+  <p>created By yunjinchoidev ~</p>
+</blockquote>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2023-03-08">March 8, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Post%3A+%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98+%EB%AA%A8%EB%93%A0+%EA%B2%83%28All+about+Deep+Learning%29%20http%3A%2F%2Flocalhost%3A4000%2Faitech_knowledge%2Fpost-%25EB%2594%25A5%25EB%259F%25AC%25EB%258B%259D%25EC%259D%2598-%25EB%25AA%25A8%25EB%2593%25A0%25EA%25B2%2583-copy%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Faitech_knowledge%2Fpost-%25EB%2594%25A5%25EB%259F%25AC%25EB%258B%259D%25EC%259D%2598-%25EB%25AA%25A8%25EB%2593%25A0%25EA%25B2%2583-copy%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Faitech_knowledge%2Fpost-%25EB%2594%25A5%25EB%259F%25AC%25EB%258B%259D%25EC%259D%2598-%25EB%25AA%25A8%25EB%2593%25A0%25EA%25B2%2583-copy%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/aitech_knowledge/post-monitoring/" class="pagination--pager" title="Post: 딥러닝 모니터링(Monintoring) 하기
+">이전</a>
+    
+    
+      <a href="/aitech_daily/post-day05/" class="pagination--pager" title="Post: ai tech -Day05
+">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="permalink">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech_daily/post-day05/" rel="permalink">Post: ai tech -Day05
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech_knowledge/post-monitoring/" rel="permalink">Post: 딥러닝 모니터링(Monintoring) 하기
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech_knowledge/post-Dive-Into-NLP/" rel="permalink">Post: Dive into NLP
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/yunjinchoidev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 자연어 처리 엔지니어 블로그. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNC4SPLJPV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KNC4SPLJPV');
+</script>
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/aitech_knowledge/post-딥러닝의 모든것 copy"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://yunjinchoidev-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

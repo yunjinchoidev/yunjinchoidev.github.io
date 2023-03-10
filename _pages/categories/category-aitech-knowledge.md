@@ -1,11 +1,11 @@
 ---
-title: "aitech-일일 회고"
+title: "aitech-knowledge"
 layout: archive
-permalink: categories/aitech
+permalink: categories/aitech_knowledge
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.aitech %}
+{% assign posts = site.categories.aitech_knowledge %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

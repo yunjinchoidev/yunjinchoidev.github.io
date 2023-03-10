@@ -1,0 +1,1101 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>딥러닝에 필요한 수학적 지식 - Reinvent love! - Democratization of Love</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="최윤진">
+  
+  <meta property="article:author" content="최윤진">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Reinvent love! - Democratization of Love">
+<meta property="og:title" content="딥러닝에 필요한 수학적 지식">
+<meta property="og:url" content="http://localhost:4000/aitech_knowledge/post-aimath/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-03-07T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2023-03-08T06:20:02+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/aitech_knowledge/post-aimath/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "자연어 처리 엔지니어 블로그",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Reinvent love! - Democratization of Love Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="'../../../../assets/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/logo.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="../../../../assets/logo.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+
+    
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$'] ],
+      processEscapes: true,
+    }
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+    
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          사랑의 재발명 - NLP로 만들어가는 사랑의 민주화
+          <span class="site-subtitle">자연어 처리 엔지니어 블로그</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">ReadMe</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/aitech_weekly">AI Tech 5기 회고록</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/image/profile/reinventoflove.png" alt="최윤진" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">최윤진</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>사랑의 재발명 ㅤㅤㅤㅤㅤㅤㅤㅤ  사랑의 민주화</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Republic of Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="yunjinchoidev@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/yunjinchoidev" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:yunjinchoidev@gmail.com" rel="me" class="u-email">
+            <meta itemprop="email" content="yunjinchoidev@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">이메일</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+  
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">토글 메뉴</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">15</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+
+
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">  📌 AI Tech 5기</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/aitech_knowledge" class="">학습 (7)</a></li>
+                    
+                
+                    
+                
+                
+                    
+                
+                    
+                        <li><a href="/categories/aitech_daily" class="">데일리 리뷰 (5)</a></li>
+                    
+                
+                    
+                
+                    
+                
+                
+                    
+                        <li><a href="/categories/aitech_weekly" class="">위클리 리뷰 (2)</a></li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                                                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                     
+            </ul>
+            
+
+            <span class="nav__sub-title"> 📌 ai</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>            
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>        
+
+
+        <span class="nav__sub-title"> 📌 코딩테스트 준비</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+
+            
+
+            <span class="nav__sub-title"> 📌 챗봇 만들기</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+       
+
+            <span class="nav__sub-title"> 📌 책 리뷰</span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/book" class="">book(1)</a></li>
+                    
+                
+            </ul>
+
+      </li>
+  </ul>
+</nav>
+  
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="딥러닝에 필요한 수학적 지식">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2023-03-07T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2023-03-08T06:20:02+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/aitech_knowledge/post-aimath/" class="u-url" itemprop="url">딥러닝에 필요한 수학적 지식
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
+              <ul class="toc__menu"><li><a href="#벡터">벡터</a></li><li><a href="#행렬">행렬</a></li><li><a href="#경사하강법-gradinet-descent">경사하강법 (Gradinet Descent)</a><ul><li><a href="#미분">미분</a></li><li><a href="#그레디언트-벡터gradient-vector">그레디언트 벡터(gradient Vector)</a></li></ul></li><li><a href="#선형회귀-모델에서-경사하강법-적용해보기">선형회귀 모델에서 경사하강법 적용해보기</a></li><li><a href="#미니배치-확률적-경사하강법sgd">미니배치 확률적 경사하강법(SGD)</a></li><li><a href="#딥러닝-학습방법">딥러닝 학습방법</a><ul><li><a href="#소프트맥스">소프트맥스</a></li><li><a href="#활성함수">활성함수</a></li></ul></li><li><a href="#확률론">확률론</a></li><li><a href="#통계학">통계학</a><ul><li><a href="#최대가능도-추정법">최대가능도 추정법</a></li></ul></li><li><a href="#베이즈-통계학">베이즈 통계학</a></li><li><a href="#cnn">CNN</a></li><li><a href="#rnn">RNN</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="벡터">벡터</h1>
+<p>벡터란 뭡니까? 스칼라 다음의 차원을 표시하기 위한 수학 도구입니다.
+$ L_1$ 노름은 변화량읠 절대값을,  $L_2$ 노름은 유클리드 거리를 말합니다</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="행렬">행렬</h1>
+
+<p>행렬에 대해서 알아봅시다. 행렬곱은 행과 열의 조건을 맞춰야 연산가능합니다. 행렬의 곱은 교환법칙이 성립하지 않으니 유의해야 합니다. 
+파이썬에서는 @ 기호를 통해 행렬의 곱을 지원합니다. <code class="language-plaintext highlighter-rouge">np.inner</code> 도 가능합니다.(자동 transpose 지원) <br />
+역행렬은 곱의 연산을 했을 때 항등행렬이 나오는 행렬을 말합니다. 곱의 역원을 의미합니다. <br />
+역행렬은 선형사상과 필요충분조건입니다. (선형대수학에 대한 지식이 필요합니다.) <code class="language-plaintext highlighter-rouge">np.linalg.pinv</code> 모듈을 이용해서 구할 수 있습니다 <br />
+유사 역행렬에는 무어펜로스(Moore-Penrose) 역행렬이 있습니다. 왜냐하면 역행렬을 구하는 것이 쉽지 않기 때문입니다. <br />
+<img src="../../../image/aitech/무어펜로즈.png" alt="무어펜로즈.png" /></p>
+
+<p>행렬은 왜 배우는 것일까요? 연립방정식, 선형회귀 분석에 응용됩니다.<code class="language-plaintext highlighter-rouge">차원이동</code> <code class="language-plaintext highlighter-rouge">연산</code> 을 쉽게 만들어 주기 때문이죠. <br />
+딥러닝을 제대로 이해하기 위해선 ‘선형대수학’을 수준 높게 학습해야 합니다.
+사이킷런의 선형회귀 모델과 무어펜로즈의 선형회귀를 직접 구현보시는 건 어떻습니까? <br /></p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="경사하강법-gradinet-descent">경사하강법 (Gradinet Descent)</h1>
+<p>경사하강법에 대해서 알아봅시다. 우선 기초적인 미분에 대해서 알아볼까요?</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h2 id="미분">미분</h2>
+<p>먼저 미분에 대해서 알아봅시다.
+미분이란 접선의 기울기를 말하죠. 
+<code class="language-plaintext highlighter-rouge">sysmpy.diff</code> 모듈을 이용하여 미분계산이 가능합니다.
+이를 통해서 우리는 주어진 input 데이터가 <strong>어느 차원에서든</strong> 그 점에서 증가하는가, 감소하는가를 알 수 있습니다.
+어느 차원으로 확장한다는 것은 변수를 스칼라가 아닌 벡터와 텐서를 사용한다는 것입니다.</p>
+
+<p>좋습니다. 이제 경사하강법을 알아볼까요? 
+경사하강법이란 기울기가 감소하는 방향으로 쭈욱 가다 <strong>보면</strong> 언젠가 평지를(극소값)을 만날 것입니다. 컴퓨터에서 미분값이 0 인 곳을 찾기란 쉽지 않으므로 아주 작은 값(오메가) 보다 더 미분 값이 작으면 종료하면 됩니다. 이것이 간략한 설명입니다.
+이 때 중요한 것은 어느 만큼의 보폭으로 갈 것이냐입니다. 이것은 하이퍼 파라메터로 즉 학습률입니다.
+변수가 스칼라가 아니라 벡터라면 편미분을 하면 됩니다. 
+모든 데이터를 사용하는 것은 고전적인 방법입니다. 이것은 성능이 좋지 않고 하드웨어에 부담이 갑니다. 시간도 많이 걸리죠. 
+조금의 데이터만 이용해서 경사를 갱신하는 것을 SGD 라고 합니다. 이 방법은 최근 많이 사용하는 방법입니다.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h2 id="그레디언트-벡터gradient-vector">그레디언트 벡터(gradient Vector)</h2>
+<p>함수의 벡터 변수 별로 편미분을 계산한 함수를 말합니다.
+계산식은 이렇게 됩니다. 
+<img src="../../../image/aitech/gradient.png" alt="gradient" />
+그레디언트 벡터에 - 를 붙여서 이동하게 되면 <strong>가장 빨리</strong> 극소값을 향해 가게 되는 겁니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>그레디언트 벡터의 `norm` 값을 구해서 일정 값보다 작게 되면 학습을 종료하는 방식으로 극소값을 찾으면 된다.
+(계속 내려가다가 더 이상 변화가 없는 것 같아. -&gt; 일단 멈춰!)
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="선형회귀-모델에서-경사하강법-적용해보기">선형회귀 모델에서 경사하강법 적용해보기</h1>
+<p>선형 모델을 구할 때 무어 펜로즈 행렬을 사용할수 도 있습니다. <br />
+하지만 우리는 무어펜로즈 행렬을 곱해서 나온 우변 식을 경사하강법을 하지 않고 오직 경사 하강법을 적용시켜 극소값이 되는 지점을 찾는 것이다.<br />
+$y-y$ 의 값을 미분해서 학습률을 곱해 에포크동안 최소화 지키다는 것입니다. <br /></p>
+
+<p>직접 계산해봅시다. 학습률과 학습횟수를 적절하게 선택했을 때만 수렴을 보장할 수 있습니다. 비선형회귀의 경우, 볼록하지 않기 때문에 수렴을 보장할 수 없다. (왜 불가능한가? 고민해봅시다.)</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="미니배치-확률적-경사하강법sgd">미니배치 확률적 경사하강법(SGD)</h1>
+<p>데이터를 일부 사용해서 경사하강법을 적용하는 방식을 말합니다. 경험적으로 좋다는 것이 밝혀져 있습니다.  SGD 가 경사하강법보다 낫다는 것이 실증적으로 검증되었다. 데이터를 나눠서 epoch 를 반복하여 학습하는 것을 말합니다. 데이터를 일부로 사용하기 때문에 목적식이 매번 달라집니다.
+학습률, 미니배치사이즈가 하이퍼 파라메터입니다.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="딥러닝-학습방법">딥러닝 학습방법</h1>
+<p>이제 비선형모델인 신경망을 도전해봅시다.먼저 소프트 맥스 함수 부터 알아보지요.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h2 id="소프트맥스">소프트맥스</h2>
+<p>모델의 출력을 확률로 해석하여 확률 벡터로 변환하는 함수입니다. 가장 큰 값이 예측값이 되는 것입니다.
+신경망은 <strong>선형모델과 활성함수를 합성한 함수</strong>입니다. 이러한 layer들은 잠재벡터들의 누적하게 되고 마지막 공간에 활성화 함수를 적용하는 것입니다.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h2 id="활성함수">활성함수</h2>
+<p>R 위에 정의된 비선형 함수입니다. 활성함수를 쓰지 않으면 딥러닝은 선형모형과 차이가 없습니다. 대표적으로 Relu, tanh, sigmoid 가 있습니다.
+순전파는 주어진 신경망 계산을 하는 것을 말합니다. 이 때 우리는 왜 여러 계층을 사용하는 걸까요? 왜 층을 여러개 쌓는가? 수학적으로 계층이 3개 이상만 있으면 임의의 연속함수를 근사할 수 있다는 것이 증명되어 있다. ‘세계’를 표현할 수 있는 것이죠.  역전파는 경사하강법을 이용해서 가중치를 업데이트 하는 것을 말합니다.  위층부터 저층으로 그레디어트 벡터를 전달해야 함(연쇄법칙) 메모리에 저장해서 사용해야 합니다. tensorflow, pytorch 에는 자동 구현되어 있습니다.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="확률론">확률론</h1>
+<p>확률론은 딥러닝에서 대단히 중요합니다. 딥러닝은 확률론 기반의 기계학습 이론에 바탕을 두고 있다.
+확률론이 중요한 이유를 알아봅시다.  <code class="language-plaintext highlighter-rouge">분류</code> 문제 에서 예측 오차의 분산을 최소화하고 <code class="language-plaintext highlighter-rouge">교차 엔트로피</code> 문제에서 모델 예측의 불확실성을 최소화하는데 쓰입니다. 확률 분포는 데이터의 초상화입니다. 확률은 면적입니다. 이산 확률 변수에서는 시그마 급수, 연속 확률 변수에서는 연속 확률을 적분하는 것을 말합니다. 목표는 데이터의(표본) 확률 분포를 가지고 -&gt; 실제 (모집단)의 확률 분포를 추정하는 것입니다. 
+<strong>몬테카를로 샘플링</strong>은 데이터(샘플링)를 통해 기댓값을 계산하는 방법을 말합니다. 대수의 법칙을 통해 수렴성을 보장합니다.</p>
+
+<ul>
+  <li>주변확률분포</li>
+  <li>통계값(모수)
+    <ul>
+      <li>기댓값</li>
+      <li>분산</li>
+      <li>첨도</li>
+      <li>공분산</li>
+      <li>조건부확률</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
+
+def monte(fun, low, high, sample_size=100, repeat=10):
+    int_len = np.abs(high - low)
+    stat = []
+
+    for _ in range(repeat):
+        x = np.random.uniform(low=low, high=high, size=sample_size)
+        fun_x = fun(x)
+        int_val = int_len * np.mean(fun_x)
+        stat.append(int_val)
+
+    return np.mean(stat), np.std(stat)
+
+
+- 주어진 함수
+def f_x(x):
+    return np.exp(-x**2)
+
+
+print(monte(f_x, low=-1, high=1, sample_size=1000, repeat=100))
+
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="통계학">통계학</h1>
+<p>통계적 모델링 확률분포를 추정하는 것입니다. 그 중 모수를 추정한다는 것은 확률분포의 특성값(모수)를 추정한다는 것이죠. 모수적 방법론은 특정 확률 분포를 가정 한 후 모수를 추정하는 것이며, 비모수적 방법론은 가정 없이 추정하는 것입니다.
+모수적 방법론의 과정은 다음과 같은 순서가 될 것입니다. <br />
+<code class="language-plaintext highlighter-rouge">데이터 관찰 -&gt; 확률 분포 가정 -&gt; 평균, 분산 추정 -&gt; 모수 집단 추청</code></p>
+
+<p>데이터를 관찰하고 확률 분포를 가정합니다.</p>
+
+<ul>
+  <li>베르누이 분포</li>
+  <li>카테고리 분포</li>
+  <li>베타 분포</li>
+  <li>감마분포, 로그정규분포</li>
+  <li>정규분포, 라플라스분포</li>
+</ul>
+
+<p>가 있습니다. 하나 하나가 공부해 볼 가치가 있는 것들이죠.</p>
+
+<p>중심극한정리는 표뵨 평균의 표집분포는 N이 커질수록 정규분포를 따른다는 것을 말합니다.
+<code class="language-plaintext highlighter-rouge">표집분포는 통계량의 확률분포를 말합니다.</code></p>
+
+<h2 id="최대가능도-추정법">최대가능도 추정법</h2>
+<p>매우 중요합니다. <code class="language-plaintext highlighter-rouge">최대가능도 추정법</code>에 대해 공부해봅시다.
+가능도란 무엇일까요? <strong>모수 쌔타 분포에서 데이터 x 를 발견할 가능성.</strong> 을 말합니다.
+그렇다면 자연스럽게  <strong>가장 가능성이 높은 모수를 추정하는 방법</strong> 은 최대 가능성 추정법이 되겠죠.
+즉, 데이터가 많이 모인 상황에서 <code class="language-plaintext highlighter-rouge">특정 데이터의 분포</code> 를 가정하고 <code class="language-plaintext highlighter-rouge">제일 가능성 높은</code> 모수를 추정하는 것이라는 말입니다.
+정답 확률분포와 모델 추정 확률분포 손실함수 구해서 학습을 시킵시다. 딥러닝의 방법이 도입되는 것이죠.</p>
+
+<p>딥러닝에서 최대가능도 추정법을 자세히 알아봅시다. 우리는 신경망의 마지막 계층에 소프트맥스 벡터를 적용시켜주게 됩니다. 이것은 신경망의 마지막 발산 값이 카테고리 분포라고 할 수 있는 것 인데요. 두 개의 확률분포의 손실함수를 학습시키면 됩니다. 이 식은 쿨백-라이블러 발산을 최소화하는 것과 같습니다. 요약하자면 분류 문제에서 정답레이블을 P, 모델 예측을 Q 라 두면 최대가능도 추정법은 쿨백-라이블러 발산을 최소화하는 것과 같습니다.</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=XhlfVtGb19c">설명링크</a></li>
+  <li><a href="https://angeloyeo.github.io/2020/07/17/MLE.html">설명블로그</a></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>확률과 가능도의 차이 ? 
+  확률 : 이 사건이 일어날 경우의 수를 전체 사건의 수로 나눈 것.
+  가능도 : 지금 얻은 데이터가 이 분포에서 나왔을 가능도
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>쿨백-라이블러 발산 이란?
+
+쿨백-라이블러 발산(Kullback-Leibler divergence) 은 두 확률분포 p(y), q(y) 의 분포모양이 얼마나 다른지를 숫자로 계산한 값입니다.
+그 값은 항상 양수이며 두 확률분포 완전히 같을 경우에만 0이 된다.교차엔트로피 개념을 이해할 필요가 있습니다.
+</code></pre></div></div>
+
+<p>생각해보세요. 과연 어떻게 할까?</p>
+
+<ul>
+  <li>정규분포에서 최대 가능도 추정</li>
+  <li>카테고리 분포에서 최대 가능도 추정</li>
+</ul>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="베이즈-통계학">베이즈 통계학</h1>
+<p>조건부 확률을 이용하면 정보를 갱신하는 방법을 알 수 있습니다. A 라는 사건이 추가로 주어졌을 때 B 가 일어날 확률은  다음과 같습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>B가 일어날 확률 * P(A|B) P(A)
+</code></pre></div></div>
+
+<ul>
+  <li>사후확률 = 사전확률 * 가능도/증거</li>
+  <li>1종 오류, 2종 오류</li>
+  <li>갱신된 사후확률을 계산 할 수 있다. (연속된 계산) (ex. 두번 검진)
+    <ul>
+      <li>정확도를 높일 수 있다.</li>
+    </ul>
+  </li>
+  <li>조건부 확률을 토대로 인과관계를 함부로 추론해서는 안된다.
+    <ul>
+      <li>데이터에 따라 달라질 수 있기 때문임.</li>
+      <li>중첩효과를 제거해서 가짜 연관관계를 제거해야 함.</li>
+      <li>인과관계를 뒷받침하는 모델로서 작동하는 조건부확률</li>
+    </ul>
+  </li>
+  <li>상관관계와 인과관계는 다르다.
+    <ul>
+      <li>키와 지능의 연관관계
+        <ul>
+          <li>상관관계 성림</li>
+          <li>인과관계는 성립하지 않음.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>베이즈 추정법
+    <ul>
+      <li>베이즈 추정법(Bayesian estimation)은 모숫값이 가질 수 있는 모든 가능성의 분포를 계산하는 작업이다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="cnn">CNN</h1>
+<p>CNN은 이미지 연산에서 많이 사용하는 모델입니다. 국소적 증폭, 국소적 증감을 만들어낼 수 있습니다. 또 여러 차원에서 적용이 가능합니다. 채널이 여러개인 경우 커널의 채널 수와 입력의 채널수가 같아야 합니다. 순전파는 커널을 벡터상에서 움직여 함성함수를 적용합니다.역전파는 어떻게 적용하는 것일까요? 생각해봅시다.Convolution 연산에서 어떻게 역전파를 적용할 껀가요? 다음 자료를 참고해보세요.</p>
+
+<p><a href="https://ratsgo.github.io/deep%20learning/2017/04/05/CNNbackprop/">참고자료</a></p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="rnn">RNN</h1>
+<p>Recurrent Natural Network. RNN 입니다. 시퀀스데이터는 연속적인 데이터를 말하는데요. 발생 순서가 기록되어 있는 데이터입니다. 가령, 주가데이터나 학년별 성적표 같은 것이 해당 될 수 있겠죠. 시퀀스 데이터의 특징은 다음과 같습니다.</p>
+<ul>
+  <li><strong>독립 동등 분포를 위배한다.</strong></li>
+  <li><strong>데이터의 순서가 중요하다.</strong></li>
+  <li><strong>과거의 데이터가 중요하다</strong>.</li>
+  <li><strong>하지만 모든 과거 데이터가 필요한 것은 아님</strong>  =&gt; 그 유명한 어텐션 모델의 탄생 (<code class="language-plaintext highlighter-rouge">Attention all you need)</code></li>
+</ul>
+
+<p>시퀀스데이터에서 조건부확률에 대해서 생각해봅시다. 시퀀스데이터는 과거의 데이터가 지속적으로 영향을 주게 되는데 이 때 모든 값을 다 고려하여 다뤄야 합니다. 즉 시간에 따라서 가변적인 데이터를 다뤄야 한다는 것을 의미하죠. 이 것 또한 특정 함수의 식이라고 한다면 고정 데이터로 바꿀 수 있습니다.</p>
+
+<p>RNN 에서 역전파는 BPTT(Backprogaion Throgh Time) 을 사용합니다. BPTT 미분은 매우 복잡하다.</p>
+
+<ul>
+  <li><a href="https://davi06000.tistory.com/92">링크1</a></li>
+  <li><a href="https://mmuratarat.github.io/2019-02-07/bptt-of-rnn">링크2</a></li>
+</ul>
+
+<p>이 두 자료를 한번 보도록 하십시요.</p>
+
+<p>RNN 에서의 역전파는 수식의 특성상 기울기 소실 문제가 발생합니다. 과거 데이터를 반영하지 못하는 것이죠. 자연스럽게 LSTM, GRU 와 같은 고급 모델이 탄생은 필연적이었습니다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2023-03-07">March 7, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%97%90+%ED%95%84%EC%9A%94%ED%95%9C+%EC%88%98%ED%95%99%EC%A0%81+%EC%A7%80%EC%8B%9D%20http%3A%2F%2Flocalhost%3A4000%2Faitech_knowledge%2Fpost-aimath%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Faitech_knowledge%2Fpost-aimath%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Faitech_knowledge%2Fpost-aimath%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/aitech_daily/post-day02/" class="pagination--pager" title="Post: ai tech - Day02
+">이전</a>
+    
+    
+      <a href="/aitech_knowledge/post-python/" class="pagination--pager" title="Post: Python 정리
+">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="permalink">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech_daily/post-day05/" rel="permalink">Post: ai tech -Day05
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/" rel="permalink">Post: 딥러닝의 모든 것(All about Deep Learning)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/aitech_knowledge/post-monitoring/" rel="permalink">Post: 딥러닝 모니터링(Monintoring) 하기
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/yunjinchoidev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 자연어 처리 엔지니어 블로그. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNC4SPLJPV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KNC4SPLJPV');
+</script>
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/aitech_knowledge/post-aimath/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/aitech_knowledge/post-aimath"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://yunjinchoidev-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
