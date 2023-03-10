@@ -80,6 +80,12 @@ NLP 는 최근 들어서 급속도로 연구되고 발전하고 있는 분야입
 ## Tokenization
 ## stemming
 
+## 한국어 자연어 처리 모델
+- KoNLPy
+- 카카오
+- 은전한닢
+- KT~
+
 
 # [고전] - BOW(Bag of Words)
 단어들의 순서를 고려하지 않습니다. 출현 빈도만 고려해서 텍스트를 분석하는 기법을 말합니다. 
@@ -91,6 +97,59 @@ NLP 는 최근 들어서 급속도로 연구되고 발전하고 있는 분야입
 
 # [고전] - TF-IDF(Term Frequency - Inverse Document Frequency)
 
+특정 문서에 특정 단어가 얼만큼 있는지 값을 표현하는 것.
+TF(단어 빈도, term frequency)
+특정 단어가 문서 내에 얼마나 자주 등장하는 지 ? 
+DF(문서 빈도, document frequency)
+단어 자체가 전체 문서에서 사용되는 지
+One hot encoding 으로 표현합니다. -> 단어 간의 유사성을 파악하지 못하는 문제가 있습니다. 
 
 # Word Embedding 
-- 
+현대 nlp의 근간이 되는 기술입니다.
+
+```
+연관성 있는 단어들을 군집화하여 multi-dimension 공간에 vector 로 표시
+단어나 문장을 vector space 로 끼워 넣음 (embedding)
+```
+
+k 번째 단어인 one hot encoding 와 word embedding matrix 를 곱하면 k 번째 로우가 k 번째 단어를 설명하는 weigts 가 된다. 
+
+# Word2Vec
+구글이 2013년 개발했습니다. -> by 비지도학습
+중심단어로부터 주변단어를, 주변단어로부터 중심 단어를 임베딩 시키는 방식으로 학습합니다. 그 코사인 유사도가 유사하도록 한다.
+
+# Glove(Global Vectors for Word Representation)
+2014, Stanford
+말뭉치 전체를 고려한 word embeding
+
+# FastText
+2016, Facebook
+희소한 단어가 학습되지 않는 문제점을 해겼다. 다양한 용언을 가진 한국어의 특성에 잘 맞습니다. 
+
+
+# RNN
+시퀀스데이터 
+history 전달
+
+# LSTM
+새로운 입력을 어떻게 받을 것인지 forget gate, update gate, output gate 가 있수다. 
+
+
+# GRU
+lstm의 gate 를 하나로 줄인것.
+
+
+# Sentiment Analysis
+
+
+# NER
+
+
+# Language Model
+
+
+# Transformers 
+
+
+# Transfer Learning
+
