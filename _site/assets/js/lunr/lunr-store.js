@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 1주차",
-        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 1주차 정리 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 파이썬 기초 강의, ai math 강의를 들었습니다. 선형대수학 전공강의를 들었음에도 잘 생각이 나지 않아서 전공책으로 다시 공부해야 겠다는 생각이 들었습니다. 경사하강법, 오차역전파를 공부하며 선형대수학이 DL 에 중요한 이유를 확실히 깨달았습니다....","categories": ["aitech"],
+        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차 정리] 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 파이썬 기초 강의, ai math 강의를 들었습니다. 선형대수학 전공강의를 들었음에도 잘 생각이 나지 않아서 전공책으로 다시 공부해야 겠다는 생각이 들었습니다. 경사하강법, 오차역전파를 공부하며 선형대수학이 DL 에 중요한 이유를 확실히 깨달았습니다....","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
