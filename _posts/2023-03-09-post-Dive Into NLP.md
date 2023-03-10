@@ -131,6 +131,13 @@ k 번째 단어인 one hot encoding 와 word embedding matrix 를 곱하면 k �
 시퀀스데이터 
 history 전달
 
+
+- one to one -> 이미지 분류
+- one to many -> 이미지로부터 문장 생성, 작곡
+- many to one -> 감성 분석, 생성 모델
+- many to many -> 기계 번역, 챗봇, Q&A
+
+
 # LSTM
 새로운 입력을 어떻게 받을 것인지 forget gate, update gate, output gate 가 있수다. 
 
@@ -139,17 +146,47 @@ history 전달
 lstm의 gate 를 하나로 줄인것.
 
 
+
 # Sentiment Analysis
 
 
-# NER
+# NER (개체 인식)
 
 
 # Language Model
+- 이전으로부터 다음을 예측하기
+- 
+```
+  기계 번역
+  Qna
+  chatbot
+  speech recognition
+  text summarization
+  text to speech(tts)
+  image caption
+```
+
+# Seq2Seq(Encoder-decoder)
+Machine Translate 분야에 사용된다.
+
+## 챗봇을 만들어보자.
+
+
+## 기계 번역 평가 알고리즘
+- BLUE
+- 
 
 
 # Transformers 
+2017 - Transformer
+현재 딥러닝은 트랜스포머 이전과 이후라 나뉩니다.
+# Transfer Learning (전이학습)
 
+# ELMO
+- 마지막 RNN 모델ㅇ
 
-# Transfer Learning
+# BERT
+2018 - Bert
 
+# GPT
+2020 - GPT 3

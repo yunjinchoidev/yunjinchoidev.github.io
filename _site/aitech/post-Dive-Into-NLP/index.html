@@ -165,9 +165,13 @@
             </li><li class="masthead__menu-item">
               <a href="/aitech/">BoostCamp AITech 5기 </a>
             </li><li class="masthead__menu-item">
-              <a href="/deep/">바닥부터 만드는 딥러닝</a>
+              <a href="/deep/">바닥 딥러닝</a>
             </li><li class="masthead__menu-item">
-              <a href="/nlp/">Dive into NLP</a>
+              <a href="/cv/">✔️ CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/nlp/">✔️ NLP</a>
+            </li><li class="masthead__menu-item">
+              <a href="/recsys/">✔️ RecSys</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -350,7 +354,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#dive-into-nlp">Dive Into NLP</a></li><li><a href="#자연어처리의-주요-분야">자연어처리의 주요 분야</a><ul><li><a href="#1-nlp-acl-emnlp-naacl">1. NLP (ACL, EMNLP, NAACL)</a></li><li><a href="#2-text-mining-kdd-www-wsdm-cikm-icwsm">2. Text mining (KDD, WWW, WSDM, CIKM, ICWSM)</a></li><li><a href="#3-information-retieval-sigir-wsdm-cikm-recsys">3. Information retieval (SIGIR, WSDM, CIKM, RecSys)</a></li></ul></li><li><a href="#nlp-의-역사">NLP 의 역사</a></li><li><a href="#문장-분해하기">문장 분해하기</a><ul><li><a href="#tokenization">Tokenization</a></li><li><a href="#stemming">stemming</a></li><li><a href="#한국어-자연어-처리-모델">한국어 자연어 처리 모델</a></li></ul></li><li><a href="#고전---bowbag-of-words">[고전] - BOW(Bag of Words)</a><ul><li><a href="#나이브-베이즈-분류기">나이브 베이즈 분류기</a></li></ul></li><li><a href="#고전---tf-idfterm-frequency---inverse-document-frequency">[고전] - TF-IDF(Term Frequency - Inverse Document Frequency)</a></li><li><a href="#word-embedding">Word Embedding</a></li><li><a href="#word2vec">Word2Vec</a></li><li><a href="#gloveglobal-vectors-for-word-representation">Glove(Global Vectors for Word Representation)</a></li><li><a href="#fasttext">FastText</a></li><li><a href="#rnn">RNN</a></li><li><a href="#lstm">LSTM</a></li><li><a href="#gru">GRU</a></li><li><a href="#sentiment-analysis">Sentiment Analysis</a></li><li><a href="#ner">NER</a></li><li><a href="#language-model">Language Model</a></li><li><a href="#transformers">Transformers</a></li><li><a href="#transfer-learning">Transfer Learning</a></li></ul>
+              <ul class="toc__menu"><li><a href="#dive-into-nlp">Dive Into NLP</a></li><li><a href="#자연어처리의-주요-분야">자연어처리의 주요 분야</a><ul><li><a href="#1-nlp-acl-emnlp-naacl">1. NLP (ACL, EMNLP, NAACL)</a></li><li><a href="#2-text-mining-kdd-www-wsdm-cikm-icwsm">2. Text mining (KDD, WWW, WSDM, CIKM, ICWSM)</a></li><li><a href="#3-information-retieval-sigir-wsdm-cikm-recsys">3. Information retieval (SIGIR, WSDM, CIKM, RecSys)</a></li></ul></li><li><a href="#nlp-의-역사">NLP 의 역사</a></li><li><a href="#문장-분해하기">문장 분해하기</a><ul><li><a href="#tokenization">Tokenization</a></li><li><a href="#stemming">stemming</a></li><li><a href="#한국어-자연어-처리-모델">한국어 자연어 처리 모델</a></li></ul></li><li><a href="#고전---bowbag-of-words">[고전] - BOW(Bag of Words)</a><ul><li><a href="#나이브-베이즈-분류기">나이브 베이즈 분류기</a></li></ul></li><li><a href="#고전---tf-idfterm-frequency---inverse-document-frequency">[고전] - TF-IDF(Term Frequency - Inverse Document Frequency)</a></li><li><a href="#word-embedding">Word Embedding</a></li><li><a href="#word2vec">Word2Vec</a></li><li><a href="#gloveglobal-vectors-for-word-representation">Glove(Global Vectors for Word Representation)</a></li><li><a href="#fasttext">FastText</a></li><li><a href="#rnn">RNN</a></li><li><a href="#lstm">LSTM</a></li><li><a href="#gru">GRU</a></li><li><a href="#sentiment-analysis">Sentiment Analysis</a></li><li><a href="#ner-개체-인식">NER (개체 인식)</a></li><li><a href="#language-model">Language Model</a></li><li><a href="#seq2seqencoder-decoder">Seq2Seq(Encoder-decoder)</a><ul><li><a href="#챗봇을-만들어보자">챗봇을 만들어보자.</a></li><li><a href="#기계-번역-평가-알고리즘">기계 번역 평가 알고리즘</a></li></ul></li><li><a href="#transformers">Transformers</a></li><li><a href="#transfer-learning-전이학습">Transfer Learning (전이학습)</a></li><li><a href="#elmo">ELMO</a></li><li><a href="#bert">BERT</a></li><li><a href="#gpt">GPT</a></li></ul>
 
             </nav>
           </aside>
@@ -472,6 +476,13 @@ One hot encoding 으로 표현합니다. -&gt; 단어 간의 유사성을 파악
 <p>시퀀스데이터 
 history 전달</p>
 
+<ul>
+  <li>one to one -&gt; 이미지 분류</li>
+  <li>one to many -&gt; 이미지로부터 문장 생성, 작곡</li>
+  <li>many to one -&gt; 감성 분석, 생성 모델</li>
+  <li>many to many -&gt; 기계 번역, 챗봇, Q&amp;A</li>
+</ul>
+
 <h1 id="lstm">LSTM</h1>
 <p>새로운 입력을 어떻게 받을 것인지 forget gate, update gate, output gate 가 있수다.</p>
 
@@ -480,14 +491,49 @@ history 전달</p>
 
 <h1 id="sentiment-analysis">Sentiment Analysis</h1>
 
-<h1 id="ner">NER</h1>
+<h1 id="ner-개체-인식">NER (개체 인식)</h1>
 
 <h1 id="language-model">Language Model</h1>
+<ul>
+  <li>이전으로부터 다음을 예측하기</li>
+  <li>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  기계 번역
+  Qna
+  chatbot
+  speech recognition
+  text summarization
+  text to speech(tts)
+  image caption
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="seq2seqencoder-decoder">Seq2Seq(Encoder-decoder)</h1>
+<p>Machine Translate 분야에 사용된다.</p>
+
+<h2 id="챗봇을-만들어보자">챗봇을 만들어보자.</h2>
+
+<h2 id="기계-번역-평가-알고리즘">기계 번역 평가 알고리즘</h2>
+<ul>
+  <li>BLUE</li>
+  <li></li>
+</ul>
 
 <h1 id="transformers">Transformers</h1>
+<p>2017 - Transformer
+현재 딥러닝은 트랜스포머 이전과 이후라 나뉩니다.</p>
+<h1 id="transfer-learning-전이학습">Transfer Learning (전이학습)</h1>
 
-<h1 id="transfer-learning">Transfer Learning</h1>
+<h1 id="elmo">ELMO</h1>
+<ul>
+  <li>마지막 RNN 모델ㅇ</li>
+</ul>
 
+<h1 id="bert">BERT</h1>
+<p>2018 - Bert</p>
+
+<h1 id="gpt">GPT</h1>
+<p>2020 - GPT 3</p>
 
         
       </section>

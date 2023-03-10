@@ -1,6 +1,6 @@
 ---
 permalink: /nlp/
-title: "Dive Into NLP"
+title: "NLP"
 toc: true
 toc_sticky: true
 toc_label: "목차"
