@@ -77,6 +77,12 @@ var store = [{
         "url": "/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/",
         "teaser": null
       },{
+        "title": "Post: 선형대수학",
+        "excerpt":"   선형대수학     선형 대   ","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/",
+        "teaser": null
+      },{
         "title": "Post: ai tech -Day05 ",
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
