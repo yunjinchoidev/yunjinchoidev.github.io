@@ -335,7 +335,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          최대 1 분 소요
+          1 분 소요
         
       </span>
     
@@ -350,7 +350,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a></li><li><a href="#누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</a></li><li><a href="#딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</a></li><li><a href="#신경망">신경망</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a><ul><li><a href="#bagging">Bagging</a></li><li><a href="#boosting">Boosting</a></li></ul></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li><li><a href="#cnn">CNN</a><ul><li><a href="#alexnet">AlexNet</a></li><li><a href="#vggnet">VGGNet</a></li><li><a href="#googlenet">GoogleNet</a></li></ul></li><li><a href="#rnn">RNN</a></li><li><a href="#gan">GAN</a></li></ul>
+              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a><ul><li><a href="#누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</a></li></ul></li><li><a href="#딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</a></li><li><a href="#신경망">신경망</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a><ul><li><a href="#bagging">Bagging</a></li><li><a href="#boosting">Boosting</a></li></ul></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li><li><a href="#cnn">CNN</a><ul><li><a href="#alexnet">AlexNet</a></li><li><a href="#vggnet">VGGNet</a></li><li><a href="#googlenet">GoogleNet</a></li><li><a href="#incept-block">Incept Block</a></li><li><a href="#resnet">ResNet</a></li><li><a href="#densenet">DenseNet</a></li><li><a href="#semantic-segmentation">Semantic Segmentation</a></li><li><a href="#detection-문제">Detection 문제</a></li></ul></li><li><a href="#rnn">RNN</a><ul><li><a href="#lstm">LSTM</a></li><li><a href="#gru">GRU</a></li><li><a href="#transformer">Transformer</a></li></ul></li><li><a href="#gan">GAN</a></li></ul>
 
             </nav>
           </aside>
@@ -360,11 +360,13 @@
 <h1 id="딥러닝의-모든-것">딥러닝의 모든 것</h1>
 <p>안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.</p>
 
-<h1 id="누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</h1>
+<h2 id="누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</h2>
 <p>파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이 좋습니다. 
 </code></pre></div></div>
+
+<p><br /><br /><br /><br /></p>
 
 <h1 id="딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</h1>
 
@@ -381,6 +383,8 @@
   <li>Self-Supervised Learning -&gt; 학습 데이터를 스스로 생성한다.</li>
 </ul>
 
+<p><br /><br /><br /><br /></p>
+
 <h1 id="신경망">신경망</h1>
 <p>신경망에서 비선형 함수를 넣어주는 이유가 무얼까? 선형적 함수로만 표현을 하게 되면은 그것은 결국 선형함수 하나로 변환 될 수 있다는 것을 의미한다. 그렇기 때문에 선형적으로 표현할 수 없는 비선형 함수 (예를 들어 활성화 함수) 를 넣어줌으로써 표현력을 극대화하는 것이다.</p>
 
@@ -391,6 +395,8 @@
   <li>MLE</li>
 </ul>
 
+<p><br /><br /><br /><br /></p>
+
 <h1 id="bias-and-variance">Bias and Variance</h1>
 <p align="center">
   <img src="./../../image/aitech/bias.png" alt="*출처: http://scott.fortmann-roe.com*" width="number" /> 
@@ -398,6 +404,8 @@
 </p>
 
 <p>cost를 최소화 한다는 것은 bias, variance, noise 를 최소화하는 것이다.</p>
+
+<p><br /><br /><br /><br /></p>
 
 <h1 id="최적화">최적화</h1>
 <p>최적화 이론은 딥러닝에서 매우 중요한 개념입니다. 일반화와 최적화의 균일점을 찾아라 ! 그래서 우리는 cross-validation 을 사용합니다.</p>
@@ -424,8 +432,10 @@
   </ul>
 </blockquote>
 
+<p><br /><br /><br /><br /></p>
+
 <h1 id="regularization">Regularization</h1>
-<p>오버피팅을 방지하라 !</p>
+<p>오버피팅을 방지하시오.</p>
 
 <ul>
   <li>Early stopping</li>
@@ -447,18 +457,62 @@
   <li>Batch normalizaion</li>
 </ul>
 
+<p><br /><br /><br /><br /></p>
+
 <h1 id="cnn">CNN</h1>
-
-<p>Continuous convolution</p>
-
-<p>1*1 Convolution 은 Dimension 을 줄이기 위해서 사용합니다. (bolttleneck architecture)</p>
 
 <h2 id="alexnet">AlexNet</h2>
 <h2 id="vggnet">VGGNet</h2>
 
 <h2 id="googlenet">GoogleNet</h2>
+<p>1*1 Convolution 은 Dimension 을 줄이기 위해서 사용합니다. (bolttleneck architecture)</p>
+
+<h2 id="incept-block">Incept Block</h2>
+<h2 id="resnet">ResNet</h2>
+<p>skip-connection</p>
+<h2 id="densenet">DenseNet</h2>
+<p>concatenation</p>
+
+<h2 id="semantic-segmentation">Semantic Segmentation</h2>
+<blockquote>
+  <p>Deconvolution 이란? convloution 의 역연산</p>
+</blockquote>
+
+<h2 id="detection-문제">Detection 문제</h2>
+<p>개체 탐지 문제</p>
+
+<ul>
+  <li>
+    <p>RPN
+특정 영역 안에 물체가 존재할 것인가?</p>
+  </li>
+  <li>
+    <p>YOLO V2</p>
+  </li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
 
 <h1 id="rnn">RNN</h1>
+
+<p>시퀀스 데이터의 대표적 문제 -&gt; Language Model 가 있습니다.</p>
+
+<p>Markov model 은 문제가 있다.</p>
+
+<p>그에 대한 해결책으로 Latent autoregressive model 이 나온다. 일반적인 RNN 모델</p>
+
+<p>RNN -&gt; fully connectied ?</p>
+
+<p>RNN -&gt; 과거의 데이터 소실 문제가 있다. 왜냐하면 역전파에서 무한 곱이 이뤄지기 때문이다. 이때 기울기 폭발의 문제가 발생하기도 한다. 그래서 LSTM 이 탄생하게 ㅚ더있따.</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h2 id="lstm">LSTM</h2>
+
+<h2 id="gru">GRU</h2>
+
+<h2 id="transformer">Transformer</h2>
+<p>잘 이해 하시라. 큰 도움 될 겁니다.</p>
 
 <h1 id="gan">GAN</h1>
 

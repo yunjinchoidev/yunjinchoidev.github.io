@@ -350,15 +350,92 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#dive-into-nlp">Dive Into NLP</a></li></ul>
+              <ul class="toc__menu"><li><a href="#dive-into-nlp">Dive Into NLP</a></li><li><a href="#자연어처리의-주요-분야">자연어처리의 주요 분야</a><ul><li><a href="#1-nlp-acl-emnlp-naacl">1. NLP (ACL, EMNLP, NAACL)</a></li><li><a href="#2-text-mining-kdd-www-wsdm-cikm-icwsm">2. Text mining (KDD, WWW, WSDM, CIKM, ICWSM)</a></li><li><a href="#3-information-retieval-sigir-wsdm-cikm-recsys">3. Information retieval (SIGIR, WSDM, CIKM, RecSys)</a></li></ul></li><li><a href="#nlp-의-역사">NLP 의 역사</a></li><li><a href="#문장-분해하기">문장 분해하기</a><ul><li><a href="#tokenization">Tokenization</a></li><li><a href="#stemming">stemming</a></li></ul></li><li><a href="#고전---bowbag-of-words">[고전] - BOW(Bag of Words)</a><ul><li><a href="#나이브-베이즈-분류기">나이브 베이즈 분류기</a></li></ul></li><li><a href="#고전---tf-idfterm-frequency---inverse-document-frequency">[고전] - TF-IDF(Term Frequency - Inverse Document Frequency)</a></li><li><a href="#word-embedding">Word Embedding</a></li></ul>
 
             </nav>
           </aside>
         
-        <p><img src="../../../image/aitech.png" alt="image" /></p>
+        <p><img src="../../../image/nlp.png" alt="image" /></p>
 
 <h1 id="dive-into-nlp">Dive Into NLP</h1>
 <p>자연어 처리를 공부합시다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>자연어 처리(自然語處理) 또는 자연 언어 처리(自然言語處理)는 인간의 언어 현상을 컴퓨터와 같은 기계를 이용해서 모사할 수 있도록 연구하고 이를 구현하는 인공지능의 주요 분야 중 하나 (출처: 위키피디아)
+</code></pre></div></div>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="자연어처리의-주요-분야">자연어처리의 주요 분야</h1>
+<p>자연어처리의 주요 분야를 알아봅시다.</p>
+
+<h2 id="1-nlp-acl-emnlp-naacl">1. NLP (ACL, EMNLP, NAACL)</h2>
+<p>자연어 처리의 대표적인 학회는 ACL, EMNLP, NAACL 이 있습니다.</p>
+
+<p>주요 분야는 아래를 참고하세요.</p>
+
+<ul>
+  <li>machine translation -&gt; 기계 번역</li>
+  <li>Sentiment analysis</li>
+  <li>dialog systems -&gt; 챗봇 🔥</li>
+  <li>summarization</li>
+  <li>Named entity recognition (NER) -&gt; 객체에 이름 부여하기 (인식의 문제)</li>
+  <li>텍스트 생성</li>
+  <li>Spam Detection : 스팸 디텍션</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h2 id="2-text-mining-kdd-www-wsdm-cikm-icwsm">2. Text mining (KDD, WWW, WSDM, CIKM, ICWSM)</h2>
+<ul>
+  <li>비정형 데이터로부터 유용한 정보를 찾기</li>
+  <li>추천 시스템</li>
+  <li>MRC -&gt; 기계 독해</li>
+  <li>MRC란 인공지능이 사람처럼 문서를 읽고 이해한 후 질문에 정확히 답하는 기술</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h2 id="3-information-retieval-sigir-wsdm-cikm-recsys">3. Information retieval (SIGIR, WSDM, CIKM, RecSys)</h2>
+<ul>
+  <li>추천 시스템</li>
+  <li>Keyword Search</li>
+</ul>
+
+<h1 id="nlp-의-역사">NLP 의 역사</h1>
+<p>NLP 는 최근 들어서 급속도로 연구되고 발전하고 있는 분야입니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- RNN
+- LSTRM
+- GRU
+- Transformer `Àttention all you need`
+ - NLP의 혁명, AI 의 혁명
+- BERT, GPT
+  - self-supervised learning
+</code></pre></div></div>
+
+<p>요즘엔 NLP 의 혁명을 주도하는 곳은 거대 기업이라고 할수 있다. 왜냐하면 거대 모델은 거대한 학습이 필요하기 때문이다.
+개인 개발자가 할 수 있는 것은 무엇인가?  AI 는 플랫폼 독점으로 나갈 것인가? 생각이 필요합니다.</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="문장-분해하기">문장 분해하기</h1>
+
+<h2 id="tokenization">Tokenization</h2>
+<h2 id="stemming">stemming</h2>
+
+<h1 id="고전---bowbag-of-words">[고전] - BOW(Bag of Words)</h1>
+<p>단어들의 순서를 고려하지 않습니다. 출현 빈도만 고려해서 텍스트를 분석하는 기법을 말합니다. 
+즉, 가방에다가 단어들을 넣어 놓고 ‘뭐’ 가 ‘몇개’ 있는 지를 보는 아주 직관적인 방법으로 볼 수 있는 것이죠.</p>
+
+<h2 id="나이브-베이즈-분류기">나이브 베이즈 분류기</h2>
+<p>우리 나이브 베이스 분류기를 공부해봅시다.</p>
+
+<h1 id="고전---tf-idfterm-frequency---inverse-document-frequency">[고전] - TF-IDF(Term Frequency - Inverse Document Frequency)</h1>
+
+<h1 id="word-embedding">Word Embedding</h1>
+<ul>
+  <li></li>
+</ul>
 
         
       </section>

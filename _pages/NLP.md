@@ -6,11 +6,10 @@ toc_sticky: true
 toc_label: "목차"
 ---
 
-<br>
-<br>
-<br>
-<br>
-<br>
+
+![image](../../../image/nlp.png)
+
+<br><br><br><br>
 
 
 # Dive Into NLP ! 

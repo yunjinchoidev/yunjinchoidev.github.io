@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: Dive into NLP",
-        "excerpt":"   Dive Into NLP  자연어 처리를 공부합시다.  ","categories": ["aitech"],
+        "excerpt":"Dive Into NLP 자연어 처리를 공부합시다. 자연어 처리(自然語處理) 또는 자연 언어 처리(自然言語處理)는 인간의 언어 현상을 컴퓨터와 같은 기계를 이용해서 모사할 수 있도록 연구하고 이를 구현하는 인공지능의 주요 분야 중 하나 (출처: 위키피디아) 자연어처리의 주요 분야 자연어처리의 주요 분야를 알아봅시다. 1. NLP (ACL, EMNLP, NAACL) 자연어 처리의 대표적인 학회는 ACL, EMNLP,...","categories": ["aitech"],
         "tags": [],
         "url": "/aitech/post-Dive-Into-NLP/",
         "teaser": null
