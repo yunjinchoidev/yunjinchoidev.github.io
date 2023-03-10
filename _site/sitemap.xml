@@ -76,6 +76,12 @@
 <loc>http://localhost:4000/aitech/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/categories/aitech</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/math</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
