@@ -47,6 +47,12 @@ var store = [{
         "url": "/aitech_knowledge_cv/post-cv/",
         "teaser": null
       },{
+        "title": "Post: MRC",
+        "excerpt":"   MRC(Machine reading comprehension)란?  주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제   ","categories": ["aitech_knowledge_nlp"],
+        "tags": [],
+        "url": "/aitech_knowledge_nlp/post-mrc/",
+        "teaser": null
+      },{
         "title": "Post: nlp 정리",
         "excerpt":"   ","categories": ["aitech_knowledge_nlp"],
         "tags": [],
