@@ -1,8 +1,199 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-11T15:29:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech -Day05</title><link href="http://localhost:4000/aitech_daily/post-day05/" rel="alternate" type="text/html" title="Post: ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)</title><link href="http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="alternate" type="text/html" title="Post: 딥러닝 바닥부터 만들기 (intro ~ step10)" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D(1)</id><content type="html" xml:base="http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/"><![CDATA[<p><img src="../../../image/바닥부터.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-11T21:03:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: 딥러닝 바닥부터 만들기 (intro ~ step10)</title><link href="http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/" rel="alternate" type="text/html" title="Post: 딥러닝 바닥부터 만들기 (intro ~ step10)" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D(1)</id><content type="html" xml:base="http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/"><![CDATA[<p><img src="../../../image/바닥부터.png" alt="image" /></p>
 
 <h1 id="바닥부터-딥러닝을-만들어보자">바닥부터 딥러닝을 만들어보자.</h1>
 
-<p>우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="book" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝 모니터링(Monintoring) 하기</title><link href="http://localhost:4000/aitech_knowledge/post-monitoring/" rel="alternate" type="text/html" title="Post: 딥러닝 모니터링(Monintoring) 하기" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-monitoring</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-monitoring/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="book" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 챗봇 만들기</title><link href="http://localhost:4000/chatbot/post-%EC%B1%97%EB%B4%87/" rel="alternate" type="text/html" title="Post: 챗봇 만들기" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/chatbot/post-%EC%B1%97%EB%B4%87</id><content type="html" xml:base="http://localhost:4000/chatbot/post-%EC%B1%97%EB%B4%87/"><![CDATA[<p><img src="../../../image/chatbot/chatbot_lachesis.png" width="200" height="400" /></p>
+
+<h1 id="챗봇을-만듭시다">챗봇을 만듭시다.</h1>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="chatbot" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day05</title><link href="http://localhost:4000/aitech_daily/post-day05/" rel="alternate" type="text/html" title="Post: ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day04</title><link href="http://localhost:4000/aitech_daily/post-day04/" rel="alternate" type="text/html" title="Post: ai tech -Day04" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day04</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day04/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
+<ul>
+  <li>과제를 풀면서 한 주간 배운 내용을 정리했다.</li>
+  <li>파이토치 내용을 보충했다.</li>
+  <li>딥러닝 기초 다지기 강의를 들었다.</li>
+  <li>ai math 내용을 보충했다.</li>
+</ul>
+
+<h1 id="내일-무엇을-할-것인가">내일 무엇을 할 것인가?</h1>
+<ul>
+  <li>RNN 강의 복습</li>
+  <li>pytorch 강의 복습</li>
+  <li>딥러닝 기초 다지기 강의 수강</li>
+</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: Dive into NLP</title><link href="http://localhost:4000/aitech_knowledge/post-Dive-Into-NLP/" rel="alternate" type="text/html" title="Post: Dive into NLP" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-09T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-Dive%20Into%20NLP</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-Dive-Into-NLP/"><![CDATA[<p><img src="../../../image/nlp.png" alt="image" /></p>
+
+<h1 id="dive-into-nlp">Dive Into NLP</h1>
+<p>자연어 처리를 공부합시다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>자연어 처리(自然語處理) 또는 자연 언어 처리(自然言語處理)는 인간의 언어 현상을 컴퓨터와 같은 기계를 이용해서 모사할 수 있도록 연구하고 이를 구현하는 인공지능의 주요 분야 중 하나 (출처: 위키피디아)
+</code></pre></div></div>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="자연어처리의-주요-분야">자연어처리의 주요 분야</h1>
+<p>자연어처리의 주요 분야를 알아봅시다.</p>
+
+<h2 id="1-nlp-acl-emnlp-naacl">1. NLP (ACL, EMNLP, NAACL)</h2>
+<p>자연어 처리의 대표적인 학회는 ACL, EMNLP, NAACL 이 있습니다.</p>
+
+<p>주요 분야는 아래를 참고하세요.</p>
+
+<ul>
+  <li>machine translation -&gt; 기계 번역</li>
+  <li>Sentiment analysis</li>
+  <li>dialog systems -&gt; 챗봇 🔥</li>
+  <li>summarization</li>
+  <li>Named entity recognition (NER) -&gt; 객체에 이름 부여하기 (인식의 문제)</li>
+  <li>텍스트 생성</li>
+  <li>Spam Detection : 스팸 디텍션</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h2 id="2-text-mining-kdd-www-wsdm-cikm-icwsm">2. Text mining (KDD, WWW, WSDM, CIKM, ICWSM)</h2>
+<ul>
+  <li>비정형 데이터로부터 유용한 정보를 찾기</li>
+  <li>추천 시스템</li>
+  <li>MRC -&gt; 기계 독해</li>
+  <li>MRC란 인공지능이 사람처럼 문서를 읽고 이해한 후 질문에 정확히 답하는 기술</li>
+</ul>
+
+<p><br /><br /><br /><br /></p>
+
+<h2 id="3-information-retieval-sigir-wsdm-cikm-recsys">3. Information retieval (SIGIR, WSDM, CIKM, RecSys)</h2>
+<ul>
+  <li>추천 시스템</li>
+  <li>Keyword Search</li>
+</ul>
+
+<h1 id="nlp-의-역사">NLP 의 역사</h1>
+<p>NLP 는 최근 들어서 급속도로 연구되고 발전하고 있는 분야입니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- RNN
+- LSTRM
+- GRU
+- Transformer `Àttention all you need`
+ - NLP의 혁명, AI 의 혁명
+- BERT, GPT
+  - self-supervised learning
+</code></pre></div></div>
+
+<p>요즘엔 NLP 의 혁명을 주도하는 곳은 거대 기업이라고 할수 있다. 왜냐하면 거대 모델은 거대한 학습이 필요하기 때문이다.
+개인 개발자가 할 수 있는 것은 무엇인가?  AI 는 플랫폼 독점으로 나갈 것인가? 생각이 필요합니다.</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="문장-분해하기">문장 분해하기</h1>
+
+<h2 id="tokenization">Tokenization</h2>
+<h2 id="stemming">stemming</h2>
+
+<h2 id="한국어-자연어-처리-모델">한국어 자연어 처리 모델</h2>
+<ul>
+  <li>KoNLPy</li>
+  <li>카카오</li>
+  <li>은전한닢</li>
+  <li>KT~</li>
+</ul>
+
+<h1 id="고전---bowbag-of-words">[고전] - BOW(Bag of Words)</h1>
+<p>단어들의 순서를 고려하지 않습니다. 출현 빈도만 고려해서 텍스트를 분석하는 기법을 말합니다. 
+즉, 가방에다가 단어들을 넣어 놓고 ‘뭐’ 가 ‘몇개’ 있는 지를 보는 아주 직관적인 방법으로 볼 수 있는 것이죠.</p>
+
+<h2 id="나이브-베이즈-분류기">나이브 베이즈 분류기</h2>
+<p>우리 나이브 베이스 분류기를 공부해봅시다.</p>
+
+<h1 id="고전---tf-idfterm-frequency---inverse-document-frequency">[고전] - TF-IDF(Term Frequency - Inverse Document Frequency)</h1>
+
+<p>특정 문서에 특정 단어가 얼만큼 있는지 값을 표현하는 것.
+TF(단어 빈도, term frequency)
+특정 단어가 문서 내에 얼마나 자주 등장하는 지 ? 
+DF(문서 빈도, document frequency)
+단어 자체가 전체 문서에서 사용되는 지
+One hot encoding 으로 표현합니다. -&gt; 단어 간의 유사성을 파악하지 못하는 문제가 있습니다.</p>
+
+<h1 id="word-embedding">Word Embedding</h1>
+<p>현대 nlp의 근간이 되는 기술입니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>연관성 있는 단어들을 군집화하여 multi-dimension 공간에 vector 로 표시
+단어나 문장을 vector space 로 끼워 넣음 (embedding)
+</code></pre></div></div>
+
+<p>k 번째 단어인 one hot encoding 와 word embedding matrix 를 곱하면 k 번째 로우가 k 번째 단어를 설명하는 weigts 가 된다.</p>
+
+<h1 id="word2vec">Word2Vec</h1>
+<p>구글이 2013년 개발했습니다. -&gt; by 비지도학습
+중심단어로부터 주변단어를, 주변단어로부터 중심 단어를 임베딩 시키는 방식으로 학습합니다. 그 코사인 유사도가 유사하도록 한다.</p>
+
+<h1 id="gloveglobal-vectors-for-word-representation">Glove(Global Vectors for Word Representation)</h1>
+<p>2014, Stanford
+말뭉치 전체를 고려한 word embeding</p>
+
+<h1 id="fasttext">FastText</h1>
+<p>2016, Facebook
+희소한 단어가 학습되지 않는 문제점을 해겼다. 다양한 용언을 가진 한국어의 특성에 잘 맞습니다.</p>
+
+<h1 id="rnn">RNN</h1>
+<p>시퀀스데이터 
+history 전달</p>
+
+<ul>
+  <li>one to one -&gt; 이미지 분류</li>
+  <li>one to many -&gt; 이미지로부터 문장 생성, 작곡</li>
+  <li>many to one -&gt; 감성 분석, 생성 모델</li>
+  <li>many to many -&gt; 기계 번역, 챗봇, Q&amp;A</li>
+</ul>
+
+<h1 id="lstm">LSTM</h1>
+<p>새로운 입력을 어떻게 받을 것인지 forget gate, update gate, output gate 가 있수다.</p>
+
+<h1 id="gru">GRU</h1>
+<p>lstm의 gate 를 하나로 줄인것.</p>
+
+<h1 id="sentiment-analysis">Sentiment Analysis</h1>
+
+<h1 id="ner-개체-인식">NER (개체 인식)</h1>
+
+<h1 id="language-model">Language Model</h1>
+<ul>
+  <li>이전으로부터 다음을 예측하기</li>
+  <li>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  기계 번역
+  Qna
+  chatbot
+  speech recognition
+  text summarization
+  text to speech(tts)
+  image caption
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="seq2seqencoder-decoder">Seq2Seq(Encoder-decoder)</h1>
+<p>Machine Translate 분야에 사용된다.</p>
+
+<h2 id="챗봇을-만들어보자">챗봇을 만들어보자.</h2>
+
+<h2 id="기계-번역-평가-알고리즘">기계 번역 평가 알고리즘</h2>
+<ul>
+  <li>BLUE</li>
+  <li></li>
+</ul>
+
+<h1 id="transformers">Transformers</h1>
+<p>2017 - Transformer
+현재 딥러닝은 트랜스포머 이전과 이후라 나뉩니다.</p>
+<h1 id="transfer-learning-전이학습">Transfer Learning (전이학습)</h1>
+
+<h1 id="elmo">ELMO</h1>
+<ul>
+  <li>마지막 RNN 모델ㅇ</li>
+</ul>
+
+<h1 id="bert">BERT</h1>
+<p>2018 - Bert</p>
+
+<h1 id="gpt">GPT</h1>
+<p>2020 - GPT 3</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 딥러닝 모니터링(Monintoring) 하기</title><link href="http://localhost:4000/aitech_knowledge/post-monitoring/" rel="alternate" type="text/html" title="Post: 딥러닝 모니터링(Monintoring) 하기" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-monitoring</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-monitoring/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="monitoring">Monitoring</h1>
 <p>학습을 하는 데 굉장히 긴 시간이 걸립니다. 학습 과정을 기록하는게 좋겠죠. <code class="language-plaintext highlighter-rouge">TensorBoard</code>와 <code class="language-plaintext highlighter-rouge">Weight &amp; Bias</code>를 이용해봅시다.</p>
@@ -218,196 +409,28 @@ writer.close()
 <h1 id="선형대수학">선형대수학</h1>
 <blockquote>
   <p>선형 대</p>
-</blockquote>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day04</title><link href="http://localhost:4000/aitech_daily/post-day04/" rel="alternate" type="text/html" title="Post: ai tech -Day04" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day04</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day04/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+</blockquote>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day03</title><link href="http://localhost:4000/aitech_daily/post-day03/" rel="alternate" type="text/html" title="Post: ai tech -Day03" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day03</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day03/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
 <ul>
-  <li>과제를 풀면서 한 주간 배운 내용을 정리했다.</li>
-  <li>파이토치 내용을 보충했다.</li>
-  <li>딥러닝 기초 다지기 강의를 들었다.</li>
-  <li>ai math 내용을 보충했다.</li>
+  <li>python 복습했다.</li>
+  <li>aimath 1 ~ 5 강을 들었다.</li>
+  <li>pytorch template 분석 했다.</li>
+  <li>포스팅 정리를 했다.</li>
+  <li>github 블로그를 만들었다.</li>
 </ul>
 
 <h1 id="내일-무엇을-할-것인가">내일 무엇을 할 것인가?</h1>
 <ul>
-  <li>RNN 강의 복습</li>
-  <li>pytorch 강의 복습</li>
-  <li>딥러닝 기초 다지기 강의 수강</li>
-</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: Dive into NLP</title><link href="http://localhost:4000/aitech_knowledge/post-Dive-Into-NLP/" rel="alternate" type="text/html" title="Post: Dive into NLP" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-09T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-Dive%20Into%20NLP</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-Dive-Into-NLP/"><![CDATA[<p><img src="../../../image/nlp.png" alt="image" /></p>
-
-<h1 id="dive-into-nlp">Dive Into NLP</h1>
-<p>자연어 처리를 공부합시다.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>자연어 처리(自然語處理) 또는 자연 언어 처리(自然言語處理)는 인간의 언어 현상을 컴퓨터와 같은 기계를 이용해서 모사할 수 있도록 연구하고 이를 구현하는 인공지능의 주요 분야 중 하나 (출처: 위키피디아)
-</code></pre></div></div>
-
-<p><br /><br /><br /><br /></p>
-
-<h1 id="자연어처리의-주요-분야">자연어처리의 주요 분야</h1>
-<p>자연어처리의 주요 분야를 알아봅시다.</p>
-
-<h2 id="1-nlp-acl-emnlp-naacl">1. NLP (ACL, EMNLP, NAACL)</h2>
-<p>자연어 처리의 대표적인 학회는 ACL, EMNLP, NAACL 이 있습니다.</p>
-
-<p>주요 분야는 아래를 참고하세요.</p>
-
-<ul>
-  <li>machine translation -&gt; 기계 번역</li>
-  <li>Sentiment analysis</li>
-  <li>dialog systems -&gt; 챗봇 🔥</li>
-  <li>summarization</li>
-  <li>Named entity recognition (NER) -&gt; 객체에 이름 부여하기 (인식의 문제)</li>
-  <li>텍스트 생성</li>
-  <li>Spam Detection : 스팸 디텍션</li>
+  <li>ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기</li>
+  <li>과제 검토</li>
+  <li>RNN 의 오차 역전파 연구하기</li>
 </ul>
 
-<p><br /><br /><br /><br /></p>
+<h1 id="오늘의-생각">[오늘의 생각]</h1>
+<p>오늘 NLP 팀 발표 시간을 가졌다. 논문 리뷰, 코딩 테스트 스터디를 많이 하는 듯 했다. 실력자들이 굉장히 많다는 걸 느끼면서 겸손해야 겠다는 생각을 했다. 내가 속한 팀의 팀원들도 다들 실력이 좋으시다. 팀에 도움이 될 수 있도록 노력했야 겠다는 다짐을 하게 된다. 적어도 마이너스를 하지는 말아야지.</p>
 
-<h2 id="2-text-mining-kdd-www-wsdm-cikm-icwsm">2. Text mining (KDD, WWW, WSDM, CIKM, ICWSM)</h2>
-<ul>
-  <li>비정형 데이터로부터 유용한 정보를 찾기</li>
-  <li>추천 시스템</li>
-  <li>MRC -&gt; 기계 독해</li>
-  <li>MRC란 인공지능이 사람처럼 문서를 읽고 이해한 후 질문에 정확히 답하는 기술</li>
-</ul>
-
-<p><br /><br /><br /><br /></p>
-
-<h2 id="3-information-retieval-sigir-wsdm-cikm-recsys">3. Information retieval (SIGIR, WSDM, CIKM, RecSys)</h2>
-<ul>
-  <li>추천 시스템</li>
-  <li>Keyword Search</li>
-</ul>
-
-<h1 id="nlp-의-역사">NLP 의 역사</h1>
-<p>NLP 는 최근 들어서 급속도로 연구되고 발전하고 있는 분야입니다.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- RNN
-- LSTRM
-- GRU
-- Transformer `Àttention all you need`
- - NLP의 혁명, AI 의 혁명
-- BERT, GPT
-  - self-supervised learning
-</code></pre></div></div>
-
-<p>요즘엔 NLP 의 혁명을 주도하는 곳은 거대 기업이라고 할수 있다. 왜냐하면 거대 모델은 거대한 학습이 필요하기 때문이다.
-개인 개발자가 할 수 있는 것은 무엇인가?  AI 는 플랫폼 독점으로 나갈 것인가? 생각이 필요합니다.</p>
-
-<p><br /><br /><br /><br /></p>
-
-<h1 id="문장-분해하기">문장 분해하기</h1>
-
-<h2 id="tokenization">Tokenization</h2>
-<h2 id="stemming">stemming</h2>
-
-<h2 id="한국어-자연어-처리-모델">한국어 자연어 처리 모델</h2>
-<ul>
-  <li>KoNLPy</li>
-  <li>카카오</li>
-  <li>은전한닢</li>
-  <li>KT~</li>
-</ul>
-
-<h1 id="고전---bowbag-of-words">[고전] - BOW(Bag of Words)</h1>
-<p>단어들의 순서를 고려하지 않습니다. 출현 빈도만 고려해서 텍스트를 분석하는 기법을 말합니다. 
-즉, 가방에다가 단어들을 넣어 놓고 ‘뭐’ 가 ‘몇개’ 있는 지를 보는 아주 직관적인 방법으로 볼 수 있는 것이죠.</p>
-
-<h2 id="나이브-베이즈-분류기">나이브 베이즈 분류기</h2>
-<p>우리 나이브 베이스 분류기를 공부해봅시다.</p>
-
-<h1 id="고전---tf-idfterm-frequency---inverse-document-frequency">[고전] - TF-IDF(Term Frequency - Inverse Document Frequency)</h1>
-
-<p>특정 문서에 특정 단어가 얼만큼 있는지 값을 표현하는 것.
-TF(단어 빈도, term frequency)
-특정 단어가 문서 내에 얼마나 자주 등장하는 지 ? 
-DF(문서 빈도, document frequency)
-단어 자체가 전체 문서에서 사용되는 지
-One hot encoding 으로 표현합니다. -&gt; 단어 간의 유사성을 파악하지 못하는 문제가 있습니다.</p>
-
-<h1 id="word-embedding">Word Embedding</h1>
-<p>현대 nlp의 근간이 되는 기술입니다.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>연관성 있는 단어들을 군집화하여 multi-dimension 공간에 vector 로 표시
-단어나 문장을 vector space 로 끼워 넣음 (embedding)
-</code></pre></div></div>
-
-<p>k 번째 단어인 one hot encoding 와 word embedding matrix 를 곱하면 k 번째 로우가 k 번째 단어를 설명하는 weigts 가 된다.</p>
-
-<h1 id="word2vec">Word2Vec</h1>
-<p>구글이 2013년 개발했습니다. -&gt; by 비지도학습
-중심단어로부터 주변단어를, 주변단어로부터 중심 단어를 임베딩 시키는 방식으로 학습합니다. 그 코사인 유사도가 유사하도록 한다.</p>
-
-<h1 id="gloveglobal-vectors-for-word-representation">Glove(Global Vectors for Word Representation)</h1>
-<p>2014, Stanford
-말뭉치 전체를 고려한 word embeding</p>
-
-<h1 id="fasttext">FastText</h1>
-<p>2016, Facebook
-희소한 단어가 학습되지 않는 문제점을 해겼다. 다양한 용언을 가진 한국어의 특성에 잘 맞습니다.</p>
-
-<h1 id="rnn">RNN</h1>
-<p>시퀀스데이터 
-history 전달</p>
-
-<ul>
-  <li>one to one -&gt; 이미지 분류</li>
-  <li>one to many -&gt; 이미지로부터 문장 생성, 작곡</li>
-  <li>many to one -&gt; 감성 분석, 생성 모델</li>
-  <li>many to many -&gt; 기계 번역, 챗봇, Q&amp;A</li>
-</ul>
-
-<h1 id="lstm">LSTM</h1>
-<p>새로운 입력을 어떻게 받을 것인지 forget gate, update gate, output gate 가 있수다.</p>
-
-<h1 id="gru">GRU</h1>
-<p>lstm의 gate 를 하나로 줄인것.</p>
-
-<h1 id="sentiment-analysis">Sentiment Analysis</h1>
-
-<h1 id="ner-개체-인식">NER (개체 인식)</h1>
-
-<h1 id="language-model">Language Model</h1>
-<ul>
-  <li>이전으로부터 다음을 예측하기</li>
-  <li>
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  기계 번역
-  Qna
-  chatbot
-  speech recognition
-  text summarization
-  text to speech(tts)
-  image caption
-</code></pre></div>    </div>
-  </li>
-</ul>
-
-<h1 id="seq2seqencoder-decoder">Seq2Seq(Encoder-decoder)</h1>
-<p>Machine Translate 분야에 사용된다.</p>
-
-<h2 id="챗봇을-만들어보자">챗봇을 만들어보자.</h2>
-
-<h2 id="기계-번역-평가-알고리즘">기계 번역 평가 알고리즘</h2>
-<ul>
-  <li>BLUE</li>
-  <li></li>
-</ul>
-
-<h1 id="transformers">Transformers</h1>
-<p>2017 - Transformer
-현재 딥러닝은 트랜스포머 이전과 이후라 나뉩니다.</p>
-<h1 id="transfer-learning-전이학습">Transfer Learning (전이학습)</h1>
-
-<h1 id="elmo">ELMO</h1>
-<ul>
-  <li>마지막 RNN 모델ㅇ</li>
-</ul>
-
-<h1 id="bert">BERT</h1>
-<p>2018 - Bert</p>
-
-<h1 id="gpt">GPT</h1>
-<p>2020 - GPT 3</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - pytorch Template 완전 분석</title><link href="http://localhost:4000/aitech_knowledge/post-pytorchtemplate/" rel="alternate" type="text/html" title="Post: ai tech - pytorch Template 완전 분석" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-pytorchtemplate</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-pytorchtemplate/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>다음 주 부터는 코딩테스트 스터디를 시작하려고 한다. 그리고 파이토치도 정규 수업으로 들어가고 본격적으로 딥러닝 모델로 무언가를 만들어보는 시간을 가진다. 그리고 다음 달이 되면 첫 번째 프로젝트를 참여 하게 된다. 좋은 성과를 거두고 싶다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - pytorch Template 완전 분석</title><link href="http://localhost:4000/aitech_knowledge/post-pytorchtemplate/" rel="alternate" type="text/html" title="Post: ai tech - pytorch Template 완전 분석" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-pytorchtemplate</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-pytorchtemplate/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="pytorch-템플릿을-문석해봅시다">Pytorch 템플릿을 문석해봅시다.</h1>
 <p><a href="https://github.com/victoresque/pytorch-template">링크</a>
@@ -459,32 +482,4 @@ history 전달</p>
 
 <p>pytorch-template 도 같은 시각에서 접근해봅시다. 
 config.json 만 바꿈으로써 우리는 새로운 데이터를 로딩할 수 있는 것이고 batch_size, validation_split 도 변경 할 수 가 있습니다. 
-train.py 만 바꿈으로써 우리는 모델을 손쉽게 교체할 수 가 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day03</title><link href="http://localhost:4000/aitech_daily/post-day03/" rel="alternate" type="text/html" title="Post: ai tech -Day03" /><published>2023-03-08T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day03</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day03/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
-<ul>
-  <li>python 복습했다.</li>
-  <li>aimath 1 ~ 5 강을 들었다.</li>
-  <li>pytorch template 분석 했다.</li>
-  <li>포스팅 정리를 했다.</li>
-  <li>github 블로그를 만들었다.</li>
-</ul>
-
-<h1 id="내일-무엇을-할-것인가">내일 무엇을 할 것인가?</h1>
-<ul>
-  <li>ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기</li>
-  <li>과제 검토</li>
-  <li>RNN 의 오차 역전파 연구하기</li>
-</ul>
-
-<h1 id="오늘의-생각">[오늘의 생각]</h1>
-<p>오늘 NLP 팀 발표 시간을 가졌다. 논문 리뷰, 코딩 테스트 스터디를 많이 하는 듯 했다. 실력자들이 굉장히 많다는 걸 느끼면서 겸손해야 겠다는 생각을 했다. 내가 속한 팀의 팀원들도 다들 실력이 좋으시다. 팀에 도움이 될 수 있도록 노력했야 겠다는 다짐을 하게 된다. 적어도 마이너스를 하지는 말아야지.</p>
-
-<p>다음 주 부터는 코딩테스트 스터디를 시작하려고 한다. 그리고 파이토치도 정규 수업으로 들어가고 본격적으로 딥러닝 모델로 무언가를 만들어보는 시간을 가진다. 그리고 다음 달이 되면 첫 번째 프로젝트를 참여 하게 된다. 좋은 성과를 거두고 싶다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - Day02</title><link href="http://localhost:4000/aitech_daily/post-day02/" rel="alternate" type="text/html" title="Post: ai tech - Day02" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day02</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day02/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="오늘-무엇을-했나">오늘 무엇을 했나?</h1>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- numpy, pandas  를 집중 분석했다.
-- 공부하는 것과 실제 적용하는 것에는 큰 차이가 있는 거 같다.
-- 경사하강법, 오차 역전파에서 스칼라가 텐서로 바뀔 때의 상황이 직관적으로 와닿지가 않아서 공부했다.
-- 최대 우도법을 공부.
-</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+train.py 만 바꿈으로써 우리는 모델을 손쉽게 교체할 수 가 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry></feed>

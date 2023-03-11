@@ -47,8 +47,14 @@ var store = [{
         "url": "/aitech_knowledge_cv/post-cv/",
         "teaser": null
       },{
-        "title": "Post: MRC",
-        "excerpt":"   MRC(Machine reading comprehension)란?  주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제   ","categories": ["aitech_knowledge_nlp"],
+        "title": "Post: KLUE",
+        "excerpt":"KLUE 한국어 언어모델 학습 및 다중 과제 튜닝 과정 인공지능과 자연어 처리 (이론/실습) 자연어의 전처리 (이론/실습) BERT 언어모델(1) (이론/실습) BERT 언어모델(2) (이론/실습) BERT 언어모델 기반의 단일 문장 분류 (이론/실습) BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습) BERT 언어모델 기반의 문장 토큰 분류 (이론/실습) GPT 언어모델 (이론/실습) GPT 언어모델 기반의...","categories": ["aitech_knowledge_nlp"],
+        "tags": [],
+        "url": "/aitech_knowledge_nlp/post-klue/",
+        "teaser": null
+      },{
+        "title": "Post: MRC(Machine reading comprehension)",
+        "excerpt":"MRC(Machine reading comprehension)란? 주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제 Q&amp;A 분야에 응용될 수 있습니다. Extractive Answer Datasets 질의에 대한 답이 항상 주어진 지문의 segment (or span) 으로 존재 Descriptive/Narrative Answer Datasets 지문 내에서 추출한 span이 아닌, 질의를 보고 생성된 sentence (or free-form) 형태의 output을 내야하는 task Multiple-choice Datasets...","categories": ["aitech_knowledge_nlp"],
         "tags": [],
         "url": "/aitech_knowledge_nlp/post-mrc/",
         "teaser": null
@@ -123,5 +129,11 @@ var store = [{
         "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
         "tags": [],
         "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
+        "teaser": null
+      },{
+        "title": "Post: 챗봇 만들기",
+        "excerpt":"   챗봇을 만듭시다.  ","categories": ["chatbot"],
+        "tags": [],
+        "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
         "teaser": null
       }]
