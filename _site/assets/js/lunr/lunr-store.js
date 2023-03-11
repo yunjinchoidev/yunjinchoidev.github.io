@@ -41,6 +41,30 @@ var store = [{
         "url": "/aitech_knowledge/post-pytorch/",
         "teaser": null
       },{
+        "title": "Post: 컴퓨터 비전의 모든 것",
+        "excerpt":"컴퓨터 비전의 역사 딥러닝은 빠르게 변하는 분야이기 때문에 손 놓고 남들이 해놓은 자료만 보려고 하다가는 뒤쳐지게 됩니다. 우리는 영어에 익숙해져야 합니다. 거꾸로 돌려져있는 인간의 초상화 를 본 적 있습니까. 우리는 거꾸로 뒤집힌 인간의 얼굴을 올바르게 보는 능력을 가지고 있지 않습니다. 결국 인간도 편향적으로 학습이 된 것이죠. 컴퓨터 비전은 많은 곳에서...","categories": ["aitech_knowledge_cv"],
+        "tags": [],
+        "url": "/aitech_knowledge_cv/post-cv/",
+        "teaser": null
+      },{
+        "title": "Post: nlp 정리",
+        "excerpt":"   ","categories": ["aitech_knowledge_nlp"],
+        "tags": [],
+        "url": "/aitech_knowledge_nlp/post-nlp/",
+        "teaser": null
+      },{
+        "title": "Post: recsys",
+        "excerpt":"   ","categories": ["aitech_knowledge_recsys"],
+        "tags": [],
+        "url": "/aitech_knowledge_recsys/post-recsys/",
+        "teaser": null
+      },{
+        "title": "Post: 이코테 1장",
+        "excerpt":"이코테 1 장  ","categories": ["ps_study"],
+        "tags": [],
+        "url": "/ps_study/post-ps/",
+        "teaser": null
+      },{
         "title": "Post: ai tech -Day03 ",
         "excerpt":"오늘 무엇을 했나? python 복습했다. aimath 1 ~ 5 강을 들었다. pytorch template 분석 했다. 포스팅 정리를 했다. github 블로그를 만들었다. 내일 무엇을 할 것인가? ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기 과제 검토 RNN 의 오차 역전파 연구하기 [오늘의 생각] 오늘 NLP 팀 발표 시간을 가졌다. 논문...","categories": ["aitech_daily"],
         "tags": [],
