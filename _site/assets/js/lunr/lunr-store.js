@@ -48,7 +48,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: KLUE",
-        "excerpt":"KLUE 한국어 언어모델 학습 및 다중 과제 튜닝 과정 인공지능과 자연어 처리 (이론/실습) 자연어의 전처리 (이론/실습) BERT 언어모델(1) (이론/실습) BERT 언어모델(2) (이론/실습) BERT 언어모델 기반의 단일 문장 분류 (이론/실습) BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습) BERT 언어모델 기반의 문장 토큰 분류 (이론/실습) GPT 언어모델 (이론/실습) GPT 언어모델 기반의...","categories": ["aitech_knowledge_nlp"],
+        "excerpt":"목차 한국어 언어모델 학습 및 다중 과제 튜닝 과정 인공지능과 자연어 처리 (이론/실습) 자연어의 전처리 (이론/실습) BERT 언어모델(1) (이론/실습) BERT 언어모델(2) (이론/실습) BERT 언어모델 기반의 단일 문장 분류 (이론/실습) BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습) BERT 언어모델 기반의 문장 토큰 분류 (이론/실습) GPT 언어모델 (이론/실습) GPT 언어모델 기반의...","categories": ["aitech_knowledge_nlp"],
         "tags": [],
         "url": "/aitech_knowledge_nlp/post-klue/",
         "teaser": null
@@ -135,5 +135,11 @@ var store = [{
         "excerpt":"   챗봇을 만듭시다.  ","categories": ["chatbot"],
         "tags": [],
         "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech 2주차",
+        "excerpt":"   2주차 계획     텐서보드 튜토리얼 코드 돌리기   WanB 튜토리얼 코드 돌려보기   하이퍼 파라미터 튜닝 해보기   코테 스터디 잘 참여하기   2주차   [2주차를 보내며]  ","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       }]

@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "AI Tech 5기 회고록"
     url: "categories/aitech_weekly"
+  - title: "챗봇"
+    url: "categories/chatbot"
 
 counts: 
   - title: "카테고리"
