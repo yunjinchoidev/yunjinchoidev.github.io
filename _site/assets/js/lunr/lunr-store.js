@@ -144,7 +144,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: nlp 면접 준비",
-        "excerpt":"nlp 면접 인터뷰 준비   ","categories": ["interview"],
+        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 Interview Questions 통계/수학 고유값(eigen value)와 고유벡터(eigen vector)이 무엇이고 왜 중요한지 설명해주세요. 선형대수학에서 중요한 개념입니다. 선형대수학은 선형성을 가지는 대수를 연구하는 학문입니다. 샘플링(Sampling)과 리샘플링(Resampling)이 무엇이고 리샘플링의 장점을 말씀해주세요. 확률 모형과 확률 변수는 무엇인가요? 누적...","categories": ["interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null

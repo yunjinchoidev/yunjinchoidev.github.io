@@ -13,7 +13,7 @@ toc_label: "목차"
 
 ![paper.png](../../../image/paper.png)
 
-# Attention is All you need
+# `Attention is All you need`
 
 ## 이 논문의 함의!
 구글의 `Attention is All you` 논문을 통해 nlp 의 혁명이 일어났습니다. 

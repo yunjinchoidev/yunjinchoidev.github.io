@@ -24,16 +24,19 @@
                         <li><a href="/categories/aitech_knowledge" class="">학습 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+
                 {% for category in site.categories %}
                     {% if category[0] == "aitech_daily" %}
                         <li><a href="/categories/aitech_daily" class="">데일리 리뷰 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+
                 {% for category in site.categories %}
                     {% if category[0] == "aitech_weekly" %}
                         <li><a href="/categories/aitech_weekly" class="">위클리 리뷰 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}                                
+
                 {% for category in site.categories %}
                     {% if category[0] == "aitech" %}
                         <li><a href="/categories/aitech" class="">aitech ({{category[1].size}})</a></li>
