@@ -125,6 +125,16 @@
                 {% endfor %}
             </ul>
 
+
+            <span class="nav__sub-title"> 📌 nlp 기술 면접 준비</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "interview" %}
+                        <li><a href="/categories/interview" class=""> interview({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
       </li>
   </ul>
 </nav>

@@ -71,10 +71,16 @@ var store = [{
         "url": "/aitech_knowledge_recsys/post-recsys/",
         "teaser": null
       },{
-        "title": "Post: 이코테 1장",
-        "excerpt":"이코테 1 장  ","categories": ["ps_study"],
+        "title": "Post: 이코테 1장, 2장",
+        "excerpt":"이코테 1 장 개요 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 공간 복잡도 알고리즘을 위해 필요한 메모리의 양 빅오 표기법 빅오 표기법 명칭 O(1) 상수 O(logN) 로그 시간 O(N) 선형 시간 O(NlonN) 로그 선형 시간 O(N^2) 이차 시간 O(N^3) 삼차 시간 O(2^3) 지수 시간 수행 시간 체크 import time start_time...","categories": ["ps_study"],
         "tags": [],
-        "url": "/ps_study/post-ps/",
+        "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/",
+        "teaser": null
+      },{
+        "title": "Post: 이코테 3장(그리디 알고리즘)",
+        "excerpt":"그리디 알고리즘   자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다.   내가 사랑한 그리디 알고리즘 30문제                                                                                               ","categories": ["ps_study"],
+        "tags": [],
+        "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
       },{
         "title": "Post: ai tech -Day03 ",
@@ -135,6 +141,12 @@ var store = [{
         "excerpt":"   챗봇을 만듭시다.  ","categories": ["chatbot"],
         "tags": [],
         "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
+        "teaser": null
+      },{
+        "title": "Post: nlp 면접 준비",
+        "excerpt":"nlp 면접 인터뷰 준비   ","categories": ["interview"],
+        "tags": [],
+        "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
       },{
         "title": "Post: ai tech 2주차",

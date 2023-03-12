@@ -49,7 +49,11 @@
 <lastmod>2023-03-08T06:20:02+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/ps_study/post-ps/</loc>
+<loc>http://localhost:4000/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/</loc>
+<lastmod>2023-03-08T06:20:02+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
 <lastmod>2023-03-08T06:20:02+09:00</lastmod>
 </url>
 <url>
@@ -93,6 +97,10 @@
 <lastmod>2023-03-10T10:20:02+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/</loc>
+<lastmod>2023-03-13T10:20:02+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/</loc>
 <lastmod>2023-03-13T06:20:02+09:00</lastmod>
 </url>
@@ -131,6 +139,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/categories/ps</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/ps_study</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
