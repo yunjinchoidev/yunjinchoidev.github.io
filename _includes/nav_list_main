@@ -116,6 +116,15 @@
             </ul>
        
 
+            <span class="nav__sub-title"> 📌 논문 리뷰</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "paper" %}
+                        <li><a href="/categories/paper" class=""> paper ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
             <span class="nav__sub-title"> 📌 책 리뷰</span>
             <ul>
                 {% for category in site.categories %}
@@ -124,6 +133,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+
 
 
             <span class="nav__sub-title"> 📌 nlp 기술 면접 준비</span>

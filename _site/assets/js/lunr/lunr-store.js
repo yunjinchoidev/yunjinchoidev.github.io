@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 이코테 3장(그리디 알고리즘)",
-        "excerpt":"그리디 알고리즘   자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다.   내가 사랑한 그리디 알고리즘 30문제                                                                                               ","categories": ["ps_study"],
+        "excerpt":"그리디 알고리즘   자, 그리디 알고리즘을 공부합시다.  그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다.   내가 사랑한 그리디 알고리즘 30문제                                                                                                ","categories": ["ps_study"],
         "tags": [],
         "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
@@ -131,10 +131,10 @@ var store = [{
         "url": "/aitech_daily/post-day05/",
         "teaser": null
       },{
-        "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
-        "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
+        "title": "Post: 논문리뷰",
+        "excerpt":"논문리뷰     논문 리뷰를 합시다.  ","categories": ["paper"],
         "tags": [],
-        "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
+        "url": "/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/",
         "teaser": null
       },{
         "title": "Post: 챗봇 만들기",
@@ -147,6 +147,12 @@ var store = [{
         "excerpt":"nlp 면접 인터뷰 준비   ","categories": ["interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
+        "teaser": null
+      },{
+        "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
+        "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
+        "tags": [],
+        "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
         "teaser": null
       },{
         "title": "Post: ai tech 2주차",

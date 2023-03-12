@@ -4,8 +4,10 @@ main:
     url: /about/
   - title: "AI Tech 5기 회고록"
     url: "categories/aitech_weekly"
-  - title: "챗봇"
+  - title: "라케시스(챗봇)"
     url: "categories/chatbot"
+  - title: "논문리뷰"
+    url: "categories/paper"
 
 counts: 
   - title: "카테고리"
