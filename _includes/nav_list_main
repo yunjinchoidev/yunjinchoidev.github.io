@@ -70,26 +70,33 @@
             <span class="nav__sub-title"> 📌 ai</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "nlp" %}
-                        <li><a href="/categories/nlp" class="">nlp({{category[1].size}})</a></li>
+                    {% if category[0] == "ai_nlp" %}
+                        <li><a href="/categories/ai_nlp" class="">nlp({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "cv" %}
-                        <li><a href="/categories/cv" class="">cv({{category[1].size}})</a></li>
+                    {% if category[0] == "ai_cv" %}
+                        <li><a href="/categories/ai_cv" class="">cv({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>            
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "recsys" %}
-                        <li><a href="/categories/recsys" class="">recsys({{category[1].size}})</a></li>
+                    {% if category[0] == "ai_recsys" %}
+                        <li><a href="/categories/ai_recsys" class="">recsys({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>        
 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai_linearalgebra" %}
+                        <li><a href="/categories/ai_linearalgebra" class="">선형대수학({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
         <span class="nav__sub-title"> 📌 코딩테스트 준비</span>
             <ul>
