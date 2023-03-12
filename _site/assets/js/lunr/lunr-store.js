@@ -131,10 +131,10 @@ var store = [{
         "url": "/aitech_daily/post-day05/",
         "teaser": null
       },{
-        "title": "Post: 논문리뷰",
-        "excerpt":"논문리뷰     논문 리뷰를 합시다.  ","categories": ["paper"],
+        "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
+        "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
         "tags": [],
-        "url": "/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/",
+        "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
         "teaser": null
       },{
         "title": "Post: 챗봇 만들기",
@@ -149,10 +149,16 @@ var store = [{
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
       },{
-        "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
-        "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
+        "title": "Post: Attention is all you need",
+        "excerpt":"   Attention is All you need   이 논문의 함의!  구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다.  기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠.   ","categories": ["paper"],
         "tags": [],
-        "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
+        "url": "/paper/post-attention-is-all-you-need/",
+        "teaser": null
+      },{
+        "title": "Post: 논문리뷰",
+        "excerpt":"   논문리뷰     논문 리뷰를 합시다.  ","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/",
         "teaser": null
       },{
         "title": "Post: ai tech 2주차",
