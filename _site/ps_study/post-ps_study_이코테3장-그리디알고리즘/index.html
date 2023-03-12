@@ -1025,7 +1025,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#그리디-알고리즘">그리디 알고리즘</a></li><li><a href="#내가-사랑한-그리디-알고리즘-27-문제-링크">내가 사랑한 그리디 알고리즘 27 문제 링크</a></li></ul>
+              <ul class="toc__menu"><li><a href="#그리디-알고리즘">그리디 알고리즘</a><ul><li><a href="#큰수의-법칙">큰수의 법칙</a></li><li><a href="#숫자-카드게임">숫자 카드게임</a></li><li><a href="#1이-될-때까지">1이 될 때까지</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -1035,253 +1035,83 @@
 <p>자, 그리디 알고리즘을 공부합시다. 
 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다.</p>
 
+<h2 id="큰수의-법칙">큰수의 법칙</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>N, M, K = map(int, input().split())
+numbers = list(map(int, input().split()))
+
+# N : 주어지는 수의 개수
+# M : 몇 개의 수자를 모을 것인가
+# K : k 개 초과 불가
+
+numbers.sort(reverse=True)
+
+check = 0
+loop = 0
+r = []
+while len(r) != M:
+    check += 1
+    r.append(numbers[loop])
+
+    if loop == 1:
+        loop = 0
+        continue
+
+    if check % K == 0:
+        check = 0
+        loop = 1
+
+
+# print(numbers)
+# print(r)
+print(sum(r))
+
+</code></pre></div></div>
+
+<h2 id="숫자-카드게임">숫자 카드게임</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>N, M = map(int, input().split())
+
+arry = [list(map(int, input().split())) for n in range(N)]
+
+r = []
+for idx, value in enumerate(arry):
+    r.append([idx, min(value)])
+
+r.sort(key=lambda x:-x[1])
+
+print(r[0][1])
+</code></pre></div></div>
+
+<h2 id="1이-될-때까지">1이 될 때까지</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>N, K = map(int, input().split())
+
+dp = [0 for i in range(N + 1)]
+dp[1] = 1
+if K == 2:
+    dp[2] = 1
+else:
+    dp[2] = 2
+
+dp[K] = 1
+
+for i in range(3, N + 1):
+    dp[i] = min(dp[i - 1] + 1, dp[int(i/N)] + 1)
+
+print(dp[N])
+</code></pre></div></div>
+
 <p><br />
 <br />
 <br />
 <br /></p>
 
-<h1 id="내가-사랑한-그리디-알고리즘-27-문제-링크">내가 사랑한 그리디 알고리즘 27 문제 <a href="https://github.com/tony9402/baekjoon/tree/main/greedy">링크</a></h1>
+<p><br />
+<br />
+<br />
+<br /></p>
 
-<p><a href="https://www.acmicpc.net/workbook/view/6833">백준 문제집</a></p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">순번</th>
-      <th style="text-align: center">추천 문제</th>
-      <th style="text-align: center">문제 번호</th>
-      <th style="text-align: center">문제 이름</th>
-      <th style="text-align: center">난이도</th>
-      <th style="text-align: center">풀이 링크</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">00</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/14916" target="_blank">14916</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/14916" target="_blank">거스름돈</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/14916">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">01</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1343" target="_blank">1343</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1343" target="_blank">폴리오미노</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">02</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2217" target="_blank">2217</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2217" target="_blank">로프</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/2217">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">03</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1758" target="_blank">1758</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1758" target="_blank">알바생 강호</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/1758">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">04</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11399" target="_blank">11399</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11399" target="_blank">ATM</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/11399">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">05</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11508" target="_blank">11508</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11508" target="_blank">2+1 세일</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/11508">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">06</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11047" target="_blank">11047</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11047" target="_blank">동전 0</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">07</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/13305" target="_blank">13305</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/13305" target="_blank">주유소</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/13305">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">08</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/20115" target="_blank">20115</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/20115" target="_blank">에너지 드링크</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/20115">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">09</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/20300" target="_blank">20300</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/20300" target="_blank">서강근육맨</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/20300">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">10</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/20365" target="_blank">20365</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/20365" target="_blank">블로그2</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/20365">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">11</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1541" target="_blank">1541</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1541" target="_blank">잃어버린 괄호</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/1541">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">12</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/16953" target="_blank">16953</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/16953" target="_blank">A → B</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">13</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/21314" target="_blank">21314</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/21314" target="_blank">민겸 수</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">14</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1931" target="_blank">1931</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1931" target="_blank">회의실 배정</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/1931">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">15</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11000" target="_blank">11000</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/11000" target="_blank">강의실 배정</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/11000">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">16</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/13164" target="_blank">13164</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/13164" target="_blank">행복 유치원</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/13164">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">17</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/19598" target="_blank">19598</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/19598" target="_blank">최소 회의실 개수</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/19598">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">18</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2212" target="_blank">2212</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2212" target="_blank">센서</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/2212">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">19</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1092" target="_blank">1092</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1092" target="_blank">배</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/1092">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">20</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/21758" target="_blank">21758</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/21758" target="_blank">꿀 따기</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/21758">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">21</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2141" target="_blank">2141</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2141" target="_blank">우체국</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/2141">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">22</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/13975" target="_blank">13975</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/13975" target="_blank">파일 합치기 3</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">23</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1715" target="_blank">1715</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/1715" target="_blank">카드 정렬하기</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">24</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2285" target="_blank">2285</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2285" target="_blank">우체국</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">25</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2812" target="_blank">2812</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/2812" target="_blank">크게 만들기</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg" /></td>
-      <td style="text-align: center"><a href="./../solution/greedy/2812">바로가기</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">26</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/8980" target="_blank">8980</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/8980" target="_blank">택배</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">27</td>
-      <td style="text-align: center">❌</td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/21313" target="_blank">21313</a></td>
-      <td style="text-align: center"><a href="https://www.acmicpc.net/problem/21313" target="_blank">문어</a></td>
-      <td style="text-align: center"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg" /></td>
-      <td style="text-align: center"> </td>
-    </tr>
-  </tbody>
-</table>
 
         
       </section>

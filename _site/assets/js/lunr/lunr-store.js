@@ -84,7 +84,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 이코테 3장(그리디 알고리즘)",
-        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 내가 사랑한 그리디 알고리즘 27 문제 링크 백준 문제집 순번 추천 문제 문제 번호 문제 이름 난이도 풀이 링크 00 ❌ 14916 거스름돈 바로가기 01 ❌ 1343 폴리오미노   02 ❌...","categories": ["ps_study"],
+        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 큰수의 법칙 N, M, K = map(int, input().split()) numbers = list(map(int, input().split())) # N : 주어지는 수의 개수 # M : 몇 개의 수자를 모을 것인가 # K : k 개...","categories": ["ps_study"],
         "tags": [],
         "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
