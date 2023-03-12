@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 1주차",
-        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차 정리] 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 파이썬 기초 강의, ai math 강의를 들었습니다. 선형대수학 전공강의를 들었음에도 잘 생각이 나지 않아서 전공책으로 다시 공부해야 겠다는 생각이 들었습니다. 경사하강법, 오차역전파를 공부하며 선형대수학이 DL 에 중요한 이유를 확실히 깨달았습니다....","categories": ["aitech_weekly"],
+        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차 정리] 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 설레는 마음으로 첫 주차 부트캠프에 참여했습니다. 상당히 전문성 있는 교육 프로그램이 인상 깊었습니다. 첫 날에 타운홀 미팅이 있었고 팀원들과 자기소개 하는 시간을 가졌습니다. 하루에 최대 2시간의 시간을 제외하면 모두 제가...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
@@ -59,8 +59,8 @@ var store = [{
         "url": "/aitech_knowledge_nlp/post-mrc/",
         "teaser": null
       },{
-        "title": "Post: nlp 정리",
-        "excerpt":"   ","categories": ["aitech_knowledge_nlp"],
+        "title": "Post: 자연어 처리의 모든 것",
+        "excerpt":"   자연어 처리의 모든 것  시작합니다.  ","categories": ["aitech_knowledge_nlp"],
         "tags": [],
         "url": "/aitech_knowledge_nlp/post-nlp/",
         "teaser": null
