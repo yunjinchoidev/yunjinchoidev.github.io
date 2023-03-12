@@ -71,6 +71,12 @@ var store = [{
         "url": "/aitech_knowledge_recsys/post-recsys/",
         "teaser": null
       },{
+        "title": "Post: [백준][14916] 거스름돈",
+        "excerpt":" ","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-ps_01/",
+        "teaser": null
+      },{
         "title": "Post: 이코테 1장, 2장",
         "excerpt":"이코테 1 장 개요 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 공간 복잡도 알고리즘을 위해 필요한 메모리의 양 빅오 표기법 빅오 표기법 명칭 O(1) 상수 O(logN) 로그 시간 O(N) 선형 시간 O(NlonN) 로그 선형 시간 O(N^2) 이차 시간 O(N^3) 삼차 시간 O(2^3) 지수 시간 수행 시간 체크 import time start_time...","categories": ["ps_study"],
         "tags": [],
@@ -78,7 +84,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 이코테 3장(그리디 알고리즘)",
-        "excerpt":"그리디 알고리즘   자, 그리디 알고리즘을 공부합시다.  그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다.   내가 사랑한 그리디 알고리즘 30문제                                                                                                ","categories": ["ps_study"],
+        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 내가 사랑한 그리디 알고리즘 27 문제 링크 백준 문제집 순번 추천 문제 문제 번호 문제 이름 난이도 풀이 링크 00 ❌ 14916 거스름돈 바로가기 01 ❌ 1343 폴리오미노   02 ❌...","categories": ["ps_study"],
         "tags": [],
         "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
@@ -93,6 +99,12 @@ var store = [{
         "excerpt":"Pytorch 템플릿을 문석해봅시다. 링크 여기 오픈 소스가 하나 있습니다. 이 포스팅을 통해 이 템플릿을 분해, 분석 해보는 시간을 가지려고 합니다. * train.py -&gt; 실행 * test.py -&gt; 실행 * config -&gt; 설정 * parse_config -&gt; 설정 * base -&gt; base 모델 * data_loader ~ -&gt; data * model ~ -&gt;...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-pytorchtemplate/",
+        "teaser": null
+      },{
+        "title": "Post: ai의 모든 것.",
+        "excerpt":"ai   ","categories": ["ai"],
+        "tags": [],
+        "url": "/ai/post-ai/",
         "teaser": null
       },{
         "title": "Post: ai_cv",

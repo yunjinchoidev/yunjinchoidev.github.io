@@ -6,7 +6,8 @@ author_profile: true
 sidebar_main: true
 ---
 
-<img src="../../../image/chatbot/chatbot_lachesis.png" width="400" height="400" />
+![paper.png](../../../image/paper.png)
+
 
 <br><br><br><br>
 
