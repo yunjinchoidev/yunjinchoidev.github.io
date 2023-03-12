@@ -102,7 +102,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 선형대수학",
-        "excerpt":"선형대수학 선형성 선형성이란 입력값에 a 라는 영향을 주면 결과치도 a 라는 결과 값을 받는 것을 말한다. 선형성의 결과에 따라 예측 가능한 시스템을 만들 수 있다. 선형 결합 ax + by = z 를 만족하는 a, b 의 값을 찾는 것이 선형 결합의 목표이다. Ax = b Ax = b 를...","categories": ["ai_linearalgebra"],
+        "excerpt":"선형대수학 선형대수(linear algebra)는 데이터 분석에 필요한 각종 계산을 돕는 학문 [링크] 선형성 선형성이란 입력값에 a 라는 영향을 주면 결과치도 a 라는 결과 값을 받는 것을 말한다. 선형성의 결과에 따라 예측 가능한 시스템을 만들 수 있다. 선형 결합 ax + by = z 를 만족하는 a, b 의 값을 찾는 것이...","categories": ["ai_linearalgebra"],
         "tags": [],
         "url": "/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/",
         "teaser": null

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-12T18:39:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="Post: ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-12T18:52:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="Post: ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="2주차-계획">2주차 계획</h1>
 <ul class="task-list">
@@ -352,6 +352,7 @@
 <ul>
   <li>논문 리뷰를 합시다.</li>
 </ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 선형대수학</title><link href="http://localhost:4000/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/" rel="alternate" type="text/html" title="Post: 선형대수학" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99</id><content type="html" xml:base="http://localhost:4000/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/"><![CDATA[<h1 id="선형대수학">선형대수학</h1>
+<p>선형대수(linear algebra)는 데이터 분석에 필요한 각종 계산을 돕는 학문 <a href="https://datascienceschool.net/02%20mathematics/02.01%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80%20%ED%96%89%EB%A0%AC.html">[링크]</a></p>
 
 <h2 id="선형성">선형성</h2>
 <p>선형성이란 입력값에  a 라는 영향을 주면 결과치도 a 라는 결과 값을 받는 것을 말한다.</p>
@@ -362,7 +363,13 @@
 <p>ax + by = z 를 만족하는 a, b 의 값을 찾는 것이 선형 결합의 목표이다.</p>
 
 <h2 id="ax--b">Ax = b</h2>
-<p>Ax = b 를 푸는 방법은 크게 두 가지가 있을 수 있다. 하나는 row 방식, 하나는 column 방식이다. row 방식으로 풀게 되면 내적(dot product) 를 사용하는 것이다. column 방식은 선형 결함(linear combination) 을 사용하는 방식이다. <a href="https://twlab.tistory.com/category/Fundamentals/Linear%20Algebra?page=8">링크</a></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai_linearalgebra" /><summary type="html"><![CDATA[선형대수학]]></summary></entry><entry><title type="html">Post: 선형대수학</title><link href="http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/" rel="alternate" type="text/html" title="Post: 선형대수학" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>Ax = b 를 푸는 방법은 크게 두 가지가 있을 수 있다. 하나는 row 방식, 하나는 column 방식이다. row 방식으로 풀게 되면 내적(dot product) 를 사용하는 것이다. column 방식은 선형 결함(linear combination) 을 사용하는 방식이다. <a href="https://twlab.tistory.com/category/Fundamentals/Linear%20Algebra?page=8">링크</a></p>
+
+<h2 id="with-numpy">with numpy</h2>
+<p>스칼라(scalar), 벡터(vector), 행렬(matrix), 텐서(tensor) 유형으로 나뉜다</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai_linearalgebra" /><summary type="html"><![CDATA[선형대수학 선형대수(linear algebra)는 데이터 분석에 필요한 각종 계산을 돕는 학문 [링크]]]></summary></entry><entry><title type="html">Post: 선형대수학</title><link href="http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/" rel="alternate" type="text/html" title="Post: 선형대수학" /><published>2023-03-09T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="선형대수학">선형대수학</h1>
 <blockquote>
