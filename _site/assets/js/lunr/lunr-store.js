@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: Pytorch ",
-        "excerpt":"✅ Introduction to PyTorch 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. 책 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 저희는 파이토치를 사용할 것입니다. 파이토치는 장점이 꽤 많습니다. 대표적으로 Define by Run 이라는 작동 방식인데요. 이것은 실행을 한면서 계산 그래프(Computational Graph)를 생성하는...","categories": ["aitech_knowledge"],
+        "excerpt":"✅ Introduction to PyTorch 파이토치를 공부합시다. 네트워크 구현 및 데이터 로딩, 프로젝트 구조, 로깅, Multi GPU, 이어 학습 을 다룹니다. 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. 책 읽어보세요. 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 저희는 파이토치를 사용할 것입니다. 파이토치는...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-pytorch/",
         "teaser": null
@@ -201,5 +201,11 @@ var store = [{
         "excerpt":"   2주차 계획     텐서보드 튜토리얼 코드 돌리기   WanB 튜토리얼 코드 돌려보기   하이퍼 파라미터 튜닝 해보기   코테 스터디 잘 참여하기   2주차   [2주차를 보내며]  ","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech -Day06 ",
+        "excerpt":"  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day06/",
         "teaser": null
       }]
