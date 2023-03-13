@@ -49,6 +49,10 @@ Pytorch 는 Dynamic Computation Graph 다.
 ```
 파이토치는 텐서로 시작해서 텐서로 끝납니다.
 
+## 공식문서를 읽읍시다.
+공식문서가 굉장히 중요합니다. 우리 같이 읽어봐유.
+[[공식문서 바로가기]](https://pytorch.org/docs/stable/index.html)
+
 <br>
 <br>
 <br>
@@ -74,6 +78,8 @@ x_data_cuda.device
 
 ## squeeze(), unsqueeze()
 
+## mm(), matmul
+mm과 matmul은 broadcasting 을 지원합니다.
 
 
 ## autograd

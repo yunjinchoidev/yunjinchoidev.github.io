@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-13T11:13:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech -Day06</title><link href="http://localhost:4000/aitech_daily/post-day06/" rel="alternate" type="text/html" title="Post: ai tech -Day06" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day06</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day06/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="Post: ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-13T23:56:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: ai tech - Day06</title><link href="http://localhost:4000/aitech_daily/post-day06/" rel="alternate" type="text/html" title="Post: ai tech - Day06" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day06</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day06/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
+<p>파이토치 수업을 시작했습니다. 본격적인 딥러닝 구현을 들어가서 설렜습니다. 월요일 9시가 되고 과제를 열어보니 난이도가 꽤 있어서 걱정이 조금 되었습니다. 수요일 까지 최대한 빨리 끝내놓고 한 주의 마무리를 잘 해야 겠다는 다짐을 했습니다.</p>
+
+<p>팀원들과 코딩테스트 스터디를 시작했습니다. [이것이 취업을 위한 코딩테스트다.] 라는 책으로 시작하게 되었는데요. 그리디 알고리즘 개념 공부와 함께 있는 3 문제를 같이 풀었습니다.</p>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+<p>강제로 코드를 치다 보니 손에 익는 것은 분명 있습니다. 파이토치 공부를 하면서 매번 눈으로만 배우는 습관을 가지고 있었는데 이번에는 마음을 다잡고 하나 하나 쳐가면서 공부를 하고 있습니다. 코드는 역시 쳐서 돌려봐야 내것이 되나 봅니다.</p>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+<p>pytoch를 사용하는 이유, 기초 사용법, Documentation 읽는 법 등을 배웠습니다.</p>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+<p>코딩테스트 문제는 하루에 2 문제 씩 계속 풀려고 합니다.</p>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
+<p>휴식 시간을 잘 가져야겠습니다. 그리고 식사는 저녁까지 계속 굶다가 저녁에 한 끼만 먹는 것이 좋겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="Post: ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="2주차-계획">2주차 계획</h1>
 <ul class="task-list">

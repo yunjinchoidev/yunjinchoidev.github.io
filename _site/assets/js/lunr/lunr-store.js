@@ -203,8 +203,8 @@ var store = [{
         "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day06 ",
-        "excerpt":"  ","categories": ["aitech_daily"],
+        "title": "Post: ai tech - Day06 ",
+        "excerpt":"5F 그날의 사실 (Facts) : 파이토치 수업을 시작했습니다. 본격적인 딥러닝 구현을 들어가서 설렜습니다. 월요일 9시가 되고 과제를 열어보니 난이도가 꽤 있어서 걱정이 조금 되었습니다. 수요일 까지 최대한 빨리 끝내놓고 한 주의 마무리를 잘 해야 겠다는 다짐을 했습니다. 팀원들과 코딩테스트 스터디를 시작했습니다. [이것이 취업을 위한 코딩테스트다.] 라는 책으로 시작하게 되었는데요. 그리디...","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day06/",
         "teaser": null
