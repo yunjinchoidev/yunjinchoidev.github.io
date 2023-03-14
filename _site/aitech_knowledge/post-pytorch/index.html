@@ -177,7 +177,7 @@
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>사랑의 발명 ㅤㅤㅤㅤㅤㅤㅤ  사랑의 민주화</p>
+        <p>사랑의 발명. 사랑의 민주화.</p>
 
       </div>
     
@@ -283,7 +283,7 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">35</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">36</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
 
@@ -336,7 +336,7 @@
                     
                 
                     
-                        <li><a href="/categories/aitech_daily" class="">데일리 리뷰 (6)</a></li>
+                        <li><a href="/categories/aitech_daily" class="">데일리 리뷰 (7)</a></li>
                     
                 
                     
@@ -1025,7 +1025,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#-introduction-to-pytorch">✅ Introduction to PyTorch</a><ul><li><a href="#파이토치-api">파이토치 API</a></li><li><a href="#공식문서를-읽읍시다">공식문서를 읽읍시다.</a></li></ul></li><li><a href="#--dive-to-pytorch">✅  Dive To Pytorch</a><ul><li><a href="#squeeze-unsqueeze">squeeze(), unsqueeze()</a></li><li><a href="#mm-matmul">mm(), matmul</a></li><li><a href="#autograd">autograd</a></li><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#-use-template">✅ Use Template</a></li><li><a href="#-autograd--optimizer">✅ AutoGrad &amp; Optimizer</a></li><li><a href="#-데이터를-불러오자-dataset--dataloader">✅ [데이터를 불러오자~] Dataset &amp; Dataloader</a><ul><li><a href="#pytorch-dataset">Pytorch Dataset</a></li><li><a href="#pytorch-dataloader">Pytorch Dataloader</a></li></ul></li><li><a href="#-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</a><ul><li><a href="#check-point">check point</a></li></ul></li><li><a href="#-모니터링-합시다---monitoring-tools-for-pytorch">✅ 모니터링 합시다 - Monitoring tools for PyTorch</a></li><li><a href="#-muti-gpu">✅ Muti-GPU</a></li><li><a href="#-hyperparameter-tuning">✅ Hyperparameter Tuning</a></li><li><a href="#-pytorch-troubleshooting">✅ PyTorch Troubleshooting</a></li></ul>
+              <ul class="toc__menu"><li><a href="#-introduction-to-pytorch">✅ Introduction to PyTorch</a><ul><li><a href="#파이토치-api">파이토치 API</a></li><li><a href="#공식문서를-읽읍시다">공식문서를 읽읍시다.</a></li></ul></li><li><a href="#--dive-to-pytorch">✅  Dive To Pytorch</a><ul><li><a href="#torchview">torch.view</a></li><li><a href="#tochsqueeze">toch.squeeze</a></li><li><a href="#torchunsqueeze">torch.unsqueeze</a></li><li><a href="#torchindex_select">TORCH.INDEX_SELECT</a></li><li><a href="#torchswapdims">torch.swapdims</a></li><li><a href="#torchrandn">torch.randn</a></li></ul></li><li><a href="#torchlog1p">TORCH.LOG1P</a><ul><li><a href="#torchprod">TORCH.PROD</a></li><li><a href="#torchcount_nonzero">TORCH.COUNT_NONZERO</a></li><li><a href="#squeeze-unsqueeze">squeeze(), unsqueeze()</a></li><li><a href="#mm-matmul">mm(), matmul</a></li><li><a href="#autograd">autograd</a></li><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#-use-template">✅ Use Template</a></li><li><a href="#-autograd--optimizer">✅ AutoGrad &amp; Optimizer</a></li><li><a href="#-데이터를-불러오자-dataset--dataloader">✅ [데이터를 불러오자~] Dataset &amp; Dataloader</a><ul><li><a href="#pytorch-dataset">Pytorch Dataset</a></li><li><a href="#pytorch-dataloader">Pytorch Dataloader</a></li></ul></li><li><a href="#-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</a><ul><li><a href="#check-point">check point</a></li><li><a href="#전이학습과-불러오기">전이학습과 불러오기</a></li><li><a href="#freezing">Freezing</a></li></ul></li><li><a href="#-모니터링-합시다---monitoring-tools-for-pytorch">✅ 모니터링 합시다 - Monitoring tools for PyTorch</a></li><li><a href="#-muti-gpu">✅ Muti-GPU</a></li><li><a href="#-hyperparameter-tuning">✅ Hyperparameter Tuning</a></li><li><a href="#-pytorch-troubleshooting">✅ PyTorch Troubleshooting</a></li></ul>
 
             </nav>
           </aside>
@@ -1051,10 +1051,10 @@ Pytorch 는 Dynamic Computation Graph 다.
 <h2 id="파이토치-api">파이토치 API</h2>
 <p>파이토치 API 를 알아봅시다.</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">torch</code></li>
-  <li><code class="language-plaintext highlighter-rouge">torch.autograd</code></li>
-  <li><code class="language-plaintext highlighter-rouge">torch.nn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">torch.multiprocessing</code></li>
+  <li><code class="language-plaintext highlighter-rouge">torch</code> : 텐서 등의 다양한 수학 함수가 포함</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.autograd</code> : 자동 미분을 위한 함수들이 포함</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.nn</code> : 신경망을 구축하기 위한 다양한 데이터 구조나 레이어 등이 정의</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.multiprocessing</code> : 확률적 경사 하강법(Stochastic Gradient Descent, SGD)를 중심으로 한 파라미터 최적화 알고리즘이 구현</li>
   <li><code class="language-plaintext highlighter-rouge">torch.utils</code></li>
 </ul>
 
@@ -1073,7 +1073,62 @@ Pytorch 는 Dynamic Computation Graph 다.
 
 <h1 id="--dive-to-pytorch">✅  Dive To Pytorch</h1>
 <p>이제 파이토치 기본에 대해서 공부해 봅시다. 
-파이토치는 numpy와 왠만한 문법이 비슷하니 numpy를 잘 하시면 어느정도는 잘 할 수 있습니다. 부족하다고 느끼면 numpy를 공부하시기 바랍니다.</p>
+파이토치는 numpy와 왠만한 문법이 비슷하니 numpy를 잘 하시면 어느정도는 잘 할 수 있습니다. 부족하다고 느끼면 numpy를 공부하시기 바랍니다. 그래도 중요한 것 몇 가지만 정리해 봅시다.</p>
+
+<h2 id="torchview">torch.view</h2>
+<p>원소의 수를 유지하면서 텐서의 크기를 변경하는 함수</p>
+
+<h2 id="tochsqueeze">toch.squeeze</h2>
+<p>1인 차원을 제거한다.</p>
+
+<h2 id="torchunsqueeze">torch.unsqueeze</h2>
+<p>특정 위치에 1인 차원을 추가한다.</p>
+
+<p>이 외에도 수많은 기능들이 파이토치에 담겨 있습니다. 파이토치를 잘 하기 위한 비결은 무엇일까요? 공식문서를  탐색하는 것입니다. dl 코드를 짤 때도 마찬가지 입니다. 해당 함수, 라이브라리가 실제로 코드 레벨에서 어떻게 구현 되어 있는지 확인하는 습관을 들입시다.</p>
+
+<h2 id="torchindex_select">TORCH.INDEX_SELECT</h2>
+
+<h2 id="torchswapdims">torch.swapdims</h2>
+
+<h2 id="torchrandn">torch.randn</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; torch.randn(4)
+tensor([-2.1436,  0.9966,  2.3426, -0.6366])
+&gt;&gt;&gt; torch.randn(2, 3)
+tensor([[ 1.5954,  2.8929, -1.0923],
+        [ 1.1719, -0.4709, -0.1996]])
+</code></pre></div></div>
+
+<h1 id="torchlog1p">TORCH.LOG1P</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; a = torch.randn(5)
+&gt;&gt;&gt; a
+tensor([-1.0090, -0.9923,  1.0249, -0.5372,  0.2492])
+&gt;&gt;&gt; torch.log1p(a)
+tensor([    nan, -4.8653,  0.7055, -0.7705,  0.2225])
+</code></pre></div></div>
+
+<h2 id="torchprod">TORCH.PROD</h2>
+<p>모은 텐서 성분의 곱</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; a = torch.randn(1, 3)
+&gt;&gt;&gt; a
+tensor([[-0.8020,  0.5428, -1.5854]])
+&gt;&gt;&gt; torch.prod(a)
+tensor(0.6902)
+</code></pre></div></div>
+
+<h2 id="torchcount_nonzero">TORCH.COUNT_NONZERO</h2>
+<p>Counts the number of non-zero values in the tensor input along the given dim. If no dim is specified then all non-zeros in the tensor are counted.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; x = torch.zeros(3,3)
+&gt;&gt;&gt; x[torch.randn(3,3) &gt; 0.5] = 1
+&gt;&gt;&gt; x
+tensor([[0., 1., 1.],
+        [0., 0., 0.],
+        [0., 0., 1.]])
+&gt;&gt;&gt; torch.count_nonzero(x)
+tensor(3)
+&gt;&gt;&gt; torch.count_nonzero(x, dim=0)
+tensor([0, 1, 2])
+</code></pre></div></div>
 
 <p>pytorch는 gpu에 올려서 작업이 가능합니다. 아래는 pytorch를 gpu에 올릴지 작업하는 코드이니 잘 숙지하시기 바랍니다.</p>
 
@@ -1295,7 +1350,8 @@ Mnist 클론 코딩을 해보세요.
 <h1 id="-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</h1>
 <p>우리는 실제 라벨과 예측 라벨의 오차 함수의 그레디언트를 계산하고 오차역전파를 계산하여 W 가중치 텐서를 업데이트 시켰다고 가정합니다. 우리는 이 결과를 전달하려 한다.<strong>어떻게</strong> 하는게 좋을까요 ?</p>
 
-<p><code class="language-plaintext highlighter-rouge">model.save()</code> 함수를 사용합시다. 이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다.</p>
+<p><code class="language-plaintext highlighter-rouge">model.save()</code> 함수를 사용합시다. 
+이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다.</p>
 
 <p>저장법 2가지가 있습니다.</p>
 
@@ -1307,7 +1363,11 @@ Mnist 클론 코딩을 해보세요.
 <h2 id="check-point">check point</h2>
 <p>중간중간에 loss 와 metric을 지속적으로 저장하는 것을 말합니다. 코드 중간에 pickle 형태로 저장하세요. 중간에 Earlystopping(조기 종료) 처리를 할 수 도 있습니다.</p>
 
+<h2 id="전이학습과-불러오기">전이학습과 불러오기</h2>
 <p>전이학습(Transfer learning) 을 위해 구글, 페이스북에서 학습한 모델을 가져오려고 합니다. 어떻게 할까요?  NLP 분야에서는 <code class="language-plaintext highlighter-rouge">Huggingface</code>가 대표적입니다.  <code class="language-plaintext highlighter-rouge">Freezing</code> 는 Transfer 를 적용시키기 위해서 일부분의 가중치를 학습 시키지 않는것을 말합니다. 트랜스퍼 러닝은 외부 모듈에서 전이학습을 가져오고 자신만의 layer를 추가 시켜 학습시키는 방식으로 하면 됩니다. 굉장히 많이 쓰니 집중해서 공부하시기 바랍니다.</p>
+
+<h2 id="freezing">Freezing</h2>
+<p>pretrained model 활용시 모델의 일부분을 frozen 시킵니다.</p>
 
 <p><br />
 <br />
@@ -1475,6 +1535,46 @@ writer.close()
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/aitech_daily/post-day07/" rel="permalink">Post: ai tech -Day07
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/aitech_daily/post-day06/" rel="permalink">Post: ai tech - Day06
 </a>
       
@@ -1556,46 +1656,6 @@ writer.close()
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/" rel="permalink">Post: 논문리뷰
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/paper/post-attention-is-all-you-need/" rel="permalink">Post: Attention is all you need
 </a>
       
     </h2>

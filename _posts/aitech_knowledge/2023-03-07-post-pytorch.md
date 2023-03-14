@@ -38,11 +38,11 @@ Pytorch 는 Dynamic Computation Graph 다.
 
 ## 파이토치 API
 파이토치 API 를 알아봅시다.
-- `torch`
-- `torch.autograd`
-- `torch.nn`
-- `torch.multiprocessing`
-- `torch.utils`
+- `torch` : 텐서 등의 다양한 수학 함수가 포함
+- `torch.autograd` : 자동 미분을 위한 함수들이 포함
+- `torch.nn` : 신경망을 구축하기 위한 다양한 데이터 구조나 레이어 등이 정의
+- `torch.multiprocessing` : 확률적 경사 하강법(Stochastic Gradient Descent, SGD)를 중심으로 한 파라미터 최적화 알고리즘이 구현
+- `torch.utils` 
 
 ```
 
@@ -63,7 +63,70 @@ Pytorch 는 Dynamic Computation Graph 다.
 
 # ✅  Dive To Pytorch
 이제 파이토치 기본에 대해서 공부해 봅시다. 
-파이토치는 numpy와 왠만한 문법이 비슷하니 numpy를 잘 하시면 어느정도는 잘 할 수 있습니다. 부족하다고 느끼면 numpy를 공부하시기 바랍니다.
+파이토치는 numpy와 왠만한 문법이 비슷하니 numpy를 잘 하시면 어느정도는 잘 할 수 있습니다. 부족하다고 느끼면 numpy를 공부하시기 바랍니다. 그래도 중요한 것 몇 가지만 정리해 봅시다.
+
+## torch.view
+원소의 수를 유지하면서 텐서의 크기를 변경하는 함수
+
+## toch.squeeze
+1인 차원을 제거한다.
+
+## torch.unsqueeze
+특정 위치에 1인 차원을 추가한다.
+
+
+이 외에도 수많은 기능들이 파이토치에 담겨 있습니다. 파이토치를 잘 하기 위한 비결은 무엇일까요? 공식문서를  탐색하는 것입니다. dl 코드를 짤 때도 마찬가지 입니다. 해당 함수, 라이브라리가 실제로 코드 레벨에서 어떻게 구현 되어 있는지 확인하는 습관을 들입시다.
+
+## TORCH.INDEX_SELECT
+
+## torch.swapdims
+
+## torch.randn
+```
+>>> torch.randn(4)
+tensor([-2.1436,  0.9966,  2.3426, -0.6366])
+>>> torch.randn(2, 3)
+tensor([[ 1.5954,  2.8929, -1.0923],
+        [ 1.1719, -0.4709, -0.1996]])
+```
+
+# TORCH.LOG1P
+
+```
+>>> a = torch.randn(5)
+>>> a
+tensor([-1.0090, -0.9923,  1.0249, -0.5372,  0.2492])
+>>> torch.log1p(a)
+tensor([    nan, -4.8653,  0.7055, -0.7705,  0.2225])
+```
+
+
+## TORCH.PROD
+모은 텐서 성분의 곱
+```
+>>> a = torch.randn(1, 3)
+>>> a
+tensor([[-0.8020,  0.5428, -1.5854]])
+>>> torch.prod(a)
+tensor(0.6902)
+```
+
+##  TORCH.COUNT_NONZERO
+Counts the number of non-zero values in the tensor input along the given dim. If no dim is specified then all non-zeros in the tensor are counted.
+```
+>>> x = torch.zeros(3,3)
+>>> x[torch.randn(3,3) > 0.5] = 1
+>>> x
+tensor([[0., 1., 1.],
+        [0., 0., 0.],
+        [0., 0., 1.]])
+>>> torch.count_nonzero(x)
+tensor(3)
+>>> torch.count_nonzero(x, dim=0)
+tensor([0, 1, 2])
+```
+
+
 
 pytorch는 gpu에 올려서 작업이 가능합니다. 아래는 pytorch를 gpu에 올릴지 작업하는 코드이니 잘 숙지하시기 바랍니다.
 
@@ -298,7 +361,8 @@ Mnist 클론 코딩을 해보세요.
 # ✅ [Save Model] 모델을 저장하고 불러오기
 우리는 실제 라벨과 예측 라벨의 오차 함수의 그레디언트를 계산하고 오차역전파를 계산하여 W 가중치 텐서를 업데이트 시켰다고 가정합니다. 우리는 이 결과를 전달하려 한다.**어떻게** 하는게 좋을까요 ?
 
-`model.save()` 함수를 사용합시다. 이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다. 
+`model.save()` 함수를 사용합시다. 
+이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다.
 
 저장법 2가지가 있습니다. 
 
@@ -308,8 +372,11 @@ Mnist 클론 코딩을 해보세요.
 ## check point
 중간중간에 loss 와 metric을 지속적으로 저장하는 것을 말합니다. 코드 중간에 pickle 형태로 저장하세요. 중간에 Earlystopping(조기 종료) 처리를 할 수 도 있습니다. 
 
+## 전이학습과 불러오기
 전이학습(Transfer learning) 을 위해 구글, 페이스북에서 학습한 모델을 가져오려고 합니다. 어떻게 할까요?  NLP 분야에서는 `Huggingface`가 대표적입니다.  `Freezing` 는 Transfer 를 적용시키기 위해서 일부분의 가중치를 학습 시키지 않는것을 말합니다. 트랜스퍼 러닝은 외부 모듈에서 전이학습을 가져오고 자신만의 layer를 추가 시켜 학습시키는 방식으로 하면 됩니다. 굉장히 많이 쓰니 집중해서 공부하시기 바랍니다. 
 
+## Freezing
+pretrained model 활용시 모델의 일부분을 frozen 시킵니다.
 
 
 <br>

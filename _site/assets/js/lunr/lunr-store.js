@@ -208,4 +208,10 @@ var store = [{
         "tags": [],
         "url": "/aitech_daily/post-day06/",
         "teaser": null
+      },{
+        "title": "Post: ai tech -Day07 ",
+        "excerpt":"  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day07/",
+        "teaser": null
       }]
