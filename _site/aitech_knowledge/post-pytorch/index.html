@@ -1010,7 +1010,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          4 분 소요
+          5 분 소요
         
       </span>
     
@@ -1025,7 +1025,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#-introduction-to-pytorch">✅ Introduction to PyTorch</a><ul><li><a href="#파이토치-api">파이토치 API</a></li><li><a href="#공식문서를-읽읍시다">공식문서를 읽읍시다.</a></li></ul></li><li><a href="#--dive-to-pytorch">✅  Dive To Pytorch</a><ul><li><a href="#torchview">torch.view</a></li><li><a href="#tochsqueeze">toch.squeeze</a></li><li><a href="#torchunsqueeze">torch.unsqueeze</a></li><li><a href="#torchindex_select">TORCH.INDEX_SELECT</a></li><li><a href="#torchswapdims">torch.swapdims</a></li><li><a href="#torchrandn">torch.randn</a></li></ul></li><li><a href="#torchlog1p">TORCH.LOG1P</a><ul><li><a href="#torchprod">TORCH.PROD</a></li><li><a href="#torchcount_nonzero">TORCH.COUNT_NONZERO</a></li><li><a href="#squeeze-unsqueeze">squeeze(), unsqueeze()</a></li><li><a href="#mm-matmul">mm(), matmul</a></li><li><a href="#autograd">autograd</a></li><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#-use-template">✅ Use Template</a></li><li><a href="#-autograd--optimizer">✅ AutoGrad &amp; Optimizer</a></li><li><a href="#-데이터를-불러오자-dataset--dataloader">✅ [데이터를 불러오자~] Dataset &amp; Dataloader</a><ul><li><a href="#pytorch-dataset">Pytorch Dataset</a></li><li><a href="#pytorch-dataloader">Pytorch Dataloader</a></li></ul></li><li><a href="#-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</a><ul><li><a href="#check-point">check point</a></li><li><a href="#전이학습과-불러오기">전이학습과 불러오기</a></li><li><a href="#freezing">Freezing</a></li></ul></li><li><a href="#-모니터링-합시다---monitoring-tools-for-pytorch">✅ 모니터링 합시다 - Monitoring tools for PyTorch</a></li><li><a href="#-muti-gpu">✅ Muti-GPU</a></li><li><a href="#-hyperparameter-tuning">✅ Hyperparameter Tuning</a></li><li><a href="#-pytorch-troubleshooting">✅ PyTorch Troubleshooting</a></li></ul>
+              <ul class="toc__menu"><li><a href="#-introduction-to-pytorch">✅ Introduction to PyTorch</a><ul><li><a href="#파이토치-api">파이토치 API</a></li><li><a href="#공식문서를-읽읍시다">공식문서를 읽읍시다.</a></li><li><a href="#dynamic-graph">Dynamic graph</a></li></ul></li><li><a href="#--dive-to-pytorch">✅  Dive To Pytorch</a><ul><li><a href="#torchview">torch.view</a></li><li><a href="#tochsqueeze">toch.squeeze</a></li><li><a href="#torchunsqueeze">torch.unsqueeze</a></li><li><a href="#torchindex_select">TORCH.INDEX_SELECT</a></li><li><a href="#torchswapdims">torch.swapdims</a></li><li><a href="#torchrandn">torch.randn</a></li></ul></li><li><a href="#torchlog1p">TORCH.LOG1P</a><ul><li><a href="#torchprod">TORCH.PROD</a></li><li><a href="#torchcount_nonzero">TORCH.COUNT_NONZERO</a></li><li><a href="#squeeze-unsqueeze">squeeze(), unsqueeze()</a></li><li><a href="#mm-matmul">mm(), matmul</a></li><li><a href="#autograd">autograd</a></li><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#-use-template">✅ Use Template</a></li><li><a href="#-autograd--optimizer">✅ AutoGrad &amp; Optimizer</a></li><li><a href="#-데이터를-불러오자-dataset--dataloader">✅ [데이터를 불러오자~] Dataset &amp; Dataloader</a><ul><li><a href="#pytorch-dataset">Pytorch Dataset</a></li><li><a href="#pytorch-dataloader">Pytorch Dataloader</a></li></ul></li><li><a href="#-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</a><ul><li><a href="#check-point">check point</a></li><li><a href="#전이학습과-불러오기">전이학습과 불러오기</a></li><li><a href="#freezing">Freezing</a></li></ul></li><li><a href="#-모니터링-합시다---monitoring-tools-for-pytorch">✅ 모니터링 합시다 - Monitoring tools for PyTorch</a></li><li><a href="#-muti-gpu">✅ Muti-GPU</a></li><li><a href="#-hyperparameter-tuning">✅ Hyperparameter Tuning</a></li><li><a href="#-pytorch-troubleshooting">✅ PyTorch Troubleshooting</a></li></ul>
 
             </nav>
           </aside>
@@ -1065,6 +1065,32 @@ Pytorch 는 Dynamic Computation Graph 다.
 <h2 id="공식문서를-읽읍시다">공식문서를 읽읍시다.</h2>
 <p>공식문서가 굉장히 중요합니다. 우리 같이 읽어봐유.
 <a href="https://pytorch.org/docs/stable/index.html">[공식문서 바로가기]</a></p>
+
+<h2 id="dynamic-graph">Dynamic graph</h2>
+<p><a href="https://www.reddit.com/r/pytorch/comments/8kpsjy/can_someone_explain_the_use_of_a_dynamic_graph/">출처 바로가기</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+if/then/else와 같은 일반적인 제어 흐름을 사용하고 여전히 역전파할 수 있습니다.
+
+
+동적 그래프의 주요 이점은 가변 시퀀스 길이를 가진 순환 신경망에 대한 것입니다.
+ 정적 그래프는 그것들을 깔끔하게 처리할 수 없습니다.
+ 가장 큰 시퀀스를 먼저 넣어야 하기 때문입니다. 
+ 단, 텍스트에는 작동하지 않고 문장을 전환할 수 없으므로 가능한 
+ 가장 긴 문장을 위한 공간을 확보해야 합니다.
+
+
+The main advantage of dynamic graphs is for recurrent neural nets with variable sequence lengths. Static graphs just can't deal with them cleanly, because you have to put the biggest sequence first, except that wouldn't work for text, you can't just switch sentences, so you reserve space for the longest possible sentence.
+
+Another advantage is the autograd, when creating custom layers dynamic frameworks all have automatic differentiation so you don't need to write the backward pass, writing the backward pass of LSTM or GRU is quite tricky and easy to get wrong.
+
+Now every framework has an autograd so that's not relevant.
+
+The last and biggest is that with dynamic frameworks you are writing Python and functions/control-flow compose like Python. Typical examples are:
+
+you can use for loops, you're not forced to use "scan" (because Python for loops are not known at compile-time).
+
+you can use normal control flow like if/then/else and still backprop through it.
+</code></pre></div></div>
 
 <p><br />
 <br />

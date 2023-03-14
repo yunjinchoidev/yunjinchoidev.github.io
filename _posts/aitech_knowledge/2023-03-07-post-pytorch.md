@@ -53,6 +53,33 @@ Pytorch 는 Dynamic Computation Graph 다.
 공식문서가 굉장히 중요합니다. 우리 같이 읽어봐유.
 [[공식문서 바로가기]](https://pytorch.org/docs/stable/index.html)
 
+## Dynamic graph 
+[출처 바로가기](https://www.reddit.com/r/pytorch/comments/8kpsjy/can_someone_explain_the_use_of_a_dynamic_graph/)
+```
+
+if/then/else와 같은 일반적인 제어 흐름을 사용하고 여전히 역전파할 수 있습니다.
+
+
+동적 그래프의 주요 이점은 가변 시퀀스 길이를 가진 순환 신경망에 대한 것입니다.
+ 정적 그래프는 그것들을 깔끔하게 처리할 수 없습니다.
+ 가장 큰 시퀀스를 먼저 넣어야 하기 때문입니다. 
+ 단, 텍스트에는 작동하지 않고 문장을 전환할 수 없으므로 가능한 
+ 가장 긴 문장을 위한 공간을 확보해야 합니다.
+
+
+The main advantage of dynamic graphs is for recurrent neural nets with variable sequence lengths. Static graphs just can't deal with them cleanly, because you have to put the biggest sequence first, except that wouldn't work for text, you can't just switch sentences, so you reserve space for the longest possible sentence.
+
+Another advantage is the autograd, when creating custom layers dynamic frameworks all have automatic differentiation so you don't need to write the backward pass, writing the backward pass of LSTM or GRU is quite tricky and easy to get wrong.
+
+Now every framework has an autograd so that's not relevant.
+
+The last and biggest is that with dynamic frameworks you are writing Python and functions/control-flow compose like Python. Typical examples are:
+
+you can use for loops, you're not forced to use "scan" (because Python for loops are not known at compile-time).
+
+you can use normal control flow like if/then/else and still backprop through it.
+```
+
 <br>
 <br>
 <br>
