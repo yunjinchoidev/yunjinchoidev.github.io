@@ -180,7 +180,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: nlp 면접 준비",
-        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 Interview Questions 통계/수학 고유값(eigen value)와 고유벡터(eigen vector)이 무엇이고 왜 중요한지 설명해주세요. 선형대수학에서 중요한 개념입니다. 선형대수학은 선형성을 가지는 대수를 연구하는 학문입니다. 샘플링(Sampling)과 리샘플링(Resampling)이 무엇이고 리샘플링의 장점을 말씀해주세요. 확률 모형과 확률 변수는 무엇인가요? 누적...","categories": ["interview"],
+        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
@@ -198,7 +198,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 2주차",
-        "excerpt":"   2주차 계획     텐서보드 튜토리얼 코드 돌리기   WanB 튜토리얼 코드 돌려보기   하이퍼 파라미터 튜닝 해보기   코테 스터디 잘 참여하기   2주차   [2주차를 보내며]  ","categories": ["aitech_weekly"],
+        "excerpt":"[2주차 계획] 텐서보드 튜토리얼 코드 돌리기 WanB 튜토리얼 코드 돌려보기 하이퍼 파라미터 튜닝 해보기 코테 스터디 잘 참여하기 [2주차를 보내며] 강의 정리 파이썬 강의록 정리 벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 파이토치 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
@@ -210,8 +210,26 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech -Day07 ",
-        "excerpt":"  ","categories": ["aitech_daily"],
+        "excerpt":"5F 그날의 사실 (Facts) : 파이토치 autograd, dataset, dataLoader 에 대해 공부했습니다. 구글링을 하지 않고 과제를 풀었습니다. 파이토치 공식 문서를 하루 종일 보면서 몇 문제를 남겨놓고 어찌어찌 풀긴 풀었습니다. 기분이 좋기도 하지만 그 과정이 너무 힘들었습니다. 지문이 상당히 많은데 복습하는데 시간을 써야 겠습니다. DataLoader 부분을 현재 풀고 있는데 좌절감이 듭니다....","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day07/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech -Day08 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :  과제1, 과제 2을 풀었습니다. 강의와 딥러닝 파이토치 교과서 라는 책을 병행하면서 과제를 풀고 있습니다. 팀원들과 그리디 알고리즘 2 문제를 풀었습니다.   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day08/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech -Day09 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day09/",
+        "teaser": null
+      },{
+        "title": "Post: ai tech -Day10 ",
+        "excerpt":"  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day10/",
         "teaser": null
       }]
