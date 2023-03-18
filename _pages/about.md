@@ -22,7 +22,10 @@ But my job is more than just making a love chatbot. I am committed to the democr
 
 Isn't it an amazing future?
 
-![image](../../../image/iruda.png)
+<p align="center">
+<img src="../../../image/iruda.png" 
+width="400" height="400"/>
+</p>
 
 <br><br><br>
 
