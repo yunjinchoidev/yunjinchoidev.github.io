@@ -1,23 +1,23 @@
 var store = [{
-        "title": "Post: ai tech 온보딩",
+        "title": "ai tech 온보딩",
         "excerpt":"[온보딩기간을 보내며] 3월 1일 부터 3월 5일까지 온보딩 기간을 보내며 설레는 마음으로 공부를 했다. 파이썬, ai math, pytorch 강의를 들었다. 수학과를 다니면서 선형대수학을 과연 사용할 일이 있을까 생각을 했었는데 딥러닝에서 매우 중요하다고 한다. 통계학도 중요하다. 선형대수, 수리통계 책을 구입했고 심기일전해서 다시 공부해보려고 한다. ai tech 5기는 3월 6일 부터 8월...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-%EC%98%A8%EB%B3%B4%EB%94%A9/",
         "teaser": null
       },{
-        "title": "Post: ai tech - Day01",
+        "title": "ai tech - Day01",
         "excerpt":"   오늘 무엇을 했나?     OT 참여   python 강의 수강   파이토치 강의 1~5강 수강  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day01/",
         "teaser": null
       },{
-        "title": "Post: ai tech 1주차",
+        "title": "ai tech 1주차",
         "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차 정리] 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 설레는 마음으로 첫 주차 부트캠프에 참여했습니다. 상당히 전문성 있는 교육 프로그램이 인상 깊었습니다. 첫 날에 타운홀 미팅이 있었고 팀원들과 자기소개 하는 시간을 가졌습니다. 하루에 최대 2시간의 시간을 제외하면 모두 제가...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
-        "title": "Post: ai tech - Day02 ",
+        "title": "ai tech - Day02 ",
         "excerpt":"   오늘 무엇을 했나?  - numpy, pandas  를 집중 분석했다. - 공부하는 것과 실제 적용하는 것에는 큰 차이가 있는 거 같다. - 경사하강법, 오차 역전파에서 스칼라가 텐서로 바뀔 때의 상황이 직관적으로 와닿지가 않아서 공부했다. - 최대 우도법을 공부.  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day02/",
@@ -29,52 +29,46 @@ var store = [{
         "url": "/aitech_knowledge/post-aimath/",
         "teaser": null
       },{
-        "title": "Post: Python 정리",
+        "title": "Python 정리",
         "excerpt":"판다스 실전 데이터는 깨끗한 데이터가 없습니다. 우리는 판다스가 가진 힘을 적극적으로 활용하여 데이터를 가공 해야 합니다. 좋은 데이터는 좋은 학습 결과를 만듭니다. 이것이 우리가 추구하는 바입니다. 판다스는 굉장히 많은 함수를 지원하고 있습니다. 이것을 모두 기억해야 하냐고요? 그렇지는 않습니다. 레퍼런스를 참고하면 되기 때문이죠. 다만 이것을 자유롭게 활용 할 수 있는 능력을...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-python/",
         "teaser": null
       },{
-        "title": "Post: Pytorch ",
+        "title": "Pytorch ",
         "excerpt":"✅ Introduction to PyTorch 파이토치를 공부합시다. 네트워크 구현 및 데이터 로딩, 프로젝트 구조, 로깅, Multi GPU, 이어 학습 을 다룹니다. 밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. 책 읽어보세요. 하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다. 저희는 파이토치를 사용할 것입니다. 파이토치는...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-pytorch/",
         "teaser": null
       },{
-        "title": "Post: 컴퓨터 비전의 모든 것",
+        "title": "컴퓨터 비전의 모든 것",
         "excerpt":"컴퓨터 비전의 역사 딥러닝은 빠르게 변하는 분야이기 때문에 손 놓고 남들이 해놓은 자료만 보려고 하다가는 뒤쳐지게 됩니다. 우리는 영어에 익숙해져야 합니다. 거꾸로 돌려져있는 인간의 초상화 를 본 적 있습니까. 우리는 거꾸로 뒤집힌 인간의 얼굴을 올바르게 보는 능력을 가지고 있지 않습니다. 결국 인간도 편향적으로 학습이 된 것이죠. 컴퓨터 비전은 많은 곳에서...","categories": ["aitech_knowledge_cv"],
         "tags": [],
         "url": "/aitech_knowledge_cv/post-cv/",
         "teaser": null
       },{
-        "title": "Post: KLUE",
+        "title": "KLUE",
         "excerpt":"목차 한국어 언어모델 학습 및 다중 과제 튜닝 과정 인공지능과 자연어 처리 (이론/실습) 자연어의 전처리 (이론/실습) BERT 언어모델(1) (이론/실습) BERT 언어모델(2) (이론/실습) BERT 언어모델 기반의 단일 문장 분류 (이론/실습) BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습) BERT 언어모델 기반의 문장 토큰 분류 (이론/실습) GPT 언어모델 (이론/실습) GPT 언어모델 기반의...","categories": ["aitech_knowledge_nlp"],
         "tags": [],
         "url": "/aitech_knowledge_nlp/post-klue/",
         "teaser": null
       },{
-        "title": "Post: MRC(Machine reading comprehension)",
+        "title": "MRC(Machine reading comprehension)",
         "excerpt":"MRC(Machine reading comprehension)란? 주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제 Q&amp;A 분야에 응용될 수 있습니다. Extractive Answer Datasets 질의에 대한 답이 항상 주어진 지문의 segment (or span) 으로 존재 Descriptive/Narrative Answer Datasets 지문 내에서 추출한 span이 아닌, 질의를 보고 생성된 sentence (or free-form) 형태의 output을 내야하는 task Multiple-choice Datasets...","categories": ["aitech_knowledge_nlp"],
         "tags": [],
         "url": "/aitech_knowledge_nlp/post-mrc/",
         "teaser": null
       },{
-        "title": "Post: 자연어 처리의 모든 것",
+        "title": "자연어 처리의 모든 것",
         "excerpt":"   자연어 처리의 모든 것  시작합니다.  ","categories": ["aitech_knowledge_nlp"],
         "tags": [],
         "url": "/aitech_knowledge_nlp/post-nlp/",
         "teaser": null
       },{
-        "title": "Post: recsys",
+        "title": "recsys",
         "excerpt":"   ","categories": ["aitech_knowledge_recsys"],
         "tags": [],
         "url": "/aitech_knowledge_recsys/post-recsys/",
-        "teaser": null
-      },{
-        "title": "Post: [백준][14916] 거스름돈",
-        "excerpt":" ","categories": ["ps"],
-        "tags": [],
-        "url": "/ps/post-ps_01/",
         "teaser": null
       },{
         "title": "Post: 이코테 1장, 2장",
@@ -89,13 +83,13 @@ var store = [{
         "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day03 ",
+        "title": "ai tech -Day03 ",
         "excerpt":"오늘 무엇을 했나? python 복습했다. aimath 1 ~ 5 강을 들었다. pytorch template 분석 했다. 포스팅 정리를 했다. github 블로그를 만들었다. 내일 무엇을 할 것인가? ai math, pytorch 강의 마무리 하면서 포스팅 정리 하기 과제 검토 RNN 의 오차 역전파 연구하기 [오늘의 생각] 오늘 NLP 팀 발표 시간을 가졌다. 논문...","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day03/",
         "teaser": null
       },{
-        "title": "Post: ai tech - pytorch Template 완전 분석 ",
+        "title": "ai tech - pytorch Template 완전 분석 ",
         "excerpt":"Pytorch 템플릿을 문석해봅시다. 링크 여기 오픈 소스가 하나 있습니다. 이 포스팅을 통해 이 템플릿을 분해, 분석 해보는 시간을 가지려고 합니다. * train.py -&gt; 실행 * test.py -&gt; 실행 * config -&gt; 설정 * parse_config -&gt; 설정 * base -&gt; base 모델 * data_loader ~ -&gt; data * model ~ -&gt;...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-pytorchtemplate/",
@@ -107,135 +101,141 @@ var store = [{
         "url": "/ai/post-ai/",
         "teaser": null
       },{
-        "title": "Post: ai_cv",
+        "title": "ai_cv",
         "excerpt":"ai_cv  ","categories": ["ai_cv"],
         "tags": [],
         "url": "/ai_cv/post-cv/",
         "teaser": null
       },{
-        "title": "Post: 선형대수학",
+        "title": "선형대수학",
         "excerpt":"선형대수학 선형대수(linear algebra)는 데이터 분석에 필요한 각종 계산을 돕는 학문 [링크] 선형성 선형성이란 입력값에 a 라는 영향을 주면 결과치도 a 라는 결과 값을 받는 것을 말한다. 선형성의 결과에 따라 예측 가능한 시스템을 만들 수 있다. 선형 결합 ax + by = z 를 만족하는 a, b 의 값을 찾는 것이...","categories": ["ai_linearalgebra"],
         "tags": [],
         "url": "/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/",
         "teaser": null
       },{
-        "title": "Post: 선형대수학",
+        "title": "선형대수학",
         "excerpt":"ai_nlp  ","categories": ["ai_nlp"],
         "tags": [],
         "url": "/ai_nlp/post-nlp/",
         "teaser": null
       },{
-        "title": "Post: ai_recsys",
+        "title": "ai_recsys",
         "excerpt":"ai_recsys  ","categories": ["ai_recsys"],
         "tags": [],
         "url": "/ai_recsys/post-recsys/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day04 ",
+        "title": "ai tech -Day04 ",
         "excerpt":"   오늘 무엇을 했나?     과제를 풀면서 한 주간 배운 내용을 정리했다.   파이토치 내용을 보충했다.   딥러닝 기초 다지기 강의를 들었다.   ai math 내용을 보충했다.   내일 무엇을 할 것인가?     RNN 강의 복습   pytorch 강의 복습   딥러닝 기초 다지기 강의 수강  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day04/",
         "teaser": null
       },{
-        "title": "Post: Dive into NLP",
+        "title": "Dive into NLP",
         "excerpt":"Dive Into NLP 자연어 처리를 공부합시다. 자연어 처리(自然語處理) 또는 자연 언어 처리(自然言語處理)는 인간의 언어 현상을 컴퓨터와 같은 기계를 이용해서 모사할 수 있도록 연구하고 이를 구현하는 인공지능의 주요 분야 중 하나 (출처: 위키피디아) 자연어처리의 주요 분야 자연어처리의 주요 분야를 알아봅시다. 1. NLP (ACL, EMNLP, NAACL) 자연어 처리의 대표적인 학회는 ACL, EMNLP,...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-Dive-Into-NLP/",
         "teaser": null
       },{
-        "title": "Post: 딥러닝 모니터링(Monintoring) 하기",
+        "title": "딥러닝 모니터링(Monintoring) 하기",
         "excerpt":"Monitoring 학습을 하는 데 굉장히 긴 시간이 걸립니다. 학습 과정을 기록하는게 좋겠죠. TensorBoard와 Weight &amp; Bias를 이용해봅시다. Tensorboard scalar : metric 표시 graph : 계산 그래프 histogram : weight 분포 image: 예측 값과 실게 값을 비교 표시 mesh : 3d 형태의 데이터를 표현하는 도구 import os logs_base_dir = 'logs' os.makedirs(logs_base_dir,...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-monitoring/",
         "teaser": null
       },{
-        "title": "Post: 딥러닝의 모든 것(All about Deep Learning)",
+        "title": "딥러닝의 모든 것(All about Deep Learning)",
         "excerpt":"딥러닝의 모든 것 실력있는 딥러닝 엔지니어가 됩시다. pytorch와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽고 구현을 잘 하는 사람은 좋은 엔지니어가 될 가능성이 높습니다. 논문을 읽거나 모델을 연구할 때 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려합시다. 딥러닝의 중요한 아이디어 - AlexNet(2012) -&gt; 딥러닝의 가능성을...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/",
         "teaser": null
       },{
-        "title": "Post: 선형대수학",
+        "title": "선형대수학",
         "excerpt":"   선형대수학     선형 대   ","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day05 ",
+        "title": "ai tech -Day05 ",
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day05/",
         "teaser": null
       },{
-        "title": "Post: 딥러닝 바닥부터 만들기 (intro ~ step10)",
+        "title": "딥러닝 바닥부터 만들기 (intro ~ step10)",
         "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
         "tags": [],
         "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
         "teaser": null
       },{
-        "title": "Post: 챗봇 만들기",
+        "title": "챗봇 만들기",
         "excerpt":"   챗봇을 만듭시다.  ","categories": ["chatbot"],
         "tags": [],
         "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
         "teaser": null
       },{
-        "title": "Post: nlp 면접 준비",
+        "title": "nlp 면접 준비",
         "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
       },{
-        "title": "Post: Attention is all you need",
+        "title": "Attention is all you need",
         "excerpt":"   Attention is All you need   이 논문의 함의!  구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다.  기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠.   ","categories": ["paper"],
         "tags": [],
         "url": "/paper/post-attention-is-all-you-need/",
         "teaser": null
       },{
-        "title": "Post: 논문리뷰",
+        "title": "논문리뷰",
         "excerpt":"   논문리뷰     논문 리뷰를 합시다.  ","categories": ["paper"],
         "tags": [],
         "url": "/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/",
         "teaser": null
       },{
-        "title": "Post: ai tech 2주차",
+        "title": "ai tech 2주차",
         "excerpt":"[2주차 계획] 텐서보드 튜토리얼 코드 돌리기 WanB 튜토리얼 코드 돌려보기 하이퍼 파라미터 튜닝 해보기 코테 스터디 잘 참여하기 [2주차를 보내며] 강의 정리 파이토치 강의록 정리 벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 파이토치 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
-        "title": "Post: ai tech - Day06 ",
+        "title": "ai tech - Day06 ",
         "excerpt":"5F 그날의 사실 (Facts) : 파이토치 수업을 시작했습니다. 본격적인 딥러닝 구현을 들어가서 설렜습니다. 월요일 9시가 되고 과제를 열어보니 난이도가 꽤 있어서 걱정이 조금 되었습니다. 수요일 까지 최대한 빨리 끝내놓고 한 주의 마무리를 잘 해야 겠다는 다짐을 했습니다. 팀원들과 코딩테스트 스터디를 시작했습니다. [이것이 취업을 위한 코딩테스트다.] 라는 책으로 시작하게 되었는데요. 그리디...","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day06/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day07 ",
+        "title": "ai tech -Day07 ",
         "excerpt":"5F 그날의 사실 (Facts) : 파이토치 autograd, dataset, dataLoader 에 대해 공부했습니다. 구글링을 하지 않고 과제를 풀었습니다. 파이토치 공식 문서를 하루 종일 보면서 몇 문제를 남겨놓고 어찌어찌 풀긴 풀었습니다. 기분이 좋기도 하지만 그 과정이 너무 힘들었습니다. 지문이 상당히 많은데 복습하는데 시간을 써야 겠습니다. DataLoader 부분을 현재 풀고 있는데 좌절감이 듭니다....","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day07/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day08 ",
+        "title": "ai tech -Day08 ",
         "excerpt":"   5F  그날의 사실 (Facts) :  과제1, 과제 2을 풀었습니다. 강의와 딥러닝 파이토치 교과서 라는 책을 병행하면서 과제를 풀고 있습니다. 팀원들과 그리디 알고리즘 2 문제를 풀었습니다.   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day08/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day09 ",
+        "title": "ai tech -Day09 ",
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day09/",
         "teaser": null
       },{
-        "title": "Post: ai tech -Day10 ",
+        "title": "ai tech -Day10 ",
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day10/",
         "teaser": null
       },{
-        "title": "Post: 전이학습",
+        "title": "전이학습",
         "excerpt":"전이학습 위키백과에 의하면 전이학습은 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식을 말합니다. 전이 학습은 하나의 작업에 대해 훈련된 모델을 사용하여 다른 관련 작업의 성능을 향상시킬 수 있는 기계 학습 기술입니다. 전이 학습에서는 처음부터 시작하는 대신 사전 훈련된 모델을 새로운 작업의 시작점으로 사용합니다. 사전 훈련된...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/",
+        "teaser": null
+      },{
+        "title": "[백준][14916] 거스름돈",
+        "excerpt":"해결 전략 그리디 알고리즘으로 풉니다. 앞 사람과의 키차이를 gabs 라는 리스트에 저장해줍니다. 문제에서 요구하는 것은 최소 비용으로 M 개의 그룹을 만드는 것을 요구합니다. gab 리스트에서 특정 하나를 제거한다는 것은 그 구간을 통합한다는 개념이고 그룹 수를 하나 줄인다는 것입니다. (N-1 개의 갭이 있는 gabs는 M개의 그룹이 최초로 세팅되어 있다고 이해하면 됩니다.)...","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/",
         "teaser": null
       }]

@@ -1,5 +1,5 @@
 ---
-title: "Post: ai tech - pytorch Template 완전 분석 "
+title: "ai tech - pytorch Template 완전 분석 "
 last_modified_at: 2023-03-07T16:20:02-05:00
 categories:
     - aitech_knowledge

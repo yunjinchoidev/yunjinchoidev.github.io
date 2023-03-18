@@ -1,5 +1,5 @@
 ---
-title: "Post: Attention is all you need"
+title: "Attention is all you need"
 last_modified_at: 2023-03-09T20:20:02-05:00
 categories:
     - paper

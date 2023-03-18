@@ -1,5 +1,5 @@
 ---
-title: "Post: Dive into NLP"
+title: "Dive into NLP"
 last_modified_at: 2023-03-08T16:20:02-05:00
 categories:
     - aitech_knowledge

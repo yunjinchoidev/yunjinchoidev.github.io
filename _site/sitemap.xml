@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/</loc>
+        
+        <lastmod>2023-03-18T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/</loc>
         
         <lastmod>2023-03-18T00:00:00+09:00</lastmod>
@@ -421,22 +437,6 @@
     
     <url>
         <loc>http://localhost:4000/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/</loc>
-        
-        <lastmod>2023-03-07T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/ps/post-ps_01/</loc>
         
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
         

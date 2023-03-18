@@ -1,5 +1,5 @@
 ---
-title: "Post: Python 정리"
+title: "Python 정리"
 last_modified_at: 2023-03-07T16:20:02-05:00
 categories:
     - aitech_knowledge

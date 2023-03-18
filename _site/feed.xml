@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-18T15:16:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Post: 전이학습</title><link href="http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/" rel="alternate" type="text/html" title="Post: 전이학습" /><published>2023-03-18T00:00:00+09:00</published><updated>2023-03-18T23:09:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-18T18:33:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">[백준][14916] 거스름돈</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/" rel="alternate" type="text/html" title="[백준][14916] 거스름돈" /><published>2023-03-18T00:00:00+09:00</published><updated>2023-03-19T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
+
+<h1 id="해결-전략">해결 전략</h1>
+
+<p>그리디 알고리즘으로 풉니다. 앞 사람과의 키차이를 <code class="language-plaintext highlighter-rouge">gabs</code>
+라는 리스트에 저장해줍니다. 문제에서 요구하는 것은 최소 비용으로 M 개의 그룹을 만드는 것을 요구합니다. gab 리스트에서 특정 하나를 제거한다는 것은 그 구간을 통합한다는 개념이고 그룹 수를 하나 줄인다는 것입니다. (N-1 개의 갭이 있는 <code class="language-plaintext highlighter-rouge">gabs</code>는 M개의 그룹이 최초로 세팅되어 있다고 이해하면 됩니다.)</p>
+
+<p>이런 아이디어로부터 <code class="language-plaintext highlighter-rouge">gabs</code> 리스트를 내림차순으로 정렬하고  M-1 부터 저장해주게 되면 최솟 값을 구할 수 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import sys
+
+input = sys.stdin.readline
+
+N, M = map(int, input().split())
+numbers = list(map(int, input().split()))
+
+gabs = []
+
+for i in range(1, len(numbers)):
+    gabs.append(numbers[i]-numbers[i-1])
+
+gabs.sort(reverse=True)
+
+print(sum(gabs[M-1:]))
+</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ps" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">전이학습</title><link href="http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/" rel="alternate" type="text/html" title="전이학습" /><published>2023-03-18T00:00:00+09:00</published><updated>2023-03-18T23:09:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="전이학습">전이학습</h1>
 
@@ -33,7 +57,15 @@
 </code></pre></div></div>
 
 <h1 id="ray">Ray</h1>
-<p>Ray는 Distributed application을 만들기 위한 프레임워크로, 분산 컴퓨팅 환경에서 많이 사용</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day10</title><link href="http://localhost:4000/aitech_daily/post-day10/" rel="alternate" type="text/html" title="Post: ai tech -Day10" /><published>2023-03-17T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day10</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day10/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day09</title><link href="http://localhost:4000/aitech_daily/post-day09/" rel="alternate" type="text/html" title="Post: ai tech -Day09" /><published>2023-03-16T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day09</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day09/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>Ray는 Distributed application을 만들기 위한 프레임워크로, 분산 컴퓨팅 환경에서 많이 사용합니다.</p>
+
+<p>Ray를 사용한 전이 학습은 Ray 분산 컴퓨팅 프레임워크를 사용하여 전이 학습을 대규모 데이터 세트로 확장하는 기계 학습 기술입니다. Ray는 분산 애플리케이션 구축을 위한 인기 있는 오픈 소스 프레임워크이며 확장 가능한 기계 학습 파이프라인 구축을 위한 라이브러리 및 도구 세트를 제공합니다.</p>
+
+<p>Ray를 사용한 전이 학습을 사용하면 사전 훈련된 모델이 클러스터의 여러 노드에 분산되고 분산 방식으로 새 데이터에 대해 모델을 미세 조정할 수 있습니다. 이를 통해 대규모 데이터 세트로 작업할 때 학습 시간이 단축되고 확장성이 향상됩니다.</p>
+
+<p>Ray는 또한 하이퍼파라미터 튜닝을 위한 Ray Tune 및 분산 확률적 경사 하강을 위한 Ray SGD와 같은 전이 학습 작업을 위한 라이브러리 및 도구 세트를 제공합니다. 이러한 도구는 전이 학습 프로세스를 간소화하고 확장 가능한 고성능 기계 학습 모델을 보다 쉽게 ​​구축할 수 있도록 도와줍니다.</p>
+
+<p>전반적으로 Ray를 사용한 전이 학습은 전이 학습을 대규모 데이터 세트로 확장하고 확장 가능한 기계 학습 파이프라인을 구축하기 위한 강력한 기술입니다. Ray는 분산 컴퓨팅의 성능을 활용하여 전이 학습 모델의 속도, 효율성 및 정확도를 개선하는 데 도움을 줄 수 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day10</title><link href="http://localhost:4000/aitech_daily/post-day10/" rel="alternate" type="text/html" title="ai tech -Day10" /><published>2023-03-17T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day10</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day10/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day09</title><link href="http://localhost:4000/aitech_daily/post-day09/" rel="alternate" type="text/html" title="ai tech -Day09" /><published>2023-03-16T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day09</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day09/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
@@ -44,7 +76,7 @@
 
 <h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day08</title><link href="http://localhost:4000/aitech_daily/post-day08/" rel="alternate" type="text/html" title="Post: ai tech -Day08" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day08</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day08/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day08</title><link href="http://localhost:4000/aitech_daily/post-day08/" rel="alternate" type="text/html" title="ai tech -Day08" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day08</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day08/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
@@ -56,7 +88,7 @@
 
 <h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day07</title><link href="http://localhost:4000/aitech_daily/post-day07/" rel="alternate" type="text/html" title="Post: ai tech -Day07" /><published>2023-03-14T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day07</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day07/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day07</title><link href="http://localhost:4000/aitech_daily/post-day07/" rel="alternate" type="text/html" title="ai tech -Day07" /><published>2023-03-14T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day07</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day07/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
@@ -74,7 +106,7 @@
 <p>파이토치 강좌에 너무 연연하지 말고 순수 공부 시간을 늘려야 겠습니다. 좋은 강의 이지만 강의에 집중하다가는 지식을 제대로 못 쌓을 확률이 높습니다. 펜을 들고 공부해야 겠습니다.</p>
 
 <h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>다시 드는 생각입니다. 체력 관리가 중요합니다. 오늘 따라 굉장히 피곤했습니다. 잘 쉬고 잘 공부해야 겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech - Day06</title><link href="http://localhost:4000/aitech_daily/post-day06/" rel="alternate" type="text/html" title="Post: ai tech - Day06" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day06</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day06/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>다시 드는 생각입니다. 체력 관리가 중요합니다. 오늘 따라 굉장히 피곤했습니다. 잘 쉬고 잘 공부해야 겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day06</title><link href="http://localhost:4000/aitech_daily/post-day06/" rel="alternate" type="text/html" title="ai tech - Day06" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day06</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day06/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
@@ -92,7 +124,7 @@
 <p>코딩테스트 문제는 하루에 2 문제 씩 계속 풀려고 합니다.</p>
 
 <h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>휴식 시간을 잘 가져야겠습니다. 그리고 식사는 저녁까지 계속 굶다가 저녁에 한 끼만 먹는 것이 좋겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="Post: ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>휴식 시간을 잘 가져야겠습니다. 그리고 식사는 저녁까지 계속 굶다가 저녁에 한 끼만 먹는 것이 좋겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="2주차-계획">[2주차 계획]</h1>
 <ul class="task-list">
@@ -127,12 +159,7 @@
 <p>이렇게 2주차가 지나갔습니다. 다음주에는 딥러닝 Basic 강의가 시작되는데요. 모델 구현을 직접 코드로 짜보고 데이터를 주입해 학습시켜봐야겠습니다. 4월에 시작되는 프로젝트가 굉장히 기대가 됩니다.</p>
 
 <p>ps. AI 엔지니어와 AI 리서처 중 어떤 것을 하고 싶은지 선택하는 게 중요할 것 같습니다. 
-저는 db, infra, workflow, mlOps 등을 다루고 싶은게 많아 AI 엔지니어가 끌리더군요.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 논문리뷰</title><link href="http://localhost:4000/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/" rel="alternate" type="text/html" title="Post: 논문리뷰" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0</id><content type="html" xml:base="http://localhost:4000/paper/post-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
-
-<h1 id="논문리뷰">논문리뷰</h1>
-<ul>
-  <li>논문 리뷰를 합시다.</li>
-</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: ai tech -Day05</title><link href="http://localhost:4000/aitech_daily/post-day05/" rel="alternate" type="text/html" title="Post: ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="Post: Attention is all you need" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+저는 db, infra, workflow, mlOps 등을 다루고 싶은게 많아 AI 엔지니어가 끌리더군요.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day05</title><link href="http://localhost:4000/aitech_daily/post-day05/" rel="alternate" type="text/html" title="ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="Attention is all you need" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <h1 id="attention-is-all-you-need"><code class="language-plaintext highlighter-rouge">Attention is All you need</code></h1>
 
