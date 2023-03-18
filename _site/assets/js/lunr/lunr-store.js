@@ -150,7 +150,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 딥러닝의 모든 것(All about Deep Learning)",
-        "excerpt":"딥러닝의 모든 것 안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다. 누가 좋은 딥러닝 엔지어인가? 파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다. 논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이...","categories": ["aitech_knowledge"],
+        "excerpt":"딥러닝의 모든 것 실력있는 딥러닝 엔지니어가 됩시다. pytorch와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽고 구현을 잘 하는 사람은 좋은 엔지니어가 될 가능성이 높습니다. 논문을 읽거나 모델을 연구할 때 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려합시다. 딥러닝의 중요한 아이디어 - AlexNet(2012) -&gt; 딥러닝의 가능성을...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/",
         "teaser": null
@@ -198,7 +198,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: ai tech 2주차",
-        "excerpt":"[2주차 계획] 텐서보드 튜토리얼 코드 돌리기 WanB 튜토리얼 코드 돌려보기 하이퍼 파라미터 튜닝 해보기 코테 스터디 잘 참여하기 [2주차를 보내며] 강의 정리 파이썬 강의록 정리 벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 파이토치 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader...","categories": ["aitech_weekly"],
+        "excerpt":"[2주차 계획] 텐서보드 튜토리얼 코드 돌리기 WanB 튜토리얼 코드 돌려보기 하이퍼 파라미터 튜닝 해보기 코테 스터디 잘 참여하기 [2주차를 보내며] 강의 정리 파이토치 강의록 정리 벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 파이토치 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
@@ -231,5 +231,11 @@ var store = [{
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day10/",
+        "teaser": null
+      },{
+        "title": "Post: 전이학습",
+        "excerpt":"전이학습 위키백과에 의하면 전이학습은 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식을 말합니다. 전이 학습은 하나의 작업에 대해 훈련된 모델을 사용하여 다른 관련 작업의 성능을 향상시킬 수 있는 기계 학습 기술입니다. 전이 학습에서는 처음부터 시작하는 대신 사전 훈련된 모델을 새로운 작업의 시작점으로 사용합니다. 사전 훈련된...","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/",
         "teaser": null
       }]

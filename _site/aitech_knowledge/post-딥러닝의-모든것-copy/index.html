@@ -168,6 +168,8 @@
               <a href="/categories/chatbot">라케시스(챗봇)</a>
             </li><li class="masthead__menu-item">
               <a href="/categories/paper">논문리뷰</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/ps">알고리즘</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -375,6 +377,12 @@
           
         
           
+            <ul style="padding-top: 0px; padding-bottom: 0px;">
+              <a href="/categories/#aitech-knowledge">
+                <strong style="font-size: 16px;">aitech_knowledge</strong> <span class="taxonomy__count" style="font-size: 14px;">9</span>
+              </a>
+            </ul>
+          
         
           
         
@@ -410,12 +418,6 @@
         
           
         
-          
-            <ul style="padding-top: 0px; padding-bottom: 0px;">
-              <a href="/categories/#aitech-knowledge">
-                <strong style="font-size: 16px;">aitech_knowledge</strong> <span class="taxonomy__count" style="font-size: 14px;">8</span>
-              </a>
-            </ul>
           
         
           
@@ -810,7 +812,7 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">39</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">40</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
 
@@ -827,7 +829,7 @@
                     
                 
                     
-                        <li><a href="/categories/aitech_knowledge" class="">학습 (8)</a></li>
+                        <li><a href="/categories/aitech_knowledge" class="">학습 (9)</a></li>
                     
                 
                     
@@ -1552,7 +1554,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a><ul><li><a href="#누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</a></li></ul></li><li><a href="#딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</a></li><li><a href="#신경망">신경망</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a><ul><li><a href="#bagging">Bagging</a></li><li><a href="#boosting">Boosting</a></li></ul></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li><li><a href="#cnn">CNN</a><ul><li><a href="#alexnet">AlexNet</a></li><li><a href="#vggnet">VGGNet</a></li><li><a href="#googlenet">GoogleNet</a></li><li><a href="#incept-block">Incept Block</a></li><li><a href="#resnet">ResNet</a></li><li><a href="#densenet">DenseNet</a></li><li><a href="#semantic-segmentation">Semantic Segmentation</a></li><li><a href="#detection-문제">Detection 문제</a></li></ul></li><li><a href="#rnn">RNN</a><ul><li><a href="#lstm">LSTM</a></li><li><a href="#gru">GRU</a></li><li><a href="#transformer">Transformer</a></li></ul></li><li><a href="#gan">GAN</a></li></ul>
+              <ul class="toc__menu"><li><a href="#딥러닝의-모든-것">딥러닝의 모든 것</a><ul><li><a href="#실력있는-딥러닝-엔지니어가-됩시다">실력있는 딥러닝 엔지니어가 됩시다.</a></li></ul></li><li><a href="#딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</a></li><li><a href="#신경망">신경망</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a><ul><li><a href="#bagging">Bagging</a></li><li><a href="#boosting">Boosting</a></li></ul></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li><li><a href="#cnn">CNN</a><ul><li><a href="#alexnet">AlexNet</a></li><li><a href="#vggnet">VGGNet</a></li><li><a href="#googlenet">GoogleNet</a></li><li><a href="#incept-block">Incept Block</a></li><li><a href="#resnet">ResNet</a></li><li><a href="#densenet">DenseNet</a></li><li><a href="#semantic-segmentation">Semantic Segmentation</a></li><li><a href="#detection-문제">Detection 문제</a></li></ul></li><li><a href="#rnn">RNN</a><ul><li><a href="#lstm">LSTM</a></li><li><a href="#gru">GRU</a></li><li><a href="#transformer">Transformer</a></li></ul></li><li><a href="#gan">GAN</a></li></ul>
 
             </nav>
           </aside>
@@ -1560,30 +1562,35 @@
         <p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="딥러닝의-모든-것">딥러닝의 모든 것</h1>
-<p>안녕하십니까. 최윤진입니다. 이번 포스팅을 통해 딥러닝의 전반적인 내용을 한 번 다뤄보려고 합니다.</p>
 
-<h2 id="누가-좋은-딥러닝-엔지어인가">누가 좋은 딥러닝 엔지어인가?</h2>
-<p>파이토치와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽는 사람은 좋은 엔지니어가 될 가능성이 높다.</p>
+<h2 id="실력있는-딥러닝-엔지니어가-됩시다">실력있는 딥러닝 엔지니어가 됩시다.</h2>
+<p><code class="language-plaintext highlighter-rouge">pytorch</code>와 <code class="language-plaintext highlighter-rouge">선형대수와 확률과 통계</code>를 잘하는 사람, <code class="language-plaintext highlighter-rouge">최신 논문을 잘 읽고 구현을 잘 하는</code> 사람은 좋은 엔지니어가 될 가능성이 높습니다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>논문을 읽을 때는 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려하는 것이 좋습니다. 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>논문을 읽거나 모델을 연구할 때
+
+    1. 데이터 
+    2. 모델 
+    3. 손실함수 
+    4. 학습 알고리즘 
+
+를 고려합시다. 
 </code></pre></div></div>
 
 <p><br /><br /><br /><br /></p>
 
 <h1 id="딥러닝의-중요한-아이디어">딥러닝의 중요한 아이디어</h1>
 
-<ul>
-  <li>AlexNet(2012) -&gt; 딥러닝의 가능성을 폭발적으로 알려주었다.</li>
-  <li>DQN (2013) -&gt; 강화학습</li>
-  <li>Encoder / Decoder (2014)</li>
-  <li>Adam (2014) -&gt; 결과가 매우 좋다.</li>
-  <li>GAN, ResNet (2015)</li>
-  <li>Residual Networks (2015) -&gt; 네트워크를 깊게 쌓게 해준다.</li>
-  <li>Transformer (2017) -&gt; 도발적</li>
-  <li>Bert (2018)</li>
-  <li>Big Language Models (GPT)</li>
-  <li>Self-Supervised Learning -&gt; 학습 데이터를 스스로 생성한다.</li>
-</ul>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- AlexNet(2012) -&gt; 딥러닝의 가능성을 폭발적으로 알려주었다. 
+- DQN (2013) -&gt; 강화학습
+- Encoder / Decoder (2014)
+- Adam (2014) -&gt; 결과가 매우 좋다.
+- GAN, ResNet (2015) 
+- Residual Networks (2015) -&gt; 네트워크를 깊게 쌓게 해준다.
+- Transformer (2017) -&gt; 도발적
+- Bert (2018)
+- Big Language Models (GPT)
+- Self-Supervised Learning -&gt; 학습 데이터를 스스로 생성한다.
+</code></pre></div></div>
 
 <p><br /><br /><br /><br /></p>
 
@@ -1781,6 +1788,46 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/" rel="permalink">Post: 전이학습
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/aitech_daily/post-day10/" rel="permalink">Post: ai tech -Day10
 </a>
       
@@ -1862,46 +1909,6 @@
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/aitech_daily/post-day08/" rel="permalink">Post: ai tech -Day08
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/aitech_daily/post-day07/" rel="permalink">Post: ai tech -Day07
 </a>
       
     </h2>

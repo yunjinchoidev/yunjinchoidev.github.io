@@ -8,6 +8,8 @@ main:
     url: "categories/chatbot"
   - title: "논문리뷰"
     url: "categories/paper"
+  - title: "알고리즘"
+    url: "categories/ps"
 
 counts: 
   - title: "카테고리"
