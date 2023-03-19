@@ -71,6 +71,12 @@ var store = [{
         "url": "/aitech_knowledge_recsys/post-recsys/",
         "teaser": null
       },{
+        "title": "Post: 이코테 4장(구현)",
+        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps_study"],
+        "tags": [],
+        "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/",
+        "teaser": null
+      },{
         "title": "Post: 이코테 1장, 2장",
         "excerpt":"이코테 1 장 개요 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 공간 복잡도 알고리즘을 위해 필요한 메모리의 양 빅오 표기법 빅오 표기법 명칭 O(1) 상수 O(logN) 로그 시간 O(N) 선형 시간 O(NlonN) 로그 선형 시간 O(N^2) 이차 시간 O(N^3) 삼차 시간 O(2^3) 지수 시간 수행 시간 체크 import time start_time...","categories": ["ps_study"],
         "tags": [],
@@ -78,7 +84,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Post: 이코테 3장(그리디 알고리즘)",
-        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 큰수의 법칙 N, M, K = map(int, input().split()) numbers = list(map(int, input().split())) # N : 주어지는 수의 개수 # M : 몇 개의 수자를 모을 것인가 # K : k 개...","categories": ["ps_study"],
+        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 일반적으로 그리디 알고리즘은 최적의 해를 보장할 수 없는 경우가 많다. 역으로, 그리디 알고리즘을 사용해야 해야 하는 경우는 탐욕적으로 찾은 해가 최적의 해라는 뜻이다. 코딩테스트 환경에서 그리디 알고리즘으로 풀 수 있는 경우는...","categories": ["ps_study"],
         "tags": [],
         "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
