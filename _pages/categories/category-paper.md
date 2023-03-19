@@ -6,8 +6,10 @@ author_profile: true
 sidebar_main: true
 ---
 
-![paper.png](../../../image/paper.png)
-
+<p align="center">
+<img src="../../../image/paper.png" 
+width="400" height="400"/>
+</p>
 
 <br><br><br><br>
 
