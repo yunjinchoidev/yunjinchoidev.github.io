@@ -191,6 +191,12 @@ var store = [{
         "url": "/paper/post-attention-is-all-you-need/",
         "teaser": null
       },{
+        "title": "A Survey of the Usages of Deep Learning for Natural Language Processing",
+        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-surveyNLP/",
+        "teaser": null
+      },{
         "title": "논문리뷰",
         "excerpt":"   논문리뷰     논문 리뷰를 합시다.  ","categories": ["paper"],
         "tags": [],

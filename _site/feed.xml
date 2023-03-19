@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-19T23:13:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">[백준][14916] 거스름돈</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/" rel="alternate" type="text/html" title="[백준][14916] 거스름돈" /><published>2023-03-18T00:00:00+09:00</published><updated>2023-03-19T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T00:47:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">[백준][14916] 거스름돈</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/" rel="alternate" type="text/html" title="[백준][14916] 거스름돈" /><published>2023-03-18T00:00:00+09:00</published><updated>2023-03-19T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
 
 <h1 id="해결-전략">해결 전략</h1>
 
@@ -159,11 +159,96 @@ print(sum(gabs[M-1:]))
 <p>이렇게 2주차가 지나갔습니다. 다음주에는 딥러닝 Basic 강의가 시작되는데요. 모델 구현을 직접 코드로 짜보고 데이터를 주입해 학습시켜봐야겠습니다. 4월에 시작되는 프로젝트가 굉장히 기대가 됩니다.</p>
 
 <p>ps. AI 엔지니어와 AI 리서처 중 어떤 것을 하고 싶은지 선택하는 게 중요할 것 같습니다. 
-저는 db, infra, workflow, mlOps 등을 다루고 싶은게 많아 AI 엔지니어가 끌리더군요.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day05</title><link href="http://localhost:4000/aitech_daily/post-day05/" rel="alternate" type="text/html" title="ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="Attention is all you need" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+저는 db, infra, workflow, mlOps 등을 다루고 싶은게 많아 AI 엔지니어가 끌리더군요.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">A Survey of the Usages of Deep Learning for Natural Language Processing</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="A Survey of the Usages of Deep Learning for Natural Language Processing" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
-<h1 id="attention-is-all-you-need"><code class="language-plaintext highlighter-rouge">Attention is All you need</code></h1>
+<p><br /><br /><br /><br /></p>
 
-<h2 id="이-논문의-함의">이 논문의 함의!</h2>
-<p>구글의 <code class="language-plaintext highlighter-rouge">Attention is All you</code> 논문을 통해 nlp 의 혁명이 일어났습니다. 
-기존의 rnn 모델은 attention 모델로 대체되었습니다.
-왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<h1 id="a-survey-of-the-usages-of-deep-learning-for-natural-language-processing">A Survey of the Usages of Deep Learning for Natural Language Processing</h1>
+
+<p><br /><br /><br /><br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💡 2018년
+
+1. Introduction
+2. Fundamentals of Deep Learning and NLP
+2.1 Deep Learning
+2.2 Natural Language Processing
+3. Deep Learning Architectures for NLP
+3.1 Convolutional Neural Networks
+3.2 Recurrent Neural Networks
+3.3 Transformers
+4. Use Cases of Deep Learning for NLP
+4.1 Language Modeling
+4.2 Sentiment Analysis
+4.3 Text Classification
+4.4 Machine Translation
+4.5 Question Answering
+5. Challenges and Future Directions
+5.1 Challenges
+5.2 Future Directions
+6. Conclusion
+7. References
+</code></pre></div></div>
+
+<ul>
+  <li>1장
+    <ul>
+      <li>딥러닝에 대한 간략한 소개와 딥 러닝 아키텍처 및 방법에 대한 간략한 개요를 제공 (딥 러닝, 신경망, 자연어 처리, 컴퓨터 언어학, 기계 학습)</li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <p>2장</p>
+
+    <p># 2장</p>
+
+    <ul>
+      <li>딥 러닝 및 자연어 처리(NLP)의 기본 개념을 소개합니다. 이 장은 인공 신경망, 역전파 및 활성화 기능과 같은 딥 러닝 개념에 대한 개요로 시작</li>
+      <li>이러한 개념을 텍스트 분류 및 감정 분석과 같은 NLP 작업에 어떻게 적용할 수 있는지 설명</li>
+      <li>토큰화, 형태소 분석 및 불용어 제거와 같은 데이터 전처리 기술을 포함하여 NLP의 기본 사항을 다룹니다. 저자는 이러한 기술을 사용하여 텍스트 데이터를 딥 러닝 모델에 공급하기 전에 정리하고 사전 처리하는 방법을 설명</li>
+      <li>데이터 전처리, 기능 추출 및 모델 훈련과 같은 NLP를 위한 일반적인 딥 러닝 파이프라인의 다양한 구성 요소를 설명</li>
+      <li>저자는 컨볼루션 신경망(CNN) 및 순환 신경망(RNN)과 같은 NLP에 사용되는 일반적인 딥 러닝 아키텍처의 예를 제공</li>
+      <li>
+        <p>이 장에서는 주석이 달린 대량의 데이터가 필요하고 결과 모델을 해석하는 어려움과 같이 NLP에 딥러닝을 사용하는 것과 관련된 문제에 대해 논의하면서 결론을 내립</p>
+      </li>
+      <li>자연어 처리 분야는 컴퓨터 언어학이라고도 하며, 인간 언어를 이해하는 데 있어 실질적인 문제를 해결하기 위한 계산 모델과 프로세스의 엔지니어링을 포함한다</li>
+      <li>핵심 영역은 자연적으로 발생하는 단어 간의 정량화 연관성을 강조하는 언어 모델링, 단어의 의미 있는 구성 요소의 분할 및 사용된 단어의 실제 발화 부분을 식별하는 형태학적 처리와 같은 근본적인 문제를 다룬다</li>
+      <li>Currently, NLP is primarily a data-driven field using sta- tistical and probabilistic computations along with machine learning.</li>
+      <li></li>
+    </ul>
+  </li>
+  <li>3장</li>
+  <li>4장</li>
+  <li>5장 V. APPLICATIONS OF NATURAL LANGUAGE PROCESSING USING DEEP LEARNING
+    <ul>
+      <li><em>Information Retrieval</em>
+        <ul>
+          <li>기존 정보 검색 시스템을 ..</li>
+          <li>맥아베니 외. [171] 사전 훈련된 두 가지 상황별 언어 모델인 ELMo [70]와 BERT [71]에서 쿼리 용어 표현을 추출하고, 표현을 사용하여 애드혹 문서 순위를 위해 기존의 3개의 경쟁 신경 순위 아키텍처를 보강했다. 그 중 하나는 DRMM [169]이다. 그들은 또한 BERT의 분류 벡터를 이러한 아키텍처와 결합하여 두 가지 접근법의 이점을 얻는 공동 모델을 제시했다. MacAveney의 CEDR(문서 랭킹을 위한 컨텍스트 임베딩)이라는 시스템은 이전 모델 세 가지 모두의 성능을 향상시켰고, BERT의 토큰 표현을 사용하여 최첨단 결과를 생성했습니다</li>
+        </ul>
+      </li>
+      <li>Sentiment analysis
+        <ul>
+          <li></li>
+        </ul>
+      </li>
+      <li>Machine translation</li>
+      <li>Text classification</li>
+      <li>Question answering</li>
+      <li>Named entity recognition</li>
+      <li>Summarization</li>
+      <li>Conversational agents</li>
+      <li>Text generation</li>
+    </ul>
+  </li>
+  <li>V. CONCLUSIONS
+    <ul>
+      <li>자연어 처리(NLP)를 위한 딥 러닝 사용에 대한 개요를 제공하고 이 분야의 최근 진행 상황을 강조합니다. 딥 러닝 기술은 감정 분석, 기계 번역, 텍스트 분류 및 질문 답변과 같은 NLP 작업에서 큰 성공을 거두었습니다. 그러나 딥 러닝 모델의 해석 가능성 부족과 많은 양의 데이터 및 계산 리소스가 필요하다는 문제가 남아 있습니다. 이 논문은 복잡한 모델을 위한 고도로 전문화된 구성 요소를 개발하는 것보다 사전 교육 방법론에 더 많은 연구 노력을 기울여야 한다고 제안합니다. 또한 이 백서는 향후 작업이 보다 다양한 언어와 분석되지 않은 언어를 사용하는 NLP 모델의 유효성 검사로 향할 것을 권장합니다. 딥 러닝 모델은 데이터가 매우 부족하지만 사전 훈련 및 전이 학습이 매우 영향력 있는 역할을 수행하면서 컴퓨터 언어학의 표준이 될 것으로 예상됩니다. 마지막으로, 이 논문은 뉴로모픽 칩과 같은 계산 장비의 발전이 NLP의 지속적인 발전에 도움이 될 것이라고 제안합니다.</li>
+      <li>매우 최근에는 인코더 및 종종 디코더로서 주의력을 동력으로 하는 <code class="language-plaintext highlighter-rouge">트랜스포머</code> 유닛의 스택이 NLP 필드의 풍부하고 다양한 지형에서 일관되게 우수한 결과를 생성했다.</li>
+      <li>이 최종 관찰 이후, 복잡한 모델에서 마지막 성능 드롭을 짜내기 위해 고도로 전문화된 구성 요소를 개발하는 것보다 <code class="language-plaintext highlighter-rouge">사전 훈련 방법론에 더 많은 연구 노력을 기울이는 것이 유용</code>할 수 있다.</li>
+      <li><strong><em>인간의 언어 능력이 우리의 감성의 한 부분에 불과하듯이, 언어 처리도 인공지능의 작은 한 부분에 불과하다.</em></strong> 이러한 구성 요소가 어떻게 상호 연관되어 있는지 이해하는 것은 보다 완벽한 AI 시스템을 구성하는 데 중요하며, 통합된 NLP 아키텍처를 만드는 것은 이러한 시스템을 현실화하기 위한 또 다른 단계이다.</li>
+      <li>그러나 딥 러닝 모델의 해석 가능성 부족과 많은 양의 데이터 및 계산 리소스가 필요하다는 문제가 남아 있습니다.</li>
+      <li>GPU 의 발전</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech -Day05</title><link href="http://localhost:4000/aitech_daily/post-day05/" rel="alternate" type="text/html" title="ai tech -Day05" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day05</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day05/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>
