@@ -113,7 +113,7 @@ var store = [{
         "url": "/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/",
         "teaser": null
       },{
-        "title": "선형대수학",
+        "title": "NLP 개론",
         "excerpt":"ai_nlp  ","categories": ["ai_nlp"],
         "tags": [],
         "url": "/ai_nlp/post-nlp/",
@@ -245,7 +245,13 @@ var store = [{
         "url": "/paper/post-surveyNLP/",
         "teaser": null
       },{
-        "title": "Post: 컴퓨터 비전의 중요한 7가지 모델",
+        "title": "Segmentation & Detection",
+        "excerpt":"Segmentation Segmentation는 미리 정의된 기준이나 특징에 따라 이미지나 비디오를 여러 영역 또는 세그먼트로 나누는 컴퓨터 비전 작업입니다. 분할의 목표는 이미지나 동영상에서 의미 있고 유용한 정보를 추출하여 사물인식, 장면이해, 자율주행 등 다양한 응용에 활용될 수 있도록 하는 것입니다. 세그멘테이션에는 시맨틱 세그먼테이션과 인스턴스 세그먼테이션의 두 가지 주요 유형이 있습니다. 시맨틱 분할에는 이미지...","categories": ["ai"],
+        "tags": [],
+        "url": "/ai/post-Segmentation-&-Detection/",
+        "teaser": null
+      },{
+        "title": "컴퓨터 비전의 중요한 7가지 모델",
         "excerpt":"ai 컴퓨터 비전의 중요한 7가지 모델 컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다. LeNet-5: 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를...","categories": ["ai"],
         "tags": [],
         "url": "/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/",

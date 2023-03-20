@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T19:35:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)</title><link href="http://localhost:4000/paper/post-A-Brief-Historical-Review/" rel="alternate" type="text/html" title="Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T02:20:02+09:00</updated><id>http://localhost:4000/paper/post-A%20Brief%20Historical%20Review</id><content type="html" xml:base="http://localhost:4000/paper/post-A-Brief-Historical-Review/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T20:19:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">컴퓨터 비전의 중요한 7가지 모델</title><link href="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="컴퓨터 비전의 중요한 7가지 모델" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B9%84%EC%A0%84%EC%9D%98%20%EC%A4%91%EC%9A%94%ED%95%9C%207%EA%B0%80%EC%A7%80%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/"><![CDATA[<p align="center">
+<img src="../../../image/ai.png" width="400" height="400" />
+</p>
+
+<h1 id="ai">ai</h1>
+<h1 id="컴퓨터-비전의-중요한-7가지-모델">컴퓨터 비전의 중요한 7가지 모델</h1>
+
+<p>컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">LeNet-5:</code> 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를 마련했습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">AlexNet</code>: Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 만든 AlexNet은 2012 ImageNet Large Scale Visual Recognition Challenge(ILSVRC)에서 우승했습니다. 심층 CNN 아키텍처는 다른 모델을 훨씬 능가하여 컴퓨터 비전에서 딥 러닝의 전환점이 되었습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">VGGNet</code>: 옥스포드 대학의 Visual Geometry Group에서 개발한 VGGNet은 다중 컨벌루션 레이어가 있는 심층 아키텍처로 유명합니다. VGGNet은 2014 ILSVRC에서 2위를 차지했으며 여전히 다양한 컴퓨터 비전 작업의 벤치마크로 사용되고 있습니다.</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">인셉션(GoogLeNet):</code> GoogLeNet으로도 알려진 인셉션은 2014년 Google의 연구원들이 소개했습니다. 매우 깊은 네트워크를 효율적으로 훈련할 수 있는 혁신적인 인셉션 모듈로 2014 ILSVRC에서 우승했습니다.</p>
+
+    <p>Inception 블록은 이미지 인식 작업을 위해 컨벌루션 신경망에 사용되는 빌딩 블록입니다. Inception 블록의 주요 이점은 동일한 레이어 내에서 다양한 규모와 복잡성의 기능을 추출하고 결합하는 기능입니다.</p>
+
+    <p>전통적으로 컨볼루션 신경망은 서로 다른 규모의 특징을 추출하기 위해 별도의 계층을 가지고 있어 더 많은 계산 리소스와 훈련 시간이 필요합니다. 인셉션 블록은 크기가 다른 여러 필터(1x1, 3x3, 5x5)를 사용하고 동일한 레이어 내에서 작업을 풀링하여 이를 보다 효율적으로 달성할 수 있습니다. 이를 통해 네트워크는 다양한 수준의 추상화에서 기능을 학습하고 추출할 수 있으며 동시에 모델을 교육하는 데 필요한 매개변수의 수를 줄일 수 있습니다.</p>
+
+    <p>또한 Inception 블록 내에서 1x1 컨볼루션 필터를 사용하면 3x3 및 5x5 컨볼루션과 같이 계산 비용이 더 많이 드는 작업을 적용하기 전에 기능 맵의 채널 수를 줄임으로써 네트워크의 계산 비용을 줄이는 데 도움이 될 수 있습니다. 이 기술을 차원 축소라고 합니다.</p>
+
+    <p>전반적으로 Inception 블록은 이미지 인식 작업에서 컨볼루션 신경망의 성능을 개선하는 동시에 훈련에 필요한 계산 비용과 매개변수 수를 줄이는 것으로 나타났습니다.</p>
+
+    <p>인셉션 블록의 맥락에서 “인셉션”이라는 용어는 새로운 것을 시작하거나 처음부터 무언가를 만드는 아이디어를 의미합니다. Inception 블록은 신경망이 미리 정의된 필터나 손으로 만든 기능에 의존하지 않고 처음부터 다양한 규모와 복잡성의 기능을 학습하고 추출할 수 있도록 설계되었기 때문에 이 이름이 붙여졌습니다.</p>
+
+    <p>인셉션 블록은 각 인형 안에 작은 인형이 들어 있는 러시아 인형의 아이디어에서 영감을 받았습니다. 마찬가지로 Inception 블록에는 필터 크기가 다른 더 작은 레이어와 더 큰 레이어 내부의 풀링 작업이 포함되어 있습니다.</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">ResNet</code>: Microsoft Research에서 개발한 ResNet(Residual Network)이 2015 ILSVRC에서 우승했습니다. 기울기 소실 문제를 겪지 않고 훨씬 더 깊은 네트워크(최대 152개 계층)를 훈련할 수 있는 잔류 연결(연결 건너뛰기)을 도입했습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">YOLO</code>(You Only Look Once): YOLO는 Joseph Redmon, Santosh Divvala, Ross Girshick 및 Ali Farhadi가 만든 실시간 객체 감지 시스템입니다. 속도와 정확성으로 유명하여 실시간 응용 프로그램에 적합합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">Mask R-CNN</code>: Kaiming He, Georgia Gkioxari, Piotr Dollár 및 Ross Girshick이 소개한 Mask R-CNN은 Faster R-CNN 객체 감지 모델의 확장입니다. 분할 마스크를 예측하기 위한 분기를 추가하여 이미지 내에서 개체를 동시에 감지하고 분할하는 작업인 인스턴스 분할을 활성화합니다.</li>
+</ol>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)</title><link href="http://localhost:4000/paper/post-A-Brief-Historical-Review/" rel="alternate" type="text/html" title="Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T02:20:02+09:00</updated><id>http://localhost:4000/paper/post-A%20Brief%20Historical%20Review</id><content type="html" xml:base="http://localhost:4000/paper/post-A-Brief-Historical-Review/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <p><br /><br /><br /><br /></p>
 
@@ -75,38 +106,40 @@ ResNet은 2015년 Kaiming He와 그의 동료들이 소개한 심층 합성곱 �
 
 <h2 id="2019--big-language-modelsgpt-x">2019 – Big Language Models(GPT-X)</h2>
 
-<h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 컴퓨터 비전의 중요한 7가지 모델</title><link href="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="Post: 컴퓨터 비전의 중요한 7가지 모델" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B9%84%EC%A0%84%EC%9D%98%20%EC%A4%91%EC%9A%94%ED%95%9C%207%EA%B0%80%EC%A7%80%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/"><![CDATA[<p align="center">
+<h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Segmentation &amp;amp; Detection</title><link href="http://localhost:4000/ai/post-Segmentation-&-Detection/" rel="alternate" type="text/html" title="Segmentation &amp;amp; Detection" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-Segmentation%20&amp;%20Detection</id><content type="html" xml:base="http://localhost:4000/ai/post-Segmentation-&amp;-Detection/"><![CDATA[<p align="center">
 <img src="../../../image/ai.png" width="400" height="400" />
 </p>
 
-<h1 id="ai">ai</h1>
-<h1 id="컴퓨터-비전의-중요한-7가지-모델">컴퓨터 비전의 중요한 7가지 모델</h1>
+<h1 id="segmentation">Segmentation</h1>
 
-<p>컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다.</p>
+<p>Segmentation는 미리 정의된 기준이나 특징에 따라 이미지나 비디오를 여러 영역 또는 세그먼트로 나누는 컴퓨터 비전 작업입니다. 분할의 목표는 이미지나 동영상에서 의미 있고 유용한 정보를 추출하여 사물인식, 장면이해, 자율주행 등 다양한 응용에 활용될 수 있도록 하는 것입니다.</p>
+
+<p>세그멘테이션에는 시맨틱 세그먼테이션과 인스턴스 세그먼테이션의 두 가지 주요 유형이 있습니다. <code class="language-plaintext highlighter-rouge">시맨틱 분할에는 이미지 또는 비디오의 각 픽셀이 속한 개체 또는 영역을 기반으로 클래스 레이블을 할당하는 작업이 포함</code>됩니다. 예를 들어 거리 장면의 이미지에서 시맨틱 분할을 사용하여 각 픽셀에 “도로”, “하늘”, “자동차”, “나무” 등의 레이블을 지정할 수 있습니다. 각 픽셀에 대한 클래스 레이블뿐 아니라 동일한 클래스의 각 인스턴스를 서로 다른 세그먼트로 분리합니다. 예를 들어 군중 이미지에서 인스턴스 분할을 사용하여 각 사람을 별도의 세그먼트로 식별하고 레이블을 지정할 수 있습니다.</p>
+
+<p>분할은 영역 기반 방법, 에지 기반 방법, 딥 러닝 기반 방법 등 다양한 기법을 사용하여 수행할 수 있습니다. 특히 딥 러닝 기반 방법은 많은 양의 데이터에서 복잡한 특징과 패턴을 학습할 수 있기 때문에 세분화 정확도와 효율성이 크게 향상되었습니다. 일부 인기 있는 딥 러닝 기반 분할 모델에는 U-Net, Mask R-CNN 및 FCN(Fully Convolutional Network)이 포함됩니다.</p>
+
+<p>전반적으로 분할은 컴퓨터 비전에서 중요한 작업이며 의료 영상, 자율 주행 및 로봇 공학과 같은 분야에서 많은 실용적인 응용 프로그램이 있습니다.</p>
 
 <ol>
-  <li><code class="language-plaintext highlighter-rouge">LeNet-5:</code> 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를 마련했습니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">AlexNet</code>: Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 만든 AlexNet은 2012 ImageNet Large Scale Visual Recognition Challenge(ILSVRC)에서 우승했습니다. 심층 CNN 아키텍처는 다른 모델을 훨씬 능가하여 컴퓨터 비전에서 딥 러닝의 전환점이 되었습니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">VGGNet</code>: 옥스포드 대학의 Visual Geometry Group에서 개발한 VGGNet은 다중 컨벌루션 레이어가 있는 심층 아키텍처로 유명합니다. VGGNet은 2014 ILSVRC에서 2위를 차지했으며 여전히 다양한 컴퓨터 비전 작업의 벤치마크로 사용되고 있습니다.</li>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">인셉션(GoogLeNet):</code> GoogLeNet으로도 알려진 인셉션은 2014년 Google의 연구원들이 소개했습니다. 매우 깊은 네트워크를 효율적으로 훈련할 수 있는 혁신적인 인셉션 모듈로 2014 ILSVRC에서 우승했습니다.</p>
+  <li>OpenCV, scikit-image 및 MATLAB과 같은 이미지 처리 라이브러리 및 도구. 이러한 라이브러리는 임계값, 가장자리 감지 및 영역 성장과 같은 이미지 분할을 위한 다양한 기능과 알고리즘을 제공합니다.</li>
+  <li>k-평균 클러스터링, 지원 벡터 머신(SVM), 랜덤 포레스트와 같은 기계 학습 알고리즘. 이러한 알고리즘은 특정 기능이나 특성을 기반으로 이미지의 픽셀을 클러스터링하거나 분류하는 데 사용할 수 있습니다.</li>
+  <li>TensorFlow, PyTorch 및 Keras와 같은 딥 러닝 프레임워크. 이러한 프레임워크를 사용하면 U-Net, Mask R-CNN 및 FCN과 같은 분할 작업을 위한 심층 신경망의 교육 및 배포가 가능합니다.</li>
+  <li>AWS, Google Cloud 및 Microsoft Azure와 같은 클라우드 컴퓨팅 플랫폼. 이러한 플랫폼은 대규모 데이터 세트를 처리하고 복잡한 세분화 모델을 실행하기 위한 확장 가능하고 비용 효율적인 컴퓨팅 리소스를 제공합니다.</li>
+  <li>GPU 및 TPU와 같은 하드웨어 가속기. 이러한 액셀러레이터는 분할 모델의 계산 및 교육 속도를 크게 높여 보다 효율적이고 효과적으로 만듭니다.</li>
+</ol>
 
-    <p>Inception 블록은 이미지 인식 작업을 위해 컨벌루션 신경망에 사용되는 빌딩 블록입니다. Inception 블록의 주요 이점은 동일한 레이어 내에서 다양한 규모와 복잡성의 기능을 추출하고 결합하는 기능입니다.</p>
+<h1 id="detection">Detection</h1>
 
-    <p>전통적으로 컨볼루션 신경망은 서로 다른 규모의 특징을 추출하기 위해 별도의 계층을 가지고 있어 더 많은 계산 리소스와 훈련 시간이 필요합니다. 인셉션 블록은 크기가 다른 여러 필터(1x1, 3x3, 5x5)를 사용하고 동일한 레이어 내에서 작업을 풀링하여 이를 보다 효율적으로 달성할 수 있습니다. 이를 통해 네트워크는 다양한 수준의 추상화에서 기능을 학습하고 추출할 수 있으며 동시에 모델을 교육하는 데 필요한 매개변수의 수를 줄일 수 있습니다.</p>
+<p>RCNN, SPPNet, Fast R-CNN 및 YOLO는 모두 컴퓨터 비전에 사용되는 객체 감지 모델입니다. 각각에 대한 간략한 개요는 다음과 같습니다.</p>
 
-    <p>또한 Inception 블록 내에서 1x1 컨볼루션 필터를 사용하면 3x3 및 5x5 컨볼루션과 같이 계산 비용이 더 많이 드는 작업을 적용하기 전에 기능 맵의 채널 수를 줄임으로써 네트워크의 계산 비용을 줄이는 데 도움이 될 수 있습니다. 이 기술을 차원 축소라고 합니다.</p>
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">RCNN(CNN 기능이 있는 지역):</code> RCNN은 물체 감지에 CNN(컨볼루션 신경망)을 사용한 최초의 모델 중 하나입니다. 먼저 선택적 검색 알고리즘을 사용하여 일련의 지역 제안을 생성한 다음 CNN을 사용하여 각 지역 제안에서 기능을 추출하는 방식으로 작동합니다. 마지막으로 <code class="language-plaintext highlighter-rouge">SVM</code>(Support Vector Machine)을 사용하여 각 제안을 개체 또는 배경으로 분류하고 경계 상자 회귀 모델을 사용하여 제안 위치를 세분화합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">SPPNet</code>(Spatial Pyramid Pooling Net): SPPNet은 가변 크기 입력 이미지를 활성화하기 위해 공간 피라미드 풀링을 사용하는 RCNN의 변형입니다. 즉, 크기를 조정하거나 자를 필요 없이 다양한 크기의 이미지에 대해 모델을 학습할 수 있습니다. SPPNet은 기능 맵을 크기가 다른 영역으로 나누고 각 영역 내에서 기능을 풀링하여 이를 달성합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">Fast R-CNN:</code> 빠른 R-CNN은 영역 제안 및 기능 추출 단계를 단일 네트워크로 결합하는 RCNN 및 SPPNet보다 개선된 것입니다. 이것은 모델을 이전 모델보다 더 빠르고 정확하게 만듭니다. Fast R-CNN은 또한 제안을 분류하기 위해 SVM 대신 소프트맥스 레이어를 사용하고 제안의 위치를 구체화하기 위해 바운딩 박스 회귀 레이어를 사용합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">YOLO(You Only Look Once): YOLO는 단일 신경망을 사용하여 이미지에 있는 객체의 클래스 확률과 경계 상자를 예측하는 실시간 객체 감지 모델입니다</code>. RCNN, SPPNet 및 Fast R-CNN과 달리 YOLO는 지역 제안을 사용하지 않습니다. 대신 <code class="language-plaintext highlighter-rouge">이미지를 그리드로 나누고 각 그리드 셀에 대한 클래스 확률과 경계 상자를 예측</code>합니다. 이로 인해 YOLO는 다른 모델보다 훨씬 빠르지만 작은 물체나 복잡한 모양의 물체를 감지하는 데는 정확하지 않을 수 있습니다.</li>
+</ol>
 
-    <p>전반적으로 Inception 블록은 이미지 인식 작업에서 컨볼루션 신경망의 성능을 개선하는 동시에 훈련에 필요한 계산 비용과 매개변수 수를 줄이는 것으로 나타났습니다.</p>
-
-    <p>인셉션 블록의 맥락에서 “인셉션”이라는 용어는 새로운 것을 시작하거나 처음부터 무언가를 만드는 아이디어를 의미합니다. Inception 블록은 신경망이 미리 정의된 필터나 손으로 만든 기능에 의존하지 않고 처음부터 다양한 규모와 복잡성의 기능을 학습하고 추출할 수 있도록 설계되었기 때문에 이 이름이 붙여졌습니다.</p>
-
-    <p>인셉션 블록은 각 인형 안에 작은 인형이 들어 있는 러시아 인형의 아이디어에서 영감을 받았습니다. 마찬가지로 Inception 블록에는 필터 크기가 다른 더 작은 레이어와 더 큰 레이어 내부의 풀링 작업이 포함되어 있습니다.</p>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">ResNet</code>: Microsoft Research에서 개발한 ResNet(Residual Network)이 2015 ILSVRC에서 우승했습니다. 기울기 소실 문제를 겪지 않고 훨씬 더 깊은 네트워크(최대 152개 계층)를 훈련할 수 있는 잔류 연결(연결 건너뛰기)을 도입했습니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">YOLO</code>(You Only Look Once): YOLO는 Joseph Redmon, Santosh Divvala, Ross Girshick 및 Ali Farhadi가 만든 실시간 객체 감지 시스템입니다. 속도와 정확성으로 유명하여 실시간 응용 프로그램에 적합합니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">Mask R-CNN</code>: Kaiming He, Georgia Gkioxari, Piotr Dollár 및 Ross Girshick이 소개한 Mask R-CNN은 Faster R-CNN 객체 감지 모델의 확장입니다. 분할 마스크를 예측하기 위한 분기를 추가하여 이미지 내에서 개체를 동시에 감지하고 분할하는 작업인 인스턴스 분할을 활성화합니다.</li>
-</ol>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">A Survey of the Usages of Deep Learning for Natural Language Processing</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="A Survey of the Usages of Deep Learning for Natural Language Processing" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<p>전반적으로 RCNN, SPPNet, Fast R-CNN 및 YOLO는 모두 컴퓨터 비전의 상당한 발전에 기여한 효과적인 객체 감지 모델입니다. 각 모델에는 고유한 강점과 약점이 있으며 모델 선택은 특정 애플리케이션 및 요구 사항에 따라 다릅니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">A Survey of the Usages of Deep Learning for Natural Language Processing</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="A Survey of the Usages of Deep Learning for Natural Language Processing" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <p><br /><br /><br /><br /></p>
 
@@ -307,22 +340,4 @@ print(sum(gabs[M-1:]))
 <p>파이토치 강좌에 너무 연연하지 말고 순수 공부 시간을 늘려야 겠습니다. 좋은 강의 이지만 강의에 집중하다가는 지식을 제대로 못 쌓을 확률이 높습니다. 펜을 들고 공부해야 겠습니다.</p>
 
 <h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>다시 드는 생각입니다. 체력 관리가 중요합니다. 오늘 따라 굉장히 피곤했습니다. 잘 쉬고 잘 공부해야 겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day06</title><link href="http://localhost:4000/aitech_daily/post-day06/" rel="alternate" type="text/html" title="ai tech - Day06" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day06</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day06/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-<p>파이토치 수업을 시작했습니다. 본격적인 딥러닝 구현을 들어가서 설렜습니다. 월요일 9시가 되고 과제를 열어보니 난이도가 꽤 있어서 걱정이 조금 되었습니다. 수요일 까지 최대한 빨리 끝내놓고 한 주의 마무리를 잘 해야 겠다는 다짐을 했습니다.</p>
-
-<p>팀원들과 코딩테스트 스터디를 시작했습니다. [이것이 취업을 위한 코딩테스트다.] 라는 책으로 시작하게 되었는데요. 그리디 알고리즘 개념 공부와 함께 있는 3 문제를 같이 풀었습니다.</p>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-<p>강제로 코드를 치다 보니 손에 익는 것은 분명 있습니다. 파이토치 공부를 하면서 매번 눈으로만 배우는 습관을 가지고 있었는데 이번에는 마음을 다잡고 하나 하나 쳐가면서 공부를 하고 있습니다. 코드는 역시 쳐서 돌려봐야 내것이 되나 봅니다.</p>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-<p>pytoch를 사용하는 이유, 기초 사용법, Documentation 읽는 법 등을 배웠습니다.</p>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-<p>코딩테스트 문제는 하루에 2 문제 씩 계속 풀려고 합니다.</p>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>휴식 시간을 잘 가져야겠습니다. 그리고 식사는 저녁까지 계속 굶다가 저녁에 한 끼만 먹는 것이 좋겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>다시 드는 생각입니다. 체력 관리가 중요합니다. 오늘 따라 굉장히 피곤했습니다. 잘 쉬고 잘 공부해야 겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>
