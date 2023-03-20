@@ -1540,7 +1540,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 분 소요
+          4 분 소요
         
       </span>
     
@@ -1555,7 +1555,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#누가-좋은-딥러너인가-">누가 좋은 딥러너인가 ?</a><ul><li><a href="#공부합시다">공부합시다.</a></li><li><a href="#딥러닝-역사의-중요한-기점들">딥러닝 역사의 중요한 기점들.</a></li></ul></li><li><a href="#딥러닝-개괄">딥러닝 개괄</a><ul><li><a href="#신경망">신경망</a></li><li><a href="#손실함수의-종류">손실함수의 종류</a></li></ul></li><li><a href="#deep-learnings-most-important-ideas---a-brief-historical-review">Deep Learning’s Most Important Ideas - A Brief Historical Review</a></li><li><a href="#혁신들">혁신들</a><ul><li><a href="#2012--alexnet">2012 – AlexNet</a></li><li><a href="#2013--dqn">2013 – DQN</a></li><li><a href="#2014--encoderdecoder-adam">2014 – Encoder/Decoder, Adam</a></li><li><a href="#2015--gan-resnet">2015 – GAN, ResNet</a></li><li><a href="#2016-">2016 –</a></li><li><a href="#2017--transformer">2017 – Transformer</a></li><li><a href="#2018--bert">2018 – Bert</a></li><li><a href="#2019--big-language-modelsgpt-x">2019 – Big Language Models(GPT-X)</a></li><li><a href="#2020--self-supervised-learning">2020 – Self-Supervised Learning</a></li><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#누가-좋은-딥러너인가-">누가 좋은 딥러너인가 ?</a><ul><li><a href="#공부합시다">공부합시다.</a></li><li><a href="#딥러닝-역사의-중요한-기점들">딥러닝 역사의 중요한 기점들.</a></li></ul></li><li><a href="#딥러닝-개괄">딥러닝 개괄</a><ul><li><a href="#신경망">신경망</a></li><li><a href="#손실함수의-종류">손실함수의 종류</a></li></ul></li><li><a href="#deep-learnings-most-important-ideas---a-brief-historical-review">Deep Learning’s Most Important Ideas - A Brief Historical Review</a></li><li><a href="#혁신들">혁신들</a><ul><li><a href="#2012--alexnet">2012 – AlexNet</a></li><li><a href="#2013--dqn">2013 – DQN</a></li><li><a href="#2014--encoderdecoder-adam">2014 – Encoder/Decoder, Adam</a></li><li><a href="#2015--gan-resnet">2015 – GAN, ResNet</a></li><li><a href="#2016-">2016 –</a></li><li><a href="#2017--transformer">2017 – Transformer</a></li><li><a href="#2018--bert">2018 – Bert</a></li><li><a href="#2019--big-language-modelsgpt-x">2019 – Big Language Models(GPT-X)</a></li><li><a href="#2020--self-supervised-learning">2020 – Self-Supervised Learning</a></li></ul></li><li><a href="#futher-question">Futher Question</a><ul><li><a href="#bias-and-variance">Bias and Variance</a></li><li><a href="#최적화">최적화</a></li><li><a href="#gradinet-descent">Gradinet Descent</a></li><li><a href="#regularization">Regularization</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -1690,6 +1690,36 @@ ResNet은 2015년 Kaiming He와 그의 동료들이 소개한 심층 합성곱 �
 <h2 id="2019--big-language-modelsgpt-x">2019 – Big Language Models(GPT-X)</h2>
 
 <h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>
+
+<p>딥러닝은 Neural 을 모방해서 만들기 시작했지만 지금은 더 수학적으로 구분되어 지고 있다. 예를 들어 새와 전투기를 생각해보자. Neural Network 는 손실함수를 최소화하는 하나의 시스템이다. 과연 인간의 뇌에서 오차역전파같은 일들이 벌어질까?</p>
+
+<p>선형 결합을 풍부하게 만들어주기 위해서는 중간에 Nonlinear transfom 함수를 넣어줘야 한다. 선형 결합은 하나의 선형결합으로 환원될 수 있기 때문이다.</p>
+
+<p>MLP 에서 손실함수</p>
+
+<ul>
+  <li>회귀 문제 : <code class="language-plaintext highlighter-rouge">MSE</code></li>
+  <li>분류 문제 : <code class="language-plaintext highlighter-rouge">CE</code></li>
+  <li>확률 문제 : <code class="language-plaintext highlighter-rouge">MLE</code></li>
+</ul>
+
+<h1 id="futher-question">Futher Question</h1>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">과연 분류 문제에서 CE 함수를 사용하는 것이 최선일까?</code></p>
+
+    <p>교차 엔트로피(CE) 손실 함수는 일반적으로 분류 문제에 사용되지만 “최상의” 선택인지 여부는 특정 문제 및 관심 있는 성능 메트릭에 따라 다릅니다.</p>
+
+    <p>CE 손실 함수는 예측 확률과 실제 레이블 간의 차이를 측정하도록 설계되었으며 몇 가지 바람직한 속성을 가지고 있습니다. 예를 들어, 그들은 볼록합니다. 즉 경사 하강법 최적화 알고리즘이 전역 최소값을 찾을 수 있습니다. 또한 올바른 예측보다 부정확한 예측에 더 많은 벌점을 부과합니다. 이는 거짓 긍정과 거짓 부정의 비용이 서로 다른 분류 작업에 유용합니다.</p>
+
+    <p>그러나 CE 손실 함수는 모든 분류 문제에 대해 최선의 선택이 아닐 수 있습니<code class="language-plaintext highlighter-rouge">다. 예를 들어, 클래스가 불균형한 경우(즉, 한 클래스의 인스턴스가 다른 클래스보다 훨씬 더 많다는 의미) CE 손실이 다수 클래스 쪽으로 편향되어 소수 클래스의 성능을 정확하게 캡처하지 못할 수 있습니다.</code> 이러한 경우 초점 손실 또는 클래스 균형 손실과 같은 대체 손실 함수가 더 적절할 수 있습니다.</p>
+
+    <p>또한 관심 있는 성능 메트릭이 분류 정확도가 아니라 정밀도, 재현율 또는 F1 점수와 같은 항목인 경우 CE 손실을 최적화해도 전체 성능이 최상이 되지 않을 수 있습니다. 이러한 경우 사용자 지정 손실 함수 또는 최적화 절차를 사용하여 원하는 성능 지표에 대해 직접 최적화하는 것이 더 효과적일 수 있습니다.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">요약하면, CE 손실 함수는 많은 분류 문제에 대해 널리 사용되고 효과적인 선택이지만 모든 경우에 "최상의" 선택은 아닐 수 있습니다</code>. 손실 함수의 선택은 <code class="language-plaintext highlighter-rouge">관심 있는 특정 문</code>제 및 <code class="language-plaintext highlighter-rouge">성능 메트릭</code>에 따라 달라집니다.</p>
+  </li>
+</ul>
 
 <h2 id="bias-and-variance">Bias and Variance</h2>
 
