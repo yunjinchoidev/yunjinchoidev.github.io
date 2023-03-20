@@ -150,7 +150,7 @@ var store = [{
         "teaser": null
       },{
         "title": "딥러닝의 모든 것(All about Deep Learning)",
-        "excerpt":"딥러닝의 모든 것 실력있는 딥러닝 엔지니어가 됩시다. pytorch와 선형대수와 확률과 통계를 잘하는 사람, 최신 논문을 잘 읽고 구현을 잘 하는 사람은 좋은 엔지니어가 될 가능성이 높습니다. 논문을 읽거나 모델을 연구할 때 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려합시다. 딥러닝의 중요한 아이디어 - AlexNet(2012) -&gt; 딥러닝의 가능성을...","categories": ["aitech_knowledge"],
+        "excerpt":"누가 좋은 딥러너인가 ? 누가 좋은 딥러너 일까요? 수학적 지식이 뛰어나야 합니다. 논문을 잘 읽어야 하고요. 구현 능력이 뛰어나야 합니다. 여러분들은 그 실력을 키우시기 바랍니다. 논문을 읽거나 모델을 연구할 때 1. 데이터 2. 모델 3. 손실함수 4. 학습 알고리즘 를 고려합시다. 공부합시다. 1. Historical Review 2. Neural Networks &amp; Multi-Layer...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/",
         "teaser": null
@@ -189,12 +189,6 @@ var store = [{
         "excerpt":"   Attention is All you need   이 논문의 함의!  구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다.  기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠.   ","categories": ["paper"],
         "tags": [],
         "url": "/paper/post-attention-is-all-you-need/",
-        "teaser": null
-      },{
-        "title": "A Survey of the Usages of Deep Learning for Natural Language Processing",
-        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["paper"],
-        "tags": [],
-        "url": "/paper/post-surveyNLP/",
         "teaser": null
       },{
         "title": "논문리뷰",
@@ -249,5 +243,17 @@ var store = [{
         "excerpt":"해결 전략 그리디 알고리즘으로 풉니다. 앞 사람과의 키차이를 gabs 라는 리스트에 저장해줍니다. 문제에서 요구하는 것은 최소 비용으로 M 개의 그룹을 만드는 것을 요구합니다. gab 리스트에서 특정 하나를 제거한다는 것은 그 구간을 통합한다는 개념이고 그룹 수를 하나 줄인다는 것입니다. (N-1 개의 갭이 있는 gabs는 M개의 그룹이 최초로 세팅되어 있다고 이해하면 됩니다.)...","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/",
+        "teaser": null
+      },{
+        "title": "A Survey of the Usages of Deep Learning for Natural Language Processing",
+        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-surveyNLP/",
+        "teaser": null
+      },{
+        "title": "Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)",
+        "excerpt":"Deep Learning’s Most Important Ideas - A Brief Historical Review(2020) Deep Learning’s Most Important Ideas - A Brief Historical Review 혁신들 2012 – AlexNet AlexNet은 2012년 Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 개발한 심층 컨볼루션 신경망(CNN) 아키텍처다. 오류율은 15.3%로 두 번째로 좋은 모델보다 훨씬 뛰어나다. AlexNet은 8개의 계층으로 구성되어...","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-A-Brief-Historical-Review/",
         "teaser": null
       }]
