@@ -1540,7 +1540,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          4 분 소요
+          5 분 소요
         
       </span>
     
@@ -1685,11 +1685,35 @@ ResNet은 2015년 Kaiming He와 그의 동료들이 소개한 심층 합성곱 �
 
 <h2 id="2017--transformer">2017 – Transformer</h2>
 
+<p><code class="language-plaintext highlighter-rouge">Attention is All you need</code></p>
+
+<p>Transformer는 Vaswani 등이 도입한 신경망 아키텍처입니다. 2017년에 기계 번역과 같은 시퀀스 간 작업을 위해 설계되었습니다. 자가 주의 메커니즘을 사용하여 순환 신경망(RNN)의 한계를 극복하여 더 효율적인 병렬화와 장거리 종속성을 더 잘 처리할 수 있습니다. <code class="language-plaintext highlighter-rouge">트랜스포머는 인코더와 디코더로 구성되어 있으며 각각 여러 레이어의 자체 주의 및 피드포워드 하위 레이어가 있어 모델이 입력 및 출력 시퀀스의 요소 간의 복잡한 관계를 학습</code>할 수 있습니다.</p>
+
+<blockquote>
+  <p>Attention 구조를 이해하는 게 정말 중요하다.</p>
+
+</blockquote>
+
 <h2 id="2018--bert">2018 – Bert</h2>
+
+<p>BERT (Bidirectional Encoder Representations from Transformers):</p>
+
+<p>BERT는 2018년 Google에서 도입한 사전 학습된 Transformer 기반 언어 모델입니다. <code class="language-plaintext highlighter-rouge">양방향 컨텍스트를 사용</code>하여 레이블이 지정되지 않은 텍스트 데이터에서 풍부한 언어 표현을 학습함으로써 자연어 처리(NLP)에 혁명을 일으켰습니다. <code class="language-plaintext highlighter-rouge">BERT는 마스킹된 언어 모델링 및 다음 문장 예측 작업을 사용하여 대규모 비지도 데이터에 대해 사전 훈련</code>됩니다. 감정 분석 또는 명명된 엔터티 인식과 같은 특정 다운스트림 작업에서 <code class="language-plaintext highlighter-rouge">BERT를 미세 조정하면 상대적으로 최소한의 추가 교육으로 최첨단 성능</code>을 얻을 수 있습니다.</p>
+
+<blockquote>
+  <p>Find Tuning 의 시초</p>
+
+</blockquote>
 
 <h2 id="2019--big-language-modelsgpt-x">2019 – Big Language Models(GPT-X)</h2>
 
+<p>GPT(Generative Pre-trained Transformer):
+GPT는 OpenAI에서 개발한 일련의 Transformer 기반 언어 모델이며, GPT-3는 2021년 9월 제 지식 컷오프 당시 가장 강력한 최신 버전입니다. <code class="language-plaintext highlighter-rouge">GPT는 다음 단어를 예측하는 단방향 자동 회귀 접근 방식을 사용하여 훈련</code>됩니다. <code class="language-plaintext highlighter-rouge">이전 단어를 기반으로 순서대로. 방대한 양의 텍스트 데이터에 대해 사전 훈련된 GPT</code>는 <code class="language-plaintext highlighter-rouge">강력한 일반화 기능</code>을 나타내<code class="language-plaintext highlighter-rouge">며 텍스트 생성, 요약, 번역 및 질문 답변과 같은 다양한 NLP 작업에 대해 미세 조정할 수 있</code>습니다.</p>
+
 <h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>
+
+<p>Self-Supervised Learning 자기 지도 학습:
+<code class="language-plaintext highlighter-rouge">자기 지도 학습은 모델이 명시적으로 레이블이 지정된 데이터를 사용하지 않고 데이터 자체에서 유용한 표현이나 기능을 학습하는 일종의 비지도 학습</code>입니다. 대신 문장에서 누락된 단어를 예측(마스킹된 언어 모델링)하거나 두 문장의 상대적 위치를 예측(다음 문장 예측)하는 등 데이터에서 감독 신호를 생성하도록 설계된 작업인 <code class="language-plaintext highlighter-rouge">프리텍스트 작업을 사용</code>합니다. 자기 지도 학습은 BERT 및 GPT와 같은 모델이 레이블이 지정되지 않은 방대한 양의 데이터에서 풍부하고 전송 가능한 표현을 학습할 수 있도록 하므로 딥 러닝, 특히 NLP에서 점점 인기를 얻고 있습니다.</p>
 
 <p>딥러닝은 Neural 을 모방해서 만들기 시작했지만 지금은 더 수학적으로 구분되어 지고 있다. 예를 들어 새와 전투기를 생각해보자. Neural Network 는 손실함수를 최소화하는 하나의 시스템이다. 과연 인간의 뇌에서 오차역전파같은 일들이 벌어질까?</p>
 
