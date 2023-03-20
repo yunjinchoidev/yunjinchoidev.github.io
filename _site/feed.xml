@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T14:19:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)</title><link href="http://localhost:4000/paper/post-A-Brief-Historical-Review/" rel="alternate" type="text/html" title="Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T02:20:02+09:00</updated><id>http://localhost:4000/paper/post-A%20Brief%20Historical%20Review</id><content type="html" xml:base="http://localhost:4000/paper/post-A-Brief-Historical-Review/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T19:35:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)</title><link href="http://localhost:4000/paper/post-A-Brief-Historical-Review/" rel="alternate" type="text/html" title="Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T02:20:02+09:00</updated><id>http://localhost:4000/paper/post-A%20Brief%20Historical%20Review</id><content type="html" xml:base="http://localhost:4000/paper/post-A-Brief-Historical-Review/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <p><br /><br /><br /><br /></p>
 
@@ -75,7 +75,38 @@ ResNet은 2015년 Kaiming He와 그의 동료들이 소개한 심층 합성곱 �
 
 <h2 id="2019--big-language-modelsgpt-x">2019 – Big Language Models(GPT-X)</h2>
 
-<h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">A Survey of the Usages of Deep Learning for Natural Language Processing</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="A Survey of the Usages of Deep Learning for Natural Language Processing" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Post: 컴퓨터 비전의 중요한 7가지 모델</title><link href="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="Post: 컴퓨터 비전의 중요한 7가지 모델" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-10T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B9%84%EC%A0%84%EC%9D%98%20%EC%A4%91%EC%9A%94%ED%95%9C%207%EA%B0%80%EC%A7%80%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/"><![CDATA[<p align="center">
+<img src="../../../image/ai.png" width="400" height="400" />
+</p>
+
+<h1 id="ai">ai</h1>
+<h1 id="컴퓨터-비전의-중요한-7가지-모델">컴퓨터 비전의 중요한 7가지 모델</h1>
+
+<p>컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">LeNet-5:</code> 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를 마련했습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">AlexNet</code>: Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 만든 AlexNet은 2012 ImageNet Large Scale Visual Recognition Challenge(ILSVRC)에서 우승했습니다. 심층 CNN 아키텍처는 다른 모델을 훨씬 능가하여 컴퓨터 비전에서 딥 러닝의 전환점이 되었습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">VGGNet</code>: 옥스포드 대학의 Visual Geometry Group에서 개발한 VGGNet은 다중 컨벌루션 레이어가 있는 심층 아키텍처로 유명합니다. VGGNet은 2014 ILSVRC에서 2위를 차지했으며 여전히 다양한 컴퓨터 비전 작업의 벤치마크로 사용되고 있습니다.</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">인셉션(GoogLeNet):</code> GoogLeNet으로도 알려진 인셉션은 2014년 Google의 연구원들이 소개했습니다. 매우 깊은 네트워크를 효율적으로 훈련할 수 있는 혁신적인 인셉션 모듈로 2014 ILSVRC에서 우승했습니다.</p>
+
+    <p>Inception 블록은 이미지 인식 작업을 위해 컨벌루션 신경망에 사용되는 빌딩 블록입니다. Inception 블록의 주요 이점은 동일한 레이어 내에서 다양한 규모와 복잡성의 기능을 추출하고 결합하는 기능입니다.</p>
+
+    <p>전통적으로 컨볼루션 신경망은 서로 다른 규모의 특징을 추출하기 위해 별도의 계층을 가지고 있어 더 많은 계산 리소스와 훈련 시간이 필요합니다. 인셉션 블록은 크기가 다른 여러 필터(1x1, 3x3, 5x5)를 사용하고 동일한 레이어 내에서 작업을 풀링하여 이를 보다 효율적으로 달성할 수 있습니다. 이를 통해 네트워크는 다양한 수준의 추상화에서 기능을 학습하고 추출할 수 있으며 동시에 모델을 교육하는 데 필요한 매개변수의 수를 줄일 수 있습니다.</p>
+
+    <p>또한 Inception 블록 내에서 1x1 컨볼루션 필터를 사용하면 3x3 및 5x5 컨볼루션과 같이 계산 비용이 더 많이 드는 작업을 적용하기 전에 기능 맵의 채널 수를 줄임으로써 네트워크의 계산 비용을 줄이는 데 도움이 될 수 있습니다. 이 기술을 차원 축소라고 합니다.</p>
+
+    <p>전반적으로 Inception 블록은 이미지 인식 작업에서 컨볼루션 신경망의 성능을 개선하는 동시에 훈련에 필요한 계산 비용과 매개변수 수를 줄이는 것으로 나타났습니다.</p>
+
+    <p>인셉션 블록의 맥락에서 “인셉션”이라는 용어는 새로운 것을 시작하거나 처음부터 무언가를 만드는 아이디어를 의미합니다. Inception 블록은 신경망이 미리 정의된 필터나 손으로 만든 기능에 의존하지 않고 처음부터 다양한 규모와 복잡성의 기능을 학습하고 추출할 수 있도록 설계되었기 때문에 이 이름이 붙여졌습니다.</p>
+
+    <p>인셉션 블록은 각 인형 안에 작은 인형이 들어 있는 러시아 인형의 아이디어에서 영감을 받았습니다. 마찬가지로 Inception 블록에는 필터 크기가 다른 더 작은 레이어와 더 큰 레이어 내부의 풀링 작업이 포함되어 있습니다.</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">ResNet</code>: Microsoft Research에서 개발한 ResNet(Residual Network)이 2015 ILSVRC에서 우승했습니다. 기울기 소실 문제를 겪지 않고 훨씬 더 깊은 네트워크(최대 152개 계층)를 훈련할 수 있는 잔류 연결(연결 건너뛰기)을 도입했습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">YOLO</code>(You Only Look Once): YOLO는 Joseph Redmon, Santosh Divvala, Ross Girshick 및 Ali Farhadi가 만든 실시간 객체 감지 시스템입니다. 속도와 정확성으로 유명하여 실시간 응용 프로그램에 적합합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">Mask R-CNN</code>: Kaiming He, Georgia Gkioxari, Piotr Dollár 및 Ross Girshick이 소개한 Mask R-CNN은 Faster R-CNN 객체 감지 모델의 확장입니다. 분할 마스크를 예측하기 위한 분기를 추가하여 이미지 내에서 개체를 동시에 감지하고 분할하는 작업인 인스턴스 분할을 활성화합니다.</li>
+</ol>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">A Survey of the Usages of Deep Learning for Natural Language Processing</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="A Survey of the Usages of Deep Learning for Natural Language Processing" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <p><br /><br /><br /><br /></p>
 
@@ -294,39 +325,4 @@ print(sum(gabs[M-1:]))
 <p>코딩테스트 문제는 하루에 2 문제 씩 계속 풀려고 합니다.</p>
 
 <h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>휴식 시간을 잘 가져야겠습니다. 그리고 식사는 저녁까지 계속 굶다가 저녁에 한 끼만 먹는 것이 좋겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech 2주차</title><link href="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="ai tech 2주차" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="2주차-계획">[2주차 계획]</h1>
-<ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />텐서보드 튜토리얼 코드 돌리기</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />WanB 튜토리얼 코드 돌려보기</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />하이퍼 파라미터 튜닝 해보기</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />코테 스터디 잘 참여하기</li>
-</ul>
-
-<h1 id="2주차를-보내며">[2주차를 보내며]</h1>
-
-<blockquote>
-  <ul>
-    <li>강의 정리
-      <ul>
-        <li><a href="https://yunjinchoidev.github.io/aitech_knowledge/post-pytorch/">파이토치 강의록 정리</a></li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
-
-<p>벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 <code class="language-plaintext highlighter-rouge">파이토치</code> 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader 를 이용한 데이터 피딩 방법, <code class="language-plaintext highlighter-rouge">torch.module</code>, <code class="language-plaintext highlighter-rouge">torch.Parameter</code> 를 배웠고 <code class="language-plaintext highlighter-rouge">Tensorboard</code>, <code class="language-plaintext highlighter-rouge">Wandb</code> 등을 배습니다.</p>
-
-<p>개념 자체는 그렇게 어렵지 않았습니다. 다만 문제는 그것을 응용하는 능력이었습니다. 이번 주 해결 해야 하는 과제는 pytorch 를 통해 모델을 구축할 수 있는 지, 데이터를 주입할 수 있는지, 전이 학습을 완성된 코드로 돌릴 수 있는지 여부였습니다.</p>
-
-<p>쉽지 않았습니다. 구글링을 하지 않고 공식문서만 이용해서 풀어야 했기 때문에 깊은 인내가 필요했습니다. 하지만 5일의 시간을 투자해 pytorch 공식문서를 읽은 만큼 이해도 깊어졌다고 생각합니다.</p>
-
-<p>팀원들과 코딩테스트 스터디를 시작했습니다. 하루에 두 문제를 풀고 PR을 올리면 동료들이 리뷰를 달아주고 피어세션 때 이야기를 나누는 방식으로 진행했습니다. 잘 진행이 되어서 이 방식을 5개월 동안 유지한다면 좋은 성과가 있을 거라고 생각합니다.</p>
-
-<p>파이토치는 딥러닝 구현에 계속 사용되는 만큼 자유롭게 활용 할 수 있도록 손에 익혀야겠습니다. 일급 함수, OOP 등 파이썬에 대한 깊은 이해도 꼭 필요할 거 같습니다. 익숙하지 않으니 코드 짜는데 많은 시간이 소요되더군요.</p>
-
-<p>이렇게 2주차가 지나갔습니다. 다음주에는 딥러닝 Basic 강의가 시작되는데요. 모델 구현을 직접 코드로 짜보고 데이터를 주입해 학습시켜봐야겠습니다. 4월에 시작되는 프로젝트가 굉장히 기대가 됩니다.</p>
-
-<p>ps. AI 엔지니어와 AI 리서처 중 어떤 것을 하고 싶은지 선택하는 게 중요할 것 같습니다. 
-저는 db, infra, workflow, mlOps 등을 다루고 싶은게 많아 AI 엔지니어가 끌리더군요.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>휴식 시간을 잘 가져야겠습니다. 그리고 식사는 저녁까지 계속 굶다가 저녁에 한 끼만 먹는 것이 좋겠습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>

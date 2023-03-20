@@ -101,12 +101,6 @@ var store = [{
         "url": "/aitech_knowledge/post-pytorchtemplate/",
         "teaser": null
       },{
-        "title": "Post: ai의 모든 것.",
-        "excerpt":"ai   ","categories": ["ai"],
-        "tags": [],
-        "url": "/ai/post-ai/",
-        "teaser": null
-      },{
         "title": "ai_cv",
         "excerpt":"ai_cv  ","categories": ["ai_cv"],
         "tags": [],
@@ -249,6 +243,12 @@ var store = [{
         "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["paper"],
         "tags": [],
         "url": "/paper/post-surveyNLP/",
+        "teaser": null
+      },{
+        "title": "Post: 컴퓨터 비전의 중요한 7가지 모델",
+        "excerpt":"ai 컴퓨터 비전의 중요한 7가지 모델 컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다. LeNet-5: 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를...","categories": ["ai"],
+        "tags": [],
+        "url": "/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/",
         "teaser": null
       },{
         "title": "Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)",
