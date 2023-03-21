@@ -262,4 +262,10 @@ var store = [{
         "tags": [],
         "url": "/paper/post-A-Brief-Historical-Review/",
         "teaser": null
+      },{
+        "title": "Pytorch DataLoader DataSet",
+        "excerpt":"Pytorch DataLoader DataSet 옵션 데이터 집합: 로드할 데이터 집합 개체를 지정하는 필수 인수입니다. 데이터 집합 개체는 torch.utils.data에서 파생된 클래스의 인스턴스여야 합니다.getitem 및 len 메서드가 구현된 데이터 세트. 배치_크기: 이 옵션 인수는 각 배치에서 로드하고 처리할 샘플 수를 정의합니다. 기본적으로 1(즉, 배치 없음)로 설정됩니다. 배치 크기가 클수록 교육 효율성이 향상될 수...","categories": ["ai"],
+        "tags": [],
+        "url": "/ai/post-Pytorch-DataLoader-DataSet/",
+        "teaser": null
       }]

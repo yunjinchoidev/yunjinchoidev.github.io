@@ -1,6 +1,6 @@
 ---
 title: "Segmentation & Detection"
-last_modified_at: 2023-03-09T20:20:02-05:00
+last_modified_at: 2023-03-20T20:20:02-05:00
 categories:
     - ai
 tages:
