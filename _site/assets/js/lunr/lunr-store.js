@@ -275,8 +275,8 @@ var store = [{
         "url": "/ai/post-Pytorch-DataLoader-DataSet/",
         "teaser": null
       },{
-        "title": "Pytorch DataLoader DataSet",
-        "excerpt":"Pytorch DataLoader DataSet 옵션 데이터 집합: 로드할 데이터 집합 개체를 지정하는 필수 인수입니다. 데이터 집합 개체는 torch.utils.data에서 파생된 클래스의 인스턴스여야 합니다.getitem 및 len 메서드가 구현된 데이터 세트. 배치_크기: 이 옵션 인수는 각 배치에서 로드하고 처리할 샘플 수를 정의합니다. 기본적으로 1(즉, 배치 없음)로 설정됩니다. 배치 크기가 클수록 교육 효율성이 향상될 수...","categories": ["ai"],
+        "title": "RNN, LSTM, GRU",
+        "excerpt":"RNN RNN(Recurrent Neural Network)은 시계열, 자연어 및 음성 신호와 같은 순차적 데이터로 작업하도록 설계된 인공 신경망 클래스입니다. 기존의 피드포워드 신경망과 달리 RNN에는 자체 루프백 연결이 있어 일종의 메모리 역할을 할 수 있는 숨겨진 상태를 유지할 수 있습니다. 따라서 RNN은 입력 시퀀스를 처리하고 입력 데이터의 컨텍스트 또는 기록을 기반으로 결과를 예측하는...","categories": ["ai"],
         "tags": [],
         "url": "/ai/post-RNN,-LSTM,-GRU/",
         "teaser": null

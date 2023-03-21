@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-21T18:26:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">[논문리뷰] Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="[논문리뷰] Attention is all you need" /><published>2023-03-21T00:00:00+09:00</published><updated>0219-04-01T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-21T18:27:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">[논문리뷰] Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="[논문리뷰] Attention is all you need" /><published>2023-03-21T00:00:00+09:00</published><updated>0219-04-01T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <h1 id="attention-is-all-you-need"><code class="language-plaintext highlighter-rouge">Attention is All you need</code></h1>
 
@@ -77,45 +77,70 @@ data_loader = DataLoader(
     pin_memory=True,
     drop_last=True
 )
-</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pytorch DataLoader DataSet</title><link href="http://localhost:4000/ai/post-RNN,-LSTM,-GRU/" rel="alternate" type="text/html" title="Pytorch DataLoader DataSet" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-22T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-RNN,%20LSTM,%20GRU</id><content type="html" xml:base="http://localhost:4000/ai/post-RNN,-LSTM,-GRU/"><![CDATA[<p align="center">
+</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">RNN, LSTM, GRU</title><link href="http://localhost:4000/ai/post-RNN,-LSTM,-GRU/" rel="alternate" type="text/html" title="RNN, LSTM, GRU" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-22T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-RNN,%20LSTM,%20GRU</id><content type="html" xml:base="http://localhost:4000/ai/post-RNN,-LSTM,-GRU/"><![CDATA[<p align="center">
 <img src="../../../image/ai.png" width="400" height="400" />
 </p>
 
-<h1 id="pytorch-dataloader-dataset">Pytorch DataLoader DataSet</h1>
+<h1 id="rnn">RNN</h1>
 
-<h2 id="옵션">옵션</h2>
-<p>데이터 집합: 로드할 데이터 집합 개체를 지정하는 필수 인수입니다. 데이터 집합 개체는 torch.utils.data에서 파생된 클래스의 인스턴스여야 합니다.<strong>getitem</strong> 및 <strong>len</strong> 메서드가 구현된 데이터 세트.</p>
+<p>RNN(Recurrent Neural Network)은 시계열, 자연어 및 음성 신호와 같은 순차적 데이터로 작업하도록 설계된 인공 신경망 클래스입니다. 기존의 피드포워드 신경망과 달리 RNN에는 자체 루프백 연결이 있어 일종의 메모리 역할을 할 수 있는 숨겨진 상태를 유지할 수 있습니다. 따라서 <code class="language-plaintext highlighter-rouge">RNN은 입력 시퀀스를 처리하고 입력 데이터의 컨텍스트 또는 기록을 기반으로 결과를 예측하는 작업에 특히 적합</code>합니다.</p>
 
-<p>배치_크기: 이 옵션 인수는 각 배치에서 로드하고 처리할 샘플 수를 정의합니다. 기본적으로 1(즉, 배치 없음)로 설정됩니다. 배치 크기가 클수록 교육 효율성이 향상될 수 있지만 메모리도 더 많이 필요합니다.</p>
+<p>RNN의 주요 구성 요소는 입력 계층, 숨겨진 계층 및 출력 계층입니다. 입력 계층은 각 시간 단계에서 입력 데이터를 받는 반면 숨겨진 계층은 이전 시간 단계에서 정보를 캡처하는 숨겨진 상태를 유지합니다. <code class="language-plaintext highlighter-rouge">출력 레이어는 현재 입력 및 숨겨진 상태를 기반으로 최종 출력 또는 예측을 생성</code>합니다.</p>
 
-<p>셔플: 이 선택적 부울 인수는 배치를 만들기 전에 데이터 집합을 섞을지 여부를 나타냅니다. 셔플링은 연속된 표본 간의 상관 관계를 줄임으로써 과적합을 방지하는 데 도움이 됩니다. 기본적으로 False로 설정됩니다.</p>
+<p>RNN의 핵심 기능은 시간 단계에 걸쳐 가중치를 공유하는 기능입니다. 즉, 입력 시퀀스의 각 요소를 처리하는 데 동일한 가중치 집합이 사용됩니다. 이를 통해 RNN은 서로 다른 시퀀스 길이에 걸쳐 일반화하고 입력 데이터의 기본 구조를 학습할 수 있습니다.</p>
 
-<p>샘플러: 이 옵션 인수를 사용하면 샘플러 개체를 사용하여 사용자 지정 샘플링 전략을 지정할 수 있습니다. torch.utils.data에서 파생된 클래스의 인스턴스여야 합니다.샘플러. 제공된 경우 샘플러가 샘플 순서를 정의하므로 shuffle 인수를 False로 설정해야 합니다.</p>
+<p>그러나 <code class="language-plaintext highlighter-rouge">RNN에는 몇 가지 제한 사항이 있습니다. 한 가지 중요한 문제는 그래디언트 소멸 및 폭발 문제로 인해 장거리 종속성을 학습하는 데 어려움이 있다는 것입니다.</code> 이는 시간을 통한 역전파(BPTT) 알고리즘 동안 기울기가 너무 작거나 너무 커져서 가중치를 조정하고 신경망을 효과적으로 훈련시키기 어려울 때 발생합니다. 이 문제를 해결하기 위해 <code class="language-plaintext highlighter-rouge">LSTM</code>(Long Short-Term Memory) 및 <code class="language-plaintext highlighter-rouge">GRU</code>(Gated Recurrent Units)와 같은 고급 RNN 아키텍처가 개발되었습니다.</p>
 
-<p>num_workers: 이 옵션 인수는 데이터 로드에 사용할 하위 프로세스의 수를 지정합니다. 기본적으로 이 값은 0으로 설정되며, 이는 주 프로세스가 데이터를 로드함을 의미합니다. 작업자 수를 늘리면 데이터 로드 속도를 향상시킬 수 있지만 메모리 사용량도 증가할 수 있습니다.</p>
+<p><code class="language-plaintext highlighter-rouge">이러한 한계에도 불구하고 RNN은 자연어 처리, 기계 번역, 음성 인식 및 시계열 예측을 포함한 다양한 sequence-to-sequence 작업에 성공적으로 적용되었습니다.</code></p>
 
-<p>collate_fn: 이 옵션 인수를 사용하면 개별 표본을 배치로 병합하는 사용자 정의 함수를 지정할 수 있습니다. 함수는 샘플 목록을 입력으로 가져가서 배치를 반환해야 합니다. 기본적으로 DataLoader는 torch.utils.data를 사용합니다.0번째 차원을 따라 텐서를 연결하는 _delocs.collate.default_collate.</p>
+<blockquote>
+  <p><strong>기울기 소실 문제를 해결해야 한다 !</strong></p>
 
-<p>핀_메모리: 이 선택적 부울 인수를 True로 설정하면 DataLoader가 고정 메모리(페이지 잠금 메모리)의 텐서를 할당하여 GPU를 사용할 때 전송 속도를 향상시킬 수 있습니다. 기본적으로 False로 설정됩니다.</p>
+</blockquote>
 
-<p>drop_last: 이 선택적 부울 인수는 데이터 집합 크기를 배치 크기로 구분할 수 없는 경우 마지막 불완전한 배치를 삭제할지 여부를 나타냅니다. 기본적으로 False로 설정됩니다.</p>
+<h2 id="lstmlong-short-term-memory">LSTM(Long Short-Term Memory)</h2>
 
-<p>시간 초과: 이 선택적 인수는 작업자로부터 배치를 수집하기 위한 시간 초과 값(초)을 지정합니다. 기본적으로 0으로 설정되어 시간 초과가 없음을 의미합니다.</p>
+<p>LSTM(Long Short-Term Memory)은 RNN(Recurrent Neural Network) 아키텍처의 한 유형으로 기존 <code class="language-plaintext highlighter-rouge">RNN의 한계, 특히 기울기 소멸 및 폭발 문제를 해결하도록 특별히 설계</code>되었습니다. 이러한 문제는 심층 RNN을 교육할 때 발생하여 순차적 데이터에서 장거리 종속성을 학습하기 어렵게 만듭니다.</p>
 
-<p>worker_init_fn: 이 옵션 인수를 사용하면 초기화 시 각 작업자 하위 프로세스에서 호출할 함수를 지정할 수 있습니다. 함수는 작업자 ID를 나타내는 단일 정수 인수를 사용해야 합니다.</p>
+<p>LSTM은 1997년 Hochreiter와 Schmidhuber에 의해 소개되었으며 이후 자연어 처리, 음성 인식 및 시계열 예측과 같은 다양한 시퀀스 간 작업에 널리 사용되었습니다.</p>
 
-<h2 id="예시">예시</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from torch.utils.data import DataLoader
+<p>LSTM 네트워크의 주요 혁신은 <code class="language-plaintext highlighter-rouge">입력 게이트, 망각 게이트 및 출력 게이트</code>의 세 가지 주요 구성 요소로 구성된 메모리 셀입니다. 이러한 게이트는 함께 작동하여 <code class="language-plaintext highlighter-rouge">네트워크를 통한 정보 흐름을 규제하므로 LSTM이 긴 시퀀스에서 내부 상태를 효과적으로 유지하고 업데이트할 수 있</code>습니다.</p>
 
-data_loader = DataLoader(
-    dataset=my_dataset,
-    batch_size=64,
-    shuffle=True,
-    num_workers=4,
-    pin_memory=True,
-    drop_last=True
-)
-</code></pre></div></div>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day13</title><link href="http://localhost:4000/aitech_daily/post-day13/" rel="alternate" type="text/html" title="ai tech - Day13" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day13</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day13/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>LSTM의 세 가지 주요 게이트는 각각 조금씩 다르게 작동합니다.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">**input Gate**는 현재 입력과 이전 상태를 기반으로 메모리에 추가할 새 정보의 양을 결정합니다</code>. 입력 및 이전 상태에 학습된 가중치를 곱하고 시그모이드 함수를 통해 입력한 다음 시그모이드의 출력을 입력 및 다른 학습된 가중치 세트에서 계산된 후보 상태와 곱하여 이를 수행합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">**Forget Gate**는 현재 입력과 이전 상태를 기반으로 이전 상태를 얼마나 잊을 것인지 결정합니다.</code> 입력과 이전 상태에 학습된 가중치를 곱하고 시그모이드 함수를 통해 입력한 다음 시그모이드의 출력을 이전 상태와 곱하여 이전 상태를 얼마나 유지할지 결정합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">**output gate** 현재 입력과 이전 상태를 기반으로 네트워크의 다음 계층으로 출력할 현재 상태의 양을 결정합니다.</code> 입력과 이전 상태에 학습된 가중치를 곱하고 시그모이드 함수를 통해 입력한 다음 시그모이드의 출력에 현재 상태를 곱하여 현재 상태에서 출력할 양을 결정합니다.</li>
+  <li>Update Cell</li>
+</ul>
+
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4b99ef2-1d31-479a-bf49-e339559cc79b/Untitled.png" alt="Untitled" /></p>
+
+<h2 id="grugated-reccurrent-unit">GRU(Gated Reccurrent Unit)</h2>
+
+<p>Gated Recurrent Unit(GRU)은 표<code class="language-plaintext highlighter-rouge">준 RNN의 한계, 특히 RNN이 순차 데이터에서 장거리 종속성을 학습하기 어렵게 만드는 기울기 소실 문제를 해결하도록 설계된 순환 신경망(RNN) 아키텍처 유형</code>입니다. GRU는 Cho et al. 2014년에 LSTM(Long Short-Term Memory) 아키텍처에 대한 더 간단한 대안으로 등장했습니다.</p>
+
+<p>GRU는 업데이트 게이트와 재설정 게이트라는 두 개의 게이트로 구성되며, 함께 작동하여 네트워크를 통한 정보 흐름을 규제하고 장거리 종속성을 효율적으로 학습할 수 있습니다. 이 게이트는 GRU가 이전 숨겨진 상태 및 현재 입력에서 유지하거나 폐기할 정보를 결정하는 데 도움이 됩니다.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">**Update gate** : Update gate는 이전 숨겨진 상태를 유지하거나 새 입력으로 업데이트해야 하는 정도를 결정</code>합니다. 0과 1 사이의 값을 출력하는 시그모이드 활성화 함수를 사용하여 이전 숨겨진 상태와 현재 입력의 정보의 중요성을 평가합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">**Reset gate** : 재설정 게이트는 GRU가 현재 숨겨진 상태를 계산하는 데 사용되어야 하는 과거 숨겨진 상태의 양을 결정하는 데 도움</code>이 됩니다. 또한 시그모이드 활성화 기능을 사용하여 네트워크가 이전의 숨겨진 상태를 잊고 현재 입력에 집중해야 할 때를 학습할 수 있습니다.</li>
+</ol>
+
+<p>GRU와 LSTM의 주요 차이점 중 하나는 GRU에 출력 게이트와 별도의 메모리 셀이 없다는 것입니다. 이러한 단순화로 인해 GRU는 LSTM보다 계산적으로 더 효율적이지만 더 복잡한 메모리 관리가 필요한 특정 작업에서는 성능이 약간 떨어질 수 있습니다.</p>
+
+<p>단순성에도 불구하고 GRU는 자연어 처리, 기계 번역, 음성 인식 및 시계열 예측과 같은 다양한 시퀀스 간 작업에서 뛰어난 성능을 보여주었습니다. 표준 RNN의 계산 효율성과 LSTM의 고급 메모리 관리 기능 간의 균형을 제공합니다. GRU와 LSTM의 주요 차이점 중 하나는 GRU에 출력 게이트와 별도의 메모리 셀이 없다는 것이다.</p>
+
+<blockquote>
+  <p>RNN &lt; <strong>LSTM &lt; GRU «« Transfomer</strong></p>
+
+</blockquote>
+
+<blockquote>
+  <p>적은 파라메터로 최적화 하는 것이 일반화 성능이 높습니다.</p>
+
+</blockquote>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day13</title><link href="http://localhost:4000/aitech_daily/post-day13/" rel="alternate" type="text/html" title="ai tech - Day13" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day13</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day13/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
