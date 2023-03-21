@@ -1,5 +1,5 @@
 ---
-title: "A Survey of the Usages of Deep Learning for Natural Language Processing"
+title: "[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)"
 last_modified_at: 2023-03-19T20:20:02-05:00
 categories:
     - paper
