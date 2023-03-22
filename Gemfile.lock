@@ -116,6 +116,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-feed (~> 0.6)
+  jekyll-sitemap
   jemoji
   kramdown-parser-gfm
   minimal-mistakes-jekyll!

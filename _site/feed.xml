@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-21T18:38:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">[논문리뷰] Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="[논문리뷰] Attention is all you need" /><published>2023-03-21T00:00:00+09:00</published><updated>0219-04-01T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-22T09:23:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><entry><title type="html">ai tech - Day13</title><link href="http://localhost:4000/aitech_daily/post-day13/" rel="alternate" type="text/html" title="ai tech - Day13" /><published>2023-03-22T00:00:00+09:00</published><updated>2023-03-23T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day13</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day13/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day12</title><link href="http://localhost:4000/aitech_daily/post-day12/" rel="alternate" type="text/html" title="ai tech - Day12" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-22T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day12</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day12/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[논문리뷰] Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="[논문리뷰] Attention is all you need" /><published>2023-03-21T00:00:00+09:00</published><updated>0219-04-01T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <h1 id="attention-is-all-you-need"><code class="language-plaintext highlighter-rouge">Attention is All you need</code></h1>
 
@@ -28,18 +50,18 @@
 
 <p>선형 레이어와 소프트맥스: 마지막 디코더 레이어의 출력을 선형 레이어와 소프트맥스 함수에 통과시켜 디코더의 최종 출력을 얻는다. softmax 함수는 출력을 대상 어휘에 대한 확률 분포로 변환합니다.</p>
 
-<p>입력 시퀀스를 병렬로 처리하는 트랜스포머의 능력은 셀프 어텐션 메커니즘과 결합되어 기존의 RNN 및 CNN보다 더 효율적으로 장거리 종속성을 처리할 수 있습니다. 이로 인해 다양한 NLP 작업에 널리 채택되고 아키텍처를 기반으로 한 후속 모델이 개발되었습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day14</title><link href="http://localhost:4000/aitech_daily/post-day14/" rel="alternate" type="text/html" title="ai tech - Day14" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-12T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day14</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day14/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<p>입력 시퀀스를 병렬로 처리하는 트랜스포머의 능력은 셀프 어텐션 메커니즘과 결합되어 기존의 RNN 및 CNN보다 더 효율적으로 장거리 종속성을 처리할 수 있습니다. 이로 인해 다양한 NLP 작업에 널리 채택되고 아키텍처를 기반으로 한 후속 모델이 개발되었습니다.</p>
 
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
+<h1 id="transformer">Transformer</h1>
 
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+<blockquote>
+  <p>attention 은 입력 시퀀스의 일부에 선택적으로 집중하는 일반적인 메커니즘인 반면 transfomer는 입력 시퀀스를 보다 효율적이고 효과적으로 처리하기 위해 셀프 어텐션 메커니즘을 사용하는 특정 신경망 아키텍처입니다.</p>
 
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+</blockquote>
 
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pytorch DataLoader DataSet</title><link href="http://localhost:4000/ai/post-Pytorch-DataLoader-DataSet/" rel="alternate" type="text/html" title="Pytorch DataLoader DataSet" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-22T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-Pytorch%20DataLoader%20DataSet</id><content type="html" xml:base="http://localhost:4000/ai/post-Pytorch-DataLoader-DataSet/"><![CDATA[<p align="center">
+<blockquote>
+  <p>Seq2seq는 기계 번역, 텍스트 요약 및 질문 응답과 같은 자연어 처리에서 시퀀스 간 작업에 사용되는 일종의 신경망 아키텍처입니다. seq2seq 아키텍처는 입력 시퀀스를 고정 길이 벡터로 인코딩하는 인코더와 인코딩된 벡터를 기반으로 출력 시퀀스를 생성하는 디코더의 두 가지 주요 부분으로 구성됩니다. seq2seq 아키텍처는 순환 신경망(RNN)을 사용하여 가변 길이 입력 및 출력 시퀀스를 처리</p>
+</blockquote>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pytorch DataLoader DataSet</title><link href="http://localhost:4000/ai/post-Pytorch-DataLoader-DataSet/" rel="alternate" type="text/html" title="Pytorch DataLoader DataSet" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-22T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-Pytorch%20DataLoader%20DataSet</id><content type="html" xml:base="http://localhost:4000/ai/post-Pytorch-DataLoader-DataSet/"><![CDATA[<p align="center">
 <img src="../../../image/ai.png" width="400" height="400" />
 </p>
 
@@ -140,7 +162,7 @@ data_loader = DataLoader(
 <blockquote>
   <p>적은 파라메터로 최적화 하는 것이 일반화 성능이 높습니다.</p>
 
-</blockquote>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day13</title><link href="http://localhost:4000/aitech_daily/post-day13/" rel="alternate" type="text/html" title="ai tech - Day13" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-14T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day13</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day13/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+</blockquote>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day11</title><link href="http://localhost:4000/aitech_daily/post-day11/" rel="alternate" type="text/html" title="ai tech - Day11" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day11</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day11/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
@@ -151,7 +173,38 @@ data_loader = DataLoader(
 
 <h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Segmentation &amp;amp; Detection</title><link href="http://localhost:4000/ai/post-Segmentation-&-Detection/" rel="alternate" type="text/html" title="Segmentation &amp;amp; Detection" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-Segmentation%20&amp;%20Detection</id><content type="html" xml:base="http://localhost:4000/ai/post-Segmentation-&amp;-Detection/"><![CDATA[<p align="center">
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">컴퓨터 비전의 중요한 7가지 모델</title><link href="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="컴퓨터 비전의 중요한 7가지 모델" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B9%84%EC%A0%84%EC%9D%98%20%EC%A4%91%EC%9A%94%ED%95%9C%207%EA%B0%80%EC%A7%80%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/"><![CDATA[<p align="center">
+<img src="../../../image/ai.png" width="400" height="400" />
+</p>
+
+<h1 id="ai">ai</h1>
+<h1 id="컴퓨터-비전의-중요한-7가지-모델">컴퓨터 비전의 중요한 7가지 모델</h1>
+
+<p>컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">LeNet-5:</code> 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를 마련했습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">AlexNet</code>: Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 만든 AlexNet은 2012 ImageNet Large Scale Visual Recognition Challenge(ILSVRC)에서 우승했습니다. 심층 CNN 아키텍처는 다른 모델을 훨씬 능가하여 컴퓨터 비전에서 딥 러닝의 전환점이 되었습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">VGGNet</code>: 옥스포드 대학의 Visual Geometry Group에서 개발한 VGGNet은 다중 컨벌루션 레이어가 있는 심층 아키텍처로 유명합니다. VGGNet은 2014 ILSVRC에서 2위를 차지했으며 여전히 다양한 컴퓨터 비전 작업의 벤치마크로 사용되고 있습니다.</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">인셉션(GoogLeNet):</code> GoogLeNet으로도 알려진 인셉션은 2014년 Google의 연구원들이 소개했습니다. 매우 깊은 네트워크를 효율적으로 훈련할 수 있는 혁신적인 인셉션 모듈로 2014 ILSVRC에서 우승했습니다.</p>
+
+    <p>Inception 블록은 이미지 인식 작업을 위해 컨벌루션 신경망에 사용되는 빌딩 블록입니다. Inception 블록의 주요 이점은 동일한 레이어 내에서 다양한 규모와 복잡성의 기능을 추출하고 결합하는 기능입니다.</p>
+
+    <p>전통적으로 컨볼루션 신경망은 서로 다른 규모의 특징을 추출하기 위해 별도의 계층을 가지고 있어 더 많은 계산 리소스와 훈련 시간이 필요합니다. 인셉션 블록은 크기가 다른 여러 필터(1x1, 3x3, 5x5)를 사용하고 동일한 레이어 내에서 작업을 풀링하여 이를 보다 효율적으로 달성할 수 있습니다. 이를 통해 네트워크는 다양한 수준의 추상화에서 기능을 학습하고 추출할 수 있으며 동시에 모델을 교육하는 데 필요한 매개변수의 수를 줄일 수 있습니다.</p>
+
+    <p>또한 Inception 블록 내에서 1x1 컨볼루션 필터를 사용하면 3x3 및 5x5 컨볼루션과 같이 계산 비용이 더 많이 드는 작업을 적용하기 전에 기능 맵의 채널 수를 줄임으로써 네트워크의 계산 비용을 줄이는 데 도움이 될 수 있습니다. 이 기술을 차원 축소라고 합니다.</p>
+
+    <p>전반적으로 Inception 블록은 이미지 인식 작업에서 컨볼루션 신경망의 성능을 개선하는 동시에 훈련에 필요한 계산 비용과 매개변수 수를 줄이는 것으로 나타났습니다.</p>
+
+    <p>인셉션 블록의 맥락에서 “인셉션”이라는 용어는 새로운 것을 시작하거나 처음부터 무언가를 만드는 아이디어를 의미합니다. Inception 블록은 신경망이 미리 정의된 필터나 손으로 만든 기능에 의존하지 않고 처음부터 다양한 규모와 복잡성의 기능을 학습하고 추출할 수 있도록 설계되었기 때문에 이 이름이 붙여졌습니다.</p>
+
+    <p>인셉션 블록은 각 인형 안에 작은 인형이 들어 있는 러시아 인형의 아이디어에서 영감을 받았습니다. 마찬가지로 Inception 블록에는 필터 크기가 다른 더 작은 레이어와 더 큰 레이어 내부의 풀링 작업이 포함되어 있습니다.</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">ResNet</code>: Microsoft Research에서 개발한 ResNet(Residual Network)이 2015 ILSVRC에서 우승했습니다. 기울기 소실 문제를 겪지 않고 훨씬 더 깊은 네트워크(최대 152개 계층)를 훈련할 수 있는 잔류 연결(연결 건너뛰기)을 도입했습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">YOLO</code>(You Only Look Once): YOLO는 Joseph Redmon, Santosh Divvala, Ross Girshick 및 Ali Farhadi가 만든 실시간 객체 감지 시스템입니다. 속도와 정확성으로 유명하여 실시간 응용 프로그램에 적합합니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">Mask R-CNN</code>: Kaiming He, Georgia Gkioxari, Piotr Dollár 및 Ross Girshick이 소개한 Mask R-CNN은 Faster R-CNN 객체 감지 모델의 확장입니다. 분할 마스크를 예측하기 위한 분기를 추가하여 이미지 내에서 개체를 동시에 감지하고 분할하는 작업인 인스턴스 분할을 활성화합니다.</li>
+</ol>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Segmentation &amp;amp; Detection</title><link href="http://localhost:4000/ai/post-Segmentation-&-Detection/" rel="alternate" type="text/html" title="Segmentation &amp;amp; Detection" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-Segmentation%20&amp;%20Detection</id><content type="html" xml:base="http://localhost:4000/ai/post-Segmentation-&amp;-Detection/"><![CDATA[<p align="center">
 <img src="../../../image/ai.png" width="400" height="400" />
 </p>
 
@@ -285,38 +338,7 @@ GPT는 OpenAI에서 개발한 일련의 Transformer 기반 언어 모델이며, 
 <h2 id="2020--self-supervised-learning">2020 – Self-Supervised Learning</h2>
 
 <p>Self-Supervised Learning 자기 지도 학습:
-<code class="language-plaintext highlighter-rouge">자기 지도 학습은 모델이 명시적으로 레이블이 지정된 데이터를 사용하지 않고 데이터 자체에서 유용한 표현이나 기능을 학습하는 일종의 비지도 학습</code>입니다. 대신 문장에서 누락된 단어를 예측(마스킹된 언어 모델링)하거나 두 문장의 상대적 위치를 예측(다음 문장 예측)하는 등 데이터에서 감독 신호를 생성하도록 설계된 작업인 <code class="language-plaintext highlighter-rouge">프리텍스트 작업을 사용</code>합니다. 자기 지도 학습은 BERT 및 GPT와 같은 모델이 레이블이 지정되지 않은 방대한 양의 데이터에서 풍부하고 전송 가능한 표현을 학습할 수 있도록 하므로 딥 러닝, 특히 NLP에서 점점 인기를 얻고 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">컴퓨터 비전의 중요한 7가지 모델</title><link href="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="컴퓨터 비전의 중요한 7가지 모델" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-21T10:20:02+09:00</updated><id>http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B9%84%EC%A0%84%EC%9D%98%20%EC%A4%91%EC%9A%94%ED%95%9C%207%EA%B0%80%EC%A7%80%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/"><![CDATA[<p align="center">
-<img src="../../../image/ai.png" width="400" height="400" />
-</p>
-
-<h1 id="ai">ai</h1>
-<h1 id="컴퓨터-비전의-중요한-7가지-모델">컴퓨터 비전의 중요한 7가지 모델</h1>
-
-<p>컴퓨터 비전 분야에는 몇 가지 영향력 있는 모델과 아키텍처가 있으며, 그 중 다수는 이 분야를 발전시키는 데 중요한 역할을 했습니다. 다음은 7가지 중요한 모델입니다.</p>
-
-<ol>
-  <li><code class="language-plaintext highlighter-rouge">LeNet-5:</code> 1990년대에 Yann LeCun이 개발한 LeNet-5는 필기 숫자 인식을 위해 설계된 선구적인 컨볼루션 신경망(CNN)입니다. 이는 많은 미래 CNN 아키텍처의 토대를 마련했습니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">AlexNet</code>: Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 만든 AlexNet은 2012 ImageNet Large Scale Visual Recognition Challenge(ILSVRC)에서 우승했습니다. 심층 CNN 아키텍처는 다른 모델을 훨씬 능가하여 컴퓨터 비전에서 딥 러닝의 전환점이 되었습니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">VGGNet</code>: 옥스포드 대학의 Visual Geometry Group에서 개발한 VGGNet은 다중 컨벌루션 레이어가 있는 심층 아키텍처로 유명합니다. VGGNet은 2014 ILSVRC에서 2위를 차지했으며 여전히 다양한 컴퓨터 비전 작업의 벤치마크로 사용되고 있습니다.</li>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">인셉션(GoogLeNet):</code> GoogLeNet으로도 알려진 인셉션은 2014년 Google의 연구원들이 소개했습니다. 매우 깊은 네트워크를 효율적으로 훈련할 수 있는 혁신적인 인셉션 모듈로 2014 ILSVRC에서 우승했습니다.</p>
-
-    <p>Inception 블록은 이미지 인식 작업을 위해 컨벌루션 신경망에 사용되는 빌딩 블록입니다. Inception 블록의 주요 이점은 동일한 레이어 내에서 다양한 규모와 복잡성의 기능을 추출하고 결합하는 기능입니다.</p>
-
-    <p>전통적으로 컨볼루션 신경망은 서로 다른 규모의 특징을 추출하기 위해 별도의 계층을 가지고 있어 더 많은 계산 리소스와 훈련 시간이 필요합니다. 인셉션 블록은 크기가 다른 여러 필터(1x1, 3x3, 5x5)를 사용하고 동일한 레이어 내에서 작업을 풀링하여 이를 보다 효율적으로 달성할 수 있습니다. 이를 통해 네트워크는 다양한 수준의 추상화에서 기능을 학습하고 추출할 수 있으며 동시에 모델을 교육하는 데 필요한 매개변수의 수를 줄일 수 있습니다.</p>
-
-    <p>또한 Inception 블록 내에서 1x1 컨볼루션 필터를 사용하면 3x3 및 5x5 컨볼루션과 같이 계산 비용이 더 많이 드는 작업을 적용하기 전에 기능 맵의 채널 수를 줄임으로써 네트워크의 계산 비용을 줄이는 데 도움이 될 수 있습니다. 이 기술을 차원 축소라고 합니다.</p>
-
-    <p>전반적으로 Inception 블록은 이미지 인식 작업에서 컨볼루션 신경망의 성능을 개선하는 동시에 훈련에 필요한 계산 비용과 매개변수 수를 줄이는 것으로 나타났습니다.</p>
-
-    <p>인셉션 블록의 맥락에서 “인셉션”이라는 용어는 새로운 것을 시작하거나 처음부터 무언가를 만드는 아이디어를 의미합니다. Inception 블록은 신경망이 미리 정의된 필터나 손으로 만든 기능에 의존하지 않고 처음부터 다양한 규모와 복잡성의 기능을 학습하고 추출할 수 있도록 설계되었기 때문에 이 이름이 붙여졌습니다.</p>
-
-    <p>인셉션 블록은 각 인형 안에 작은 인형이 들어 있는 러시아 인형의 아이디어에서 영감을 받았습니다. 마찬가지로 Inception 블록에는 필터 크기가 다른 더 작은 레이어와 더 큰 레이어 내부의 풀링 작업이 포함되어 있습니다.</p>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">ResNet</code>: Microsoft Research에서 개발한 ResNet(Residual Network)이 2015 ILSVRC에서 우승했습니다. 기울기 소실 문제를 겪지 않고 훨씬 더 깊은 네트워크(최대 152개 계층)를 훈련할 수 있는 잔류 연결(연결 건너뛰기)을 도입했습니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">YOLO</code>(You Only Look Once): YOLO는 Joseph Redmon, Santosh Divvala, Ross Girshick 및 Ali Farhadi가 만든 실시간 객체 감지 시스템입니다. 속도와 정확성으로 유명하여 실시간 응용 프로그램에 적합합니다.</li>
-  <li><code class="language-plaintext highlighter-rouge">Mask R-CNN</code>: Kaiming He, Georgia Gkioxari, Piotr Dollár 및 Ross Girshick이 소개한 Mask R-CNN은 Faster R-CNN 객체 감지 모델의 확장입니다. 분할 마스크를 예측하기 위한 분기를 추가하여 이미지 내에서 개체를 동시에 감지하고 분할하는 작업인 인스턴스 분할을 활성화합니다.</li>
-</ol>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<code class="language-plaintext highlighter-rouge">자기 지도 학습은 모델이 명시적으로 레이블이 지정된 데이터를 사용하지 않고 데이터 자체에서 유용한 표현이나 기능을 학습하는 일종의 비지도 학습</code>입니다. 대신 문장에서 누락된 단어를 예측(마스킹된 언어 모델링)하거나 두 문장의 상대적 위치를 예측(다음 문장 예측)하는 등 데이터에서 감독 신호를 생성하도록 설계된 작업인 <code class="language-plaintext highlighter-rouge">프리텍스트 작업을 사용</code>합니다. 자기 지도 학습은 BERT 및 GPT와 같은 모델이 레이블이 지정되지 않은 방대한 양의 데이터에서 풍부하고 전송 가능한 표현을 학습할 수 있도록 하므로 딥 러닝, 특히 NLP에서 점점 인기를 얻고 있습니다.</p>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)</title><link href="http://localhost:4000/paper/post-surveyNLP/" rel="alternate" type="text/html" title="[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-20T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-surveyNLP</id><content type="html" xml:base="http://localhost:4000/paper/post-surveyNLP/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
 
 <p><br /><br /><br /><br /></p>
 
@@ -409,15 +431,4 @@ GPT는 OpenAI에서 개발한 일련의 Transformer 기반 언어 모델이며, 
       <li>GPU 의 발전</li>
     </ul>
   </li>
-</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day12</title><link href="http://localhost:4000/aitech_daily/post-day12/" rel="alternate" type="text/html" title="ai tech - Day12" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day12</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day12/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</ul>]]></content><author><name>최윤진</name><email>yunjinchoidev@gmail.com</email></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry></feed>

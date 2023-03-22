@@ -215,12 +215,6 @@ var store = [{
         "url": "/aitech_daily/post-day10/",
         "teaser": null
       },{
-        "title": "ai tech - Day11 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day11/",
-        "teaser": null
-      },{
         "title": "전이학습",
         "excerpt":"전이학습 위키백과에 의하면 전이학습은 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식을 말합니다. 전이 학습은 하나의 작업에 대해 훈련된 모델을 사용하여 다른 관련 작업의 성능을 향상시킬 수 있는 기계 학습 기술입니다. 전이 학습에서는 처음부터 시작하는 대신 사전 훈련된 모델을 새로운 작업의 시작점으로 사용합니다. 사전 훈련된...","categories": ["aitech_knowledge"],
         "tags": [],
@@ -231,12 +225,6 @@ var store = [{
         "excerpt":"해결 전략 그리디 알고리즘으로 풉니다. 앞 사람과의 키차이를 gabs 라는 리스트에 저장해줍니다. 문제에서 요구하는 것은 최소 비용으로 M 개의 그룹을 만드는 것을 요구합니다. gab 리스트에서 특정 하나를 제거한다는 것은 그 구간을 통합한다는 개념이고 그룹 수를 하나 줄인다는 것입니다. (N-1 개의 갭이 있는 gabs는 M개의 그룹이 최초로 세팅되어 있다고 이해하면 됩니다.)...","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day12 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day12/",
         "teaser": null
       },{
         "title": "[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)",
@@ -257,10 +245,10 @@ var store = [{
         "url": "/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/",
         "teaser": null
       },{
-        "title": "ai tech - Day13 ",
+        "title": "ai tech - Day11 ",
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
-        "url": "/aitech_daily/post-day13/",
+        "url": "/aitech_daily/post-day11/",
         "teaser": null
       },{
         "title": "[논문리뷰] Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)",
@@ -281,15 +269,21 @@ var store = [{
         "url": "/ai/post-RNN,-LSTM,-GRU/",
         "teaser": null
       },{
-        "title": "ai tech - Day14 ",
+        "title": "ai tech - Day12 ",
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
-        "url": "/aitech_daily/post-day14/",
+        "url": "/aitech_daily/post-day12/",
         "teaser": null
       },{
         "title": "[논문리뷰] Attention is all you need",
         "excerpt":"Attention is All you need 구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다. 기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠. “Attention is All You Need”는 자연어 처리 및 기계 번역과 같은 sequence-to-sequence 작업을 위한 새로운 딥 러닝 아키텍처인 Transformer...","categories": ["paper"],
         "tags": [],
         "url": "/paper/post-attention-is-all-you-need/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day13 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day13/",
         "teaser": null
       }]
