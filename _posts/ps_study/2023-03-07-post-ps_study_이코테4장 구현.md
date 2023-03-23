@@ -1,8 +1,8 @@
 ---
-title: "Post: 이코테 4장(구현)"
+title: "[이코테]이코테 4장(구현)"
 last_modified_at: 2023-03-18T16:20:02-05:00
 categories:
-    - ps_study
+    - ps
 tages:
     - aitech
     - nlp

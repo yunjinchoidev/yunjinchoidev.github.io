@@ -71,22 +71,22 @@ var store = [{
         "url": "/aitech_knowledge_recsys/post-recsys/",
         "teaser": null
       },{
-        "title": "Post: 이코테 4장(구현)",
-        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps_study"],
+        "title": "[이코테]이코테 4장(구현)",
+        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps"],
         "tags": [],
-        "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/",
+        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/",
         "teaser": null
       },{
-        "title": "Post: 이코테 1장, 2장",
-        "excerpt":"이코테 1 장 개요 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 공간 복잡도 알고리즘을 위해 필요한 메모리의 양 빅오 표기법 빅오 표기법 명칭 O(1) 상수 O(logN) 로그 시간 O(N) 선형 시간 O(NlonN) 로그 선형 시간 O(N^2) 이차 시간 O(N^3) 삼차 시간 O(2^3) 지수 시간 수행 시간 체크 import time start_time...","categories": ["ps_study"],
+        "title": "[이코테] 1장, 2장",
+        "excerpt":"이코테 1 장 개요 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 공간 복잡도 알고리즘을 위해 필요한 메모리의 양 빅오 표기법 빅오 표기법 명칭 O(1) 상수 O(logN) 로그 시간 O(N) 선형 시간 O(NlonN) 로그 선형 시간 O(N^2) 이차 시간 O(N^3) 삼차 시간 O(2^3) 지수 시간 수행 시간 체크 import time start_time...","categories": ["ps"],
         "tags": [],
-        "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/",
+        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/",
         "teaser": null
       },{
-        "title": "Post: 이코테 3장(그리디 알고리즘)",
-        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 일반적으로 그리디 알고리즘은 최적의 해를 보장할 수 없는 경우가 많다. 역으로, 그리디 알고리즘을 사용해야 해야 하는 경우는 탐욕적으로 찾은 해가 최적의 해라는 뜻이다. 코딩테스트 환경에서 그리디 알고리즘으로 풀 수 있는 경우는...","categories": ["ps_study"],
+        "title": "[이코테] 3장(그리디 알고리즘)",
+        "excerpt":"그리디 알고리즘 자, 그리디 알고리즘을 공부합시다. 그리디 알고리즘은 지금 당장 최적인 답을 선택하는 과정을 반복하여 결과를 도출하는 알고리즘을 말합니다. 일반적으로 그리디 알고리즘은 최적의 해를 보장할 수 없는 경우가 많다. 역으로, 그리디 알고리즘을 사용해야 해야 하는 경우는 탐욕적으로 찾은 해가 최적의 해라는 뜻이다. 코딩테스트 환경에서 그리디 알고리즘으로 풀 수 있는 경우는...","categories": ["ps"],
         "tags": [],
-        "url": "/ps_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
+        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/",
         "teaser": null
       },{
         "title": "ai tech -Day03 ",
@@ -224,7 +224,7 @@ var store = [{
         "title": "[백준][14916] 거스름돈",
         "excerpt":"해결 전략 그리디 알고리즘으로 풉니다. 앞 사람과의 키차이를 gabs 라는 리스트에 저장해줍니다. 문제에서 요구하는 것은 최소 비용으로 M 개의 그룹을 만드는 것을 요구합니다. gab 리스트에서 특정 하나를 제거한다는 것은 그 구간을 통합한다는 개념이고 그룹 수를 하나 줄인다는 것입니다. (N-1 개의 갭이 있는 gabs는 M개의 그룹이 최초로 세팅되어 있다고 이해하면 됩니다.)...","categories": ["ps"],
         "tags": [],
-        "url": "/ps/post-%EB%B0%B1%EC%A4%8013164%ED%96%89%EB%B3%B5%EC%9C%A0%EC%B9%98%EC%9B%90/",
+        "url": "/ps/post-%EB%B0%B1%EC%A4%80-14816-%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88/",
         "teaser": null
       },{
         "title": "[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)",
@@ -285,5 +285,17 @@ var store = [{
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day13/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day14 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day14/",
+        "teaser": null
+      },{
+        "title": "[연재][Clear Algo][1편] - 그리디 알고리즘 ",
+        "excerpt":"[연재][Clear Algo][1편] - 그리디 알고리즘   ","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/",
         "teaser": null
       }]

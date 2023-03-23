@@ -1,8 +1,8 @@
 ---
-title: "Post: 이코테 1장, 2장"
+title: "[이코테] 1장, 2장"
 last_modified_at: 2023-03-07T16:20:02-05:00
 categories:
-    - ps_study
+    - ps
 tages:
     - aitech
     - nlp
