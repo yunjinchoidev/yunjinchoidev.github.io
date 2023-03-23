@@ -293,6 +293,12 @@ var store = [{
         "url": "/aitech_daily/post-day14/",
         "teaser": null
       },{
+        "title": "[프로그래머스] 기둥과보",
+        "excerpt":"해결 전략 is_normal 함수를 이용해서 정상성 여부를 검사한다. 수의 범위가 적으니 완전탐색으로 풀어도 되는 문제였다. 수가 적으면 완전탐색을 의심해봅시다. def solution(n, build_frame): answer = [[]] update_map = set() def is_normal(update_map): for material in update_map: # 보 라면 if material[2] == 1: # 한쪽에라도 기둥이 있으면 된다. if (material[0], material[1]-1, 0)...","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4/",
+        "teaser": null
+      },{
         "title": "[연재][Clear Algo][1편] - 그리디 알고리즘 ",
         "excerpt":"[연재][Clear Algo][1편] - 그리디 알고리즘   ","categories": ["ps"],
         "tags": [],
