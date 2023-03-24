@@ -304,4 +304,10 @@ var store = [{
         "tags": [],
         "url": "/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/",
         "teaser": null
+      },{
+        "title": "ai tech - Day15 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day15/",
+        "teaser": null
       }]

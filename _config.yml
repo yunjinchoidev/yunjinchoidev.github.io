@@ -108,9 +108,9 @@ author:
   avatar           : "image/profile/reinventoflove.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "반갑습니다. 같이 사랑이라는 감정을 발명해보아요."
   location         : "Republic of Korea"
-  email            : "yunjinchoidev@gmail.com"
+#  email            : "yunjinchoidev@gmail.com"
   links:
-    - label: "Email"
+    - label: "G-mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "yunjinchoidev@gmail.com"
     # - label: "Website"
@@ -125,9 +125,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yunjinchoidev"
-    # - label: "Instagram"
-      # icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Youtube 8기통 엔진 "
+      icon: "fab fa-fw fa-youtube"
+      url: "https://instagram.com/"
 
 # Site Footer
 footer:
