@@ -71,14 +71,8 @@ var store = [{
         "url": "/aitech_knowledge_recsys/post-recsys/",
         "teaser": null
       },{
-        "title": "[이코테]이코테 4장(구현)",
-        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps"],
-        "tags": [],
-        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/",
-        "teaser": null
-      },{
         "title": "[이코테] 1장, 2장",
-        "excerpt":"이코테 1 장 개요 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 공간 복잡도 알고리즘을 위해 필요한 메모리의 양 빅오 표기법 빅오 표기법 명칭 O(1) 상수 O(logN) 로그 시간 O(N) 선형 시간 O(NlonN) 로그 선형 시간 O(N^2) 이차 시간 O(N^3) 삼차 시간 O(2^3) 지수 시간 수행 시간 체크 import time start_time...","categories": ["ps"],
+        "excerpt":"이코테 1 장 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 시간 복잡도는 알고리즘이 문제를 해결하는 데 걸리는 시간을 측정한 것입니다. 일반적으로 입력 크기의 함수로 표현되며 알고리즘이 문제를 해결하는 데 필요한 기본 작업(또는 단계)의 수를 나타냅니다. 알고리즘의 시간 복잡도는 특정 문제를 해결하기 위해 서로 다른 알고리즘 중에서 선택할 때 고려해야 할...","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/",
         "teaser": null
@@ -209,6 +203,12 @@ var store = [{
         "url": "/aitech_daily/post-day09/",
         "teaser": null
       },{
+        "title": "[이코테]이코테 4장(구현)",
+        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/",
+        "teaser": null
+      },{
         "title": "ai tech -Day10 ",
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
@@ -311,9 +311,15 @@ var store = [{
         "url": "/aitech_daily/post-day15/",
         "teaser": null
       },{
-        "title": "[프로그래머스] 기둥과보",
+        "title": "[백준][3190][뱀]",
         "excerpt":"해결 전략 전형적인 시뮬레이션 문제입니다. 문제를 잘 읽고 step 을 구현합시다. 동서남북 이동과 방향이동에 주의합시다. 사과조건과 뱀의 trace 를 잘 표시해야 합니다. import sys input = sys.stdin.readline N = int(input()) apple_cnt = int(input()) # 사과 표시하기 apple_map = [[False for i in range(N)] for j in range(N)] for i in...","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/",
+        "teaser": null
+      },{
+        "title": "[이코테]이코테 4장(구현)",
+        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/",
         "teaser": null
       }]

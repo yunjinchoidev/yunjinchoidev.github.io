@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>[이코테] 1장, 2장 - Reinvent love! - Democratization of Love</title>
-<meta name="description" content="이코테 1 장">
+<meta name="description" content="">
 
 
   <meta name="author" content="최윤진">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/">
 
 
-  <meta property="og:description" content="이코테 1 장">
+  <meta property="og:description" content="">
 
 
 
@@ -283,7 +283,7 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">53</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">54</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
 
@@ -717,7 +717,7 @@
                     
                 
                     
-                        <li><a href="/categories/ps" class="">ps(7)</a></li>
+                        <li><a href="/categories/ps" class="">ps(8)</a></li>
                     
                 
                     
@@ -949,7 +949,7 @@
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="[이코테] 1장, 2장">
-    <meta itemprop="description" content="이코테 1 장">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="2023-03-07T00:00:00+09:00">
     <meta itemprop="dateModified" content="2023-03-08T06:20:02+09:00">
 
@@ -974,7 +974,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          최대 1 분 소요
+          1 분 소요
         
       </span>
     
@@ -989,16 +989,32 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
-              <ul class="toc__menu"><li><a href="#이코테-1-장">이코테 1 장</a></li><li><a href="#개요">개요</a><ul><li><a href="#시간-복잡도">시간 복잡도</a></li><li><a href="#공간-복잡도">공간 복잡도</a></li></ul></li><li><a href="#빅오-표기법">빅오 표기법</a><ul><li><a href="#수행-시간-체크">수행 시간 체크</a></li></ul></li><li><a href="#자주-나오는-문제">자주 나오는 문제</a><ul><li><a href="#구현">구현</a></li><li><a href="#그리디">그리디</a></li><li><a href="#정렬">정렬</a></li><li><a href="#dfs-bfs">DFS, BFS</a></li><li><a href="#다이나믹-프로그래밍">다이나믹 프로그래밍</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#이코테-1-장">이코테 1 장</a><ul><li><a href="#시간-복잡도">시간 복잡도</a></li><li><a href="#공간-복잡도">공간 복잡도</a></li></ul></li><li><a href="#빅오-표기법">빅오 표기법</a><ul><li><a href="#상수-시간-복잡도o1">상수 시간 복잡도(O(1))</a></li><li><a href="#선형-시간-복잡도on">선형 시간 복잡도(O(n))</a></li><li><a href="#2차-시간-복잡도on2">2차 시간 복잡도(O(n^2))</a></li><li><a href="#로그-시간-복잡도olog-n">로그 시간 복잡도(O(log n))</a></li><li><a href="#수행-시간-체크">수행 시간 체크</a></li></ul></li><li><a href="#자주-나오는-문제">자주 나오는 문제</a><ul><li><a href="#구현">구현</a></li><li><a href="#그리디">그리디</a></li><li><a href="#정렬">정렬</a></li><li><a href="#dfs-bfs">DFS, BFS</a></li><li><a href="#다이나믹-프로그래밍">다이나믹 프로그래밍</a></li></ul></li></ul>
 
             </nav>
           </aside>
         
-        <h1 id="이코테-1-장">이코테 1 장</h1>
+        <p><img src="../../../image/ps.png" alt="paper.png" /></p>
 
-<h1 id="개요">개요</h1>
+<h1 id="이코테-1-장">이코테 1 장</h1>
+
 <h2 id="시간-복잡도">시간 복잡도</h2>
 <p>알고리즘을 위해 필요한 연산의 횟수</p>
+
+<p>시간 복잡도는 알고리즘이 문제를 해결하는 데 걸리는 시간을 측정한 것입니다. 
+일반적으로 입력 크기의 함수로 표현되며 알고리즘이 문제를 해결하는 데 필요한 기본 작업(또는 단계)의 수를 나타냅니다.</p>
+
+<p>알고리즘의 시간 복잡도는 특정 문제를 해결하기 위해 서로 다른 알고리즘 중에서 선택할 때 고려해야 할 중요한 요소입니다. 
+시간 복잡도가 낮은 알고리즘은 일반적으로 시간 복잡도가 높은 알고리즘보다 더 효율적이고 빠릅니다.</p>
+
+<p>시간 복잡도를 표현하는 방법에는 여러 가지가 있지만 가장 일반적인 표기법은 “big O” 표기법입니다. 
+Big O 표기법은 입력 크기가 증가함에 따라 기본 작업 수의 증가율에 대한 상한선을 제공합니다. 
+예를 들어, 알고리즘의 시간 복잡도가 O(n)인 경우 기본 연산의 수가 입력 크기에 따라 선형적으로 증가한다는 의미입니다.</p>
+
+<p>시간 복잡도를 표현하는 데 사용되는 다른 일반적인 표기법에는 연산 수의 증가율에 대한 하한을 제공하는 빅 오메가(Ω) 표기법과 증가율에 엄격한 한계를 제공하는 빅 세타(Θ) 표기법이 포함됩니다.</p>
+
+<p>시간 복잡성을 이해하는 것은 알고리즘 설계 및 분석에서 중요합니다. 큰 입력에 대해 제대로 확장되지 않을 수 있는 비효율적인 알고리즘을 식별하고 피하는 데 도움이 되기 때문입니다.</p>
+
 <h2 id="공간-복잡도">공간 복잡도</h2>
 <p>알고리즘을 위해 필요한 메모리의 양</p>
 
@@ -1042,6 +1058,51 @@
     </tr>
   </tbody>
 </table>
+
+<h2 id="상수-시간-복잡도o1">상수 시간 복잡도(O(1))</h2>
+<p>이것은 입력 크기에 관계없이 실행하는 데 일정한 시간이 걸리는 알고리즘을 말합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def get_first_element(lst):
+    return lst[0]
+</code></pre></div></div>
+
+<h2 id="선형-시간-복잡도on">선형 시간 복잡도(O(n))</h2>
+<p>이것은 입력 크기에 비례하는 시간이 걸리는 알고리즘을 말합니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def find_element(lst, x):
+    for elem in lst:
+        if elem == x:
+            return True
+    return False
+
+</code></pre></div></div>
+
+<h2 id="2차-시간-복잡도on2">2차 시간 복잡도(O(n^2))</h2>
+<p>이것은 입력 크기의 제곱에 비례하는 시간이 걸리는 알고리즘을 말합니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def find_duplicates(lst):
+    duplicates = []
+    for i in range(len(lst)):
+        for j in range(i+1, len(lst)):
+            if lst[i] == lst[j] and lst[i] not in duplicates:
+                duplicates.append(lst[i])
+    return duplicates
+</code></pre></div></div>
+
+<h2 id="로그-시간-복잡도olog-n">로그 시간 복잡도(O(log n))</h2>
+<p>이것은 입력 크기의 로그에 비례하는 시간이 걸리는 알고리즘을 나타냅니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def binary_search(lst, x):
+    low, high = 0, len(lst) - 1
+    while low &lt;= high:
+        mid = (low + high) // 2
+        if lst[mid] &lt; x:
+            low = mid + 1
+        elif lst[mid] &gt; x:
+            high = mid - 1
+        else:
+            return mid
+    return -1
+
+</code></pre></div></div>
 
 <h2 id="수행-시간-체크">수행 시간 체크</h2>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import time
@@ -1097,7 +1158,7 @@ print("time ", end_time - start_time)
       
   <nav class="pagination">
     
-      <a href="/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/" class="pagination--pager" title="[이코테]이코테 4장(구현)
+      <a href="/aitech_knowledge_recsys/post-recsys/" class="pagination--pager" title="recsys
 ">이전</a>
     
     
@@ -1126,6 +1187,75 @@ print("time ", end_time - start_time)
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/" rel="permalink"
+        style="
+            color: #E90064;
+            font-size: 1.4em;
+            font-weight: bold;
+            /*background: #F7C04A;*/
+            "
+        >[이코테]이코테 4장(구현)
+ </a>
+      <small>
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.03.24
+        
+      </small>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">구현
+</p>
+  </article>
+</div>
+
+
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/" rel="permalink"
         style="
             color: #E90064;
@@ -1133,7 +1263,7 @@ print("time ", end_time - start_time)
             font-weight: bold;
             /*background: #F7C04A;*/
             "
-        >[프로그래머스] 기둥과보
+        >[백준][3190][뱀]
  </a>
       <small>
         <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.03.24
@@ -1301,75 +1431,6 @@ a:active {
 
 
     <p class="archive__item-excerpt" itemprop="description">[연재][Clear Algo][1편] - 그리디 알고리즘
-</p>
-  </article>
-</div>
-
-
-<style>
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-</style>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/ps/post-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4/" rel="permalink"
-        style="
-            color: #E90064;
-            font-size: 1.4em;
-            font-weight: bold;
-            /*background: #F7C04A;*/
-            "
-        >[프로그래머스] 기둥과보
- </a>
-      <small>
-        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.03.23
-        
-      </small>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
