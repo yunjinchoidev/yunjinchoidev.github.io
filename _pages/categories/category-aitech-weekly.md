@@ -43,14 +43,16 @@ toc_label: "목차"
 <a href="https://yunjinchoidev.github.io/aitech_daily/post-day15/" target="_blank"><img src="https://img.shields.io/badge/DAY15-2496ED?style=for-the-badge&logoColor=white" style="width: 100px"></a>
 
 <br>
+<br>
 
-<!--
-| 주차  |                                 월                                  |                                 화                                  |                                 수                                  |                                 목                                  |                                 금                                  |
-|:---:|:------------------------------------------------------------------:|:------------------------------------------------------------------:|:------------------------------------------------------------------:|:------------------------------------------------------------------:|:------------------------------------------------------------------:|
-| 1주차 |  [DAY 1](https://yunjinchoidev.github.io/aitech_daily/post-day1/)  |  [DAY 2](https://yunjinchoidev.github.io/aitech_daily/post-day2/)  |  [DAY 3](https://yunjinchoidev.github.io/aitech_daily/post-day3/)  |  [DAY 4](https://yunjinchoidev.github.io/aitech_daily/post-day4/)  |  [DAY 5](https://yunjinchoidev.github.io/aitech_daily/post-day5/)  |
-| 2주차 |  [DAY 6](https://yunjinchoidev.github.io/aitech_daily/post-day6/)  |  [DAY 7](https://yunjinchoidev.github.io/aitech_daily/post-day2/)  |  [DAY 8](https://yunjinchoidev.github.io/aitech_daily/post-day8/)  |  [DAY 9](https://yunjinchoidev.github.io/aitech_daily/post-day9/)  | [DAY 10](https://yunjinchoidev.github.io/aitech_daily/post-day10/) |
-| 3주차 | [DAY 11](https://yunjinchoidev.github.io/aitech_daily/post-day11/) | [DAY 12](https://yunjinchoidev.github.io/aitech_daily/post-day12/) | [DAY 13](https://yunjinchoidev.github.io/aitech_daily/post-day13/) | [DAY 14](https://yunjinchoidev.github.io/aitech_daily/post-day14/) | [DAY 15](https://yunjinchoidev.github.io/aitech_daily/post-day15/) |
--->
+<a href="https://yunjinchoidev.github.io/aitech_daily/post-day16/" target="_blank"><img src="https://img.shields.io/badge/DAY16-2496ED?style=for-the-badge&logoColor=white" style="width: 100px"></a>
+<a href="https://yunjinchoidev.github.io/aitech_daily/post-day17/" target="_blank"><img src="https://img.shields.io/badge/DAY17-2496ED?style=for-the-badge&logoColor=white" style="width: 100px"></a>
+<a href="https://yunjinchoidev.github.io/aitech_daily/post-day18/" target="_blank"><img src="https://img.shields.io/badge/DAY18-2496ED?style=for-the-badge&logoColor=white" style="width: 100px"></a>
+<a href="https://yunjinchoidev.github.io/aitech_daily/post-day19/" target="_blank"><img src="https://img.shields.io/badge/DAY19-2496ED?style=for-the-badge&logoColor=white" style="width: 100px"></a>
+<a href="https://yunjinchoidev.github.io/aitech_daily/post-day20/" target="_blank"><img src="https://img.shields.io/badge/DAY20-2496ED?style=for-the-badge&logoColor=white" style="width: 100px"></a>
+
+
+
 
 {% assign posts = site.categories.aitech_weekly %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

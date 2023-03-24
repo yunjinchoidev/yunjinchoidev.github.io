@@ -1,5 +1,5 @@
 var store = [{
-        "title": "ai tech 온보딩",
+        "title": "[ai tech 5기] [회고] 온보딩을 보내며...",
         "excerpt":"[온보딩기간을 보내며] 3월 1일 부터 3월 5일까지 온보딩 기간을 보내며 설레는 마음으로 공부를 했다. 파이썬, ai math, pytorch 강의를 들었다. 수학과를 다니면서 선형대수학을 과연 사용할 일이 있을까 생각을 했었는데 딥러닝에서 매우 중요하다고 한다. 통계학도 중요하다. 선형대수, 수리통계 책을 구입했고 심기일전해서 다시 공부해보려고 한다. ai tech 5기는 3월 6일 부터 8월...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-%EC%98%A8%EB%B3%B4%EB%94%A9/",
@@ -9,12 +9,6 @@ var store = [{
         "excerpt":"   오늘 무엇을 했나?     OT 참여   python 강의 수강   파이토치 강의 1~5강 수강  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day01/",
-        "teaser": null
-      },{
-        "title": "ai tech 1주차",
-        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차 정리] 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 설레는 마음으로 첫 주차 부트캠프에 참여했습니다. 상당히 전문성 있는 교육 프로그램이 인상 깊었습니다. 첫 날에 타운홀 미팅이 있었고 팀원들과 자기소개 하는 시간을 가졌습니다. 하루에 최대 2시간의 시간을 제외하면 모두 제가...","categories": ["aitech_weekly"],
-        "tags": [],
-        "url": "/aitech_weekly/post-1%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
         "title": "ai tech - Day02 ",
@@ -155,6 +149,12 @@ var store = [{
         "url": "/aitech_daily/post-day05/",
         "teaser": null
       },{
+        "title": "[ai tech 5기] [회고] 1주차를 보내며...",
+        "excerpt":"[1주차 계획] python, aimath, pytorch 완강 과제 완수 [1주차 정리] 강의 정리 파이썬 강의록 정리 AIMath 강의록 정리 [1주차를 보내며] 설레는 마음으로 첫 주차 부트캠프에 참여했습니다. 상당히 전문성 있는 교육 프로그램이 인상 깊었습니다. 첫 날에 타운홀 미팅이 있었고 팀원들과 자기소개 하는 시간을 가졌습니다. 하루에 최대 2시간의 시간을 제외하면 모두 제가...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-1%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
         "title": "딥러닝 바닥부터 만들기 (intro ~ step10)",
         "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
         "tags": [],
@@ -171,12 +171,6 @@ var store = [{
         "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
-        "teaser": null
-      },{
-        "title": "ai tech 2주차",
-        "excerpt":"[2주차 계획] 텐서보드 튜토리얼 코드 돌리기 WanB 튜토리얼 코드 돌려보기 하이퍼 파라미터 튜닝 해보기 코테 스터디 잘 참여하기 [2주차를 보내며] 강의 정리 파이토치 강의록 정리 벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 파이토치 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader...","categories": ["aitech_weekly"],
-        "tags": [],
-        "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
         "title": "ai tech - Day06 ",
@@ -213,6 +207,12 @@ var store = [{
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day10/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 2주차를 보내며...",
+        "excerpt":"[2주차 계획] 텐서보드 튜토리얼 코드 돌리기 WanB 튜토리얼 코드 돌려보기 하이퍼 파라미터 튜닝 해보기 코테 스터디 잘 참여하기 [2주차를 보내며] 강의 정리 파이토치 강의록 정리 벌써 2주의 시간이 흘렀습니다. 첫 주차에 파이썬, 딥러닝 수학을 배웠고 이번주엔 딥러닝을 실제 구현 할 수 있는 파이토치 를 배웠습니다. 파이토치의 기본적인 사용법, dataset, dataLoader...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
         "title": "전이학습",
@@ -309,6 +309,12 @@ var store = [{
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day15/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 3주차를 보내며...",
+        "excerpt":"[3주차를 보내며] 강의 정리 딥러닝 Basic 강의록 정리 5F 사실 (Facts) : 이번주에는 딥러닝 기초 강좌와 data visualization 강의를 들었습니다. CNN, RNN, LSTM, Transfomer, GAN, matplotlib 을 배웠습니다. 이 모델들을 가지고 간단한 모델을 구현해보았습니다. matplotlib을 통해서 데이터를 visualization 을 해봤습니다. 좋습니다. 점점 많은 것을 배우고 있다는 것을 실감하고 있습니다. 양이...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
         "title": "[백준][3190][뱀]",
