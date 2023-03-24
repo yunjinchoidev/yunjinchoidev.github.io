@@ -310,4 +310,10 @@ var store = [{
         "tags": [],
         "url": "/aitech_daily/post-day15/",
         "teaser": null
+      },{
+        "title": "[프로그래머스] 기둥과보",
+        "excerpt":"해결 전략 전형적인 시뮬레이션 문제입니다. 문제를 잘 읽고 step 을 구현합시다. 동서남북 이동과 방향이동에 주의합시다. 사과조건과 뱀의 trace 를 잘 표시해야 합니다. import sys input = sys.stdin.readline N = int(input()) apple_cnt = int(input()) # 사과 표시하기 apple_map = [[False for i in range(N)] for j in range(N)] for i in...","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/",
+        "teaser": null
       }]
