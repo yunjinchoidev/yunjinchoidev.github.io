@@ -323,8 +323,8 @@ var store = [{
         "url": "/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/",
         "teaser": null
       },{
-        "title": "[이코테]이코테 4장(구현)",
-        "excerpt":"구현 구현이란 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정을 말합니다. 아이디어를 떠올리는 것은 쉽지만 코드로 바꾸는 것이 쉽지 않은 것이 구현 문제로 나온다. 결국 코드를 잘 만질 수 있는 능력이 있어야 한다는 소리다. 시뮬레이션, 구현, 완전 탐색은 유사한 부분이 많다. 일반적으로 전체 데이터 개수가 100만 개 이하일 때 완전 탐색을 사용하면...","categories": ["ps"],
+        "title": "[이코테]이코테 5장(DFS & BFS)",
+        "excerpt":"DFS &amp; BFS   ","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/",
         "teaser": null

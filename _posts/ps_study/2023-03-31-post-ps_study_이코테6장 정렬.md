@@ -1,6 +1,6 @@
 ---
-title: "[이코테]이코테 5장(DFS & BFS)"
-last_modified_at: 2023-03-24T16:20:02-05:00
+title: "[이코테]이코테 6장(정렬)"
+last_modified_at: 2023-03-31T16:20:02-05:00
 categories:
     - ps
 tages:
@@ -12,8 +12,4 @@ toc_label: "목차"
 ---
 
 
-# DFS & BFS
-
-
-
-
+# 정렬

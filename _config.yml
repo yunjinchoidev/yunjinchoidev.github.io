@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -127,7 +127,7 @@ author:
       url: "https://github.com/yunjinchoidev"
     - label: "Youtube 8기통 엔진 "
       icon: "fab fa-fw fa-youtube"
-      url: "https://instagram.com/"
+      url: "https://www.youtube.com/channel/UC7B4c49J4XFzoety13KYuDg"
 
 # Site Footer
 footer:
