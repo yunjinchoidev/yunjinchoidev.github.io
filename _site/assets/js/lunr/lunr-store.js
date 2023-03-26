@@ -132,13 +132,13 @@ var store = [{
         "teaser": null
       },{
         "title": "챗봇 만들기",
-        "excerpt":"   챗봇을 만듭시다.  ","categories": ["chatbot"],
+        "excerpt":"   챗봇을 만듭시다.  ","categories": ["ai_chatbot"],
         "tags": [],
         "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
         "teaser": null
       },{
         "title": "nlp 면접 준비",
-        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["interview"],
+        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["ai_interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
@@ -198,7 +198,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)",
-        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["paper"],
+        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["ai_paper"],
         "tags": [],
         "url": "/paper/post-surveyNLP/",
         "teaser": null
@@ -222,7 +222,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[논문리뷰] Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)",
-        "excerpt":"Deep Learning’s Most Important Ideas - A Brief Historical Review(2020) 2012 – AlexNet AlexNet은 2012년 Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 개발한 심층 컨볼루션 신경망(CNN) 아키텍처다. 오류율은 15.3%로 두 번째로 좋은 모델보다 훨씬 뛰어나다. AlexNet은 8개의 계층으로 구성되어 있다. 5개의 컨볼루션 계층과 3개의 완전 연결 계층이 있습니다. 이 네트워크는...","categories": ["paper"],
+        "excerpt":"Deep Learning’s Most Important Ideas - A Brief Historical Review(2020) 2012 – AlexNet AlexNet은 2012년 Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 개발한 심층 컨볼루션 신경망(CNN) 아키텍처다. 오류율은 15.3%로 두 번째로 좋은 모델보다 훨씬 뛰어나다. AlexNet은 8개의 계층으로 구성되어 있다. 5개의 컨볼루션 계층과 3개의 완전 연결 계층이 있습니다. 이 네트워크는...","categories": ["ai_paper"],
         "tags": [],
         "url": "/paper/post-A-Brief-Historical-Review/",
         "teaser": null
@@ -246,7 +246,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[논문리뷰] Attention is all you need",
-        "excerpt":"Attention is All you need 구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다. 기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠. “Attention is All You Need”는 자연어 처리 및 기계 번역과 같은 sequence-to-sequence 작업을 위한 새로운 딥 러닝 아키텍처인 Transformer...","categories": ["paper"],
+        "excerpt":"Attention is All you need 구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다. 기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠. “Attention is All You Need”는 자연어 처리 및 기계 번역과 같은 sequence-to-sequence 작업을 위한 새로운 딥 러닝 아키텍처인 Transformer...","categories": ["ai_paper"],
         "tags": [],
         "url": "/paper/post-attention-is-all-you-need/",
         "teaser": null

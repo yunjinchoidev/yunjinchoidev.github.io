@@ -226,7 +226,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/paper/post-attention-is-all-you-need/</loc>
+      <loc>http://localhost:4000/aitech_daily/post-day12/</loc>
       
         <lastmod>2023-03-21T00:00:00+09:00</lastmod>
       
@@ -242,7 +242,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day12/</loc>
+      <loc>http://localhost:4000/paper/post-attention-is-all-you-need/</loc>
       
         <lastmod>2023-03-21T00:00:00+09:00</lastmod>
       
@@ -290,7 +290,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/paper/post-A-Brief-Historical-Review/</loc>
+      <loc>http://localhost:4000/aitech_daily/post-day11/</loc>
       
         <lastmod>2023-03-20T00:00:00+09:00</lastmod>
       
@@ -306,7 +306,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day11/</loc>
+      <loc>http://localhost:4000/paper/post-A-Brief-Historical-Review/</loc>
       
         <lastmod>2023-03-20T00:00:00+09:00</lastmod>
       
@@ -514,38 +514,6 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/</loc>
-      
-        <lastmod>2023-03-10T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/chatbot/post-%EC%B1%97%EB%B4%87/</loc>
-      
-        <lastmod>2023-03-10T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
       <loc>http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
@@ -579,6 +547,38 @@
   
     <url>
       <loc>http://localhost:4000/aitech_daily/post-day05/</loc>
+      
+        <lastmod>2023-03-10T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/</loc>
+      
+        <lastmod>2023-03-10T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/chatbot/post-%EC%B1%97%EB%B4%87/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
       
