@@ -334,4 +334,22 @@ var store = [{
         "tags": [],
         "url": "/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/",
         "teaser": null
+      },{
+        "title": "[논문리뷰] Word2Vec",
+        "excerpt":"   Word2Vec  ","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-word2vec/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day16 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day16/",
+        "teaser": null
+      },{
+        "title": "Github으로 따라하는 버전 관리",
+        "excerpt":"   ","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-git/",
+        "teaser": null
       }]
