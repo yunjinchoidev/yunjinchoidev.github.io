@@ -35,36 +35,6 @@ var store = [{
         "url": "/aitech_knowledge/post-pytorch/",
         "teaser": null
       },{
-        "title": "컴퓨터 비전의 모든 것",
-        "excerpt":"컴퓨터 비전의 역사 딥러닝은 빠르게 변하는 분야이기 때문에 손 놓고 남들이 해놓은 자료만 보려고 하다가는 뒤쳐지게 됩니다. 우리는 영어에 익숙해져야 합니다. 거꾸로 돌려져있는 인간의 초상화 를 본 적 있습니까. 우리는 거꾸로 뒤집힌 인간의 얼굴을 올바르게 보는 능력을 가지고 있지 않습니다. 결국 인간도 편향적으로 학습이 된 것이죠. 컴퓨터 비전은 많은 곳에서...","categories": ["aitech_knowledge_cv"],
-        "tags": [],
-        "url": "/aitech_knowledge_cv/post-cv/",
-        "teaser": null
-      },{
-        "title": "KLUE",
-        "excerpt":"목차 한국어 언어모델 학습 및 다중 과제 튜닝 과정 인공지능과 자연어 처리 (이론/실습) 자연어의 전처리 (이론/실습) BERT 언어모델(1) (이론/실습) BERT 언어모델(2) (이론/실습) BERT 언어모델 기반의 단일 문장 분류 (이론/실습) BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습) BERT 언어모델 기반의 문장 토큰 분류 (이론/실습) GPT 언어모델 (이론/실습) GPT 언어모델 기반의...","categories": ["aitech_knowledge_nlp"],
-        "tags": [],
-        "url": "/aitech_knowledge_nlp/post-klue/",
-        "teaser": null
-      },{
-        "title": "MRC(Machine reading comprehension)",
-        "excerpt":"MRC(Machine reading comprehension)란? 주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제 Q&amp;A 분야에 응용될 수 있습니다. Extractive Answer Datasets 질의에 대한 답이 항상 주어진 지문의 segment (or span) 으로 존재 Descriptive/Narrative Answer Datasets 지문 내에서 추출한 span이 아닌, 질의를 보고 생성된 sentence (or free-form) 형태의 output을 내야하는 task Multiple-choice Datasets...","categories": ["aitech_knowledge_nlp"],
-        "tags": [],
-        "url": "/aitech_knowledge_nlp/post-mrc/",
-        "teaser": null
-      },{
-        "title": "자연어 처리의 모든 것",
-        "excerpt":"   자연어 처리의 모든 것  시작합니다.  ","categories": ["aitech_knowledge_nlp"],
-        "tags": [],
-        "url": "/aitech_knowledge_nlp/post-nlp/",
-        "teaser": null
-      },{
-        "title": "recsys",
-        "excerpt":"   ","categories": ["aitech_knowledge_recsys"],
-        "tags": [],
-        "url": "/aitech_knowledge_recsys/post-recsys/",
-        "teaser": null
-      },{
         "title": "[이코테] 1장, 2장",
         "excerpt":"이코테 1 장 시간 복잡도 알고리즘을 위해 필요한 연산의 횟수 시간 복잡도는 알고리즘이 문제를 해결하는 데 걸리는 시간을 측정한 것입니다. 일반적으로 입력 크기의 함수로 표현되며 알고리즘이 문제를 해결하는 데 필요한 기본 작업(또는 단계)의 수를 나타냅니다. 알고리즘의 시간 복잡도는 특정 문제를 해결하기 위해 서로 다른 알고리즘 중에서 선택할 때 고려해야 할...","categories": ["ps"],
         "tags": [],
@@ -327,5 +297,41 @@ var store = [{
         "excerpt":"DFS &amp; BFS   ","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/",
+        "teaser": null
+      },{
+        "title": "컴퓨터 비전의 모든 것",
+        "excerpt":"컴퓨터 비전의 역사 딥러닝은 빠르게 변하는 분야이기 때문에 손 놓고 남들이 해놓은 자료만 보려고 하다가는 뒤쳐지게 됩니다. 우리는 영어에 익숙해져야 합니다. 거꾸로 돌려져있는 인간의 초상화 를 본 적 있습니까. 우리는 거꾸로 뒤집힌 인간의 얼굴을 올바르게 보는 능력을 가지고 있지 않습니다. 결국 인간도 편향적으로 학습이 된 것이죠. 컴퓨터 비전은 많은 곳에서...","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-cv/",
+        "teaser": null
+      },{
+        "title": "KLUE",
+        "excerpt":"목차 한국어 언어모델 학습 및 다중 과제 튜닝 과정 인공지능과 자연어 처리 (이론/실습) 자연어의 전처리 (이론/실습) BERT 언어모델(1) (이론/실습) BERT 언어모델(2) (이론/실습) BERT 언어모델 기반의 단일 문장 분류 (이론/실습) BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습) BERT 언어모델 기반의 문장 토큰 분류 (이론/실습) GPT 언어모델 (이론/실습) GPT 언어모델 기반의...","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-klue/",
+        "teaser": null
+      },{
+        "title": "MRC(Machine reading comprehension)",
+        "excerpt":"MRC(Machine reading comprehension)란? 주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제 Q&amp;A 분야에 응용될 수 있습니다. Extractive Answer Datasets 질의에 대한 답이 항상 주어진 지문의 segment (or span) 으로 존재 Descriptive/Narrative Answer Datasets 지문 내에서 추출한 span이 아닌, 질의를 보고 생성된 sentence (or free-form) 형태의 output을 내야하는 task Multiple-choice Datasets...","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-mrc/",
+        "teaser": null
+      },{
+        "title": "자연어 처리의 모든 것",
+        "excerpt":"   자연어 처리의 모든 것  시작합니다.  ","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-nlp/",
+        "teaser": null
+      },{
+        "title": "recsys",
+        "excerpt":"   ","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-recsys/",
+        "teaser": null
+      },{
+        "title": "자기만의 역사를 쓴다는 것",
+        "excerpt":"현재는 고인이 된 지의 거장, 다치바나 다카시의 책이다. 그는 &lt;나는 이런 책을 읽어왔다&gt;, ` 등으로 한국에도 유명한 작가이다. 다치바나 다카시를 들어본 적있는 독자라면 매일 같이 읽고 쓰는 그의 괴물같은 독서력과 필력에 대해 잘 알것이다. 7만 권이 넘는 장서를 보관하고 있는 고양이 빌딩은 유명하다. &lt;자기 역사를 쓴다는 것&gt;은 2013년 출판된 책으로서...","categories": ["book"],
+        "tags": [],
+        "url": "/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/",
         "teaser": null
       }]

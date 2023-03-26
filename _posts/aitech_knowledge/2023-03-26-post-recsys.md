@@ -2,7 +2,7 @@
 title: "recsys"
 last_modified_at: 2023-03-26T16:20:02-05:00
 categories:
-    - aitech_knowledge_recsys
+    - aitech_knowledge
 tages:
     - aitech
     - nlp

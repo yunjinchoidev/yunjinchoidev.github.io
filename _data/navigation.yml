@@ -10,6 +10,8 @@ main:
     url: "categories/paper"
   - title: "알고리즘"
     url: "categories/ps"
+  - title: "세상 읽기"
+    url: "categories/book"
 
 counts: 
   - title: "카테고리"
