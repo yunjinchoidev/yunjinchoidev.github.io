@@ -1,4 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-25T17:57:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">[ai tech 5기] [회고] 3주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 3주차를 보내며…" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-26T17:51:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">recsys</title><link href="http://localhost:4000/aitech_knowledge_recsys/post-recsys/" rel="alternate" type="text/html" title="recsys" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge_recsys/post-recsys</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge_recsys/post-recsys/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge_recsys" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">MRC(Machine reading comprehension)</title><link href="http://localhost:4000/aitech_knowledge_nlp/post-mrc/" rel="alternate" type="text/html" title="MRC(Machine reading comprehension)" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge_nlp/post-mrc</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge_nlp/post-mrc/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="mrcmachine-reading-comprehension란">MRC(Machine reading comprehension)란?</h1>
+<p>주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제</p>
+
+<p>Q&amp;A 분야에 응용될 수 있습니다.</p>
+
+<h2 id="extractive-answer-datasets">Extractive Answer Datasets</h2>
+<p>질의에 대한 답이 항상 주어진 지문의 segment (or span) 으로 존재</p>
+
+<h2 id="descriptivenarrative-answer-datasets">Descriptive/Narrative Answer Datasets</h2>
+<p>지문 내에서 추출한 span이 아닌, 질의를 보고 생성된 sentence (or free-form) 형태의 output을 내야하는 task</p>
+
+<h2 id="multiple-choice-datasets">Multiple-choice Datasets</h2>
+<p>질의에 대한 답을 여러 개의 answer candidates 중 하나로 고르는 형태의 task</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="mrc-의-도전적-과제들">MRC 의 도전적 과제들</h1>
+<h2 id="paraphrasing">Paraphrasing</h2>
+
+<h2 id="coreference-resolution">Coreference Resolution</h2>
+
+<h2 id="unanswerable-questions">Unanswerable questions</h2>
+<h2 id="multi-hop-reasoning">Multi-hop reasoning</h2>
+<ul>
+  <li>여러 개의 document에서 질의에 대한 supporting fact를 찾아야지만 답을 찾을 수 있는 task</li>
+</ul>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge_nlp" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">KLUE</title><link href="http://localhost:4000/aitech_knowledge_nlp/post-klue/" rel="alternate" type="text/html" title="KLUE" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge_nlp/post-klue</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge_nlp/post-klue/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="목차">목차</h1>
+
+<p>한국어 언어모델 학습 및 다중 과제 튜닝 과정
+인공지능과 자연어 처리 (이론/실습)
+자연어의 전처리 (이론/실습)
+BERT 언어모델(1) (이론/실습)
+BERT 언어모델(2) (이론/실습)
+BERT 언어모델 기반의 단일 문장 분류 (이론/실습)
+BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습)
+BERT 언어모델 기반의 문장 토큰 분류 (이론/실습)
+GPT 언어모델 (이론/실습)
+GPT 언어모델 기반의 자연어 생성 (이론/실습)
+최신 자연어 처리 연구 (이론/실습)</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="언어모델language-model">언어모델(Language Model)</h1>
+<p>모델이란 무엇입니까?  현재로부터 미래를 예측하는 겁니다.  자연 법칙을 컴퓨터로 모사함으로써 시물레이션 가능하겠죠.  같은방식으로 이전 상태를 기반으로 미래의 상태 예측 가능합니다. 검색어 자동 추천
+최초의 언어모델 -&gt; 마르코프 -&gt; RNN -&gt; Seq2Seq -&gt; Attention -&gt; self Attention</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="자연어-전처리">자연어 전처리</h1>
+<ul>
+  <li>목표(Task) 설계</li>
+  <li>필요 데이터 수직</li>
+  <li>통계학적 분석</li>
+  <li>전처리</li>
+  <li>Tagging - 라벨 달아 주기</li>
+  <li>Tokenizing - 문장 쪼개기</li>
+  <li>모델 설계</li>
+  <li>모델 구현</li>
+  <li>성능 평가</li>
+</ul>
+
+<p>자연어 전처리를 잘하기 위해서는 python string 함수를 잘 사용할 수 있어야 합니다.</p>
+
+<h2 id="실전">실전</h2>
+<p>newpaper3 라이버리를 쓰시살.</p>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="bert-언어모델">BERT 언어모델</h1>
+
+<p><br /><br /><br /><br /></p>
+
+<h1 id="gpt-언어모델과-최신-연구">GPT 언어모델과 최신 연구</h1>
+
+<h1 id="최신-연구">최신 연구</h1>
+<h2 id="멀티-모달">멀티 모달</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">AI</th>
+      <th style="text-align: center">인간지능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">pre-training</td>
+      <td style="text-align: center">유전체</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">fine-tuning</td>
+      <td style="text-align: center">한 인간의 삶</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge_nlp" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">컴퓨터 비전의 모든 것</title><link href="http://localhost:4000/aitech_knowledge_cv/post-cv/" rel="alternate" type="text/html" title="컴퓨터 비전의 모든 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge_cv/post-cv</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge_cv/post-cv/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="컴퓨터-비전의-역사">컴퓨터 비전의 역사</h1>
+<p>딥러닝은 빠르게 변하는 분야이기 때문에 손 놓고 남들이 해놓은 자료만 보려고 하다가는 뒤쳐지게 됩니다. 우리는 영어에 익숙해져야 합니다. 거꾸로 돌려져있는 인간의 초상화 를 본 적 있습니까. 우리는 거꾸로 뒤집힌 인간의 얼굴을 올바르게 보는 능력을 가지고 있지 않습니다. 결국 인간도 편향적으로 학습이 된 것이죠.</p>
+
+<p>컴퓨터 비전은 많은 곳에서 쓰이고 있습니다. 객체 탐지(by semantic segmentation), 그림 생성, cctv 등이 있죠. 이러한 성과는 딥러닝을 이용한 컴퓨터 비전에 따라 굉장한 성능 향상에 따라 그렇습니다. 그 전에는 사람이 일일이 특성을 잡아내는 일을 해서 인식을 했답니다.</p>
+
+<ul>
+  <li>매의 눈
+    <ul>
+      <li>모든 것을 확실하게 분류하는 이상적 모델</li>
+    </ul>
+  </li>
+  <li>MLU
+    <ul>
+      <li>착오의 한계</li>
+    </ul>
+  </li>
+  <li>CNN</li>
+  <li>AlexNet : 굉장한 발전</li>
+  <li>VGGNET : 작은 컨볼루션 신경망을 사용함으로써 일반화를 만들어냈다.</li>
+  <li>GOOGLE NET :</li>
+  <li>ResNet</li>
+</ul>
+
+<h1 id="데이터-부족-문제">데이터 부족 문제</h1>
+<h2 id="data-argumentation">Data Argumentation</h2>
+<p>인간이 촬영한 사진은 문제가 있습니다. 편향이 담겼기 때문이죠. 그렇다면 데이터에 bias가 존재하는 것이 왜 문제가 될까요?
+그것은 정확한 정보가 아니기 때문이죠. 우리는 다양한 방법을 통해 bias 를 제거하고 성능을 향상 시킬 수 있습니다. 이런 방법들을 통해 부족한 데이터를 생성시키는 것이죠.</p>
+
+<p>우리는 데이터를 학습시킬 때 상하 좌우를 바꿉니다.  특정 부분을 확대해서 학습시키기도 한다. affine transform 을 적용 시켜줄 수 도 있다.(대응 쌍을 줍니다) cutmix 방법도 있습니다. 두개의 물체의 상반신을 조합해서 학습을 시키는 방법이죠. 아래  추가적인 방법을 인식하세요 ㅣ</p>
+
+<p>identify
+rotate
+posterize
+sharpness
+traslate-x
+autoContrast
+solarize
+contrast
+shear-x</p>
+
+<h2 id="pre-trained">pre-trained</h2>
+<p>Transfer Learning 한 데이터셋에서 학습하며 배웠던 지식을 다른 데이터셋에서 활용하는 기술 -&gt; 데이터 부족 문제를 해결합니다.</p>
+
+<h1 id="또-다른-발전">또 다른 발전</h1>
+<ul>
+  <li>
+    <p>과연 네트워크를 단순히 깊게 쌓는다고 해서 무조건 성능이 향상될까
+Gradient Vanishing/Exploding 문제 발생</p>
+  </li>
+  <li>GoogLeNet</li>
+  <li>ResNet
+    <ul>
+      <li>Skip Connection 을 도입</li>
+    </ul>
+  </li>
+  <li>DenseNet</li>
+  <li>SENet</li>
+  <li>EfficientNet</li>
+  <li>Deformable Convolution</li>
+</ul>
+
+<h1 id="segmantation--detection">Segmantation &amp; Detection</h1>
+
+<ul>
+  <li>
+    <p>Object Detection
+오브젝트 탐지 문제는 컴퓨터 비전 분야에서 굉장히 활발한 분야다.</p>
+  </li>
+  <li>
+    <p>R-CNN</p>
+  </li>
+  <li>
+    <p>YOLO</p>
+  </li>
+  <li>
+    <p>SSD</p>
+  </li>
+  <li>
+    <p>Focal Loss</p>
+  </li>
+  <li>
+    <p>RetinaNet</p>
+  </li>
+  <li>
+    <p>DETR</p>
+  </li>
+</ul>
+
+<h1 id="cnn-visualization">CNN Visualization</h1>
+<ul>
+  <li>CNN Visualization이라는 것을 말그대로 Convoultional Neural Network를 시각화한다는 뜻</li>
+  <li></li>
+</ul>
+
+<h1 id="filter-weight-visualization">Filter Weight Visualization</h1>
+
+<h1 id="instance-segmentation">Instance Segmentation</h1>
+<p>단순히 픽셀 마다의 클래스를 분류하는 semantic segmentation은 동일한 클래스에 속하는 개별 물체를 구분하지 못합니다. 이와 달리 Instance Segmentation은 영상 내에 동일한 물체가 여러 개 존재하는 경우에 각각의 물체를 구분하며 동시에 픽셀 단위의 mask도 예측하는 방법</p>
+
+<h1 id="panoptic-segmentation">panoptic segmentation</h1>
+
+<h2 id="panoptic-segmentation-1">Panoptic Segmentation</h2>
+
+<h2 id="upsnet">UPSNet</h2>
+
+<h2 id="vpsnet">VPSNet</h2>
+
+<h2 id="landmark-localization">Landmark Localization</h2>
+
+<h2 id="hourglass-network">Hourglass network</h2>
+
+<h1 id="bounding-box가-아니라-키-포인트들을-기반으로-물체를-탐지하는-방법">bounding box가 아니라 키 포인트들을 기반으로 물체를 탐지하는 방법</h1>
+<h2 id="cornernet">CornerNet</h2>
+<h2 id="centernet">CenterNet</h2>
+
+<h1 id="conditional-generative-model">Conditional Generative Model</h1>
+<h2 id="generative-model">Generative Model</h2>
+<h2 id="conditional-generative-model-1">Conditional Generative Model</h2>
+<h2 id="generative-adversarial-networks-gan">Generative Adversarial Networks (GAN)</h2>
+<h2 id="image-translation">Image Translation</h2>
+<h2 id="super-resolution">Super Resolution</h2>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge_cv" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">자연어 처리의 모든 것</title><link href="http://localhost:4000/aitech_knowledge_nlp/post-nlp/" rel="alternate" type="text/html" title="자연어 처리의 모든 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge_nlp/post-nlp</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge_nlp/post-nlp/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="자연어-처리의-모든-것">자연어 처리의 모든 것</h1>
+<p>시작합니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge_nlp" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[이코테]이코테 5장(DFS &amp;amp; BFS)</title><link href="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/" rel="alternate" type="text/html" title="[이코테]이코테 5장(DFS &amp;amp; BFS)" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5%20BFS%20&amp;%20DFS</id><content type="html" xml:base="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&amp;-DFS/"><![CDATA[<h1 id="dfs--bfs">DFS &amp; BFS</h1>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[DFS &amp; BFS]]></summary></entry><entry><title type="html">[ai tech 5기] [회고] 3주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 3주차를 보내며…" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="3주차를-보내며">[3주차를 보내며]</h1>
 
@@ -47,7 +269,18 @@ Positional Encoding 쪽도 난해했습니다. 확률분포를 근사하는 모�
 해야겠네요. 논문을 좀 읽어야 겠습니다.</p>
 
 <h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>잘 쉬어야 겠습니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[이코테]이코테 5장(DFS &amp;amp; BFS)</title><link href="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/" rel="alternate" type="text/html" title="[이코테]이코테 5장(DFS &amp;amp; BFS)" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5%20BFS%20&amp;%20DFS</id><content type="html" xml:base="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&amp;-DFS/"><![CDATA[<h1 id="dfs--bfs">DFS &amp; BFS</h1>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[DFS &amp; BFS]]></summary></entry><entry><title type="html">[백준][3190][뱀]</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/" rel="alternate" type="text/html" title="[백준][3190][뱀]" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%5B%EB%B0%B1%EC%A4%80%5D%5B3190%5D%5B%EB%B1%80%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
+<p>잘 쉬어야 겠습니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day15</title><link href="http://localhost:4000/aitech_daily/post-day15/" rel="alternate" type="text/html" title="ai tech - Day15" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day15</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day15/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[백준][3190][뱀]</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/" rel="alternate" type="text/html" title="[백준][3190][뱀]" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%5B%EB%B0%B1%EC%A4%80%5D%5B3190%5D%5B%EB%B1%80%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
 
 <h1 id="해결-전략">해결 전략</h1>
 
@@ -156,171 +389,4 @@ while True:
                 turn_time = int(turns[turn_idx][0])
 
 print(time)
-</code></pre></div></div>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day15</title><link href="http://localhost:4000/aitech_daily/post-day15/" rel="alternate" type="text/html" title="ai tech - Day15" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day15</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day15/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[프로그래머스] 기둥과보</title><link href="http://localhost:4000/ps/post-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4/" rel="alternate" type="text/html" title="[프로그래머스] 기둥과보" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-24T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%5B%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%5D%5B%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
-
-<h1 id="해결-전략">해결 전략</h1>
-
-<p>is_normal 함수를 이용해서 정상성 여부를 검사한다. 수의 범위가 적으니 완전탐색으로 풀어도 되는 문제였다. 수가 적으면 완전탐색을 의심해봅시다.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEslpDMIoS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-
-<p><br />
-<br />
-<br /></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def solution(n, build_frame):
-    answer = [[]]
-    
-    
-    update_map = set()
-    
-    def is_normal(update_map):
-        
-        for material in update_map:
-            # 보 라면
-            if material[2] == 1:                
-                # 한쪽에라도 기둥이 있으면 된다.
-                if (material[0], material[1]-1, 0) in update_map or\
-                   (material[0]+1, material[1]-1, 0) in update_map :
-                    continue
-                # 양쪽에 보가 있으면 된다.
-                if (material[0]-1, material[1], 1) in update_map and\
-                    (material[0]+1, material[1], 1) in update_map:
-                    continue
-
-            
-                return False
-                
-            # 기둥 이라면
-            elif material[2] == 0:
-                
-                # 바닥이라면
-                if material[1] == 0:
-                    continue
-                    
-                # 아래에 기둥이 있다면
-                if (material[0], material[1]-1, 0) in update_map:  
-                    continue
-                    
-                # 양쪽에 보가 하나라도 있으면 된다.
-                if (material[0]-1, material[1], 1) in update_map or\
-                    (material[0], material[1], 1) in update_map:              
-                    continue
-                
-                return False
-                
-            
-
-        return True
-                
-    for frame in build_frame:
-
-        if frame[3] == 1:
-            update_map.add((frame[0], frame[1], frame[2]))
-
-            if not is_normal(update_map):
-                update_map.remove((frame[0], frame[1], frame[2]))
-
-        # 삭제한다면
-        if frame[3] == 0:
-
-            update_map.remove((frame[0], frame[1], frame[2]))
-
-            if not is_normal(update_map):
-                update_map.add((frame[0], frame[1], frame[2]))              
-
-                    
-    r = []
-    for f in update_map:
-        r.append(list(f))
-    r.sort(key=lambda x: (x[0], x[1], x[2]))
-        
-    answer = r
-    return answer
-
-</code></pre></div></div>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[연재][Clear Algo][1편] - 그리디 알고리즘</title><link href="http://localhost:4000/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/" rel="alternate" type="text/html" title="[연재][Clear Algo][1편] - 그리디 알고리즘" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-24T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-ps_study_%5B%EC%97%B0%EC%9E%AC%5D%20clearAlgo%20%5B1%ED%8E%B8%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/"><![CDATA[<h1 id="연재clear-algo1편---그리디-알고리즘">[연재][Clear Algo][1편] - 그리디 알고리즘</h1>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[[연재][Clear Algo][1편] - 그리디 알고리즘]]></summary></entry><entry><title type="html">ai tech - Day14</title><link href="http://localhost:4000/aitech_daily/post-day14/" rel="alternate" type="text/html" title="ai tech - Day14" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-24T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day14</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day14/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day13</title><link href="http://localhost:4000/aitech_daily/post-day13/" rel="alternate" type="text/html" title="ai tech - Day13" /><published>2023-03-22T00:00:00+09:00</published><updated>2023-03-23T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day13</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day13/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[논문리뷰] Attention is all you need</title><link href="http://localhost:4000/paper/post-attention-is-all-you-need/" rel="alternate" type="text/html" title="[논문리뷰] Attention is all you need" /><published>2023-03-21T00:00:00+09:00</published><updated>0219-04-01T10:20:02+09:00</updated><id>http://localhost:4000/paper/post-attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/paper/post-attention-is-all-you-need/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
-
-<h1 id="attention-is-all-you-need"><code class="language-plaintext highlighter-rouge">Attention is All you need</code></h1>
-
-<p>구글의 <code class="language-plaintext highlighter-rouge">Attention is All you</code> 논문을 통해 nlp 의 혁명이 일어났습니다.  기존의 rnn 모델은 attention 모델로 대체되었습니다.  왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠.</p>
-
-<p>“Attention is All You Need”는 자연어 처리 및 기계 번역과 같은 sequence-to-sequence 작업을 위한 새로운 딥 러닝 아키텍처인 Transformer 모델을 소개한 획기적인 논문입니다. Transformer 모델의 주요 혁신은 self-attention 메커니즘으로 입력 시퀀스를 순차적이 아닌 병렬로 처리하여 더 빠른 훈련과 더 나은 성능을 제공합니다.</p>
-
-<p>이 논문의 결과는 Transformer 모델이 WMT 2014 영어-독일어 및 영어-프랑스어 번역 작업을 포함한 여러 벤치마크 작업에서 기존의 최첨단 기술을 능가한다는 것을 보여주었습니다. 트랜스포머는 병렬화 가능한 아키텍처로 인해 기존의 순환 신경망(RNN) 및 컨볼루션 신경망(CNN)보다 훨씬 적은 계산 시간으로 이러한 결과를 달성했습니다. Transformer 모델의 성공은 NLP 연구의 패러다임 전환과 그 아키텍처를 기반으로 한 수많은 후속 모델 개발로 이어졌습니다.</p>
-
-<h2 id="attention의-원리">Attention의 원리</h2>
-
-<p>Transformer는 자연어 처리 및 기계 번역과 같은 시퀀스 간 작업을 위해 설계된 딥 러닝 아키텍처입니다. 핵심 원리는 입력 시퀀스의 효율적인 병렬 처리를 가능하게 하는 self-attention 메커니즘입니다. 다음은 Transformer 모델에 대한 자세한 설명입니다.</p>
-
-<p>아키텍처: Transformer는 인코더와 디코더로 구성되며 둘 다 동일한 구조의 여러 레이어로 구성됩니다. 인코더는 입력 시퀀스를 처리하고 디코더는 출력 시퀀스를 생성합니다.</p>
-
-<p>Self-Attention: Self-Attention 메커니즘을 사용하면 모델이 시퀀스의 각 요소의 중요성을 다른 요소와 비교하여 평가할 수 있으므로 거리에 관계없이 종속성을 캡처할 수 있습니다. 이 메커니즘은 확장된 내적 어텐션을 사용하여 구현됩니다. 이 어텐션은 쿼리, 키 및 값 벡터의 내적을 취하여 시퀀스의 각 단어에 대한 어텐션 점수를 계산한 다음 소프트맥스 함수를 사용하여 확률을 생성합니다.</p>
-
-<p>Multi-Head Attention: 모델이 단어 사이의 여러 관계를 캡처할 수 있도록 self-attention 메커니즘이 병렬로 여러 번 적용되어 여러 개의 어텐션 헤드가 생성됩니다. 이러한 어텐션 헤드의 출력은 연결되어 선형 레이어를 통과하여 최종 다중 헤드 어텐션 출력을 생성합니다.</p>
-
-<p>위치별 피드포워드 네트워크: 다중 헤드 어텐션 레이어 이후 입력 시퀀스의 각 위치는 위치별 피드포워드 네트워크(FFN)에 의해 독립적으로 처리됩니다. FFN은 사이에 ReLU 활성화 기능이 있는 두 개의 선형 계층으로 구성됩니다.</p>
-
-<p>위치 인코딩: Transformer 모델에는 시퀀스에서 단어의 위치에 대한 고유한 지식이 없기 때문에 위치 인코딩이 입력 임베딩에 추가됩니다. 이러한 인코딩은 빈도가 다른 정현파 함수이므로 모델이 단어의 상대적 위치에 대한 정보를 캡처할 수 있습니다.</p>
-
-<p>계층 정규화 및 잔여 연결: 다중 헤드 어텐션 및 FFN을 포함하여 Transformer의 각 하위 계층 다음에는 계층 정규화 및 잔여 연결이 있습니다. 이러한 기술은 훈련을 안정화하고 복잡한 패턴을 학습하는 모델의 능력을 향상시키는 데 도움이 됩니다.</p>
-
-<p>인코더-디코더 주의: 디코더에는 인코더-디코더 주의라는 추가 주의 메커니즘이 있어 디코더가 출력 시퀀스를 생성하는 동안 입력 시퀀스의 관련 부분에 집중할 수 있습니다. 이 어텐션 레이어는 셀프 어텐션 메커니즘과 유사하게 작동하지만 인코더의 출력을 키 및 값 벡터로 사용합니다.</p>
-
-<p>선형 레이어와 소프트맥스: 마지막 디코더 레이어의 출력을 선형 레이어와 소프트맥스 함수에 통과시켜 디코더의 최종 출력을 얻는다. softmax 함수는 출력을 대상 어휘에 대한 확률 분포로 변환합니다.</p>
-
-<p>입력 시퀀스를 병렬로 처리하는 트랜스포머의 능력은 셀프 어텐션 메커니즘과 결합되어 기존의 RNN 및 CNN보다 더 효율적으로 장거리 종속성을 처리할 수 있습니다. 이로 인해 다양한 NLP 작업에 널리 채택되고 아키텍처를 기반으로 한 후속 모델이 개발되었습니다.</p>
-
-<h1 id="transformer">Transformer</h1>
-
-<blockquote>
-  <p>attention 은 입력 시퀀스의 일부에 선택적으로 집중하는 일반적인 메커니즘인 반면 transfomer는 입력 시퀀스를 보다 효율적이고 효과적으로 처리하기 위해 셀프 어텐션 메커니즘을 사용하는 특정 신경망 아키텍처입니다.</p>
-
-</blockquote>
-
-<blockquote>
-  <p>Seq2seq는 기계 번역, 텍스트 요약 및 질문 응답과 같은 자연어 처리에서 시퀀스 간 작업에 사용되는 일종의 신경망 아키텍처입니다. seq2seq 아키텍처는 입력 시퀀스를 고정 길이 벡터로 인코딩하는 인코더와 인코딩된 벡터를 기반으로 출력 시퀀스를 생성하는 디코더의 두 가지 주요 부분으로 구성됩니다. seq2seq 아키텍처는 순환 신경망(RNN)을 사용하여 가변 길이 입력 및 출력 시퀀스를 처리</p>
-</blockquote>]]></content><author><name>최윤진</name></author><category term="paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day12</title><link href="http://localhost:4000/aitech_daily/post-day12/" rel="alternate" type="text/html" title="ai tech - Day12" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-22T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day12</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day12/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[연재][Clear Algo][1편] - 그리디 알고리즘</title><link href="http://localhost:4000/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/" rel="alternate" type="text/html" title="[연재][Clear Algo][1편] - 그리디 알고리즘" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-24T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-ps_study_%5B%EC%97%B0%EC%9E%AC%5D%20clearAlgo%20%5B1%ED%8E%B8%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/"><![CDATA[<h1 id="연재clear-algo1편---그리디-알고리즘">[연재][Clear Algo][1편] - 그리디 알고리즘</h1>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[[연재][Clear Algo][1편] - 그리디 알고리즘]]></summary></entry></feed>
