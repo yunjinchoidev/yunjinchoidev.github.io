@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-26T18:19:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">자기만의 역사를 쓴다는 것</title><link href="http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/" rel="alternate" type="text/html" title="자기만의 역사를 쓴다는 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T10:20:02+09:00</updated><id>http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98%20%EC%97%AD%EC%82%AC%EB%A5%BC%20%EC%93%B4%EB%8B%A4%EB%8A%94%20%EA%B2%83</id><content type="html" xml:base="http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/"><![CDATA[<p>현재는 고인이 된 지의 거장, 다치바나 다카시의 책이다. 그는<code class="language-plaintext highlighter-rouge"> &lt;나는 이런 책을 읽어왔다&gt;, </code><도쿄대생은 바보가="" 되었는가="">` 등으로 한국에도 유명한 작가이다. 다치바나 다카시를 들어본 적있는 독자라면 매일 같이 읽고 쓰는 그의 괴물같은 독서력과 필력에 대해 잘 알것이다. 7만 권이 넘는 장서를 보관하고 있는 고양이 빌딩은 유명하다.</도쿄대생은></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-26T18:23:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">자기만의 역사를 쓴다는 것</title><link href="http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/" rel="alternate" type="text/html" title="자기만의 역사를 쓴다는 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T10:20:02+09:00</updated><id>http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98%20%EC%97%AD%EC%82%AC%EB%A5%BC%20%EC%93%B4%EB%8B%A4%EB%8A%94%20%EA%B2%83</id><content type="html" xml:base="http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/"><![CDATA[<p>현재는 고인이 된 지의 거장, 다치바나 다카시의 책이다. 그는<code class="language-plaintext highlighter-rouge"> &lt;나는 이런 책을 읽어왔다&gt;, </code><도쿄대생은 바보가="" 되었는가="">` 등으로 한국에도 유명한 작가이다. 다치바나 다카시를 들어본 적있는 독자라면 매일 같이 읽고 쓰는 그의 괴물같은 독서력과 필력에 대해 잘 알것이다. 7만 권이 넘는 장서를 보관하고 있는 고양이 빌딩은 유명하다.</도쿄대생은></p>
 
 <p><code class="language-plaintext highlighter-rouge">&lt;자기 역사를 쓴다는 것&gt;</code>은 2013년 출판된 책으로서 다치바나 다카시가 인생을 마무리하는 시점에서 쓴 책이다. 흔히 역사라고 하면 세계의 역사, 동아시아의 역사, 한 국가의 역사에 대해 생각하기 마련이다. 개인의 역사? 그것은 한 개인의 고유한 영역이 아니던가. 자서전을 쓰는 방법에 관한 것인가? 어찌보면 그렇게 볼 수 도 있겠다.</p>
 
@@ -250,67 +250,23 @@ Gradient Vanishing/Exploding 문제 발생</p>
 <h2 id="conditional-generative-model-1">Conditional Generative Model</h2>
 <h2 id="generative-adversarial-networks-gan">Generative Adversarial Networks (GAN)</h2>
 <h2 id="image-translation">Image Translation</h2>
-<h2 id="super-resolution">Super Resolution</h2>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">recsys</title><link href="http://localhost:4000/aitech_knowledge/post-recsys/" rel="alternate" type="text/html" title="recsys" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-recsys</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-recsys/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[이코테]이코테 5장(DFS &amp;amp; BFS)</title><link href="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/" rel="alternate" type="text/html" title="[이코테]이코테 5장(DFS &amp;amp; BFS)" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5%20BFS%20&amp;%20DFS</id><content type="html" xml:base="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&amp;-DFS/"><![CDATA[<h1 id="dfs--bfs">DFS &amp; BFS</h1>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[DFS &amp; BFS]]></summary></entry><entry><title type="html">[ai tech 5기] [회고] 3주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 3주차를 보내며…" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h2 id="super-resolution">Super Resolution</h2>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">추천 시스템이란?</title><link href="http://localhost:4000/ai_recsys/post-recsys/" rel="alternate" type="text/html" title="추천 시스템이란?" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T10:20:02+09:00</updated><id>http://localhost:4000/ai_recsys/post-recsys</id><content type="html" xml:base="http://localhost:4000/ai_recsys/post-recsys/"><![CDATA[<p align="center">
+<img src="../../../image/ai.png" width="400" height="400" />
+</p>
 
-<h1 id="3주차를-보내며">[3주차를 보내며]</h1>
+<h1 id="ai_recsys">ai_recsys</h1>
 
-<blockquote>
-  <ul>
-    <li>강의 정리
-      <blockquote>
+<p>추천 시스템은 인공지능 기술을 활용하여 사용자에게 맞춤형 추천을 제공하는 시스템입니다. 예를 들어, 온라인 쇼핑몰에서 고객의 이전 구매 이력, 검색어, 클릭 이력 등을 분석하여 해당 고객에게 맞는 상품을 추천하거나, 영화나 음악 스트리밍 서비스에서 사용자의 시청 기록, 검색 기록, 평점 등을 분석하여 해당 사용자에게 맞는 콘텐츠를 추천하는 기술입니다.</p>
 
-      </blockquote>
-    </li>
-    <li><a href="https://yunjinchoidev.github.io/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/">딥러닝 Basic 강의록 정리</a></li>
-  </ul>
-</blockquote>
+<p>추천 시스템은 사용자 경험을 개선하고, 구매 확률과 만족도를 높이는 등 비즈니스 성과를 얻을 수 있습니다. 이를 위해 데이터 분석, 머신 러닝, 딥 러닝 등 다양한 기술을 활용하며, 사용자의 반응을 실시간으로 분석하여 추천 알고리즘을 개선하고 있습니다.</p>
 
-<h1 id="5f">5F</h1>
+<p>추천 시스템은 인문학적인 관점에서도 매우 유용한 기술입니다. 우선, 추천 시스템은 사용자의 관심사를 파악하고 그에 맞는 콘텐츠를 추천함으로써 사용자의 경험을 개선합니다. 이는 사용자의 만족도를 높이고, 더 나은 쇼핑 경험, 음악 감상 경험, 영화 시청 경험 등을 제공함으로써 개인적인 성장과 함께 문화 산업의 성장에도 기여할 수 있습니다.</p>
 
-<h2 id="사실-facts-">사실 (Facts) :</h2>
+<p>또한, 추천 시스템은 사용자가 새로운 콘텐츠를 발견하고 탐색하는데도 큰 도움을 줍니다. 예를 들어, 사용자가 이전에 관심을 보이지 않았던 새로운 주제나 새로운 장르의 콘텐츠를 추천받아 새로운 경험을 할 수 있도록 도와줍니다. 콘텐츠 제공자나 판매자에게도 큰 도움을 줍니다. 이는 특정 사용자에게 적합한 콘텐츠를 제공함으로써 더 나은 고객 만족도와 매출을 동시에 얻을 수 있기 때문입니다.</p>
 
-<p>이번주에는 딥러닝 기초 강좌와 data visualization 강의를 들었습니다. CNN, RNN, LSTM, Transfomer, GAN, matplotlib 을 배웠습니다. 이 모델들을 가지고 간단한 모델을
-구현해보았습니다. matplotlib을 통해서 데이터를 visualization 을 해봤습니다. 좋습니다. 점점 많은 것을 배우고 있다는 것을 실감하고 있습니다. 양이 쌓이고 정리해야 할 내용은 산떠미 같이 늘어나고
-있습니다.</p>
+<p>마지막으로, 추천 시스템은 사용자의 데이터를 수집하고 분석하기 때문에 개인 정보 보호 문제에 대한 적극적인 대응이 이루어져야 합니다. 이를 위해, 보다 투명하고 안전한 개인 정보 보호 방안이 마련되어야 하며, 이를 통해 사용자의 신뢰를 얻을 수 있습니다.</p>
 
-<p>팀원들과 코딩테스트 문제를 2문제씩 풀어가고 있습니다. 잘 진행되고 있어서 기분이 좋습니다. 이대로 8월 초까지 쭉 한다면 분명 좋은 결과가 있을거라고 믿습니다. 골드 1 까지 풀 수 있는 실력을 갖추게 된다면
-어떨까요. 꽤 신날겁니다.</p>
-
-<p>월요일에는 팀원들과 논문 리뷰를 진행했습니다. <code class="language-plaintext highlighter-rouge">A Survey of the Usages of Deep Learning for Natural Language Processing(2017)</code> 논문이었은데 NLP 역사의
-개괄적인 내용과 NLP 의 활용 분야에 대한 survey 논문이었습니다. 저자는 최근에는 전이학습, Transfomer 가 대세이니 이것을 강조하고 있었습니다.</p>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<p>최신 NLP 모델들에서 사용되고 있는 Transfomer 모델은 구조 자체가 꽤 이해하기 어려웠습니다. Self-Attention 과 Mulit-head Attention 개념, Encoder-Decoder,
-Positional Encoding 쪽도 난해했습니다. 확률분포를 근사하는 모델을 만드는 GAN 도 수식적인 내용이 많았습니다.</p>
-
-<p>이번주 마스터 클래스는 최성준 마스터님의 <code class="language-plaintext highlighter-rouge">가르치며 성장하기 (Teaching By Learning)</code>이라는 주제였습니다. 사실 누군가를 가르치며 배운다는 것은 되게 유명한 말입니다. 하지만 열린 마음으로 강연을
-듣다 보니 다시 듣게 되더군요. 좋습니다. 그래서 저는 유튜브 채널을 개설했고 벌써 영상을 두 개 !
-올렸씁니다. <a href="https://www.youtube.com/channel/UC7B4c49J4XFzoety13KYuDg">링크</a>. 두 개를 올렸는데 뭔가 남는 기분이 남아서 좋더군요. 구독자가 1명만 생겨도 재미있는
-감정일 거 같습니다.</p>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<p>하지만 이런 모형들이 내는 결과는 놀랍기만 합니다. 점점 인간의 인지 능력을 뛰어넘는 AI 는 이 모델로부터 나오기 때문이죠.</p>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<p>코테 문제는 꾸준히 풀 문제입니다. 주말동안 다시 알고리즘 공부를 할 생각이고 다음 주에는 동료들에게 좋은 모습을 보여주고 싶습니다. 동시에 Transfomer, Word2Vec, GAN 에 대해서 공부를
-해야겠네요. 논문을 좀 읽어야 겠습니다.</p>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
-<p>잘 쉬어야 겠습니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day15</title><link href="http://localhost:4000/aitech_daily/post-day15/" rel="alternate" type="text/html" title="ai tech - Day15" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day15</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day15/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="5f">5F</h1>
-<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
-
-<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
-
-<h2 id="배운점-findings-">배운점 (Findings) :</h2>
-
-<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
-
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[백준][3190][뱀]</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/" rel="alternate" type="text/html" title="[백준][3190][뱀]" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%5B%EB%B0%B1%EC%A4%80%5D%5B3190%5D%5B%EB%B1%80%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
+<p>따라서, 인문학적인 관점에서도 추천 시스템은 매우 유용한 기술이며, 보다 발전된 추천 시스템을 개발하여 사용자와 콘텐츠 제공자, 판매자 모두에게 큰 가치를 제공할 수 있을 것입니다.</p>]]></content><author><name>최윤진</name></author><category term="ai_recsys" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">recsys</title><link href="http://localhost:4000/aitech_knowledge/post-recsys/" rel="alternate" type="text/html" title="recsys" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-recsys</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-recsys/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[백준][3190][뱀]</title><link href="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/" rel="alternate" type="text/html" title="[백준][3190][뱀]" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-%5B%EB%B0%B1%EC%A4%80%5D%5B3190%5D%5B%EB%B1%80%5D</id><content type="html" xml:base="http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/"><![CDATA[<p><img src="../../../image/ps.png" alt="paper.png" /></p>
 
 <h1 id="해결-전략">해결 전략</h1>
 
@@ -419,4 +375,64 @@ while True:
                 turn_time = int(turns[turn_idx][0])
 
 print(time)
-</code></pre></div></div>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[ai tech 5기] [회고] 3주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 3주차를 보내며…" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-13T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="3주차를-보내며">[3주차를 보내며]</h1>
+
+<blockquote>
+  <ul>
+    <li>강의 정리
+      <blockquote>
+
+      </blockquote>
+    </li>
+    <li><a href="https://yunjinchoidev.github.io/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/">딥러닝 Basic 강의록 정리</a></li>
+  </ul>
+</blockquote>
+
+<h1 id="5f">5F</h1>
+
+<h2 id="사실-facts-">사실 (Facts) :</h2>
+
+<p>이번주에는 딥러닝 기초 강좌와 data visualization 강의를 들었습니다. CNN, RNN, LSTM, Transfomer, GAN, matplotlib 을 배웠습니다. 이 모델들을 가지고 간단한 모델을
+구현해보았습니다. matplotlib을 통해서 데이터를 visualization 을 해봤습니다. 좋습니다. 점점 많은 것을 배우고 있다는 것을 실감하고 있습니다. 양이 쌓이고 정리해야 할 내용은 산떠미 같이 늘어나고
+있습니다.</p>
+
+<p>팀원들과 코딩테스트 문제를 2문제씩 풀어가고 있습니다. 잘 진행되고 있어서 기분이 좋습니다. 이대로 8월 초까지 쭉 한다면 분명 좋은 결과가 있을거라고 믿습니다. 골드 1 까지 풀 수 있는 실력을 갖추게 된다면
+어떨까요. 꽤 신날겁니다.</p>
+
+<p>월요일에는 팀원들과 논문 리뷰를 진행했습니다. <code class="language-plaintext highlighter-rouge">A Survey of the Usages of Deep Learning for Natural Language Processing(2017)</code> 논문이었은데 NLP 역사의
+개괄적인 내용과 NLP 의 활용 분야에 대한 survey 논문이었습니다. 저자는 최근에는 전이학습, Transfomer 가 대세이니 이것을 강조하고 있었습니다.</p>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+
+<p>최신 NLP 모델들에서 사용되고 있는 Transfomer 모델은 구조 자체가 꽤 이해하기 어려웠습니다. Self-Attention 과 Mulit-head Attention 개념, Encoder-Decoder,
+Positional Encoding 쪽도 난해했습니다. 확률분포를 근사하는 모델을 만드는 GAN 도 수식적인 내용이 많았습니다.</p>
+
+<p>이번주 마스터 클래스는 최성준 마스터님의 <code class="language-plaintext highlighter-rouge">가르치며 성장하기 (Teaching By Learning)</code>이라는 주제였습니다. 사실 누군가를 가르치며 배운다는 것은 되게 유명한 말입니다. 하지만 열린 마음으로 강연을
+듣다 보니 다시 듣게 되더군요. 좋습니다. 그래서 저는 유튜브 채널을 개설했고 벌써 영상을 두 개 !
+올렸씁니다. <a href="https://www.youtube.com/channel/UC7B4c49J4XFzoety13KYuDg">링크</a>. 두 개를 올렸는데 뭔가 남는 기분이 남아서 좋더군요. 구독자가 1명만 생겨도 재미있는
+감정일 거 같습니다.</p>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+
+<p>하지만 이런 모형들이 내는 결과는 놀랍기만 합니다. 점점 인간의 인지 능력을 뛰어넘는 AI 는 이 모델로부터 나오기 때문이죠.</p>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<p>코테 문제는 꾸준히 풀 문제입니다. 주말동안 다시 알고리즘 공부를 할 생각이고 다음 주에는 동료들에게 좋은 모습을 보여주고 싶습니다. 동시에 Transfomer, Word2Vec, GAN 에 대해서 공부를
+해야겠네요. 논문을 좀 읽어야 겠습니다.</p>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
+<p>잘 쉬어야 겠습니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day15</title><link href="http://localhost:4000/aitech_daily/post-day15/" rel="alternate" type="text/html" title="ai tech - Day15" /><published>2023-03-24T00:00:00+09:00</published><updated>2023-03-25T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day15</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day15/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry></feed>

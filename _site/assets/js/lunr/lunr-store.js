@@ -60,7 +60,7 @@ var store = [{
         "teaser": null
       },{
         "title": "ai_cv",
-        "excerpt":"ai_cv  ","categories": ["ai_cv"],
+        "excerpt":"     ai_cv  ","categories": ["ai_cv"],
         "tags": [],
         "url": "/ai_cv/post-cv/",
         "teaser": null
@@ -72,15 +72,9 @@ var store = [{
         "teaser": null
       },{
         "title": "NLP 개론",
-        "excerpt":"ai_nlp  ","categories": ["ai_nlp"],
+        "excerpt":"     ai_nlp  ","categories": ["ai_nlp"],
         "tags": [],
         "url": "/ai_nlp/post-nlp/",
-        "teaser": null
-      },{
-        "title": "ai_recsys",
-        "excerpt":"ai_recsys  ","categories": ["ai_recsys"],
-        "tags": [],
-        "url": "/ai_recsys/post-recsys/",
         "teaser": null
       },{
         "title": "ai tech -Day04 ",
@@ -113,6 +107,18 @@ var store = [{
         "url": "/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/",
         "teaser": null
       },{
+        "title": "챗봇 만들기",
+        "excerpt":"   챗봇을 만듭시다.  ","categories": ["chatbot"],
+        "tags": [],
+        "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
+        "teaser": null
+      },{
+        "title": "nlp 면접 준비",
+        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["interview"],
+        "tags": [],
+        "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
+        "teaser": null
+      },{
         "title": "ai tech -Day05 ",
         "excerpt":"  ","categories": ["aitech_daily"],
         "tags": [],
@@ -129,18 +135,6 @@ var store = [{
         "excerpt":"   바닥부터 딥러닝을 만들어보자.   우리는 바닥부터 딥러닝 모델을 한번 만들어 볼것입니다.  ","categories": ["book"],
         "tags": [],
         "url": "/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/",
-        "teaser": null
-      },{
-        "title": "챗봇 만들기",
-        "excerpt":"   챗봇을 만듭시다.  ","categories": ["ai_chatbot"],
-        "tags": [],
-        "url": "/chatbot/post-%EC%B1%97%EB%B4%87/",
-        "teaser": null
-      },{
-        "title": "nlp 면접 준비",
-        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["ai_interview"],
-        "tags": [],
-        "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
       },{
         "title": "ai tech - Day06 ",
@@ -198,7 +192,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[논문리뷰] A Survey of the Usages of Deep Learning for Natural Language Processing(2017)",
-        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["ai_paper"],
+        "excerpt":"A Survey of the Usages of Deep Learning for Natural Language Processing 💡 2018년 1. Introduction 2. Fundamentals of Deep Learning and NLP 2.1 Deep Learning 2.2 Natural Language Processing 3. Deep Learning Architectures for NLP 3.1 Convolutional Neural Networks 3.2 Recurrent Neural Networks 3.3 Transformers 4. Use Cases of...","categories": ["paper"],
         "tags": [],
         "url": "/paper/post-surveyNLP/",
         "teaser": null
@@ -215,16 +209,16 @@ var store = [{
         "url": "/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/",
         "teaser": null
       },{
+        "title": "[논문리뷰] Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)",
+        "excerpt":"Deep Learning’s Most Important Ideas - A Brief Historical Review(2020) 2012 – AlexNet AlexNet은 2012년 Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 개발한 심층 컨볼루션 신경망(CNN) 아키텍처다. 오류율은 15.3%로 두 번째로 좋은 모델보다 훨씬 뛰어나다. AlexNet은 8개의 계층으로 구성되어 있다. 5개의 컨볼루션 계층과 3개의 완전 연결 계층이 있습니다. 이 네트워크는...","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-A-Brief-Historical-Review/",
+        "teaser": null
+      },{
         "title": "ai tech - Day11 ",
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day11/",
-        "teaser": null
-      },{
-        "title": "[논문리뷰] Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)",
-        "excerpt":"Deep Learning’s Most Important Ideas - A Brief Historical Review(2020) 2012 – AlexNet AlexNet은 2012년 Alex Krizhevsky, Ilya Sutskever 및 Geoffrey Hinton이 개발한 심층 컨볼루션 신경망(CNN) 아키텍처다. 오류율은 15.3%로 두 번째로 좋은 모델보다 훨씬 뛰어나다. AlexNet은 8개의 계층으로 구성되어 있다. 5개의 컨볼루션 계층과 3개의 완전 연결 계층이 있습니다. 이 네트워크는...","categories": ["ai_paper"],
-        "tags": [],
-        "url": "/paper/post-A-Brief-Historical-Review/",
         "teaser": null
       },{
         "title": "Pytorch DataLoader DataSet",
@@ -239,16 +233,16 @@ var store = [{
         "url": "/ai/post-RNN,-LSTM,-GRU/",
         "teaser": null
       },{
+        "title": "[논문리뷰] Attention is all you need",
+        "excerpt":"Attention is All you need 구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다. 기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠. “Attention is All You Need”는 자연어 처리 및 기계 번역과 같은 sequence-to-sequence 작업을 위한 새로운 딥 러닝 아키텍처인 Transformer...","categories": ["paper"],
+        "tags": [],
+        "url": "/paper/post-attention-is-all-you-need/",
+        "teaser": null
+      },{
         "title": "ai tech - Day12 ",
         "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
         "tags": [],
         "url": "/aitech_daily/post-day12/",
-        "teaser": null
-      },{
-        "title": "[논문리뷰] Attention is all you need",
-        "excerpt":"Attention is All you need 구글의 Attention is All you 논문을 통해 nlp 의 혁명이 일어났습니다. 기존의 rnn 모델은 attention 모델로 대체되었습니다. 왜 이런 혁명이 일어났을 까요? 간단합니다. 뛰어난 성능 때문이죠. “Attention is All You Need”는 자연어 처리 및 기계 번역과 같은 sequence-to-sequence 작업을 위한 새로운 딥 러닝 아키텍처인 Transformer...","categories": ["ai_paper"],
-        "tags": [],
-        "url": "/paper/post-attention-is-all-you-need/",
         "teaser": null
       },{
         "title": "ai tech - Day13 ",
@@ -297,6 +291,12 @@ var store = [{
         "excerpt":"DFS &amp; BFS   ","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/",
+        "teaser": null
+      },{
+        "title": "추천 시스템이란?",
+        "excerpt":"ai_recsys 추천 시스템은 인공지능 기술을 활용하여 사용자에게 맞춤형 추천을 제공하는 시스템입니다. 예를 들어, 온라인 쇼핑몰에서 고객의 이전 구매 이력, 검색어, 클릭 이력 등을 분석하여 해당 고객에게 맞는 상품을 추천하거나, 영화나 음악 스트리밍 서비스에서 사용자의 시청 기록, 검색 기록, 평점 등을 분석하여 해당 사용자에게 맞는 콘텐츠를 추천하는 기술입니다. 추천 시스템은 사용자...","categories": ["ai_recsys"],
+        "tags": [],
+        "url": "/ai_recsys/post-recsys/",
         "teaser": null
       },{
         "title": "컴퓨터 비전의 모든 것",
