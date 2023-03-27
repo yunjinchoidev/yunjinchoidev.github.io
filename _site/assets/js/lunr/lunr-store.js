@@ -282,7 +282,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[백준][18428][감시피하기]",
-        "excerpt":"해결 전략 전형적인 시뮬레이션 문제입니다. 문제를 잘 읽고 step 을 구현합시다. 동서남북 이동과 방향이동에 주의합시다. 사과조건과 뱀의 trace 를 잘 표시해야 합니다. import sys input = sys.stdin.readline N = int(input()) apple_cnt = int(input()) # 사과 표시하기 apple_map = [[False for i in range(N)] for j in range(N)] for i in...","categories": ["ps"],
+        "excerpt":"해결 전략 선생님들이 학생을 발견할 수 없는 장애물을 설치할 수 있는지 없는지 여부를 확인하는 문제입니다. 선생님들의 감시 경로를 DFS 로 구현합니다. N 의 주어진 범위가 적으니 조합을 모두 구하고 각각에 대하여 DFS 를 수행하면 됩니다. import itertools import copy N = int(input()) map_ = [list(map(str, input().split())) for i in range(N)]...","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-%EB%B0%B1%EC%A4%80-18428-%EA%B0%90%EC%8B%9C%ED%94%BC%ED%95%98%EA%B8%B0/",
         "teaser": null
