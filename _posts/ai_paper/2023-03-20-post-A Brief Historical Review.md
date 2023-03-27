@@ -2,7 +2,7 @@
 title: "[논문리뷰] Deep Learning’s Most Important Ideas - A Brief Historical Review(2020)"
 last_modified_at: 2023-03-20T12:20:02-05:00
 categories:
-    - paper
+    - ai_paper
 tages:
     - aitech
     - nlp

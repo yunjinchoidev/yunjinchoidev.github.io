@@ -1,7 +1,7 @@
 ---
 title: "chatbot"
 layout: archive
-permalink: categories/chatbot
+permalink: categories/ai_chatbot
 author_profile: true
 sidebar_main: true
 ---
@@ -12,5 +12,5 @@ width="400" height="400"/>
 </p>
 
 
-{% assign posts = site.categories.chatbot %}
+{% assign posts = site.categories.ai_chatbot %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -2,7 +2,7 @@
 title: "[논문리뷰] Word2Vec"
 last_modified_at: 2023-03-279T20:20:02-05:00
 categories:
-    - paper
+    - ai_paper
 tages:
     - aitech
     - nlp
