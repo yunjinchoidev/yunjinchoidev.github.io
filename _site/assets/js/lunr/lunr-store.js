@@ -353,9 +353,81 @@ var store = [{
         "url": "/aitech_daily/post-day16/",
         "teaser": null
       },{
-        "title": "Github으로 따라하는 버전 관리",
-        "excerpt":"   ","categories": ["aitech_knowledge"],
+        "title": "ai tech - Day17 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day17/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day18 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day18/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day19 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day19/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day20 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day20/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 4주차를 보내며...",
+        "excerpt":"[3주차를 보내며] 강의 정리 자연어 처리 입문 5F 사실 (Facts) : 이번주에는 주재걸 마스터님의 NLP 도메인 강의를 들었습니다. Bag of Word 부터 Word2vec, Glove, FastText, RNN, LSTM, GRU, Seq2Seq 를 처음부터 다져 나가며 NLP 이론 공부를 했습니다. 팀원들과 코딩테스트 DFS/BFS 파트를 풀었습니다. 느낌 (Feeling) : 이전에 보았던 책들이 다시 느껴지는...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-4%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "[이코테]이코테 6장(정렬)",
+        "excerpt":"정렬  ","categories": ["ps"],
+        "tags": [],
+        "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5-%EC%A0%95%EB%A0%AC/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day21/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day22/",
+        "teaser": null
+      },{
+        "title": "git 정리",
+        "excerpt":"이고잉님 깃허브 특강 3월 28일, 4월 4일 진행 What is Git? Git is a distributed version control system used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 for the development of the Linux kernel. Git provides a way to manage changes...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-git/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day23/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day24/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day25/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 5주차를 보내며...",
+        "excerpt":"[5주차를 보내며] 5F 사실 (Facts) : 이번주에는 강의가 그렇게 많지 않았다. Transformer, GPT, BERT 를 일주일 동안 공부하는 시간을 가졌다. 이번 주에는 내가 주간 모더레이터여서 정렬 발표와 Attention Is All You Need 발표를 했다. 느낌 (Feeling) : 주재걸 마스터님의 강의는 정말 명강의인 것 같다. 행렬의 곱이 실제 어떻게 이뤄지는지 예시를...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       }]

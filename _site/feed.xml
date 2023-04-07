@@ -1,6 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-27T23:54:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">Github으로 따라하는 버전 관리</title><link href="http://localhost:4000/aitech_knowledge/post-git/" rel="alternate" type="text/html" title="Github으로 따라하는 버전 관리" /><published>2023-03-27T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-git</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-git/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[논문리뷰] Word2Vec</title><link href="http://localhost:4000/ai_paper/post-word2vec/" rel="alternate" type="text/html" title="[논문리뷰] Word2Vec" /><published>2023-03-27T00:00:00+09:00</published><updated>0279-04-01T10:20:02+09:00</updated><id>http://localhost:4000/ai_paper/post-word2vec</id><content type="html" xml:base="http://localhost:4000/ai_paper/post-word2vec/"><![CDATA[<p><img src="../../../image/paper.png" alt="paper.png" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-07T19:55:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">[ai tech 5기] [회고] 5주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 5주차를 보내며…" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-08T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<h1 id="word2vec">Word2Vec</h1>]]></content><author><name>최윤진</name></author><category term="ai_paper" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day16</title><link href="http://localhost:4000/aitech_daily/post-day16/" rel="alternate" type="text/html" title="ai tech - Day16" /><published>2023-03-27T00:00:00+09:00</published><updated>2023-03-28T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day16</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day16/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h1 id="5주차를-보내며">[5주차를 보내며]</h1>
+
+<h1 id="5f">5F</h1>
+<h2 id="사실-facts-">사실 (Facts) :</h2>
+<p>이번주에는 강의가 그렇게 많지 않았다. Transformer, GPT, BERT 를 일주일 동안 공부하는 시간을 가졌다. 이번 주에는 내가 주간 모더레이터여서 정렬 발표와  <code class="language-plaintext highlighter-rouge">Attention Is All You Need</code> 발표를 했다.</p>
+
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+<p>주재걸 마스터님의 강의는 정말 명강의인 것 같다. 행렬의 곱이 실제 어떻게 이뤄지는지 예시를 들어주시기 때문에 이해가 잘 되는 듯 하다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Attention Is All You Need</code> 논문을 발표를 거의 5일 동안 내내 준비할 만큼 공을 들였다. Transformer 를 이제는 어느정도 알것 같다. 팀원분들도 열심해 했다고 격려해주고 멘토님께서도 수고했다는 말씀을 해주셔서 그 만큼 인정받는 기분이어서 기분이 좋았다.</p>
+
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+<p>동료들의 수준이 너무 높아서 겸손하게 된다. 자만했던 스스로를 반성하게 되고 열심히 해야 겠다는 생각을 하게 됩니다. 백준 골드 3 문제를 정말 겨우 푸는 수준인데 동료들은 손 쉽게 푸는 것 같습니다. 이것 참 따라가기 힘듭니다. 그래도 물리적인 시간을 많이 들여야죠. 어쩔 수 있습니까. 저를 채찍으로 쳐서 더 열심히 해야겠습니다. 
+dfdddddd</p>
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+<p>알고리즘 스터디 외에도 혼자서 백준 데일리 문제 2 문제를 풀어야 겠습니다.</p>
+
+<p>##~~ 피드백 (Feedback) :
+이번 주에 원노트로 공부를 하니까 공부가 꽤 잘되는 느낌을 받았는데 일단 계속 써봐야 겠습니다. 예전에는 애플펜슬을 쓰면 손목이 너무 아팠었는데 이제는 안 아픈거 같습니다. 더 집중도 잘 되고요.  제가 발표했던 논문 자료 하단에 첨부합니다.</p>
+
+<p><a href="Attention%20is%20all%20you%20need_%EB%B0%9C%ED%91%9C_%EC%B5%9C%EC%9C%A4%EC%A7%84.pdf">Attention is all you need_발표_최윤진.pdf</a></p>
+
+<p><a href="Attention.pdf">Attention is all you need_발표_최윤진.pdf</a></p>
+
+<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day21</title><link href="http://localhost:4000/aitech_daily/post-day25/" rel="alternate" type="text/html" title="ai tech - Day21" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-04T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day25</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day25/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
@@ -11,272 +35,210 @@
 
 <h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">MRC(Machine reading comprehension)</title><link href="http://localhost:4000/aitech_knowledge/post-mrc/" rel="alternate" type="text/html" title="MRC(Machine reading comprehension)" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-mrc</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-mrc/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day21</title><link href="http://localhost:4000/aitech_daily/post-day24/" rel="alternate" type="text/html" title="ai tech - Day21" /><published>2023-04-06T00:00:00+09:00</published><updated>2023-04-04T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day24</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day24/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<h1 id="mrcmachine-reading-comprehension란">MRC(Machine reading comprehension)란?</h1>
-<p>주어진 지문(context)를 이해하고 주어진 질의(Query/Question)의 답변을 추론하는 문제</p>
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
 
-<p>Q&amp;A 분야에 응용될 수 있습니다.</p>
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
 
-<h2 id="extractive-answer-datasets">Extractive Answer Datasets</h2>
-<p>질의에 대한 답이 항상 주어진 지문의 segment (or span) 으로 존재</p>
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
 
-<h2 id="descriptivenarrative-answer-datasets">Descriptive/Narrative Answer Datasets</h2>
-<p>지문 내에서 추출한 span이 아닌, 질의를 보고 생성된 sentence (or free-form) 형태의 output을 내야하는 task</p>
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h2 id="multiple-choice-datasets">Multiple-choice Datasets</h2>
-<p>질의에 대한 답을 여러 개의 answer candidates 중 하나로 고르는 형태의 task</p>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day21</title><link href="http://localhost:4000/aitech_daily/post-day23/" rel="alternate" type="text/html" title="ai tech - Day21" /><published>2023-04-05T00:00:00+09:00</published><updated>2023-04-04T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day23</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day23/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<p><br /><br /><br /><br /></p>
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
 
-<h1 id="mrc-의-도전적-과제들">MRC 의 도전적 과제들</h1>
-<h2 id="paraphrasing">Paraphrasing</h2>
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
 
-<h2 id="coreference-resolution">Coreference Resolution</h2>
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
 
-<h2 id="unanswerable-questions">Unanswerable questions</h2>
-<h2 id="multi-hop-reasoning">Multi-hop reasoning</h2>
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">git 정리</title><link href="http://localhost:4000/aitech_knowledge/post-git/" rel="alternate" type="text/html" title="git 정리" /><published>2023-04-04T00:00:00+09:00</published><updated>2023-04-05T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-git</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-git/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="이고잉님-깃허브-특강">이고잉님 깃허브 특강</h1>
+
+<h1 id="3월-28일-4월-4일-진행">3월 28일, 4월 4일 진행</h1>
+
+<h1 id="what-is-git">What is Git?</h1>
+<p>Git is a distributed version control system used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 for the development of the Linux kernel. Git provides a way to manage changes made by multiple contributors to a project and makes it easy to track the history of changes. It is widely used in software development, and it has become an essential tool for developers.</p>
+
+<h1 id="git-terminology">Git Terminology</h1>
+<p>Before diving into the Git command, it is essential to understand some of the terminologies associated with Git.</p>
+
+<h1 id="repository">Repository</h1>
+<p>A Git repository is a directory that contains the files and history of a project. It is also known as a repo. The repository can be located on a local machine or a remote server.</p>
+
+<h1 id="commit">Commit</h1>
+<p>A commit is a snapshot of changes made to a repository. Each commit has a unique identifier known as a hash, which allows you to track changes in the repository’s history.</p>
+
+<h1 id="branch">Branch</h1>
+<p>A branch is a version of the repository that allows you to work on different features or fixes without affecting the main branch. You can create, delete, and merge branches in Git.</p>
+
+<h1 id="merge">Merge</h1>
+<p>Merging is the process of combining two or more branches into a single branch. It is usually done when you have finished working on a feature branch and want to integrate it into the main branch.</p>
+
+<h1 id="git-command">Git Command</h1>
+<p>Git command is a set of instructions that allows you to interact with the Git repository. Here are some of the essential Git commands for beginners:</p>
+
+<h1 id="git-init">git init</h1>
+<p>This command initializes a new Git repository in the current directory. It creates a hidden directory called .git, which contains all the necessary files to manage the repository.</p>
+
+<h1 id="git-add">git add</h1>
+<p>This command adds files to the staging area. The staging area is a temporary storage area where you can prepare changes before committing them to the repository.</p>
+
+<h1 id="git-commit">git commit</h1>
+<p>This command creates a new commit with the changes made in the staging area. It opens a text editor where you can add a commit message that describes the changes made in the commit.</p>
+
+<h1 id="git-status">git status</h1>
+<p>This command shows the status of the repository. It shows which files are modified, which files are staged, and which files are not tracked by Git.</p>
+
+<h1 id="git-log">git log</h1>
+<p>This command shows the history of commits made in the repository. It shows the commit hash, author, date, and commit message for each commit.</p>
+
+<h1 id="git-branch">git branch</h1>
+<p>This command shows a list of branches in the repository. It also shows the current branch, which is highlighted with an asterisk (*).</p>
+
+<h1 id="git-checkout">git checkout</h1>
+<p>This command allows you to switch to a different branch. You can create a new branch and switch to it using this command.</p>
+
+<h1 id="git-merge">git merge</h1>
+<p>This command merges a branch into the current branch. It is used to integrate changes made in one branch into another branch.</p>
+
+<h1 id="git-clone">git clone</h1>
+<p>This command creates a copy of a remote repository on your local machine.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>In conclusion, Git is an essential tool for software development, and understanding the Git command is crucial for managing changes made to a project. We hope this guide has provided you with a solid foundation in Git and helped you understand the basic terminologies and commands associated with Git. By mastering Git, you can become a more efficient</p>
+
+<p>깃 명령어 25 가지</p>
+<h3 id="git-commands">Git Commands</h3>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">git init</code> - Initialize a new Git repository.</li>
+  <li><code class="language-plaintext highlighter-rouge">git clone &lt;repository&gt;</code> - Clone a remote repository to your local machine.</li>
+  <li><code class="language-plaintext highlighter-rouge">git status</code> - Check the status of your working directory, including any changes made.</li>
+  <li><code class="language-plaintext highlighter-rouge">git add &lt;file&gt;</code> - Add a file or changes to the staging area.</li>
+  <li><code class="language-plaintext highlighter-rouge">git add .</code> - Add all changes in the working directory to the staging area.</li>
+  <li><code class="language-plaintext highlighter-rouge">git commit -m "&lt;message&gt;"</code> - Commit the staged changes with a descriptive message.</li>
+  <li><code class="language-plaintext highlighter-rouge">git log</code> - View the commit history.</li>
+  <li><code class="language-plaintext highlighter-rouge">git diff</code> - Show the differences between the working directory and the most recent commit.</li>
+  <li><code class="language-plaintext highlighter-rouge">git diff &lt;commit1&gt; &lt;commit2&gt;</code> - Show the differences between two commits.</li>
+  <li><code class="language-plaintext highlighter-rouge">git checkout &lt;branch&gt;</code> - Switch to a specific branch.</li>
+  <li><code class="language-plaintext highlighter-rouge">git checkout -b &lt;new_branch&gt;</code> - Create and switch to a new branch.</li>
+  <li><code class="language-plaintext highlighter-rouge">git branch</code> - List all branches in the repository.</li>
+  <li><code class="language-plaintext highlighter-rouge">git merge &lt;branch&gt;</code> - Merge changes from another branch into the current branch.</li>
+  <li><code class="language-plaintext highlighter-rouge">git remote add &lt;name&gt; &lt;url&gt;</code> - Add a remote repository to your local repository.</li>
+  <li><code class="language-plaintext highlighter-rouge">git remote -v</code> - List all remote repositories.</li>
+  <li><code class="language-plaintext highlighter-rouge">git push &lt;remote&gt; &lt;branch&gt;</code> - Push the local branch to the remote repository.</li>
+  <li><code class="language-plaintext highlighter-rouge">git pull &lt;remote&gt; &lt;branch&gt;</code> - Fetch and merge changes from a remote branch into your local branch.</li>
+  <li><code class="language-plaintext highlighter-rouge">git fetch &lt;remote&gt;</code> - Fetch updates from the remote repository without merging.</li>
+  <li><code class="language-plaintext highlighter-rouge">git stash</code> - Temporarily save changes in the working directory that you don’t want to commit yet.</li>
+  <li><code class="language-plaintext highlighter-rouge">git stash apply</code> - Apply the saved changes from the stash.</li>
+  <li><code class="language-plaintext highlighter-rouge">git rm &lt;file&gt;</code> - Remove a file from the working directory and stage the deletion.</li>
+  <li><code class="language-plaintext highlighter-rouge">git mv &lt;old_name&gt; &lt;new_name&gt;</code> - Rename a file and stage the change.</li>
+  <li><code class="language-plaintext highlighter-rouge">git reset</code> - Unstage all changes in the staging area.</li>
+  <li><code class="language-plaintext highlighter-rouge">git reset &lt;commit&gt;</code> - Reset the current branch to a specific commit, discarding commits made after it.</li>
+  <li><code class="language-plaintext highlighter-rouge">git revert &lt;commit&gt;</code> - Create a new commit that undoes the changes made in a specific commit.</li>
+</ol>
+
+<h2 id="명령어-별명-지정하기">명령어 별명 지정하기</h2>
+<p>다음 명령어를 치면 git l 로 log를 볼 수 있다.
+<code class="language-plaintext highlighter-rouge">git config --global alias.l "log --oneline --all --graph"</code></p>
+
+<h2 id="-a-와-add-의-차이">-a 와 add 의 차이</h2>
 <ul>
-  <li>여러 개의 document에서 질의에 대한 supporting fact를 찾아야지만 답을 찾을 수 있는 task</li>
-</ul>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">KLUE</title><link href="http://localhost:4000/aitech_knowledge/post-klue/" rel="alternate" type="text/html" title="KLUE" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-klue</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-klue/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
-
-<h1 id="목차">목차</h1>
-
-<p>한국어 언어모델 학습 및 다중 과제 튜닝 과정
-인공지능과 자연어 처리 (이론/실습)
-자연어의 전처리 (이론/실습)
-BERT 언어모델(1) (이론/실습)
-BERT 언어모델(2) (이론/실습)
-BERT 언어모델 기반의 단일 문장 분류 (이론/실습)
-BERT 언어모델 기반의 두 문장 관계 분류 (이론/실습)
-BERT 언어모델 기반의 문장 토큰 분류 (이론/실습)
-GPT 언어모델 (이론/실습)
-GPT 언어모델 기반의 자연어 생성 (이론/실습)
-최신 자연어 처리 연구 (이론/실습)</p>
-
-<p><br /><br /><br /><br /></p>
-
-<h1 id="언어모델language-model">언어모델(Language Model)</h1>
-<p>모델이란 무엇입니까?  현재로부터 미래를 예측하는 겁니다.  자연 법칙을 컴퓨터로 모사함으로써 시물레이션 가능하겠죠.  같은방식으로 이전 상태를 기반으로 미래의 상태 예측 가능합니다. 검색어 자동 추천
-최초의 언어모델 -&gt; 마르코프 -&gt; RNN -&gt; Seq2Seq -&gt; Attention -&gt; self Attention</p>
-
-<p><br /><br /><br /><br /></p>
-
-<h1 id="자연어-전처리">자연어 전처리</h1>
-<ul>
-  <li>목표(Task) 설계</li>
-  <li>필요 데이터 수직</li>
-  <li>통계학적 분석</li>
-  <li>전처리</li>
-  <li>Tagging - 라벨 달아 주기</li>
-  <li>Tokenizing - 문장 쪼개기</li>
-  <li>모델 설계</li>
-  <li>모델 구현</li>
-  <li>성능 평가</li>
+  <li>-a 옵션은 <code class="language-plaintext highlighter-rouge">tracked</code> 상태의 파일만 <code class="language-plaintext highlighter-rouge">auto adding</code> 해준다.</li>
+  <li>add : untracked -&gt; tracked</li>
 </ul>
 
-<p>자연어 전처리를 잘하기 위해서는 python string 함수를 잘 사용할 수 있어야 합니다.</p>
+<h2 id="gitignore">.gitignore</h2>
+<p>절대 커밋하면 안되는 파일 ? 우린 config.txt를 무시하도록 하고 싶다. config.txt 를 절대 커밋하면 안된다. 어떻게 해야 할 까? -&gt;  깃이 무시하도록 처리해야 한다. .gitignore 파일을 만들어서 처리한다.  -&gt; .gitignore에 무시하고자 하는 파일을 추가한다. -&gt; 결과 : 파일이 status에 더 이상 나타나지 않는 것을 확인한다.</p>
 
-<h2 id="실전">실전</h2>
-<p>newpaper3 라이버리를 쓰시살.</p>
+<p>그렇다면 어떻게 config.txt 를 어떻게 관리해야 하나 ? 게시판에 올려놓고 공유하나 ? 메일로 공유하나 ?</p>
 
-<p><br /><br /><br /><br /></p>
+<p>config.txt.template 파일을 만들어서 이 파일을 저장한다. 
+database_id:USER_ID
+database_password:USER_PASSWORD</p>
 
-<h1 id="bert-언어모델">BERT 언어모델</h1>
+<h2 id="checkout-vs-reset">checkout VS reset</h2>
+<p>checkout = HEAD를 바꾼다. 
+reset = HEAD의 Branch를 바꾼다.</p>
 
-<p><br /><br /><br /><br /></p>
+<h2 id="conflict">conflict</h2>
 
-<h1 id="gpt-언어모델과-최신-연구">GPT 언어모델과 최신 연구</h1>
+<h2 id="fetch--merge--pull">fetch + merge = pull</h2>
 
-<h1 id="최신-연구">최신 연구</h1>
-<h2 id="멀티-모달">멀티 모달</h2>
+<p>[0.1+sin(1/10000^0), 0.2+cos(1/10000^0), 0.3+sin(1/10000^0), 0.4+cos(1/10000^0)]
+[0.4+sin(1/10000^1), 0.5+cos(1/10000^1), 0.6+sin(1/10000^1), 0.7+cos(1/10000^1)]
+[0.7+sin(1/10000^2), 0.8+cos(1/10000^2), 0.9+sin(1/10000^2), 0.2+cos(1/10000^2)]
+[0.2+sin(1/10000^3), 0.3+cos(1/10000^3), 0.4+sin(1/10000^3), 0.5+cos(1/10000^3)]
+[0.5+sin(1/10000^4), 0.6+cos(1/10000^4), 0.7+sin(1/10000^4), 0.8+cos(1/10000^4)]</p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day21</title><link href="http://localhost:4000/aitech_daily/post-day22/" rel="alternate" type="text/html" title="ai tech - Day21" /><published>2023-04-04T00:00:00+09:00</published><updated>2023-04-04T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day22</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day22/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">AI</th>
-      <th style="text-align: center">인간지능</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">pre-training</td>
-      <td style="text-align: center">유전체</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">fine-tuning</td>
-      <td style="text-align: center">한 인간의 삶</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">컴퓨터 비전의 모든 것</title><link href="http://localhost:4000/aitech_knowledge/post-cv/" rel="alternate" type="text/html" title="컴퓨터 비전의 모든 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-cv</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-cv/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
 
-<h1 id="컴퓨터-비전의-역사">컴퓨터 비전의 역사</h1>
-<p>딥러닝은 빠르게 변하는 분야이기 때문에 손 놓고 남들이 해놓은 자료만 보려고 하다가는 뒤쳐지게 됩니다. 우리는 영어에 익숙해져야 합니다. 거꾸로 돌려져있는 인간의 초상화 를 본 적 있습니까. 우리는 거꾸로 뒤집힌 인간의 얼굴을 올바르게 보는 능력을 가지고 있지 않습니다. 결국 인간도 편향적으로 학습이 된 것이죠.</p>
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
 
-<p>컴퓨터 비전은 많은 곳에서 쓰이고 있습니다. 객체 탐지(by semantic segmentation), 그림 생성, cctv 등이 있죠. 이러한 성과는 딥러닝을 이용한 컴퓨터 비전에 따라 굉장한 성능 향상에 따라 그렇습니다. 그 전에는 사람이 일일이 특성을 잡아내는 일을 해서 인식을 했답니다.</p>
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
 
-<ul>
-  <li>매의 눈
-    <ul>
-      <li>모든 것을 확실하게 분류하는 이상적 모델</li>
-    </ul>
-  </li>
-  <li>MLU
-    <ul>
-      <li>착오의 한계</li>
-    </ul>
-  </li>
-  <li>CNN</li>
-  <li>AlexNet : 굉장한 발전</li>
-  <li>VGGNET : 작은 컨볼루션 신경망을 사용함으로써 일반화를 만들어냈다.</li>
-  <li>GOOGLE NET :</li>
-  <li>ResNet</li>
-</ul>
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h1 id="데이터-부족-문제">데이터 부족 문제</h1>
-<h2 id="data-argumentation">Data Argumentation</h2>
-<p>인간이 촬영한 사진은 문제가 있습니다. 편향이 담겼기 때문이죠. 그렇다면 데이터에 bias가 존재하는 것이 왜 문제가 될까요?
-그것은 정확한 정보가 아니기 때문이죠. 우리는 다양한 방법을 통해 bias 를 제거하고 성능을 향상 시킬 수 있습니다. 이런 방법들을 통해 부족한 데이터를 생성시키는 것이죠.</p>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day21</title><link href="http://localhost:4000/aitech_daily/post-day21/" rel="alternate" type="text/html" title="ai tech - Day21" /><published>2023-04-03T00:00:00+09:00</published><updated>2023-04-04T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day21</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day21/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<p>우리는 데이터를 학습시킬 때 상하 좌우를 바꿉니다.  특정 부분을 확대해서 학습시키기도 한다. affine transform 을 적용 시켜줄 수 도 있다.(대응 쌍을 줍니다) cutmix 방법도 있습니다. 두개의 물체의 상반신을 조합해서 학습을 시키는 방법이죠. 아래  추가적인 방법을 인식하세요 ㅣ</p>
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
 
-<p>identify
-rotate
-posterize
-sharpness
-traslate-x
-autoContrast
-solarize
-contrast
-shear-x</p>
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
 
-<h2 id="pre-trained">pre-trained</h2>
-<p>Transfer Learning 한 데이터셋에서 학습하며 배웠던 지식을 다른 데이터셋에서 활용하는 기술 -&gt; 데이터 부족 문제를 해결합니다.</p>
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
 
-<h1 id="또-다른-발전">또 다른 발전</h1>
-<ul>
-  <li>
-    <p>과연 네트워크를 단순히 깊게 쌓는다고 해서 무조건 성능이 향상될까
-Gradient Vanishing/Exploding 문제 발생</p>
-  </li>
-  <li>GoogLeNet</li>
-  <li>ResNet
-    <ul>
-      <li>Skip Connection 을 도입</li>
-    </ul>
-  </li>
-  <li>DenseNet</li>
-  <li>SENet</li>
-  <li>EfficientNet</li>
-  <li>Deformable Convolution</li>
-</ul>
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 
-<h1 id="segmantation--detection">Segmantation &amp; Detection</h1>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[ai tech 5기] [회고] 4주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-4%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 4주차를 보내며…" /><published>2023-03-31T00:00:00+09:00</published><updated>2023-04-01T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-4%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-4%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<ul>
-  <li>
-    <p>Object Detection
-오브젝트 탐지 문제는 컴퓨터 비전 분야에서 굉장히 활발한 분야다.</p>
-  </li>
-  <li>
-    <p>R-CNN</p>
-  </li>
-  <li>
-    <p>YOLO</p>
-  </li>
-  <li>
-    <p>SSD</p>
-  </li>
-  <li>
-    <p>Focal Loss</p>
-  </li>
-  <li>
-    <p>RetinaNet</p>
-  </li>
-  <li>
-    <p>DETR</p>
-  </li>
-</ul>
-
-<h1 id="cnn-visualization">CNN Visualization</h1>
-<ul>
-  <li>CNN Visualization이라는 것을 말그대로 Convoultional Neural Network를 시각화한다는 뜻</li>
-  <li></li>
-</ul>
-
-<h1 id="filter-weight-visualization">Filter Weight Visualization</h1>
-
-<h1 id="instance-segmentation">Instance Segmentation</h1>
-<p>단순히 픽셀 마다의 클래스를 분류하는 semantic segmentation은 동일한 클래스에 속하는 개별 물체를 구분하지 못합니다. 이와 달리 Instance Segmentation은 영상 내에 동일한 물체가 여러 개 존재하는 경우에 각각의 물체를 구분하며 동시에 픽셀 단위의 mask도 예측하는 방법</p>
-
-<h1 id="panoptic-segmentation">panoptic segmentation</h1>
-
-<h2 id="panoptic-segmentation-1">Panoptic Segmentation</h2>
-
-<h2 id="upsnet">UPSNet</h2>
-
-<h2 id="vpsnet">VPSNet</h2>
-
-<h2 id="landmark-localization">Landmark Localization</h2>
-
-<h2 id="hourglass-network">Hourglass network</h2>
-
-<h1 id="bounding-box가-아니라-키-포인트들을-기반으로-물체를-탐지하는-방법">bounding box가 아니라 키 포인트들을 기반으로 물체를 탐지하는 방법</h1>
-<h2 id="cornernet">CornerNet</h2>
-<h2 id="centernet">CenterNet</h2>
-
-<h1 id="conditional-generative-model">Conditional Generative Model</h1>
-<h2 id="generative-model">Generative Model</h2>
-<h2 id="conditional-generative-model-1">Conditional Generative Model</h2>
-<h2 id="generative-adversarial-networks-gan">Generative Adversarial Networks (GAN)</h2>
-<h2 id="image-translation">Image Translation</h2>
-<h2 id="super-resolution">Super Resolution</h2>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">추천 시스템이란?</title><link href="http://localhost:4000/ai_recsys/post-recsys/" rel="alternate" type="text/html" title="추천 시스템이란?" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T10:20:02+09:00</updated><id>http://localhost:4000/ai_recsys/post-recsys</id><content type="html" xml:base="http://localhost:4000/ai_recsys/post-recsys/"><![CDATA[<p align="center">
-<img src="../../../image/ai.png" width="400" height="400" />
-</p>
-
-<h1 id="ai_recsys">ai_recsys</h1>
-
-<p>추천 시스템은 인공지능 기술을 활용하여 사용자에게 맞춤형 추천을 제공하는 시스템입니다. 예를 들어, 온라인 쇼핑몰에서 고객의 이전 구매 이력, 검색어, 클릭 이력 등을 분석하여 해당 고객에게 맞는 상품을 추천하거나, 영화나 음악 스트리밍 서비스에서 사용자의 시청 기록, 검색 기록, 평점 등을 분석하여 해당 사용자에게 맞는 콘텐츠를 추천하는 기술입니다.</p>
-
-<p>추천 시스템은 사용자 경험을 개선하고, 구매 확률과 만족도를 높이는 등 비즈니스 성과를 얻을 수 있습니다. 이를 위해 데이터 분석, 머신 러닝, 딥 러닝 등 다양한 기술을 활용하며, 사용자의 반응을 실시간으로 분석하여 추천 알고리즘을 개선하고 있습니다.</p>
-
-<p>추천 시스템은 인문학적인 관점에서도 매우 유용한 기술입니다. 우선, 추천 시스템은 사용자의 관심사를 파악하고 그에 맞는 콘텐츠를 추천함으로써 사용자의 경험을 개선합니다. 이는 사용자의 만족도를 높이고, 더 나은 쇼핑 경험, 음악 감상 경험, 영화 시청 경험 등을 제공함으로써 개인적인 성장과 함께 문화 산업의 성장에도 기여할 수 있습니다.</p>
-
-<p>또한, 추천 시스템은 사용자가 새로운 콘텐츠를 발견하고 탐색하는데도 큰 도움을 줍니다. 예를 들어, 사용자가 이전에 관심을 보이지 않았던 새로운 주제나 새로운 장르의 콘텐츠를 추천받아 새로운 경험을 할 수 있도록 도와줍니다. 콘텐츠 제공자나 판매자에게도 큰 도움을 줍니다. 이는 특정 사용자에게 적합한 콘텐츠를 제공함으로써 더 나은 고객 만족도와 매출을 동시에 얻을 수 있기 때문입니다.</p>
-
-<p>마지막으로, 추천 시스템은 사용자의 데이터를 수집하고 분석하기 때문에 개인 정보 보호 문제에 대한 적극적인 대응이 이루어져야 합니다. 이를 위해, 보다 투명하고 안전한 개인 정보 보호 방안이 마련되어야 하며, 이를 통해 사용자의 신뢰를 얻을 수 있습니다.</p>
-
-<p>따라서, 인문학적인 관점에서도 추천 시스템은 매우 유용한 기술이며, 보다 발전된 추천 시스템을 개발하여 사용자와 콘텐츠 제공자, 판매자 모두에게 큰 가치를 제공할 수 있을 것입니다.</p>]]></content><author><name>최윤진</name></author><category term="ai_recsys" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">recsys</title><link href="http://localhost:4000/aitech_knowledge/post-recsys/" rel="alternate" type="text/html" title="recsys" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-recsys</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-recsys/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">자기만의 역사를 쓴다는 것</title><link href="http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/" rel="alternate" type="text/html" title="자기만의 역사를 쓴다는 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T10:20:02+09:00</updated><id>http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98%20%EC%97%AD%EC%82%AC%EB%A5%BC%20%EC%93%B4%EB%8B%A4%EB%8A%94%20%EA%B2%83</id><content type="html" xml:base="http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/"><![CDATA[<p>현재는 고인이 된 지의 거장, 다치바나 다카시의 책이다. 그는<code class="language-plaintext highlighter-rouge"> &lt;나는 이런 책을 읽어왔다&gt;, </code><도쿄대생은 바보가="" 되었는가="">` 등으로 한국에도 유명한 작가이다. 다치바나 다카시를 들어본 적있는 독자라면 매일 같이 읽고 쓰는 그의 괴물같은 독서력과 필력에 대해 잘 알것이다. 7만 권이 넘는 장서를 보관하고 있는 고양이 빌딩은 유명하다.</도쿄대생은></p>
-
-<p><code class="language-plaintext highlighter-rouge">&lt;자기 역사를 쓴다는 것&gt;</code>은 2013년 출판된 책으로서 다치바나 다카시가 인생을 마무리하는 시점에서 쓴 책이다. 흔히 역사라고 하면 세계의 역사, 동아시아의 역사, 한 국가의 역사에 대해 생각하기 마련이다. 개인의 역사? 그것은 한 개인의 고유한 영역이 아니던가. 자서전을 쓰는 방법에 관한 것인가? 어찌보면 그렇게 볼 수 도 있겠다.</p>
+<h1 id="3주차를-보내며">[3주차를 보내며]</h1>
 
 <blockquote>
-  <p>“나는 누구나 시니어 세대가 되면 한 번은 한 번은 자기 역사를 쓰는 일에 도전해 보아야 한다고 생각한다. 자기 역사를 쓰지 않으면 자기라는 인간에 대해서 제대로 이해하지 못하기 때문이다.(p.15)”</p>
+  <ul>
+    <li>강의 정리
+      <blockquote>
+
+      </blockquote>
+    </li>
+    <li><a href="https://yunjinchoidev.github.io/aitech_knowledge_nlp/post-nlp/">자연어 처리 입문</a></li>
+  </ul>
 </blockquote>
 
-<p>다치바나 다카시는 자기 역사를 쓰는 작업은 환갑 정도의 나이가 적절하다고 말한다. 젊어서는 인생에 대해서 전체적인 조망을 할 수 없다. 하지만 나이가 60정도가 되면 자신이 어떤 선택을 하며 살아왔고 어떤 인생을 살아왔는지 얼핏 스스로 느끼게 된다. 이 때, 남은 인생을 새로운 인생을 살아가기 위해선 총체적 점검을 위한 작업으로서 ‘자기 역사를 쓰기’를 권하는 것이다.</p>
+<h1 id="5f">5F</h1>
 
-<p>젊은 나이의 독자에겐 이 책이 적절하지 않을 수 있다. 하지만 언젠가 나도 나만의 역사를 쓰는 날이 오겠구나라는 마음가짐을 얻는다는 생각으로 이 책을 읽는다면 소기의 성과를 얻을 수 있지 않을까. 나이가 있는 독자라면 책을 읽으며 자기의 역사를 직접 적는 기회가 되길 바란다.</p>
+<h2 id="사실-facts-">사실 (Facts) :</h2>
+<p>이번주에는 주재걸 마스터님의 NLP 도메인 강의를 들었습니다. Bag of Word 부터 Word2vec, Glove, FastText, RNN, LSTM, GRU, Seq2Seq 를 처음부터 다져 나가며 NLP 이론 공부를 했습니다. 팀원들과 코딩테스트 DFS/BFS 파트를 풀었습니다.</p>
 
-<p>책은 다치바나 다카시가 직접 자기 역사 쓰기 수업에 참여한 사람들의 수기를 살펴보며 자기 역사를 적어가는 과정에서 겪는 문제점들과 주의할 점, 유용한 팁에 대해 적고 있다. 트라우마에 대해선 조심스럽지만 자신의 인생을 재해석하는 과정에서 겪어야 할 하나의 아픔이며, 역사를 기술하는 과정에서 자신의 무의식의 아픔을 치유할 수 있을 거라고 말한다. 자기 역사 연표, 인간관계 클러스터 맵, 에피소드 수첩과 같은 실전팁도 보여주면서 어떻게 수강생들이 자기 역사를 기록하는 데 도움을 얻었는지에 대해서도 말하고 있다.</p>
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
+<p>이전에 보았던 책들이 다시 느껴지는 기분입니다. Word2vec, CBOW, Skip-gram 에 대한 막막함이 다시 보입니다. RNN, LSTM, GRU 의 파라메터가 어떻게 움직이는지 이젠 잘 알 것 같습니다.</p>
 
-<blockquote>
-  <p>“자기자신이 자기 자신을 위해서 쓰는 것이 ‘자기 역사’이다(p.281)” 그 누구를 위해서 이 작업을 하는 게 아니다. 자신의 인생을 스스로 마무리하고 자신이 누구였고, 어떤 존재였는지, 어떤 인생을 살아왔는지에 대해 스스로 선명하게 파악하기 위해서이다. 실제 자기 역사를 적은 수 많은 사람들이 역사를 쓰고 있을 때 엄청난 몰입을 경험했다고 한다. 마성을 가진 작업이다. 자신의 기억에 완전히 빠져들어 오직 자신만이 아는 기억들을 적어내는 것. 그것이 바로 자기의 역사를 적는다는 것이다.</p>
-</blockquote>
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+<p>Word2vec, CBOW, Skip-gram RNN, LSTM, GRU, Seq2Seq, BLEU 등을 배웠습니다. 이번주 마스터 클래스는 안수빈 마스터였습니다. 캐글에서 굉장히 유명하신 분이라고 합니다. 기억에 남는 말 몇가지 있습니다.  하나는 스티븐 잡스의 Connecting the dots 을 꺼내 시면서 자신의 삶에 대한 확신을 가지라는 것, 그리고 대체 불가능한 사람이 되라는 것, 마지막으로 문제를 제기하고 가치있는 일을 하라는게 기억에 남습니다.</p>
 
-<p>다치바나 다카시는 개인의 역사에 더해 세계의 역사를 같이 기술해 나갈 것을 주문한다. 개인의 역사는 우주의 역사이다! 한 인간은 의식을 가지고 우주를 살아가는 고귀한 지적 유기체이다.</p>
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+<p>다음주에는 Transfomer, Bert, GPT-2, GPT-3 등의 모델을 공부할 예정입니다. 지금까지 꾸준히 공부해왔기 때문에 그렇게 어렵지는 않을거라고 생각합니다. 무엇이든 양의 문제입니다. 처음에만 어렵지 그 이후에는 어렵지 않습니다. 제가 예전에 헬스를 2년 정도 하면서 느꼈던 점은 양질전환의 법칙은 어떤 분야에서든지 적용되는 법칙이라는 것입니다. NLP 분야에서도 마찬가지라고 생각합니다. 앞으로 4달 남았습니다. AI Tech에서 공부하는 평일은 정확히 100 일 입니다. 그 중에 한 달이 지났습니다. 다다음주에는 프로젝트가 시작됩니다. 그 때까지 pytorch 코드를 몸에 더 익숙 해질 때까지 공부해야겠습니다.</p>
 
-<blockquote>
-  <p>“세계는 만물의 집합체로서 존재하며, 동시에 동시대를 구성하는 많은 인간들이 공유하는 장대한 기억의 네트워크로서 존재하고 있다. 이 세계의 주요한 구성 요소를 장대한 전 인류적 기억의 네트워크가 존재한다. 한 인간이 죽으면 그 사람의 뇌가 담당하고 있던 장대한 세계 기억 네트워크의 해당 부분이 소멸하고 만다.(p.28)”</p>
-</blockquote>
+<p>다음주에는 이코테 정렬을 발표해야 합니다. 그리고 Transfomer 논문 <code class="language-plaintext highlighter-rouge">Attention is All you need</code> 를 발표해야 합니다. 팀원 분들께 도움이 될 수 있도록 발표 준비를 잘 해야 겠습니다. 멘토님이 논문 리뷰 스터디를 함께 참여해주시는데 부담감이 있는 만큼 더 열심히 공부해야 겠습니다.</p>
 
-<p>반면 인간은 지구라는 행성에 갇혀 존재할 수 밖에 없다. 아무리 과학기술이 진보하더라도 1광년 이상을 이동할 수는 없을 것이다. 4차원의 관점에서 보았을 때 한 인간은 태양계 내부에서 기껏해봐야 130년을 살다가 죽을 것이 분명하다. 인간은 그렇게 하찮은 존재이다.</p>
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
+<p>이 번주는 공부를 하며 잘 정리를 못한 거 같습니다. 아이패드를 책장에 꽃아 두기만 하고 사용하지 않았었는데. 어차피 PPT 자료가 있으니 거기에 필기하면서 공부를 해야 겠습니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ai tech - Day20</title><link href="http://localhost:4000/aitech_daily/post-day20/" rel="alternate" type="text/html" title="ai tech - Day20" /><published>2023-03-31T00:00:00+09:00</published><updated>2023-04-01T06:20:02+09:00</updated><id>http://localhost:4000/aitech_daily/post-day20</id><content type="html" xml:base="http://localhost:4000/aitech_daily/post-day20/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
-<p>책의 마지막에선 인생의 스승으로서 내공있는 조언을 해주는 것으로 마무리한다.  인생이라는 싸움은 결코 단 한가지 길로만 정할 수 있는 것이 아니다. 자신은 성공한 수 많은 인생을 만나봤지만 그들이 행복하다고 보기에는 힘들었다. 오히려 포기할 것은 포기하고 자신이 원하는 것을 선택하고 그에 시간과 노력을 투자하면서 사는 인생이 오히려 행복한 인생이라고 생각한다. 그러니 경쟁에서 패배했다고 낙심하지 말고 새로운 게임을 계속해서 찾아 나가길 바란다.</p>
+<h1 id="5f">5F</h1>
+<h2 id="그날의-사실-facts-">그날의 사실 (Facts) :</h2>
 
-<blockquote>
-  <p>“인생에서 진행되는 게임은 동시에 병행되기 때문에 하나의 게임에서 지더라도 다른 게임에서 이길 수 있는 기회가 항상 있다. 사실 대부분의 사람들이 그렇게 살고 있다는 것을 인식해야 한다. 뻔한 규칙에 질 것이 뻔해 보이는 게임은 서둘러 던져 버리고, 이길 수 있을 것 같은 다른 게임으로 이행하는 것이 인생에서 올바른 전략이라고 할 수 있다. 또 하나 올바른 전략은 이기고 지는 것으로 모든 일이 결정된다고 믿는 사람들의 인생 게임에서 하루 빨리 벗어나는 일이다. 이기고 지는 것에 그리 상관하지 않는다고 생각하는 사람들 쪽으로 이동하는 것이다(p.306)”</p>
-</blockquote>]]></content><author><name>최윤진</name></author><category term="book" /><summary type="html"><![CDATA[현재는 고인이 된 지의 거장, 다치바나 다카시의 책이다. 그는 &lt;나는 이런 책을 읽어왔다&gt;, ` 등으로 한국에도 유명한 작가이다. 다치바나 다카시를 들어본 적있는 독자라면 매일 같이 읽고 쓰는 그의 괴물같은 독서력과 필력에 대해 잘 알것이다. 7만 권이 넘는 장서를 보관하고 있는 고양이 빌딩은 유명하다.]]></summary></entry><entry><title type="html">자연어 처리의 모든 것</title><link href="http://localhost:4000/aitech_knowledge/post-nlp/" rel="alternate" type="text/html" title="자연어 처리의 모든 것" /><published>2023-03-26T00:00:00+09:00</published><updated>2023-03-27T06:20:02+09:00</updated><id>http://localhost:4000/aitech_knowledge/post-nlp</id><content type="html" xml:base="http://localhost:4000/aitech_knowledge/post-nlp/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<h2 id="느낌-feeling-">느낌 (Feeling) :</h2>
 
-<h1 id="자연어-처리의-모든-것">자연어 처리의 모든 것</h1>
-<p>시작합니다.</p>]]></content><author><name>최윤진</name></author><category term="aitech_knowledge" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<h2 id="배운점-findings-">배운점 (Findings) :</h2>
+
+<h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
+
+<h2 id="피드백-feedback-">피드백 (Feedback) :</h2>]]></content><author><name>최윤진</name></author><category term="aitech_daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[이코테]이코테 6장(정렬)</title><link href="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5-%EC%A0%95%EB%A0%AC/" rel="alternate" type="text/html" title="[이코테]이코테 6장(정렬)" /><published>2023-03-31T00:00:00+09:00</published><updated>2023-04-01T06:20:02+09:00</updated><id>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5%20%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5-%EC%A0%95%EB%A0%AC/"><![CDATA[<h1 id="정렬">정렬</h1>]]></content><author><name>최윤진</name></author><category term="ps" /><summary type="html"><![CDATA[정렬]]></summary></entry></feed>

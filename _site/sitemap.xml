@@ -2,9 +2,201 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>http://localhost:4000/aitech_weekly/post-5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/</loc>
+      
+        <lastmod>2023-04-07T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day25/</loc>
+      
+        <lastmod>2023-04-07T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day24/</loc>
+      
+        <lastmod>2023-04-06T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day23/</loc>
+      
+        <lastmod>2023-04-05T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/aitech_knowledge/post-git/</loc>
       
-        <lastmod>2023-03-27T00:00:00+09:00</lastmod>
+        <lastmod>2023-04-04T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day22/</loc>
+      
+        <lastmod>2023-04-04T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day21/</loc>
+      
+        <lastmod>2023-04-03T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/ps/post-ps_study_%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%84%90%E1%85%A66%E1%84%8C%E1%85%A1%E1%86%BC-%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%A7%E1%86%AF/</loc>
+      
+        <lastmod>2023-03-31T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_weekly/post-4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/</loc>
+      
+        <lastmod>2023-03-31T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day20/</loc>
+      
+        <lastmod>2023-03-31T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day19/</loc>
+      
+        <lastmod>2023-03-30T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day18/</loc>
+      
+        <lastmod>2023-03-29T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/aitech_daily/post-day17/</loc>
+      
+        <lastmod>2023-03-28T00:00:00+09:00</lastmod>
       
 
       
