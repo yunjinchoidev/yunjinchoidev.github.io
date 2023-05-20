@@ -13,7 +13,6 @@ width="400" height="400"/>
 </p>
 
 <div class="container">
-<a href="https://www.notion.so/yunjinchoidev/3-9feca316a9054f5a9f2a06b0a3fb9981?pvs=4" style="font-size:40px; color:red; text-align: center;"> 노션 링크 바로가기</a>
 </div>
 
 <style>

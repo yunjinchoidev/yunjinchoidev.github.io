@@ -430,4 +430,166 @@ var store = [{
         "tags": [],
         "url": "/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/",
         "teaser": null
+      },{
+        "title": "ai tech - Day26 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day26/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day27 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day27/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day28 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day28/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day29/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day30/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 6주차를 보내며...",
+        "excerpt":"[6주차를 보내며] 5F 사실 (Facts) : 이번 주 부터 U 스테이지 프로젝트를 진행했다. 주제는 STS 프로젝트. 처음 참여하는 프로젝트여서 그런지 기대가 많이 되었다. 이제까지 5주 정도 이론을 공부하며 BERT, GPT 까지 열심히 공부했다. 이제 열매를 맺을 시간이다. GPT-1 논문을 멘토님과 같이 리딩하는 시간을 가졌다. 피어세션 때는 동료들과 DP 를 공부했다....","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-6%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day31/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day32/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day33/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day34/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day35/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 7주차를 보내며...",
+        "excerpt":"[7주차를 보내며] 5F 사실 (Facts) : STS 프로젝트가 끝이 났다. 화요일엔 동료들과 네이버 역삼 스퀘어에서 오프라인으로 대면했다. public 리더보드는 12등, private 리더보드는 6등을 했다. 앙상블 기법을 이용하였더니 성능이 좋아졌다. 알고리즘 스터디는 이진탐색을 진행했다. 느낌 (Feeling) : 2 주간의 짧으면서도 길게 느껴진 프로젝트가 끝이 났다. 프로젝트를 진행하면서 많은 것을 배웠다. 먼저,...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-7%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day36/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day37/",
+        "teaser": null
+      },{
+        "title": "ai 서비스 개발 기초",
+        "excerpt":"[ai 서비스 개발 기초] 파이썬 버전 관리 파이썬은 2.x 버전과 3.x 버전이 존재한다. 2.x 버전은 2020년 1월 1일부터 지원이 중단되었다. 3.x 버전은 2.x 버전과 호환되지 않는다. 3.x 버전을 사용하자. 버전과 버저닝 CalVer 버전은 소프트웨어의 개발 단계를 나타낸다. 버전은 3자리로 구성된다. 첫 번째 자리는 메이저 버전이다. 두 번째 자리는 마이너 버전이다....","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-ai%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%9C%EB%B0%9C%EA%B8%B0%EC%B4%88/",
+        "teaser": null
+      },{
+        "title": "ai 서비스 개발 기초",
+        "excerpt":"   [현업자 특강]   이활석 CTO  실무에서는 학습 데이터 셋 또한 모아야 한다.  ","categories": ["aitech_knowledge"],
+        "tags": [],
+        "url": "/aitech_knowledge/post-%ED%98%84%EC%97%85%EC%9E%90-%ED%8A%B9%EA%B0%95/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day39/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day40/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 8주차를 보내며...",
+        "excerpt":"5F 사실 (Facts) : AI 서비스 기초를 배웠다. Docker, Linux, Streamlit 에 대해서 배웠다. RoBERTa 논문 리뷰를 했다. 느낌 (Feeling) : 확실히 프론트, 백, MLOps 까지 배우고 나니 모델링 하는 것보다 재미있는 거 같다. 이런 것을 토데로 무언가를 만드는 작업에서 굉장히 흥미로운 일이 생길거 같다. 역시 이론은 활용되어야 한다는 생각이...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-8%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day41/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day42/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day43/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day44/",
+        "teaser": null
+      },{
+        "title": "ai tech - Day21 ",
+        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
+        "tags": [],
+        "url": "/aitech_daily/post-day45/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 9주차를 보내며...",
+        "excerpt":"5F 사실 (Facts) : KLUE 강의를 배웠다. 이제 이론적인 것은 거의 다 배웠고 각 task 별로 모델을 적용해보는 수업을 들었다. bert와 gpt 에 대한 추가적인 수업을 수강했다. 두 번째 대회가 시작되었다. 이번에 진행하는 프로젝트는 문장 내 개체간의 관계를 추출하는 작업이다. 느낌 (Feeling) : 이제 내가 해야 할 것은 최신 nlp...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-9%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 10주차를 보내며...",
+        "excerpt":"5F 사실 (Facts) : Klue 프로젝트를 계속 진행했다. 나는 Should We Rely on Entity Mentions for Relation Extraction? Debiasing Relation Extraction with Counterfactual Analysis, NAACL2022 이 논문을 전담해서 읽고 구현을 시도하는 방식으로 진행했다. 느낌 (Feeling) : 논문 구현은 처음 시도해보았으나 지금까지 논문은 7 편 정도 읽었고 틈틈히 계속 봐왔어서 읽는...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-10%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
+      },{
+        "title": "[ai tech 5기] [회고] 11주차를 보내며...",
+        "excerpt":"5F 사실 (Facts) : KLUE 프로젝트 진행 CoRE 논문 리뷰 Sweep 을 통한 하이퍼 파라미터 튜닝 느낌 (Feeling) : 논문 리뷰를 진행하면서 RE 태스크에 대한 이해도가 높아지는 걸 스스로도 느낄 수 있었다. CoRE 구현 방법을 직접 적용하는 것은 실패했지만 엔티티 편향, 라벨 편향에 대해서 고민해 볼 수 있는 기회였다. 배운점...","categories": ["aitech_weekly"],
+        "tags": [],
+        "url": "/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8/",
+        "teaser": null
       }]
