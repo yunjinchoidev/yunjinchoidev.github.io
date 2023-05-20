@@ -1,0 +1,1288 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Pytorch  - Reinvent love! - Democratization of Love</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="최윤진">
+  
+  <meta property="article:author" content="최윤진">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Reinvent love! - Democratization of Love">
+<meta property="og:title" content="Pytorch">
+<meta property="og:url" content="http://localhost:4000/a04_aitech_knowledge/post-pytorch/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-03-07T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2023-03-08T06:20:02+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/a04_aitech_knowledge/post-pytorch/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "자연어 처리 엔지니어 블로그",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Reinvent love! - Democratization of Love Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="'../../../../assets/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/logo.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="../../../../assets/logo.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Serif+KR" rel="stylesheet" type="text/css">
+
+<!-- end custom head snippets -->
+
+
+    
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          사랑의 발명 - NLP로 만들어가는 사랑의 민주화
+          <span class="site-subtitle">자연어 처리 엔지니어 블로그</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">ReadMe</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/a03_aitech_weekly">AI Tech 5기 회고록</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/a01_study">공부</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/image/profile/reinventoflove.png" alt="최윤진" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">최윤진</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>반갑습니다. 같이 사랑이라는 감정을 발명해보아요.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Republic of Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="yunjinchoidev@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">G-mail</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/yunjinchoidev" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UC7B4c49J4XFzoety13KYuDg" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">8기통 엔진 채널</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+  
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">토글 메뉴</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">65</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+
+        <span class="nav__sub-title"> 📌 공부 </span>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+
+
+
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">  📌 AI Tech 5기</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+
+
+                
+                    
+                
+                    
+                        <li><a href="/categories/aitech_daily" class="">데일리 리뷰 (10)</a></li>
+                    
+                
+                    
+                
+                    
+                
+
+                
+                    
+                        <li><a href="/categories/aitech_weekly" class="">위클리 리뷰 (12)</a></li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                                                
+
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/aitech_knowledge" class="">학습 (17)</a></li>
+                    
+                
+
+            </ul>
+
+
+
+
+
+      </li>
+  </ul>
+</nav>
+  
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Pytorch">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2023-03-07T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2023-03-08T06:20:02+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/a04_aitech_knowledge/post-pytorch/" class="u-url" itemprop="url">Pytorch
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
+              <ul class="toc__menu"><li><a href="#-introduction-to-pytorch">✅ Introduction to PyTorch</a><ul><li><a href="#파이토치-api">파이토치 API</a></li><li><a href="#공식문서를-읽읍시다">공식문서를 읽읍시다.</a></li><li><a href="#dynamic-graph">Dynamic graph</a></li></ul></li><li><a href="#--dive-to-pytorch">✅  Dive To Pytorch</a><ul><li><a href="#torchview">torch.view</a></li><li><a href="#tochsqueeze">toch.squeeze</a></li><li><a href="#torchunsqueeze">torch.unsqueeze</a></li><li><a href="#torchindex_select">TORCH.INDEX_SELECT</a></li><li><a href="#torchswapdims">torch.swapdims</a></li><li><a href="#torchrandn">torch.randn</a></li></ul></li><li><a href="#torchlog1p">TORCH.LOG1P</a><ul><li><a href="#torchprod">TORCH.PROD</a></li><li><a href="#torchcount_nonzero">TORCH.COUNT_NONZERO</a></li><li><a href="#squeeze-unsqueeze">squeeze(), unsqueeze()</a></li><li><a href="#mm-matmul">mm(), matmul</a></li><li><a href="#autograd">autograd</a></li><li><a href="#여기서-잠깐-">여기서 잠깐 !</a></li></ul></li><li><a href="#-use-template">✅ Use Template</a></li><li><a href="#-autograd--optimizer">✅ AutoGrad &amp; Optimizer</a></li><li><a href="#-데이터를-불러오자-dataset--dataloader">✅ [데이터를 불러오자~] Dataset &amp; Dataloader</a><ul><li><a href="#pytorch-dataset">Pytorch Dataset</a></li><li><a href="#pytorch-dataloader">Pytorch Dataloader</a></li></ul></li><li><a href="#-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</a><ul><li><a href="#check-point">check point</a></li><li><a href="#전이학습과-불러오기">전이학습과 불러오기</a></li><li><a href="#freezing">Freezing</a></li></ul></li><li><a href="#-모니터링-합시다---monitoring-tools-for-pytorch">✅ 모니터링 합시다 - Monitoring tools for PyTorch</a></li><li><a href="#-muti-gpu">✅ Muti-GPU</a></li><li><a href="#-hyperparameter-tuning">✅ Hyperparameter Tuning</a></li><li><a href="#-pytorch-troubleshooting">✅ PyTorch Troubleshooting</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p><img src="../../../image/aitech.png" alt="image" /></p>
+
+<h1 id="-introduction-to-pytorch">✅ Introduction to PyTorch</h1>
+<p>파이토치를 공부합시다. <code class="language-plaintext highlighter-rouge">네트워크 구현 및 데이터 로딩, 프로젝트 구조, 로깅, Multi GPU, 이어 학습</code> 을 다룹니다.</p>
+
+<p>밑바닥부터 딥러닝 코드 짜기를 짤 수도 있습니다. <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256067157&amp;start=slayer">책 읽어보세요.</a></p>
+
+<p>하지만 저희는 딥러닝 프레임워크를 사용합니다. 예를 들어서 텐서플로와 파이토치가 있습니다. 텐서플로는 구글에서 만들었고, 파이토치는 페이스북에서 만들었습니다.</p>
+
+<p>저희는 파이토치를 사용할 것입니다. 파이토치는 장점이 꽤 많습니다. 대표적으로 Define by Run 이라는 작동 방식인데요. 이것은 실행을 한면서 계산 그래프(Computational Graph)를 생성하는 것을 말합니다. <strong>반면</strong> 텐서플로는 Define by Run 이라고 해서 그래프를 먼저 정의하는 방식입니다. 파이토치는 학회, 논문에 강점을 가지고 있으며 텐서플로는 실무(프로덕션)에 강점을 가지고 있다고 할 수 있죠. 그리고 파이토치는 즉시 딥러닝 코드가 작동하는지 확인을 할 수가 있으며 <code class="language-plaintext highlighter-rouge">numpy, autograd, function</code> 의 기능을 모두 제공합니다.</p>
+
+<p>파이토치의 영향력은 점점 더 커져가고 있습니다. 텐서플로의 점유율을 넘어섰죠. 파이토치로 해봅시다. pytorch는 한 마디로 <code class="language-plaintext highlighter-rouge">numpy, autograd, function</code> 입니다. 한 마디로 미분을 지원하는 프레임워크라고 할 수 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Q. Tensorflow 와 Pytorch의 차이점은 ?
+Tensorflow 는 Define and Run 이다.
+Pytorch 는 Dynamic Computation Graph 다.
+</code></pre></div></div>
+
+<h2 id="파이토치-api">파이토치 API</h2>
+<p>파이토치 API 를 알아봅시다.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">torch</code> : 텐서 등의 다양한 수학 함수가 포함</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.autograd</code> : 자동 미분을 위한 함수들이 포함</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.nn</code> : 신경망을 구축하기 위한 다양한 데이터 구조나 레이어 등이 정의</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.multiprocessing</code> : 확률적 경사 하강법(Stochastic Gradient Descent, SGD)를 중심으로 한 파라미터 최적화 알고리즘이 구현</li>
+  <li><code class="language-plaintext highlighter-rouge">torch.utils</code></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+<p>파이토치는 텐서로 시작해서 텐서로 끝납니다.</p>
+
+<h2 id="공식문서를-읽읍시다">공식문서를 읽읍시다.</h2>
+<p>공식문서가 굉장히 중요합니다. 우리 같이 읽어봐유.
+<a href="https://pytorch.org/docs/stable/index.html">[공식문서 바로가기]</a></p>
+
+<h2 id="dynamic-graph">Dynamic graph</h2>
+<p><a href="https://www.reddit.com/r/pytorch/comments/8kpsjy/can_someone_explain_the_use_of_a_dynamic_graph/">출처 바로가기</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+if/then/else와 같은 일반적인 제어 흐름을 사용하고 여전히 역전파할 수 있습니다.
+
+
+동적 그래프의 주요 이점은 가변 시퀀스 길이를 가진 순환 신경망에 대한 것입니다.
+ 정적 그래프는 그것들을 깔끔하게 처리할 수 없습니다.
+ 가장 큰 시퀀스를 먼저 넣어야 하기 때문입니다. 
+ 단, 텍스트에는 작동하지 않고 문장을 전환할 수 없으므로 가능한 
+ 가장 긴 문장을 위한 공간을 확보해야 합니다.
+
+
+The main advantage of dynamic graphs is for recurrent neural nets with variable sequence lengths. Static graphs just can't deal with them cleanly, because you have to put the biggest sequence first, except that wouldn't work for text, you can't just switch sentences, so you reserve space for the longest possible sentence.
+
+Another advantage is the autograd, when creating custom layers dynamic frameworks all have automatic differentiation so you don't need to write the backward pass, writing the backward pass of LSTM or GRU is quite tricky and easy to get wrong.
+
+Now every framework has an autograd so that's not relevant.
+
+The last and biggest is that with dynamic frameworks you are writing Python and functions/control-flow compose like Python. Typical examples are:
+
+you can use for loops, you're not forced to use "scan" (because Python for loops are not known at compile-time).
+
+you can use normal control flow like if/then/else and still backprop through it.
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="--dive-to-pytorch">✅  Dive To Pytorch</h1>
+<p>이제 파이토치 기본에 대해서 공부해 봅시다. 
+파이토치는 numpy와 왠만한 문법이 비슷하니 numpy를 잘 하시면 어느정도는 잘 할 수 있습니다. 부족하다고 느끼면 numpy를 공부하시기 바랍니다. 그래도 중요한 것 몇 가지만 정리해 봅시다.</p>
+
+<h2 id="torchview">torch.view</h2>
+<p>원소의 수를 유지하면서 텐서의 크기를 변경하는 함수</p>
+
+<h2 id="tochsqueeze">toch.squeeze</h2>
+<p>1인 차원을 제거한다.</p>
+
+<h2 id="torchunsqueeze">torch.unsqueeze</h2>
+<p>특정 위치에 1인 차원을 추가한다.</p>
+
+<p>이 외에도 수많은 기능들이 파이토치에 담겨 있습니다. 파이토치를 잘 하기 위한 비결은 무엇일까요? 공식문서를  탐색하는 것입니다. dl 코드를 짤 때도 마찬가지 입니다. 해당 함수, 라이브라리가 실제로 코드 레벨에서 어떻게 구현 되어 있는지 확인하는 습관을 들입시다.</p>
+
+<h2 id="torchindex_select">TORCH.INDEX_SELECT</h2>
+
+<h2 id="torchswapdims">torch.swapdims</h2>
+
+<h2 id="torchrandn">torch.randn</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; torch.randn(4)
+tensor([-2.1436,  0.9966,  2.3426, -0.6366])
+&gt;&gt;&gt; torch.randn(2, 3)
+tensor([[ 1.5954,  2.8929, -1.0923],
+        [ 1.1719, -0.4709, -0.1996]])
+</code></pre></div></div>
+
+<h1 id="torchlog1p">TORCH.LOG1P</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; a = torch.randn(5)
+&gt;&gt;&gt; a
+tensor([-1.0090, -0.9923,  1.0249, -0.5372,  0.2492])
+&gt;&gt;&gt; torch.log1p(a)
+tensor([    nan, -4.8653,  0.7055, -0.7705,  0.2225])
+</code></pre></div></div>
+
+<h2 id="torchprod">TORCH.PROD</h2>
+<p>모은 텐서 성분의 곱</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; a = torch.randn(1, 3)
+&gt;&gt;&gt; a
+tensor([[-0.8020,  0.5428, -1.5854]])
+&gt;&gt;&gt; torch.prod(a)
+tensor(0.6902)
+</code></pre></div></div>
+
+<h2 id="torchcount_nonzero">TORCH.COUNT_NONZERO</h2>
+<p>Counts the number of non-zero values in the tensor input along the given dim. If no dim is specified then all non-zeros in the tensor are counted.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; x = torch.zeros(3,3)
+&gt;&gt;&gt; x[torch.randn(3,3) &gt; 0.5] = 1
+&gt;&gt;&gt; x
+tensor([[0., 1., 1.],
+        [0., 0., 0.],
+        [0., 0., 1.]])
+&gt;&gt;&gt; torch.count_nonzero(x)
+tensor(3)
+&gt;&gt;&gt; torch.count_nonzero(x, dim=0)
+tensor([0, 1, 2])
+</code></pre></div></div>
+
+<p>pytorch는 gpu에 올려서 작업이 가능합니다. 아래는 pytorch를 gpu에 올릴지 작업하는 코드이니 잘 숙지하시기 바랍니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x_data.device
+
+if  torch.cuda.is_available():
+    x_data_cuda = x_data.to('cuda')
+x_data_cuda.device
+
+</code></pre></div></div>
+
+<h2 id="squeeze-unsqueeze">squeeze(), unsqueeze()</h2>
+
+<h2 id="mm-matmul">mm(), matmul</h2>
+<p>mm과 matmul은 broadcasting 을 지원합니다.</p>
+
+<h2 id="autograd">autograd</h2>
+<p>autograd 에 대해서 공부해봅시다. 
+아래 코드는 파이토치를 통해 오차 역전파를 계산하는 식입니다.
+backward 라는 함수는 연쇄법칙을 적용시켜 역전파를 계산합니다.
+그러면 자연스래 w.grad 값을 구할 수 있겠죠.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>w = torch.tensor(2.0, requires_grad=True)
+y = w**2
+z = 10*y + 25
+z.backward()
+w.grad
+
+&gt; z.backward() 를 통해 오차역전파를 계산
+&gt; w.grad 를 통해 z 에 대한 w 그레디언트 추출
+</code></pre></div></div>
+
+<h2 id="여기서-잠깐-">여기서 잠깐 !</h2>
+<blockquote>
+  <p>최대가능도 추정법이란 뭘까요? 관찰된 데이터가 어떠한 모수로부터 나왔을 가능성이 가장 높은지를 추정하는 방법입니다. 모수란 무엇일까요? 모수는 모집단의 특성(모평균,모분산 등..)을 나타내는 값으로, 이 값을 모집단을 전수조사해야만 알수있는 값입니다. 실질적으로 모집단의 크기와 범위가 너무 방대하기에 전수조사를 실시하지 않고 표본조사를 하는데 표본평균,표본분산 등으로 모평균, 모분산등을 추정할수가 있습니다.</p>
+</blockquote>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-use-template">✅ Use Template</h1>
+<p>여러분은 언제까지 코랩을 쓰실 생각입니까? 템플릿을 씁시다. 고수가 되는 지름길이죠. 우리는 미래로 가야합니다. 템플릿을 사용함으로써 우리는 그 미래로 갈 수 있습니다. <code class="language-plaintext highlighter-rouge">실행, 데이터, 모델,  설정, 로깅, 지표, 유틸리티</code> 이 대표적이죠.
+다음 오픈 소스에서 파이토치 템플릿을 다운 받고 면밀하게 분석해보세요. 면밀하게 분석을 해봅시다. <a href="https://github.com/victoresque/pytorch-template">링크</a>
+코딩 능력이 많이 필요하다는 것을 분명 느끼셨을 겁니다. 코딩 역량을 기르십시오.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-autograd--optimizer">✅ AutoGrad &amp; Optimizer</h1>
+<p>논문을 한 번 구현해봅시다.
+딥러닝이란 layer를 쌓고 레고 블럭을 쌓는 일련의 과정이라고 할 수 있습니다. input, output, forward, backward가 복잡한 상호작용을 가지고 있는 것이죠.</p>
+<ul>
+  <li>torch.nn.Module 클래스
+    <ul>
+      <li>이 모듈은 기본적인 input, output, forward, backward 구현을 지원합니다.</li>
+    </ul>
+  </li>
+  <li>torch.nn.Parameter
+    <ul>
+      <li>required_grad=True 옵션을 줘야 gradient 가 최신화 됩니다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>파이토치를 사용함으로써 우리는 backward 함수를 직접 구현할 일은 없습니다. 하지만 실제 어떻게 작동하고 있는지 분명하게 이해할 필요가 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import torch
+from torch.autograd import Variable
+
+class LinearRegression(torch.nn.Module):
+    def __init__(self, inputSize, outputSize):
+        super(LinearRegression, self).__init__()
+
+        ## 토치가 liner를 구현해줬다.
+        ## 코드 레벨에서 직접 보시라.
+        self.linear = torch.nn.Linear(inputSize, outputSize)
+
+    def forward(self, x):
+        out = self.linear(x)
+        return out
+    
+inputDim = 1
+outputDim = 1
+learningRate = 0.01
+epochs = 100
+
+model = LinearRegression(inputDim, outputDim)
+
+# 모델 학습 시킬 때 쿠다 넣기
+if torch.cuda.is_available():
+    model.cuda()
+
+
+criterion = torch.nn.MSELoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=learningRate)
+
+
+# 에포크를 돌리란 말이여!! 
+for epochs in range(epochs):
+    if torch.cuda.is_available():
+        inputs = Variable(torch.from_numpy(x_train).cuda())
+        labels = Variable(torch.from_numpy(y_train).cuda())
+    else:
+        inputs = Variable(torch.from_numpy(x_train))
+        lables = Variable(torch.from_numpy(y_train))
+
+    # 이걸 해줘야 한다.
+    optimizer.zero_grad()
+
+    ## 돌려돌려 
+    outputs = model(inputs)
+
+
+    ## 요것이 손실함수다!
+    loss = criterion(outputs, lables)
+
+    # 오케이. 경사하강법!
+    loss.backward()
+
+    # 오차역전파 적용 -&gt; 옵티마이저
+    optimizer.step()
+
+
+    print('epochs {}, loss {}'.format(epochs, loss.item()))
+
+
+Output exceeds the size limit. Open the full output data in a text editor
+epochs 0, loss 0.0023449501022696495
+epochs 1, loss 0.0023187585175037384
+epochs 2, loss 0.002292879391461611
+epochs 3, loss 0.0022672710474580526
+epochs 4, loss 0.0022419483866542578
+epochs 5, loss 0.002216903492808342
+epochs 6, loss 0.002192169427871704
+epochs 7, loss 0.002167687052860856
+epochs 8, loss 0.002143467077985406
+epochs 9, loss 0.0021195358131080866
+epochs 10, loss 0.0020958760287612677
+epochs 11, loss 0.0020724674686789513
+epochs 12, loss 0.0020493241026997566
+epochs 13, loss 0.002026451053097844
+epochs 14, loss 0.002003807807341218
+epochs 15, loss 0.001981443725526333
+epochs 16, loss 0.0019593113102018833
+epochs 17, loss 0.0019374340772628784
+epochs 18, loss 0.0019157928181812167
+epochs 19, loss 0.0018943949835374951
+epochs 20, loss 0.0018732366152107716
+epochs 21, loss 0.0018523228354752064
+epochs 22, loss 0.0018316390924155712
+epochs 23, loss 0.0018111761892214417
+epochs 24, loss 0.001790948212146759
+...
+epochs 95, loss 0.0008068863535299897
+epochs 96, loss 0.0007978747016750276
+epochs 97, loss 0.0007889581611379981
+epochs 98, loss 0.0007801674073562026
+
+</code></pre></div></div>
+
+<ul>
+  <li>코드레벨에서 보는 습관을 들여보세요.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>optimizer.zero_grad() 를 안쓰면 어떻게 될까?
+- gradient 가 초기화가 되지 않으면 다음 학습에 영향을 주기 때문에 올바른 학습이 되지 않습니다.
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-데이터를-불러오자-dataset--dataloader">✅ [데이터를 불러오자~] Dataset &amp; Dataloader</h1>
+<p>모델도 중요하지만, 데이터를 어떻게 잘 다루느냐도 중요합니다. 엄청나게 많은 데이터가 있습니다. 이것을 어찌해야 할까요? 우리에겐 파이토치가 있습니다.</p>
+
+<h2 id="pytorch-dataset">Pytorch Dataset</h2>
+<p>먼저 데이터를 텐서로 바꾸고 DataLoder 로 모델에 먹이기(Feeding)</p>
+<ol>
+  <li>데이터 모으기</li>
+  <li>data 받기</li>
+  <li>transform : 데이터 전처리
+    <ul>
+      <li>ToTensor()</li>
+      <li>CenterCrop()</li>
+    </ul>
+  </li>
+</ol>
+
+<p>파이토치의 DataSet을 사용함으로써 많은 장점을 가진다.</p>
+
+<p>CustomDataset 와의 결합해봅시다. CustomDataset을 정의 하기 위해서 3개의 메소드를 반드시 정의해야 합니다.</p>
+
+<ul>
+  <li>init</li>
+  <li>len</li>
+  <li>getitem</li>
+</ul>
+
+<p>utils.data.Dataset 상속
+이때 Datase$$t 클래스 사용</p>
+
+<h2 id="pytorch-dataloader">Pytorch Dataloader</h2>
+<p>이제 DataLoder 모듈을 배워봅시다. CustomDataset, 기타 옵션으로 실제 데이터에 적용하면 됩니다. 옵션으로 다양한 것이 있습니다. 미니배치 사이즈 등이 있겠죠. 코드를 직접 뜻으면서 DataLoader를 해보세요.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>실전 연습
+Mnist 클론 코딩을 해보세요.
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-save-model-모델을-저장하고-불러오기">✅ [Save Model] 모델을 저장하고 불러오기</h1>
+<p>우리는 실제 라벨과 예측 라벨의 오차 함수의 그레디언트를 계산하고 오차역전파를 계산하여 W 가중치 텐서를 업데이트 시켰다고 가정합니다. 우리는 이 결과를 전달하려 한다.<strong>어떻게</strong> 하는게 좋을까요 ?</p>
+
+<p><code class="language-plaintext highlighter-rouge">model.save()</code> 함수를 사용합시다. 
+이를 이용해서 모델의 형태와 파라메터를 저장할 수 있습니다.</p>
+
+<p>저장법 2가지가 있습니다.</p>
+
+<ol>
+  <li>파라메터만 저장</li>
+  <li>모델형테 + 파라메터 저장</li>
+</ol>
+
+<h2 id="check-point">check point</h2>
+<p>중간중간에 loss 와 metric을 지속적으로 저장하는 것을 말합니다. 코드 중간에 pickle 형태로 저장하세요. 중간에 Earlystopping(조기 종료) 처리를 할 수 도 있습니다.</p>
+
+<h2 id="전이학습과-불러오기">전이학습과 불러오기</h2>
+<p>전이학습(Transfer learning) 을 위해 구글, 페이스북에서 학습한 모델을 가져오려고 합니다. 어떻게 할까요?  NLP 분야에서는 <code class="language-plaintext highlighter-rouge">Huggingface</code>가 대표적입니다.  <code class="language-plaintext highlighter-rouge">Freezing</code> 는 Transfer 를 적용시키기 위해서 일부분의 가중치를 학습 시키지 않는것을 말합니다. 트랜스퍼 러닝은 외부 모듈에서 전이학습을 가져오고 자신만의 layer를 추가 시켜 학습시키는 방식으로 하면 됩니다. 굉장히 많이 쓰니 집중해서 공부하시기 바랍니다.</p>
+
+<h2 id="freezing">Freezing</h2>
+<p>pretrained model 활용시 모델의 일부분을 frozen 시킵니다.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-모니터링-합시다---monitoring-tools-for-pytorch">✅ 모니터링 합시다 - Monitoring tools for PyTorch</h1>
+
+<p><code class="language-plaintext highlighter-rouge">Logging</code>이란 학습이 진행되면서 주요하다고 생각되는 지표들이나 학습의 상태 등 관련된 정보들을 기록하는 것을 말합니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Tensorboard</code>는 TensorFlow의 프로젝트로 만들어진 시각화 도구로 학습 그래프, Metric, 학습 결과의 시각화를 지원합니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Weight, Biases</code>는 머신러닝 실험을 원활하게 지원하기 위한 상용 도구로써, 협업, code versioning, 실험 결과 기록 등의 기능을 제공하는 시각화 툴을 말합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+import os
+logs_base_dir = 'logs'
+os.makedirs(logs_base_dir, exist_ok=True)
+
+from torch.utils.tensorboard import SummaryWriter
+import numpy as np
+
+exp = f"{logs_base_dir}/ex3"
+writer = SummaryWriter(exp)
+for n_iter in range(100):
+  writer.add_scalar('Loss/train', np.random.random(), n_iter)
+  writer.add_scalar('Loss/test', np.random.random(), n_iter)
+  writer.add_scalar('Accuracy/train', np.random.random(), n_iter)  
+  writer.add_scalar('Accuracy/test', np.random.random(), n_iter)
+writer.flush()
+
+%load_ext tensorboard
+%tensorboard --logdir {"logs"}
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 분포를 본다.
+
+from torch.utils.tensorboard import SummaryWriter
+import numpy as np
+writer = SummaryWriter(logs_base_dir)
+for i in range(10):
+  x = np.random.random(1000)
+  writer.add_histogram('distribution centers', x+i, i)
+writer.close()
+
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-muti-gpu">✅ Muti-GPU</h1>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-hyperparameter-tuning">✅ Hyperparameter Tuning</h1>
+<p>제대로 학습하기 위해선 하이퍼 파라메터 튜닝을 해야 합니다. 하이퍼 파라메티는 dl 이 학습하지 않는 변수값이죠.</p>
+
+<ul>
+  <li>학습률(Learning rate)</li>
+  <li>최적화 함수(Optimizer)</li>
+  <li>손실 함수(Loss Fucnction)</li>
+</ul>
+
+<p>잘 정리하고 잘 변수를 조정해야 합니다. 데이터와 모델을 수정해서 성능을 향상하는 것이 가장 빠르긴 하지만 하이퍼 파라메터를 튜닝하는 힘은 분명 필요합니다. 요즘들어서는 그렇게 많이하는 추세는 아닙니다. 아래 두 가지 방법이 있습니다.</p>
+
+<ul>
+  <li>Grid LayOut
+    <ul>
+      <li>균일적으로 파라메터를 변화시켜나가는 방법</li>
+    </ul>
+  </li>
+  <li>Random LayOut
+    <ul>
+      <li>랜덤적으로 파라메터를 변화시켜나가는 방법</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Ray는 멀티 노드 멀티 프로세스 지원 모듈이다. 분산병령 ml/dl 의 표준이라 할 수 있다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>하이퍼 파라메터 튜닝은 어느정도 학습 모델을 완전하게 만들어 놓고 수정하는 것을 추천합니다. 데이터와 모델에 집중하세요.
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="-pytorch-troubleshooting">✅ PyTorch Troubleshooting</h1>
+<p>OOM(Out Of Memory) 란 무엇일까요. GPU 메모리 오류를 말합니다. 
+이를 방지하는 방법은 두가지가 있습니다. 하나는 batchSize를 줄이는 것이고, 둘째는 memory를 줄이는 방법입니다. <code class="language-plaintext highlighter-rouge">GPUutil</code> 모듈을 사용하세요. 사용하지 않는 gpu cache 를 삭제해야 합니다. <code class="language-plaintext highlighter-rouge">torch.no_grad()</code> 를 사용도 좋습니다. tensor의 float precision을 줄여도 된다.</p>
+
+<p>하지만 결국 중요한 것은 발생할 때마다 직접 트러블 슈팅을 다루는 능력입니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>밑바닥 부터 시작하는 딥러닝 3 추천합니다.
+</code></pre></div></div>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2023-03-07">March 7, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Pytorch+%20http%3A%2F%2Flocalhost%3A4000%2Fa04_aitech_knowledge%2Fpost-pytorch%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fa04_aitech_knowledge%2Fpost-pytorch%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fa04_aitech_knowledge%2Fpost-pytorch%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/a04_aitech_knowledge/post-python/" class="pagination--pager" title="Python 정리
+">이전</a>
+    
+    
+      <a href="/a02_aitech_daily/post-day03/" class="pagination--pager" title="a01_study tech -Day03
+">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/a03_aitech_weekly/post-11%EC%A3%BC%EC%B0%A8/" rel="permalink"
+        style="
+            color: #E90064;
+            font-size: 1.4em;
+            font-weight: bold;
+            /*background: #F7C04A;*/
+            "
+        >[a01_study tech 5기] [회고] 11주차를 보내며…
+ </a>
+      <small>
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.05.19
+        
+      </small>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/a03_aitech_weekly/post-10%EC%A3%BC%EC%B0%A8/" rel="permalink"
+        style="
+            color: #E90064;
+            font-size: 1.4em;
+            font-weight: bold;
+            /*background: #F7C04A;*/
+            "
+        >[a01_study tech 5기] [회고] 10주차를 보내며…
+ </a>
+      <small>
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.05.12
+        
+      </small>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/a03_aitech_weekly/post-9%EC%A3%BC%EC%B0%A8/" rel="permalink"
+        style="
+            color: #E90064;
+            font-size: 1.4em;
+            font-weight: bold;
+            /*background: #F7C04A;*/
+            "
+        >[a01_study tech 5기] [회고] 9주차를 보내며…
+ </a>
+      <small>
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.05.04
+        
+      </small>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/a03_aitech_weekly/post-8%EC%A3%BC%EC%B0%A8/" rel="permalink"
+        style="
+            color: #E90064;
+            font-size: 1.4em;
+            font-weight: bold;
+            /*background: #F7C04A;*/
+            "
+        >[a01_study tech 5기] [회고] 8주차를 보내며…
+ </a>
+      <small>
+        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.04.28
+        
+      </small>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/yunjinchoidev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 자연어 처리 엔지니어 블로그. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNC4SPLJPV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KNC4SPLJPV');
+</script>
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/a04_aitech_knowledge/post-pytorch/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/a04_aitech_knowledge/post-pytorch"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://yunjinchoidev-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

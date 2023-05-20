@@ -12,6 +12,16 @@
       </li>
       <li>
 
+        <span class="nav__sub-title"> 📌 공부 </span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "study" %}
+                        <li><a href="/categories/study" class="">공부 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
 
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">  📌 AI Tech 5기</span>
@@ -19,113 +29,29 @@
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "aitech_knowledge" %}
-                        <li><a href="/categories/aitech_knowledge" class="">학습 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
+
 
                 {% for category in site.categories %}
-                    {% if category[0] == "aitech_daily" %}
+                    {% if category[0] == "a02_aitech_daily" %}
                         <li><a href="/categories/aitech_daily" class="">데일리 리뷰 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
 
                 {% for category in site.categories %}
-                    {% if category[0] == "aitech_weekly" %}
+                    {% if category[0] == "a03_aitech_weekly" %}
                         <li><a href="/categories/aitech_weekly" class="">위클리 리뷰 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}                                
 
                 {% for category in site.categories %}
-                    {% if category[0] == "aitech" %}
-                        <li><a href="/categories/aitech" class="">aitech ({{category[1].size}})</a></li>
+                    {% if category[0] == "a04_aitech_knowledge" %}
+                        <li><a href="/categories/aitech_knowledge" class="">학습 ({{category[1].size}})</a></li>
                     {% endif %}
-                {% endfor %}     
+                {% endfor %}
+
             </ul>
 
 
-
-            <span class="nav__sub-title"> 📌 ai</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ai_nlp" %}
-                        <li><a href="/categories/ai_nlp" class="">자연어 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ai_cv" %}
-                        <li><a href="/categories/ai_cv" class="">컴퓨터비전 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>            
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ai_recsys" %}
-                        <li><a href="/categories/ai_recsys" class="">추천시스템 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>        
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ai_linearalgebra" %}
-                        <li><a href="/categories/ai_linearalgebra" class="">선형대수학({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "paper" %}
-                        <li><a href="/categories/paper" class=""> 논문 읽기 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "book" %}
-                        <li><a href="/categories/book" class="">기술 서적 리뷰 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "interview" %}
-                        <li><a href="/categories/interview" class=""> 면접 준비 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "chatbot" %}
-                        <li><a href="/categories/chatbot" class=""> 챗봇 만들기 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-
-
-        <span class="nav__sub-title"> 📌 알고리즘</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ps" %}
-                        <li><a href="/categories/ps" class="">문제풀이 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ps_study" %}
-                        <li><a href="/categories/ps_study" class="">이코테({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>            
 
 
 

@@ -3,15 +3,9 @@ main:
   - title: "ReadMe"
     url: /about/
   - title: "AI Tech 5기 회고록"
-    url: "categories/aitech_weekly"
-  - title: "라케시스(챗봇)"
-    url: "categories/ai_chatbot"
-  - title: "논문리뷰"
-    url: "categories/ai_paper"
-  - title: "알고리즘"
-    url: "categories/ps"
-  - title: "세상 읽기"
-    url: "categories/book"
+    url: "categories/a03_aitech_weekly"
+  - title: "공부"
+    url: "categories/a01_study"
 
 counts: 
   - title: "카테고리"

@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-11%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-11%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1/</loc>
       
         <lastmod>2023-05-19T00:00:00+09:00</lastmod>
       
@@ -18,7 +18,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-10%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-10%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-05-12T00:00:00+09:00</lastmod>
       
@@ -34,7 +34,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-9%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-9%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-05-04T00:00:00+09:00</lastmod>
       
@@ -50,7 +50,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-8%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-8%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-04-28T00:00:00+09:00</lastmod>
       
@@ -66,7 +66,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-%ED%98%84%EC%97%85%EC%9E%90-%ED%8A%B9%EA%B0%95/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-%ED%98%84%EC%97%85%EC%9E%90-%ED%8A%B9%EA%B0%95/</loc>
       
         <lastmod>2023-04-24T00:00:00+09:00</lastmod>
       
@@ -82,7 +82,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-ai%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%9C%EB%B0%9C%EA%B8%B0%EC%B4%88/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-ai%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%9C%EB%B0%9C%EA%B8%B0%EC%B4%88/</loc>
       
         <lastmod>2023-04-24T00:00:00+09:00</lastmod>
       
@@ -98,7 +98,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-7%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-7%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-04-21T00:00:00+09:00</lastmod>
       
@@ -114,7 +114,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-6%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-6%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-04-14T00:00:00+09:00</lastmod>
       
@@ -130,7 +130,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-04-07T00:00:00+09:00</lastmod>
       
@@ -146,7 +146,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-git/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-git/</loc>
       
         <lastmod>2023-04-04T00:00:00+09:00</lastmod>
       
@@ -162,7 +162,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5-%EC%A0%95%EB%A0%AC/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-4%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-03-31T00:00:00+09:00</lastmod>
       
@@ -178,7 +178,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-4%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a01_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5-%EC%A0%95%EB%A0%AC/</loc>
       
         <lastmod>2023-03-31T00:00:00+09:00</lastmod>
       
@@ -194,7 +194,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_paper/post-word2vec/</loc>
+      <loc>http://localhost:4000/a01_study/post-word2vec/</loc>
       
         <lastmod>2023-03-27T00:00:00+09:00</lastmod>
       
@@ -210,7 +210,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/book/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-recsys/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -226,7 +226,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-recsys/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-nlp/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -242,7 +242,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-nlp/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-mrc/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -258,7 +258,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-mrc/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-klue/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -274,7 +274,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-klue/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-cv/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -290,7 +290,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-cv/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EC%9E%90%EA%B8%B0%EB%A7%8C%EC%9D%98-%EC%97%AD%EC%82%AC%EB%A5%BC-%EC%93%B4%EB%8B%A4%EB%8A%94-%EA%B2%83/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -306,7 +306,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_recsys/post-recsys/</loc>
+      <loc>http://localhost:4000/a01_study/post-recsys/</loc>
       
         <lastmod>2023-03-26T00:00:00+09:00</lastmod>
       
@@ -322,7 +322,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-03-24T00:00:00+09:00</lastmod>
       
@@ -338,7 +338,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/</loc>
+      <loc>http://localhost:4000/a01_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C5%EC%9E%A5-BFS-&-DFS/</loc>
       
         <lastmod>2023-03-24T00:00:00+09:00</lastmod>
       
@@ -354,7 +354,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-18428-%EA%B0%90%EC%8B%9C%ED%94%BC%ED%95%98%EA%B8%B0/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EB%B0%B1%EC%A4%80-3190-%EB%B1%80/</loc>
       
         <lastmod>2023-03-24T00:00:00+09:00</lastmod>
       
@@ -370,7 +370,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-3%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EB%B0%B1%EC%A4%80-18428-%EA%B0%90%EC%8B%9C%ED%94%BC%ED%95%98%EA%B8%B0/</loc>
       
         <lastmod>2023-03-24T00:00:00+09:00</lastmod>
       
@@ -386,7 +386,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/</loc>
+      <loc>http://localhost:4000/a01_study/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/</loc>
       
         <lastmod>2023-03-23T00:00:00+09:00</lastmod>
       
@@ -402,7 +402,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4/</loc>
+      <loc>http://localhost:4000/a01_study/post-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%91%A5%EA%B3%BC%EB%B3%B4/</loc>
       
         <lastmod>2023-03-23T00:00:00+09:00</lastmod>
       
@@ -418,7 +418,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_paper/post-attention-is-all-you-need/</loc>
+      <loc>http://localhost:4000/a01_study/post-attention-is-all-you-need/</loc>
       
         <lastmod>2023-03-21T00:00:00+09:00</lastmod>
       
@@ -434,7 +434,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai/post-RNN,-LSTM,-GRU/</loc>
+      <loc>http://localhost:4000/a01_study/post-RNN,-LSTM,-GRU/</loc>
       
         <lastmod>2023-03-21T00:00:00+09:00</lastmod>
       
@@ -450,7 +450,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai/post-Pytorch-DataLoader-DataSet/</loc>
+      <loc>http://localhost:4000/a01_study/post-Pytorch-DataLoader-DataSet/</loc>
       
         <lastmod>2023-03-21T00:00:00+09:00</lastmod>
       
@@ -466,7 +466,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_paper/post-A-Brief-Historical-Review/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/</loc>
       
         <lastmod>2023-03-20T00:00:00+09:00</lastmod>
       
@@ -482,7 +482,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai/post-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-7%EA%B0%80%EC%A7%80-%EB%AA%A8%EB%8D%B8/</loc>
+      <loc>http://localhost:4000/a01_study/post-Segmentation-&-Detection/</loc>
       
         <lastmod>2023-03-20T00:00:00+09:00</lastmod>
       
@@ -498,7 +498,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai/post-Segmentation-&-Detection/</loc>
+      <loc>http://localhost:4000/a01_study/post-A-Brief-Historical-Review/</loc>
       
         <lastmod>2023-03-20T00:00:00+09:00</lastmod>
       
@@ -514,7 +514,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_paper/post-surveyNLP/</loc>
+      <loc>http://localhost:4000/a01_study/post-surveyNLP/</loc>
       
         <lastmod>2023-03-19T00:00:00+09:00</lastmod>
       
@@ -530,7 +530,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-%EB%B0%B1%EC%A4%80-14816-%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/</loc>
       
         <lastmod>2023-03-18T00:00:00+09:00</lastmod>
       
@@ -546,7 +546,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EB%B0%B1%EC%A4%80-14816-%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88/</loc>
       
         <lastmod>2023-03-18T00:00:00+09:00</lastmod>
       
@@ -562,7 +562,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-2%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-03-17T00:00:00+09:00</lastmod>
       
@@ -578,7 +578,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day10/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day10/</loc>
       
         <lastmod>2023-03-17T00:00:00+09:00</lastmod>
       
@@ -594,7 +594,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day09/</loc>
       
         <lastmod>2023-03-16T00:00:00+09:00</lastmod>
       
@@ -610,7 +610,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day09/</loc>
+      <loc>http://localhost:4000/a01_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C4%EC%9E%A5-%EA%B5%AC%ED%98%84/</loc>
       
         <lastmod>2023-03-16T00:00:00+09:00</lastmod>
       
@@ -626,7 +626,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day08/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day08/</loc>
       
         <lastmod>2023-03-15T00:00:00+09:00</lastmod>
       
@@ -642,7 +642,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day07/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day07/</loc>
       
         <lastmod>2023-03-14T00:00:00+09:00</lastmod>
       
@@ -658,7 +658,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day06/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day06/</loc>
       
         <lastmod>2023-03-13T00:00:00+09:00</lastmod>
       
@@ -674,7 +674,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/book/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-1%EC%A3%BC%EC%B0%A8/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
       
@@ -690,7 +690,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-1%EC%A3%BC%EC%B0%A8/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day05/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
       
@@ -706,7 +706,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day05/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EC%B1%97%EB%B4%87/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
       
@@ -722,7 +722,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
       
@@ -738,7 +738,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_chatbot/post-%EC%B1%97%EB%B4%87/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D(1)/</loc>
       
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
       
@@ -754,7 +754,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -770,7 +770,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EB%AA%A8%EB%93%A0%EA%B2%83-copy/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -786,7 +786,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-monitoring/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-monitoring/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -802,7 +802,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-Dive-Into-NLP/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-Dive-Into-NLP/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -818,7 +818,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day04/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day04/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -834,7 +834,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_nlp/post-nlp/</loc>
+      <loc>http://localhost:4000/a01_study/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -850,7 +850,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_linearalgebra/post-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99/</loc>
+      <loc>http://localhost:4000/a01_study/post-nlp/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -866,7 +866,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ai_cv/post-cv/</loc>
+      <loc>http://localhost:4000/a01_study/post-cv/</loc>
       
         <lastmod>2023-03-09T00:00:00+09:00</lastmod>
       
@@ -882,7 +882,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-pytorchtemplate/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-pytorchtemplate/</loc>
       
         <lastmod>2023-03-08T00:00:00+09:00</lastmod>
       
@@ -898,7 +898,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day03/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day03/</loc>
       
         <lastmod>2023-03-08T00:00:00+09:00</lastmod>
       
@@ -914,7 +914,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-pytorch/</loc>
       
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
       
@@ -930,7 +930,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-python/</loc>
       
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
       
@@ -946,7 +946,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-pytorch/</loc>
+      <loc>http://localhost:4000/a04_aitech_knowledge/post-aimath/</loc>
       
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
       
@@ -962,7 +962,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-python/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day02/</loc>
       
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
       
@@ -978,7 +978,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_knowledge/post-aimath/</loc>
+      <loc>http://localhost:4000/a01_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C3%EC%9E%A5-%EA%B7%B8%EB%A6%AC%EB%94%94%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
       
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
       
@@ -994,7 +994,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day02/</loc>
+      <loc>http://localhost:4000/a01_study/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C1,2%EC%9E%A5/</loc>
       
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
       
@@ -1010,7 +1010,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_daily/post-day01/</loc>
+      <loc>http://localhost:4000/a02_aitech_daily/post-day01/</loc>
       
         <lastmod>2023-03-06T00:00:00+09:00</lastmod>
       
@@ -1026,7 +1026,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/aitech_weekly/post-%EC%98%A8%EB%B3%B4%EB%94%A9/</loc>
+      <loc>http://localhost:4000/a03_aitech_weekly/post-%EC%98%A8%EB%B3%B4%EB%94%A9/</loc>
       
         <lastmod>2023-03-05T00:00:00+09:00</lastmod>
       

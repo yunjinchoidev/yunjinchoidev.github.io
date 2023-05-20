@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.aitech %}
+{% assign posts = site.categories.a01_aitech_knowledge %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
