@@ -114,7 +114,7 @@ var store = [{
         "teaser": null
       },{
         "title": "nlp 면접 준비",
-        "excerpt":"nlp 면접 인터뷰 준비 면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다. 참고했던 자료 링크1 전이학습 - 전이학습이란? 한 분야의 문제를 해결하기 위해서 얻은 지식과 정보를 다른 문제를 푸는데 사용하는 방식입니다. 전이학습을 위해서는 ImageNet과 같은 대량의 데이터셋으로 이미 학습이 되어있는 모델을 사용합니다. 이를 '사전에 학습된 모델' 혹은...","categories": ["interview"],
+        "excerpt":"nlp 면접 인터뷰 준비  면접 준비를 한번 잘 해봅시다. 답을 나만의 언어로 천천히 기록해보도록 합시다.          참고했던 자료     링크1   ","categories": ["interview"],
         "tags": [],
         "url": "/interview/post-%EC%9D%B8%ED%84%B0%EB%B7%B0/",
         "teaser": null
@@ -215,12 +215,6 @@ var store = [{
         "url": "/ai_paper/post-A-Brief-Historical-Review/",
         "teaser": null
       },{
-        "title": "ai tech - Day11 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day11/",
-        "teaser": null
-      },{
         "title": "Pytorch DataLoader DataSet",
         "excerpt":"Pytorch DataLoader DataSet 옵션 데이터 집합: 로드할 데이터 집합 개체를 지정하는 필수 인수입니다. 데이터 집합 개체는 torch.utils.data에서 파생된 클래스의 인스턴스여야 합니다.getitem 및 len 메서드가 구현된 데이터 세트. 배치_크기: 이 옵션 인수는 각 배치에서 로드하고 처리할 샘플 수를 정의합니다. 기본적으로 1(즉, 배치 없음)로 설정됩니다. 배치 크기가 클수록 교육 효율성이 향상될 수...","categories": ["ai"],
         "tags": [],
@@ -239,24 +233,6 @@ var store = [{
         "url": "/ai_paper/post-attention-is-all-you-need/",
         "teaser": null
       },{
-        "title": "ai tech - Day12 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day12/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day13 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day13/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day14 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day14/",
-        "teaser": null
-      },{
         "title": "[프로그래머스] 기둥과보",
         "excerpt":"해결 전략 is_normal 함수를 이용해서 정상성 여부를 검사한다. 수의 범위가 적으니 완전탐색으로 풀어도 되는 문제였다. 수가 적으면 완전탐색을 의심해봅시다. def solution(n, build_frame): answer = [[]] update_map = set() def is_normal(update_map): for material in update_map: # 보 라면 if material[2] == 1: # 한쪽에라도 기둥이 있으면 된다. if (material[0], material[1]-1, 0)...","categories": ["ps"],
         "tags": [],
@@ -267,12 +243,6 @@ var store = [{
         "excerpt":"[연재][Clear Algo][1편] - 그리디 알고리즘   ","categories": ["ps"],
         "tags": [],
         "url": "/ps/post-ps_study_-%EC%97%B0%EC%9E%AC-clearAlgo-1%ED%8E%B8/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day15 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day15/",
         "teaser": null
       },{
         "title": "[ai tech 5기] [회고] 3주차를 보내며...",
@@ -347,36 +317,6 @@ var store = [{
         "url": "/ai_paper/post-word2vec/",
         "teaser": null
       },{
-        "title": "ai tech - Day16 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day16/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day17 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day17/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day18 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day18/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day19 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day19/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day20 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day20/",
-        "teaser": null
-      },{
         "title": "[ai tech 5기] [회고] 4주차를 보내며...",
         "excerpt":"[3주차를 보내며] 강의 정리 자연어 처리 입문 5F 사실 (Facts) : 이번주에는 주재걸 마스터님의 NLP 도메인 강의를 들었습니다. Bag of Word 부터 Word2vec, Glove, FastText, RNN, LSTM, GRU, Seq2Seq 를 처음부터 다져 나가며 NLP 이론 공부를 했습니다. 팀원들과 코딩테스트 DFS/BFS 파트를 풀었습니다. 느낌 (Feeling) : 이전에 보았던 책들이 다시 느껴지는...","categories": ["aitech_weekly"],
         "tags": [],
@@ -389,40 +329,10 @@ var store = [{
         "url": "/ps/post-ps_study_%EC%9D%B4%EC%BD%94%ED%85%8C6%EC%9E%A5-%EC%A0%95%EB%A0%AC/",
         "teaser": null
       },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day21/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day22/",
-        "teaser": null
-      },{
         "title": "git 정리",
         "excerpt":"이고잉님 깃허브 특강 3월 28일, 4월 4일 진행 What is Git? Git is a distributed version control system used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 for the development of the Linux kernel. Git provides a way to manage changes...","categories": ["aitech_knowledge"],
         "tags": [],
         "url": "/aitech_knowledge/post-git/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day23/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day24/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day25/",
         "teaser": null
       },{
         "title": "[ai tech 5기] [회고] 5주차를 보내며...",
@@ -431,88 +341,16 @@ var store = [{
         "url": "/aitech_weekly/post-5%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
-        "title": "ai tech - Day26 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day26/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day27 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day27/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day28 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day28/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day29/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day30/",
-        "teaser": null
-      },{
         "title": "[ai tech 5기] [회고] 6주차를 보내며...",
         "excerpt":"[6주차를 보내며] 5F 사실 (Facts) : 이번 주 부터 U 스테이지 프로젝트를 진행했다. 주제는 STS 프로젝트. 처음 참여하는 프로젝트여서 그런지 기대가 많이 되었다. 이제까지 5주 정도 이론을 공부하며 BERT, GPT 까지 열심히 공부했다. 이제 열매를 맺을 시간이다. GPT-1 논문을 멘토님과 같이 리딩하는 시간을 가졌다. 피어세션 때는 동료들과 DP 를 공부했다....","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-6%EC%A3%BC%EC%B0%A8/",
         "teaser": null
       },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day31/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day32/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day33/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day34/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day35/",
-        "teaser": null
-      },{
         "title": "[ai tech 5기] [회고] 7주차를 보내며...",
         "excerpt":"[7주차를 보내며] 5F 사실 (Facts) : STS 프로젝트가 끝이 났다. 화요일엔 동료들과 네이버 역삼 스퀘어에서 오프라인으로 대면했다. public 리더보드는 12등, private 리더보드는 6등을 했다. 앙상블 기법을 이용하였더니 성능이 좋아졌다. 알고리즘 스터디는 이진탐색을 진행했다. 느낌 (Feeling) : 2 주간의 짧으면서도 길게 느껴진 프로젝트가 끝이 났다. 프로젝트를 진행하면서 많은 것을 배웠다. 먼저,...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-7%EC%A3%BC%EC%B0%A8/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day36/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day37/",
         "teaser": null
       },{
         "title": "ai 서비스 개발 기초",
@@ -527,52 +365,10 @@ var store = [{
         "url": "/aitech_knowledge/post-%ED%98%84%EC%97%85%EC%9E%90-%ED%8A%B9%EA%B0%95/",
         "teaser": null
       },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day39/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day40/",
-        "teaser": null
-      },{
         "title": "[ai tech 5기] [회고] 8주차를 보내며...",
         "excerpt":"5F 사실 (Facts) : AI 서비스 기초를 배웠다. Docker, Linux, Streamlit 에 대해서 배웠다. RoBERTa 논문 리뷰를 했다. 느낌 (Feeling) : 확실히 프론트, 백, MLOps 까지 배우고 나니 모델링 하는 것보다 재미있는 거 같다. 이런 것을 토데로 무언가를 만드는 작업에서 굉장히 흥미로운 일이 생길거 같다. 역시 이론은 활용되어야 한다는 생각이...","categories": ["aitech_weekly"],
         "tags": [],
         "url": "/aitech_weekly/post-8%EC%A3%BC%EC%B0%A8/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day41/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day42/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day43/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day44/",
-        "teaser": null
-      },{
-        "title": "ai tech - Day21 ",
-        "excerpt":"   5F  그날의 사실 (Facts) :   느낌 (Feeling) :   배운점 (Findings) :   미래의 행동계획 (Future) :   피드백 (Feedback) :  ","categories": ["aitech_daily"],
-        "tags": [],
-        "url": "/aitech_daily/post-day45/",
         "teaser": null
       },{
         "title": "[ai tech 5기] [회고] 9주차를 보내며...",
