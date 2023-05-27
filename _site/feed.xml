@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-20T23:54:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">[ai tech 5기] [회고] 11주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 11주차를 보내며…" /><published>2023-05-19T00:00:00+09:00</published><updated>2023-04-29T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-27T19:22:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Reinvent love! - Democratization of Love</title><subtitle>NLP 쪼렙입니다.</subtitle><author><name>최윤진</name></author><entry><title type="html">[ai tech 5기] [회고] 11주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 11주차를 보내며…" /><published>2023-05-19T00:00:00+09:00</published><updated>2023-04-29T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-11%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
 <h2 id="사실-facts-">사실 (Facts) :</h2>
@@ -23,11 +23,13 @@
 <h2 id="미래의-행동계획-future-">미래의 행동계획 (Future) :</h2>
 <ul>
   <li>지난 두 달 동안 배운 내용을 복습할 예정이다.</li>
+  <li>딥러닝 기본기가 강할 수록, 파이썬 언어에 대한 기본기가 강할 수록 더 힘을 발휘하는 거 같다. 그것을 중심으로 공부해 볼 예정이다.</li>
+  <li>지금까지 STS, RE 태스크를 진행했는데 다른 NLP 태스크에 대해서 좀 더 알아 보려고 한다.</li>
 </ul>
 
 <h2 id="피드백-feedback-">피드백 (Feedback) :</h2>
 <ul>
-  <li></li>
+  <li>논문은 다 읽는 거 보다 중요한 부분만 읽는 게 효율적인 거 같다.</li>
 </ul>]]></content><author><name>최윤진</name></author><category term="aitech_weekly" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[ai tech 5기] [회고] 10주차를 보내며…</title><link href="http://localhost:4000/aitech_weekly/post-10%EC%A3%BC%EC%B0%A8/" rel="alternate" type="text/html" title="[ai tech 5기] [회고] 10주차를 보내며…" /><published>2023-05-12T00:00:00+09:00</published><updated>2023-04-29T06:20:02+09:00</updated><id>http://localhost:4000/aitech_weekly/post-10%EC%A3%BC%EC%B0%A8</id><content type="html" xml:base="http://localhost:4000/aitech_weekly/post-10%EC%A3%BC%EC%B0%A8/"><![CDATA[<p><img src="../../../image/aitech.png" alt="image" /></p>
 
 <h1 id="5f">5F</h1>
